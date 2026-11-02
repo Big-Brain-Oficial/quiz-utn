@@ -786,7 +786,7 @@
       "topic": "U4",
       "type": "match",
       "catedra": false,
-      "text": "Relacioná cada grupo de técnicas con su clasificación en cuanto al uso:",
+      "text": "Relacioná cada grupo de técnicas de entrenamiento con su clasificación en cuanto al uso:",
       "stems": [
         "Lectura, recursos audiovisuales, instrucción asistida por computador",
         "Juego de roles (role-playing), entrenamiento de grupos",
@@ -1896,14 +1896,6 @@
         "crop": [[0, 41.5, 100, 65]],
         "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p32-a16380.webp"
       }
-    },
-    {
-      "id": "asi-p2-073",
-      "topic": "U4",
-      "type": "info",
-      "catedra": false,
-      "text": "Finalmente, elaborá un mapa conceptual de los subsistemas de Desarrollo y de Mantenimiento e identificá las relaciones entre ambos.",
-      "answer": "DESARROLLO: equilibrar las competencias de las personas con las necesidades actuales y futuras de la organización.\n• Base: el aprendizaje y sus leyes (efecto, estímulo, intensidad, frecuencia, continuidad, descongelamiento, complejidad creciente).\n• Entrenamiento: inventario de necesidades → programación → ejecución → evaluación de resultados.\n• Desarrollo de personal.\n• Desarrollo organizacional: cambio planeado, sistémico y a largo plazo (datos → diagnóstico → intervención → evaluación).\n\nMANTENIMIENTO: retener al empleado adecuado, satisfecho y motivado.\n• Plan de carrera y movimientos de personal.\n• Administración de compensaciones: evaluación de cargos (equilibrio interno), investigación salarial (equilibrio externo), política salarial, remuneración variable y beneficios sociales.\n• Higiene y seguridad.\n• Relaciones laborales.\n\nRELACIONES\n• El plan de carrera necesita que el desarrollo prepare a las personas para los puestos siguientes (plan de sucesión).\n• Las recompensas del mantenimiento (ascensos, reajustes por mérito, incentivos) refuerzan el aprendizaje (leyes del efecto y del estímulo).\n• Ambos se apoyan en el análisis y la descripción de cargos: el desarrollo, para detectar necesidades (requisitos del cargo − habilidades del ocupante); el mantenimiento, para evaluar cargos.\n• Ambos usan la evaluación del desempeño: para inventariar necesidades de entrenamiento y para decidir promociones y remuneración variable.\n• Los resultados buscados por el entrenamiento (menos rotación y ausentismo) coinciden con los objetivos de los beneficios sociales.\n• El DO transforma la cultura y el clima, que influyen en la satisfacción que el mantenimiento busca sostener."
     },
     {
       "id": "asi-p2-074",
