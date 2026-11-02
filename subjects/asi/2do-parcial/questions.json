@@ -37,8 +37,7 @@
     },
     "U6": {
       "name": "Cuestionario Unidad 6 — Seguridad y Auditoría",
-      "color": "#D2553A",
-      "note": "De Auditoría, Soria aclaró que en el parcial entran solo el concepto de auditoría (Lardent), el concepto de control interno (Lardent) y la auditoría de la organización y función informática. Seguridad entra completa."
+      "color": "#D2553A"
     },
     "EF3": {
       "name": "Eval. Formativa 3 — Unidades 4 y 5",
@@ -54,8 +53,7 @@
     },
     "PAR_U6": {
       "name": "Parcial - U6",
-      "color": "#B7791F",
-      "note": "De Auditoría, Soria aclaró que en el parcial entran solo el concepto de auditoría (Lardent), el concepto de control interno (Lardent) y la auditoría de la organización y función informática. Seguridad entra completa."
+      "color": "#B7791F"
     }
   },
   "questions": [
