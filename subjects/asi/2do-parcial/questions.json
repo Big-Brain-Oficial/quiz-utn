@@ -7182,29 +7182,6 @@
       }
     },
     {
-      "id": "asi-p2-parcial-58",
-      "topic": "CAMPUS_U5",
-      "type": "info",
-      "catedra": true,
-      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 5",
-      "text": "El Ing. Escobar, a cargo de los sistemas de aplicaciones WEB de un sistema de ventas, expresó – “ Me fijo que el tiempo medio de respuesta sea el esperado, sino, ajusto el sistema”. ¿Qué experimento aplica?. (Indicar sólo el nombre, sin artículos ni oraciones).",
-      "answer": "Sintonización (respuesta de la revisión del campus; «Monitor» está marcado como incorrecto).\n\nLa sintonización es un proceso de experimentación: se ajustan los parámetros del sistema según una hipótesis y se verifica si se alcanzan las prestaciones buscadas. Observar el tiempo medio de respuesta es monitorización, pero el experimento es el ajuste.",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 35,
-        "confidence": "high",
-        "crop": [[0, 0, 100, 12.5]],
-        "img": "sources/pages/u5-seguimiento-p35-2e146b.webp"
-      },
-      "origin": {
-        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
-        "page": 1,
-        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
-        "crop": [[0, 32.9, 100, 36.6]],
-        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-f51e17.webp"
-      }
-    },
-    {
       "id": "asi-p2-parcial-59",
       "topic": "CAMPUS_U5",
       "type": "single",
