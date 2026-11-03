@@ -26,7 +26,7 @@
   "about": [
     "<p><b>Cuestionarios de las Unidades 4, 5 y 6:</b> son las preguntas de los cuestionarios de estudio de la cátedra (Desarrollo y Mantenimiento de RRHH, Seguimiento de Recursos, y Seguridad y Auditoría de los SI/TI), convertidas a opción múltiple. La cátedra no publica las respuestas: la opción correcta y la justificación salen del apunte de teoría de cada unidad.</p>",
     "<p><b>Eval. Formativa 3 — Unidades 4 y 5:</b> son las preguntas de la evaluación formativa, tal cual las tomó la cátedra y con la respuesta confirmada en la corrección. La justificación sale del apunte de teoría.</p>",
-    "<p><b>Parciales — Unidades 4, 5 y 6:</b> son las preguntas de parciales anteriores que se responden con estas unidades: el <a href=\"sources/2024%20-%202do%20Parcial%20ADR%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2do parcial del 3 de julio de 2024</a> (hay también una <a href=\"sources/2024%20-%202do%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">versión sin corregir con transcripciones</a>), el <a href=\"sources/2024%20-%203er%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">3er parcial del 4 de septiembre de 2024</a>, el <a href=\"sources/2025%20-%201er%20Parcial%20ADSI%20%28con%20respuestas%29.pdf\" target=\"_blank\" rel=\"noopener\">1er parcial 2025 resuelto</a> y los temas <a href=\"sources/2025%202do%20Parcial%20-%20Tema%201%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a> y <a href=\"sources/2025%202do%20Parcial%20-%20Tema%202%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> del 2do parcial del 5 de noviembre de 2025, y tres intentos de la 3ra evaluación parcial del 3 de noviembre de 2021, que se tomó en el campus virtual (<a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%201%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%202%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> y <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%203%29.pdf\" target=\"_blank\" rel=\"noopener\">3</a>; las preguntas que se repiten entre intentos aparecen una sola vez). Cada pregunta indica de qué parcial y de qué unidad sale. Al corregir se ve la captura de la pregunta en el parcial, con la corrección, y el recorte del apunte que la respalda. Las de opción múltiple, verdadero o falso y relacionar conservan el enunciado y las opciones del parcial; las que había que completar se convirtieron a relacionar con opciones nuestras. No entran las de desarrollo, que no tienen opciones, ni las de alineamiento, provisión, aplicación ni planificación estratégica, que son de otras unidades, ni las de comandos y configuración de herramientas de GNU/Linux (Snort, Nmap, iptables, SSH, iptraf o programas de backup): la profesora aclaró que no hay que memorizar comandos.</p>",
+    "<p><b>Parciales — Unidades 4, 5 y 6:</b> son las preguntas de parciales anteriores que se responden con estas unidades: el <a href=\"sources/2024%20-%202do%20Parcial%20ADR%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2do parcial del 3 de julio de 2024</a> (hay también una <a href=\"sources/2024%20-%202do%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">versión sin corregir con transcripciones</a>), el <a href=\"sources/2024%20-%203er%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">3er parcial del 4 de septiembre de 2024</a>, el <a href=\"sources/2025%20-%201er%20Parcial%20ADSI%20%28con%20respuestas%29.pdf\" target=\"_blank\" rel=\"noopener\">1er parcial 2025 resuelto</a>, la <a href=\"sources/2025%20-%20Rec%20Primer%20Parcial%20%28corregido1%20-%20teoria%29.pdf\" target=\"_blank\" rel=\"noopener\">parte teórica corregida del recuperatorio del 1er parcial 2025</a> y los temas <a href=\"sources/2025%202do%20Parcial%20-%20Tema%201%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a> y <a href=\"sources/2025%202do%20Parcial%20-%20Tema%202%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> del 2do parcial del 5 de noviembre de 2025, la <a href=\"sources/2018%20-%20Actividad%20teorico-practica%20Desarrollo%20y%20Mantenimiento.pdf\" target=\"_blank\" rel=\"noopener\">actividad teórico-práctica de 2018</a> y tres intentos de la 3ra evaluación parcial del 3 de noviembre de 2021, que se tomó en el campus virtual (<a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%201%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%202%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> y <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%203%29.pdf\" target=\"_blank\" rel=\"noopener\">3</a>; las preguntas que se repiten entre intentos aparecen una sola vez). Cada pregunta indica de qué parcial y de qué unidad sale. Al corregir se ve la captura de la pregunta en el parcial, con la corrección, y el recorte del apunte que la respalda. Las de opción múltiple, verdadero o falso y relacionar conservan el enunciado y las opciones del parcial; las que había que completar se convirtieron a relacionar con opciones nuestras. No entran las de desarrollo, que no tienen opciones (salvo la de salario bruto y salario neto de la actividad de 2018, que se convirtió a opción múltiple con opciones nuestras), ni las de alineamiento, provisión, aplicación ni planificación estratégica, que son de otras unidades, ni las de comandos y configuración de herramientas de GNU/Linux (Snort, Nmap, iptables, SSH, iptraf o programas de backup): la profesora aclaró que no hay que memorizar comandos.</p>",
     "<p><b>Campus — Unidades 4, 5 y 6:</b> son las preguntas de evaluaciones del campus virtual que se responden con estas unidades, con la respuesta que da la revisión del intento: la <a href=\"sources/2020%20-%20Evaluacion%20formativa%20Unidad%20IV%20%28revision%29.pdf\" target=\"_blank\" rel=\"noopener\">evaluación formativa de la Unidad IV de 2020</a> y la <a href=\"sources/4ta%20Evaluacion%20-%20Cuestionario%20virtual%20A%20%28revision%29.pdf\" target=\"_blank\" rel=\"noopener\">4ta evaluación, cuestionario virtual A</a>. Cada pregunta indica de qué evaluación y de qué unidad sale. Al corregir se ve la captura de la pregunta en la revisión, con la corrección, y el recorte del apunte que la respalda. Conservan el enunciado y las opciones de la evaluación. Tampoco entran acá las de comandos de GNU/Linux.</p>",
     "<p><b>Qué entra de Auditoría (Unidad 6):</b> el profesor Soria aclaró que de Auditoría entran en el parcial solo el concepto de auditoría (Lardent), el concepto de control interno (Lardent) y la auditoría de la organización y función informática. Por eso, del cuestionario y de los parciales de la Unidad 6 quedan solo las preguntas de Auditoría sobre esos temas. La excepción son cinco preguntas que se dejan para repasar aunque sean de otros temas: la de tipos de prueba de la 3ra evaluación parcial de 2021 (Parcial - U6) y las de riesgos, informe, independencia del auditor y auditoría de sistemas instalados de la 4ta evaluación (Campus - U6). Las de Seguridad siguen todas.</p>"
   ],
@@ -6302,7 +6302,7 @@
       "topic": "PAR_U4",
       "type": "single",
       "catedra": false,
-      "tip": "Unidad 4",
+      "tip": "Actividad teórico-práctica 2018 · Unidad 4",
       "text": "¿Cuál es la diferencia entre el salario bruto y el salario neto?",
       "opts": [
         "El bruto es el volumen de dinero asignado en el contrato por el cargo; el neto es la cantidad de bienes que el empleado puede adquirir con ese dinero",
@@ -6314,6 +6314,13 @@
         2
       ],
       "fb": "El salario bruto es el monto total que la empresa paga antes de descuentos: el básico más los otros componentes remunerativos. El neto es lo que el trabajador recibe después de las retenciones obligatorias (jubilación, obra social): bruto menos deducciones (apunte U4, pág. 22). El dinero del contrato y lo que se puede comprar con él son el salario nominal y el real; el pago por el cargo y el que surge de la convención colectiva son el salario directo y el indirecto.",
+      "origin": {
+        "file": "sources/2018 - Actividad teorico-practica Desarrollo y Mantenimiento.pdf",
+        "page": 1,
+        "label": "Actividad teórico-práctica 2018",
+        "crop": [[0, 0, 100, 4.5], [0, 92.5, 100, 100]],
+        "img": "sources/pages/2018 - Actividad teorico-practica Desarrollo y Mantenimiento-p1-d42eb2.webp"
+      },
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 22,
@@ -6323,73 +6330,11 @@
       }
     },
     {
-      "id": "asi-p2-255",
-      "topic": "PAR_U4",
-      "type": "multi",
-      "catedra": false,
-      "tip": "Unidad 4",
-      "text": "¿Cuáles de los siguientes son principios para implementar beneficios sociales? Seleccioná todas las correctas.",
-      "opts": [
-        "Principio del retorno de la inversión: el beneficio debe contribuir a la organización tanto como cuesta, o al menos compensar ese costo",
-        "Inelasticidad a la baja: la remuneración pactada no puede reducirse una vez acordada",
-        "Deben responder a una necesidad real",
-        "Igual tarea, igual remuneración: a igual tarea corresponde igual pago",
-        "Principio de responsabilidad mutua: el costo de los beneficios se comparte entre la organización y los empleados",
-        "Variantes de pago alternativas al salario, distintas del sueldo en efectivo",
-        "Orientados a los objetivos de corto y largo plazo de la organización",
-        "No deben despertar connotaciones paternalistas o elitistas",
-        "Deben definirse sobre bases económico-financieras sustentables",
-        "Deben planificarse en tiempo, dinero y administración del servicio"
-      ],
-      "correct": [
-        0,
-        2,
-        4,
-        6,
-        7,
-        8,
-        9
-      ],
-      "fb": "El apunte da dos principios con nombre (retorno de la inversión y responsabilidad mutua) y cinco criterios más para implementar los beneficios: necesidad real, objetivos de corto y largo plazo, sin connotación paternalista o elitista, bases económico-financieras sustentables, y planificación (apunte U4, pág. 34). La inelasticidad a la baja, igual tarea igual remuneración y las variantes de pago alternativas al salario son principios de las compensaciones, no de los beneficios (pág. 21).",
-      "source": {
-        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
-        "page": 34,
-        "confidence": "high",
-        "crop": [[0, 0, 100, 33.2]],
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p34-ff04d1.webp"
-      }
-    },
-    {
-      "id": "asi-p2-252",
-      "topic": "PAR_U5",
-      "type": "single",
-      "catedra": false,
-      "tip": "Unidad 5",
-      "text": "¿Qué caracteriza a la evaluación de desempeño de 360°?",
-      "opts": [
-        "Cada persona puede evaluar a cualquier persona de su entorno, y en esa evaluación intervienen los pares y los clientes",
-        "Se califica el cumplimiento de metas fijadas de común acuerdo, con una medición conjunta y continua que el evaluado tiene que poder seguir",
-        "Se usan factores definidos de antemano y graduados: las filas son los factores y las columnas indican el grado de cada uno",
-        "El evaluador redacta un ensayo que describe al empleado e indica sus fortalezas y sus debilidades en el cargo"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "En la evaluación de 360° cada persona puede evaluar a cualquier persona de su entorno, e incluye pares y clientes (apunte U5, pág. 10). Calificar metas acordadas, con medición conjunta, es la administración por objetivos. Los factores graduados en filas y columnas son las escalas gráficas. El ensayo sobre fortalezas y debilidades es una forma narrativa.",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 10,
-        "confidence": "high",
-        "crop": [[0, 69.2, 100, 74.2]],
-        "img": "sources/pages/u5-seguimiento-p10-1dad87.webp"
-      }
-    },
-    {
       "id": "asi-p2-parcial-34",
       "topic": "PAR_U5",
       "type": "multi",
       "catedra": true,
-      "tip": "1er parcial 2025 · Unidad 5",
+      "tip": "Recuperatorio del 1er parcial 2025 · Unidad 5",
       "text": "¿Qué implica el seguimiento de RRHH?",
       "opts": [
         "Aumentar la cantidad de personal",
@@ -6400,8 +6345,14 @@
       "correct": [
         1
       ],
-      "note": "Pregunta recuperada del banco del 1er parcial, sección «1er parcial 2025». Se conservan el enunciado, las opciones y la respuesta de esa transcripción; no se dispone de una captura de esta consigna en los PDFs locales.",
       "fb": "El seguimiento de los RRHH se realiza mediante la evaluación del desempeño y la auditoría de la función de RRHH. La evaluación del desempeño califica la actuación del personal según normas establecidas y permite verificar y asegurar el desempeño de las tareas (apunte U5, pág. 5).",
+      "origin": {
+        "file": "sources/2025 - Rec Primer Parcial (corregido1 - teoria).pdf",
+        "page": 1,
+        "label": "Recuperatorio del 1er parcial 2025, parte teórica (corregido)",
+        "crop": [[0, 28.4, 100, 45.9]],
+        "img": "sources/pages/2025 - Rec Primer Parcial (corregido1 - teoria)-p1-f7ee41.webp"
+      },
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 5,
@@ -6414,7 +6365,7 @@
       "topic": "PAR_U5",
       "type": "multi",
       "catedra": true,
-      "tip": "1er parcial 2025 · Unidad 5",
+      "tip": "Recuperatorio del 1er parcial 2025 · Unidad 5",
       "text": "El seguimiento de los RRHH en las organizaciones debe incluir:",
       "opts": [
         "El desempeño de las personas en sus tareas",
@@ -6426,38 +6377,19 @@
         0,
         1
       ],
-      "note": "Pregunta recuperada del banco del 1er parcial, sección «1er parcial 2025». Se conservan el enunciado, las opciones y la respuesta de esa transcripción; no se dispone de una captura de esta consigna en los PDFs locales.",
       "fb": "El apunte vincula los procesos de seguimiento de RRHH con el desempeño de las personas en sus tareas, el ajuste a las reglas y los aspectos formales, como horarios, ausencias y retrasos. Por eso corresponden las dos primeras opciones (apunte U5, pág. 5).",
+      "origin": {
+        "file": "sources/2025 - Rec Primer Parcial (corregido1 - teoria).pdf",
+        "page": 1,
+        "label": "Recuperatorio del 1er parcial 2025, parte teórica (corregido)",
+        "crop": [[0, 28.4, 100, 45.9]],
+        "img": "sources/pages/2025 - Rec Primer Parcial (corregido1 - teoria)-p1-f7ee41.webp"
+      },
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 5,
         "confidence": "high",
         "img": "sources/pages/u5-seguimiento-p5.webp"
-      }
-    },
-    {
-      "id": "asi-p2-253",
-      "topic": "PAR_U6",
-      "type": "single",
-      "catedra": false,
-      "tip": "Unidad 6",
-      "text": "¿Qué alcanza el control del ambiente informático?",
-      "opts": [
-        "Las unidades centrales de procesamiento, sin el papel ni los equipos que están en las sedes remotas de la organización",
-        "El departamento de desarrollo de sistemas y los respaldos que se guardan fuera de las instalaciones principales",
-        "Cualquier punto donde se procesa información, aunque sea en papel, y las tecnologías y áreas relacionadas con ese procesamiento",
-        "La integridad, la disponibilidad y la confidencialidad, que son los aspectos que se pierden cuando un sistema falla"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": "Los procesos de control del ambiente informático garantizan que las tecnologías y las áreas relacionadas con el procesamiento de la información funcionen, y alcanzan cualquier punto donde se procesa información, aunque sea en papel (apunte U6, pág. 1). El apunte pide, además, tener en cuenta los equipos de todo el ambiente y no solo las unidades centrales (pág. 13). Integridad, disponibilidad y confidencialidad son los aspectos de una pérdida de seguridad, no el alcance del ambiente.",
-      "source": {
-        "file": "sources/u6-seguridad-y-auditoria.pdf",
-        "page": 1,
-        "confidence": "high",
-        "crop": [[0, 26.2, 100, 36.6]],
-        "img": "sources/pages/u6-seguridad-y-auditoria-p1-abdde5.webp"
       }
     },
     {
