@@ -6,8 +6,18 @@
   "accentDark": "#8A9CF0",
   "emptyFeedback": null,
   "topicFilter": "pick",
-  "topicAliases": { "PAR": ["PAR_U4", "PAR_U5", "PAR_U6"] },
-  "newTopics": ["CAMPUS_U4", "CAMPUS_U5", "CAMPUS_U6"],
+  "topicAliases": {
+    "PAR": [
+      "PAR_U4",
+      "PAR_U5",
+      "PAR_U6"
+    ]
+  },
+  "newTopics": [
+    "CAMPUS_U4",
+    "CAMPUS_U5",
+    "CAMPUS_U6"
+  ],
   "labels": {
     "topics": "Categorías",
     "allTopics": "Todas",
@@ -6005,47 +6015,6 @@
       }
     },
     {
-      "id": "asi-p2-parcial-18",
-      "topic": "PAR_U5",
-      "type": "match",
-      "catedra": true,
-      "tip": "1er parcial 2025 · Unidad 5",
-      "text": "La descripción y el análisis del cargo Supervisor de Sistemas de Sucursal, perteneciente a la estructura de una empresa proveedora de televisión digital, están en la figura.\n\nTodos los estándares indicados a continuación están correctamente enunciados, teniendo en cuenta que se tratan de estándares para desempeño de RRHH. Sin embargo, no todos son adecuados para el seguimiento del cargo en cuestión. Para cada uno de los estándares, indique cuáles no corresponden y cuáles sí son adecuados.",
-      "figure": "img/2025-1p-supervisor-sistemas.webp",
-      "stems": [
-        "El Supervisor de Sistemas debe cumplir el 100% de la programación de mantenimiento preventivo de HW.",
-        "El Supervisor de Sistemas debe documentar en forma completa las necesidades de cambios o pedidos de mantenimiento perfectivo de las aplicaciones en uso.",
-        "El Supervisor de Sistemas debe cumplir el 100% de la programación del mantenimiento preventivo de las redes de comunicación.",
-        "El Supervisor de Sistemas debe documentar el 100% de los cambios de código realizados en las aplicaciones en uso."
-      ],
-      "choices": [
-        "Es correcto",
-        "No es correcto"
-      ],
-      "correct": [
-        0,
-        0,
-        1,
-        1
-      ],
-      "note": "El PDF es un parcial resuelto, no corregido: las respuestas no están confirmadas por la cátedra. La del último estándar es la más dudosa (quien lo resolvió anotó «creo que…»).",
-      "fb": "Un estándar define el desempeño normal esperado del cargo (apunte U5, págs. 7-8), así que tiene que medir algo que el cargo hace. Entre sus actividades están el reemplazo y mantenimiento del HW y SW de la sucursal y la detección de necesidades de mejoras o cambios: por eso corresponden los dos primeros. El mantenimiento de las redes de comunicación no figura entre sus actividades (solo se le piden conocimientos de redes), y modificar el código de las aplicaciones tampoco: detecta las necesidades de cambios, pero no los realiza.",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 7,
-        "confidence": "high",
-        "crop": [[0, 85, 100, 97], [0, 0, 100, 53.5, 8]],
-        "img": "sources/pages/u5-seguimiento-p7-81bd0e.webp"
-      },
-      "origin": {
-        "file": "sources/2025 - 1er Parcial ADSI (con respuestas).pdf",
-        "page": 2,
-        "label": "1er parcial 2025 (resuelto)",
-        "crop": [[0, 32, 100, 78]],
-        "img": "sources/pages/2025 - 1er Parcial ADSI (con respuestas)-p2-c28147.webp"
-      }
-    },
-    {
       "id": "asi-p2-parcial-20",
       "topic": "PAR_U6",
       "type": "info",
@@ -6421,30 +6390,6 @@
         "label": "2do parcial, 5 nov 2025 · Tema 1 (corregido)",
         "crop": [[0, 9, 100, 18], [0, 4, 100, 40, 5]],
         "img": "sources/pages/2025 2do Parcial - Tema 1 (corregido)-p4-7180a7.webp"
-      }
-    },
-    {
-      "id": "asi-p2-parcial-32",
-      "topic": "PAR_U4",
-      "type": "info",
-      "catedra": true,
-      "tip": "2do parcial 2025 · Unidad 4",
-      "text": "El Gerente General de una firma que brinda servicios generales a otras empresas (instalación y mantenimiento de sistemas eléctricos, instalación y mantenimiento de redes de comunicaciones, albañilería menor, limpieza, etc.) recientemente ha tercerizado los servicios de SI/TI, debido a las crecientes necesidades de información y sistemas, y lo ha contratado a Ud. para que lo asesore sobre la organización y gestión del cargo que será el nexo coordinante con la/s empresa/s contratada/s. La definición del cargo y el resto del escenario están en la figura.\n\na) Subsistema de Desarrollo de RR.HH. Determine cuál es la necesidad prioritaria de formación para que esa persona sea promovida al cargo en cuestión. Justifique su propuesta. Desarrolle los elementos Finalidad, Duración y Criterios de Evaluación del Impacto para su propuesta.",
-      "figure": "img/2025-2p-representante-outsourcing.webp",
-      "answer": "Respuesta orientativa, basada en la del parcial corregido (calificada «Excelente»):\n• Necesidad prioritaria: formación en el relevamiento de necesidades de información (ingeniería de requerimientos) y en la gestión de contratos de tercerización, para que el ocupante pueda evaluar los requerimientos específicos del servicio que la organización terceriza. Es una necesidad del nivel de tareas: el cargo pide tres años en funciones de ingeniería de requerimientos, y la persona viene de cargos administrativos.\n• Finalidad: que el empleado pueda atender las necesidades de tercerización de la organización, evaluar la mejor alternativa y controlar el cumplimiento de los contratos.\n• Duración: por ejemplo, 4 semanas con 40 horas en total (10 horas semanales) dentro de la jornada laboral.\n• Criterios de evaluación del impacto: si el entrenamiento produjo los cambios de comportamiento buscados y si sus resultados se relacionan con las metas de la empresa; por ejemplo, la eficacia en el control del servicio contratado, la reducción de los tiempos de gestión de las actividades tercerizadas y un retorno medible del servicio a mediano plazo.",
-      "source": {
-        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
-        "page": 10,
-        "confidence": "high",
-        "crop": [[0, 44, 100, 79], [0, 85.9, 100, 100, 12], [0, 0, 100, 74.5, 13]],
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p10-c29455.webp"
-      },
-      "origin": {
-        "file": "sources/2025 2do Parcial - Tema 1 (corregido).pdf",
-        "page": 4,
-        "label": "2do parcial, 5 nov 2025 · Tema 1 (corregido)",
-        "crop": [[0, 9, 100, 25], [0, 40, 100, 69, 5]],
-        "img": "sources/pages/2025 2do Parcial - Tema 1 (corregido)-p4-b6f95c.webp"
       }
     },
     {
@@ -7700,48 +7645,6 @@
         "label": "3ra evaluación parcial, 3 nov 2021 (revisión 3 del campus)",
         "crop": [[0, 39.9, 100, 46.0]],
         "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 3)-p1-ac6950.webp"
-      }
-    },
-    {
-      "id": "asi-p2-parcial-68",
-      "topic": "PAR_U6",
-      "type": "match",
-      "catedra": true,
-      "tip": "3ra evaluación parcial 2021 · Unidad 6",
-      "text": "¿A los fines de qué tipo de prueba corresponde cada una de estas situaciones?",
-      "stems": [
-        "Los datos de calificaciones 300 alumnos se procesan en un sistema diferente al SYSACAD pero de procedimiento homologado por Rectorado, para obtener mediante ambos los promedios generales.",
-        "El auditor verifica los tipos de permisos que tienen los empleados de control de clandestinos respecto de la planilla de pedido de alta de usuarios firmada por el Gerente de la Sucursal.",
-        "El auditor principal entrevista al programador sobre las funciones que cumple actualmente.",
-        "Se procesa un lote de muestra de 15 empleados de igual categoría y antigüedad similar para obtener la liquidación de haberes del mes de septiembre."
-      ],
-      "choices": [
-        "SUSTANTIVA",
-        "DE CUMPLIMIENTO",
-        "DE INTEGRIDAD",
-        "DE CONTROL INTERNO",
-        "SUMATIVA"
-      ],
-      "correct": [
-        0,
-        1,
-        1,
-        0
-      ],
-      "fb": "Clave de la revisión del campus (la revisión 2 del mismo parcial y la 4ta evaluación tienen la misma pregunta). Según Lardent, la prueba de cumplimiento determina si los controles se ajustan a las políticas y procedimientos de la organización; su insumo es la documentación, e incluye las pruebas de observación e indagación, como indagar al personal. Las pruebas sustantivas verifican si los controles protegen a la organización de actividades fraudulentas probando los sistemas, por ejemplo con procesamiento en paralelo (apunte U6, pág. 30).",
-      "source": {
-        "file": "sources/u6-seguridad-y-auditoria.pdf",
-        "page": 30,
-        "confidence": "high",
-        "crop": [[0, 22.8, 100, 66.6]],
-        "img": "sources/pages/u6-seguridad-y-auditoria-p30-1defeb.webp"
-      },
-      "origin": {
-        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 1).pdf",
-        "page": 8,
-        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 1 del campus)",
-        "crop": [[0, 0, 100, 100], [0, 0, 100, 11.7, 9]],
-        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 1)-p8-fe64f7.webp"
       }
     },
     {
