@@ -82,6 +82,8 @@ function checkExam(slug, exam, meta) {
   if (data.accentDark !== undefined && !HEX.test(data.accentDark)) err("", "'accentDark' debe ser un color #RRGGBB");
   if (data.topicFilter !== undefined && !["pick", "multi"].includes(data.topicFilter)) err("", "'topicFilter' debe ser pick|multi");
   if (data.openQuestions !== undefined && typeof data.openQuestions !== "boolean") err("", "'openQuestions' debe ser booleano");
+  if (data.newTopics !== undefined && !(Array.isArray(data.newTopics) && data.newTopics.every((t) => Object.hasOwn(data.topics || {}, String(t)))))
+    err("", "'newTopics' debe ser una lista de claves de 'topics'");
   if (data.links !== undefined) {
     if (!Array.isArray(data.links)) err("", "'links' debe ser una lista");
     else data.links.forEach((l, i) => {

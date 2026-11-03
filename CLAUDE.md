@@ -152,6 +152,10 @@ En los dos casos, corré `node scripts/validate.mjs` hasta que no marque errores
   Sin la opción, las `info` son tarjetas que solo muestran la respuesta.
 - `topicAliases` permite migrar filtros guardados al renombrar o separar categorías: por ejemplo,
   `"topicAliases": { "PAR": ["PAR_U4", "PAR_U5", "PAR_U6"] }` conserva la selección anterior de parciales.
+- Al agregar una categoría, quien tenía todas elegidas la ve elegida: el progreso guarda en `knownTopics` las
+  categorías que había. El progreso guardado antes de que existiera `knownTopics` no las tiene, así que
+  `newTopics` lista las categorías agregadas después (en el 2do parcial de ASI, `["CAMPUS_U4", "CAMPUS_U5",
+  "CAMPUS_U6"]`); al agregar otra categoría a un banco que ya tiene `newTopics`, sumala ahí.
 - En `topics`, `striped` dibuja la muestra rayada (como los pares de cable T568B) y `note` agrega una
   aclaración visible en los filtros y en cada pregunta.
 
