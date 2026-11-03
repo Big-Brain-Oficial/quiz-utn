@@ -310,14 +310,23 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
 
   function loadState() {
     // retry: ids being repeated with "Repetir las incorrectas", shown while status is "retry"
-    const base = { answers: {}, writtenAnswers: {}, practice: "all", topics: topicIds.slice(), section: "all", status: "all", retry: [], shuffleQ: false, shuffleO: true, mode: "one" };
+    // knownTopics: the topics the bank had when the progress was saved
+    const base = { answers: {}, writtenAnswers: {}, practice: "all", topics: topicIds.slice(), knownTopics: topicIds.slice(), section: "all", status: "all", retry: [], shuffleQ: false, shuffleO: true, mode: "one" };
     try {
       const raw = localStorage.getItem(STORE_KEY) || (legacyKey && localStorage.getItem(legacyKey));
       if (!raw) return base;
-      const s = Object.assign(base, JSON.parse(raw));
+      const saved = JSON.parse(raw);
+      const s = Object.assign(base, saved);
       // Expand renamed or split topics so saved selections keep the same questions.
-      s.topics = [...new Set(s.topics.map(String).flatMap((t) => DATA.topicAliases?.[t] || [t]))]
-        .filter((t) => topicIds.includes(t));
+      const expand = (ts) => [...new Set(ts.map(String).flatMap((t) => DATA.topicAliases?.[t] || [t]))];
+      s.topics = expand(s.topics).filter((t) => topicIds.includes(t));
+      // Topics added after the progress was saved: if every topic the person knew was selected ("Todas"), the new
+      // ones are selected too, so their questions don't disappear. Progress saved before knownTopics existed knew
+      // every topic except the ones in DATA.newTopics.
+      const known = Array.isArray(saved.knownTopics) ? expand(saved.knownTopics) : topicIds.filter((t) => !(DATA.newTopics || []).includes(t));
+      const added = topicIds.filter((t) => !known.includes(t));
+      if (added.length && topicIds.filter((t) => known.includes(t)).every((t) => s.topics.includes(t))) s.topics.push(...added);
+      s.knownTopics = topicIds.slice();
       if (pick && !s.topics.length) s.topics = topicIds.slice();
       if (s.section !== "all" && !sections.includes(s.section)) s.section = "all";
       if (!Array.isArray(s.retry)) s.retry = [];

@@ -19,10 +19,10 @@ Hay dos clases de preguntas, y cada pregunta indica a cuál pertenece con el cam
   En TPLA, las categorías «Unidad 1 - Preguntas parcial» a «Unidad 4 - Preguntas parcial» también:
   el enunciado y las opciones quedan como en el parcial, incluidos los errores de escritura y las
   opciones que son un dibujo. Las cuatro unidades de práctica se armaron a partir del apunte y llevan
-  `"catedra": false`. En el 2do parcial de ASI, las categorías «Unidad Temática 4 — Verificadas»,
-  «Unidad Temática 5 — Verificadas» y «Unidad Temática 6 — Verificadas» (preguntas de parciales y de
-  evaluaciones del campus) también, salvo las consignas que había que completar sin opciones: se convirtieron a relacionar con opciones
-  nuestras y llevan `"catedra": false`.
+  `"catedra": false`. En el 2do parcial de ASI, las categorías «Parcial - U4», «Parcial - U5» y «Parcial - U6»
+  también, y «Campus - U4», «Campus - U5» y «Campus - U6» (evaluaciones formativas y cuestionarios del
+  campus virtual), salvo las consignas que había que completar sin opciones: se convirtieron a relacionar
+  con opciones nuestras y llevan `"catedra": false`.
 - **Preguntas armadas a partir del material** (`"catedra": false`): las que escribimos nosotros con
   base en el apunte, por ejemplo al convertir a opción múltiple una pregunta abierta de un cuestionario
   (como las del 2do parcial de ASI). Se pueden modificar, y se les aplican todos los criterios.
