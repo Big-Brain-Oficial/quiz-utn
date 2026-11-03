@@ -26,7 +26,7 @@
   "about": [
     "<p><b>Cuestionarios de las Unidades 4, 5 y 6:</b> son las preguntas de los cuestionarios de estudio de la cátedra (Desarrollo y Mantenimiento de RRHH, Seguimiento de Recursos, y Seguridad y Auditoría de los SI/TI), convertidas a opción múltiple. La cátedra no publica las respuestas: la opción correcta y la justificación salen del apunte de teoría de cada unidad.</p>",
     "<p><b>Eval. Formativa 3 — Unidades 4 y 5:</b> son las preguntas de la evaluación formativa, tal cual las tomó la cátedra y con la respuesta confirmada en la corrección. La justificación sale del apunte de teoría.</p>",
-    "<p><b>Parciales — Unidades 4, 5 y 6:</b> son las preguntas de parciales anteriores que se responden con estas unidades: el <a href=\"sources/2024%20-%202do%20Parcial%20ADR%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2do parcial del 3 de julio de 2024</a> (hay también una <a href=\"sources/2024%20-%202do%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">versión sin corregir con transcripciones</a>), el <a href=\"sources/2024%20-%203er%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">3er parcial del 4 de septiembre de 2024</a>, el <a href=\"sources/2025%20-%201er%20Parcial%20ADSI%20%28con%20respuestas%29.pdf\" target=\"_blank\" rel=\"noopener\">1er parcial 2025 resuelto</a> y los temas <a href=\"sources/2025%202do%20Parcial%20-%20Tema%201%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a> y <a href=\"sources/2025%202do%20Parcial%20-%20Tema%202%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> del 2do parcial del 5 de noviembre de 2025, y tres intentos de la 3ra evaluación parcial del 3 de noviembre de 2021, que se tomó en el campus virtual (<a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%201%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%202%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> y <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%203%29.pdf\" target=\"_blank\" rel=\"noopener\">3</a>; las preguntas que se repiten entre intentos aparecen una sola vez). Cada pregunta indica de qué parcial y de qué unidad sale. Al corregir se ve la captura de la pregunta en el parcial, con la corrección, y el recorte del apunte que la respalda. Las de opción múltiple, verdadero o falso y relacionar conservan el enunciado y las opciones del parcial; las que había que completar se convirtieron a relacionar con opciones nuestras, y las de desarrollo quedan como tarjetas con una respuesta orientativa. No entran las de alineamiento, provisión, aplicación ni planificación estratégica, que son de otras unidades, ni las de comandos y configuración de herramientas de GNU/Linux (Snort, Nmap, iptables, SSH, iptraf o programas de backup): la profesora aclaró que no hay que memorizar comandos.</p>",
+    "<p><b>Parciales — Unidades 4, 5 y 6:</b> son las preguntas de parciales anteriores que se responden con estas unidades: el <a href=\"sources/2024%20-%202do%20Parcial%20ADR%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2do parcial del 3 de julio de 2024</a> (hay también una <a href=\"sources/2024%20-%202do%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">versión sin corregir con transcripciones</a>), el <a href=\"sources/2024%20-%203er%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">3er parcial del 4 de septiembre de 2024</a>, el <a href=\"sources/2025%20-%201er%20Parcial%20ADSI%20%28con%20respuestas%29.pdf\" target=\"_blank\" rel=\"noopener\">1er parcial 2025 resuelto</a> y los temas <a href=\"sources/2025%202do%20Parcial%20-%20Tema%201%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a> y <a href=\"sources/2025%202do%20Parcial%20-%20Tema%202%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> del 2do parcial del 5 de noviembre de 2025, y tres intentos de la 3ra evaluación parcial del 3 de noviembre de 2021, que se tomó en el campus virtual (<a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%201%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%202%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> y <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%203%29.pdf\" target=\"_blank\" rel=\"noopener\">3</a>; las preguntas que se repiten entre intentos aparecen una sola vez). Cada pregunta indica de qué parcial y de qué unidad sale. Al corregir se ve la captura de la pregunta en el parcial, con la corrección, y el recorte del apunte que la respalda. Las de opción múltiple, verdadero o falso y relacionar conservan el enunciado y las opciones del parcial; las que había que completar se convirtieron a relacionar con opciones nuestras. No entran las de desarrollo, que no tienen opciones, ni las de alineamiento, provisión, aplicación ni planificación estratégica, que son de otras unidades, ni las de comandos y configuración de herramientas de GNU/Linux (Snort, Nmap, iptables, SSH, iptraf o programas de backup): la profesora aclaró que no hay que memorizar comandos.</p>",
     "<p><b>Campus — Unidades 4, 5 y 6:</b> son las preguntas de evaluaciones del campus virtual que se responden con estas unidades, con la respuesta que da la revisión del intento: la <a href=\"sources/2020%20-%20Evaluacion%20formativa%20Unidad%20IV%20%28revision%29.pdf\" target=\"_blank\" rel=\"noopener\">evaluación formativa de la Unidad IV de 2020</a> y la <a href=\"sources/4ta%20Evaluacion%20-%20Cuestionario%20virtual%20A%20%28revision%29.pdf\" target=\"_blank\" rel=\"noopener\">4ta evaluación, cuestionario virtual A</a>. Cada pregunta indica de qué evaluación y de qué unidad sale. Al corregir se ve la captura de la pregunta en la revisión, con la corrección, y el recorte del apunte que la respalda. Conservan el enunciado y las opciones de la evaluación. Tampoco entran acá las de comandos de GNU/Linux.</p>",
     "<p><b>Qué entra de Auditoría (Unidad 6):</b> el profesor Soria aclaró que de Auditoría entran en el parcial solo el concepto de auditoría (Lardent), el concepto de control interno (Lardent) y la auditoría de la organización y función informática. Por eso, del cuestionario y de los parciales de la Unidad 6 quedan solo las preguntas de Auditoría sobre esos temas. La excepción son cinco preguntas que se dejan para repasar aunque sean de otros temas: la de tipos de prueba de la 3ra evaluación parcial de 2021 (Parcial - U6) y las de riesgos, informe, independencia del auditor y auditoría de sistemas instalados de la 4ta evaluación (Campus - U6). Las de Seguridad siguen todas.</p>"
   ],
@@ -5652,53 +5652,6 @@
       }
     },
     {
-      "id": "asi-p2-parcial-05",
-      "topic": "PAR_U5",
-      "type": "info",
-      "catedra": true,
-      "tip": "2do parcial 2024 · Unidad 5",
-      "text": "Para pensar: El Ing. Escobar, responsable de los sistemas de venta de una importante casa de electrodomésticos, expresó: «Observo quincenalmente que el tiempo medio de respuesta sea el esperado; si no está en el valor aceptable, ajusto el sistema». ¿Qué herramientas y/o experimento está aplicando? Justifique su respuesta.",
-      "answer": "Aplica dos cosas:\n• Monitorización: observa periódicamente una magnitud de consumo de tiempo del sistema (el tiempo medio de respuesta) y la compara con un valor aceptable. El monitor es la herramienta que sigue la actividad del sistema mientras funciona.\n• Sintonización (tuning): cuando el valor no es el aceptable, ajusta los parámetros del sistema para que las prestaciones se adecuen a las necesarias. Es un proceso de experimentación: se ajustan los parámetros según una hipótesis y se valida si se alcanzan los objetivos.\n\nEn la corrección, a quien respondió solo «monitorización» le anotaron que no mencionaba el proceso de sintonización.",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 35,
-        "confidence": "high",
-        "crop": [[0, 0, 100, 12.5], [0, 3.6, 100, 7.5, 15]],
-        "img": "sources/pages/u5-seguimiento-p35-eb0e54.webp"
-      },
-      "origin": {
-        "file": "sources/2024 - 2do Parcial ADR (corregido).pdf",
-        "page": 3,
-        "label": "2do parcial, 3 jul 2024 (corregido)",
-        "crop": [[0, 34, 100, 42], [0, 20, 100, 33, 4]],
-        "img": "sources/pages/2024 - 2do Parcial ADR (corregido)-p3-ec90c5.webp"
-      }
-    },
-    {
-      "id": "asi-p2-parcial-06",
-      "topic": "PAR_U5",
-      "type": "info",
-      "catedra": true,
-      "tip": "2do parcial 2024 · Unidad 5",
-      "text": "Para cada una de las siguientes herramientas (las capturas de Sysbench – E/S y de MRTG están en la figura), indique y justifique:\ni) Tipo de herramienta utilizada (según técnica implementada).\nii) Técnica de activación / Tipo de carga (según corresponda).\niii) Magnitudes que mide u observa y variables utilizadas para medir las magnitudes.",
-      "figure": "img/2024-2p-sysbench-mrtg.webp",
-      "answer": "1) SYSBENCH – E/S\n• Tipo: benchmark. Ejecuta una carga de prueba (acá, escritura secuencial de archivos) para evaluar las prestaciones: es benchmarking, no monitorización.\n• Tipo de carga: sintética (artificial), generada por el propio programa; se puede repetir y no afecta la operación del sistema.\n• Magnitudes y variables: trabajo realizado o productividad (throughput) → writes/s, fsyncs/s, MiB/s escritos y total de eventos; consumo de tiempo → latencia mínima, promedio, máxima y percentil 95, y tiempo total.\n\n2) MRTG\n• Tipo: monitor (software) que observa la red mientras funciona.\n• Técnica de activación: por muestreo (toma los valores a intervalos regulares de tiempo y los grafica).\n• Magnitudes y variables: trabajo realizado → bits por segundo de entrada (average bits in) y de salida (average bits out), es decir, las tasas de recepción y de transmisión a lo largo del tiempo.\n\nEn la corrección se pidió ser más específico en qué magnitud corresponde a cada variable.",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 15,
-        "confidence": "high",
-        "crop": [[0, 8.5, 100, 72]],
-        "img": "sources/pages/u5-seguimiento-p15-d86e69.webp"
-      },
-      "origin": {
-        "file": "sources/2024 - 2do Parcial ADR (corregido).pdf",
-        "page": 3,
-        "label": "2do parcial, 3 jul 2024 (corregido)",
-        "crop": [[0, 42, 100, 95], [0, 6, 100, 20, 2], [0, 15, 100, 77, 4]],
-        "img": "sources/pages/2024 - 2do Parcial ADR (corregido)-p3-be5695.webp"
-      }
-    },
-    {
       "id": "asi-p2-parcial-07",
       "topic": "PAR_U5",
       "type": "tf",
@@ -6012,30 +5965,6 @@
         "label": "3er parcial, 4 sep 2024 (corregido)",
         "crop": [[0, 7.5, 100, 11], [0, 29.5, 100, 35.5]],
         "img": "sources/pages/2024 - 3er Parcial ADR-p2-610a61.webp"
-      }
-    },
-    {
-      "id": "asi-p2-parcial-20",
-      "topic": "PAR_U6",
-      "type": "info",
-      "catedra": true,
-      "tip": "1er parcial 2025 · Unidad 6",
-      "text": "Caso de estudio «Control exterior» (revista Information Technology, junio 2016; el artículo está en la figura).\n\nPara el escenario anterior, proponer un esquema de seguridad desarrollando las etapas 1, 2 y 3 de Administración de Riesgos propuesta por Robson.\nAclaraciones:\n• Este ejercicio requiere de supuestos, los que deben estar bien detallados, coherentes y ajustados al escenario. Y el activo a proteger debe ser la aplicación descripta en el escenario únicamente.\n• Para la etapa 2, identificar cuáles serían los ítems de pérdidas potenciales, evaluando además el costo que implicaría el daño producido.\n• Para la etapa 3, dentro de las medidas y contramedidas, el desarrollo debe incluir 2 políticas de seguridad y su clasificación (no es que el desarrollo sean sólo las 2 políticas, sino que además deben incluirse 2 políticas).",
-      "figure": "img/2025-1p-control-exterior.webp",
-      "answer": "Respuesta orientativa: el parcial resuelto no desarrolla este punto, y los supuestos son ejemplos.\n\nActivo: la aplicación Exactian (SaaS en un datacenter de Amazon), con la documentación de contratistas y empleados que permite controlar la liquidación de sueldos, las cargas sociales, las pólizas y la higiene y seguridad.\n\nEtapa 1 – Identificación del riesgo: se identifican el activo, las amenazas (accesos no autorizados, caída del servicio del proveedor o del enlace, pérdida o alteración de la documentación, fuga de datos personales) y las vulnerabilidades (dependencia de un único proveedor SaaS, contraseñas compartidas, falta de un respaldo propio).\n\nEtapa 2 – Análisis del riesgo: primero se evalúan los costos empresariales de una brecha y después la frecuencia de ocurrencia; la pérdida esperada de cada amenaza es su probabilidad por la pérdida que causa. Ítems de pérdida: litigios con contratistas que no se pueden documentar, sanciones por empleo no registrado, reconstrucción de la documentación, horas de control perdidas y daño a la imagen ante los clientes. Se estiman en dinero, aunque sea de forma aproximada.\n\nEtapa 3 – Manejo del riesgo: estrategias de prevenir, asumir, reducir o transferir el riesgo, con controles y contramedidas en las tres líneas de defensa (prevención, detección y recuperación): control de acceso por usuario y perfil, registro de los ingresos fallidos, respaldo de la documentación fuera del proveedor y cláusulas de nivel de servicio o un seguro (transferencia).\nDos políticas, por ejemplo: «Solo el personal de Control de Contratistas accede a la documentación de los contratistas, con usuario y contraseña personales; todo otro acceso está denegado» (prohibitiva: lo que no está expresamente permitido está denegado) y «Los usuarios pueden consultar los informes automáticos de la aplicación, salvo los de sueldos» (permisiva: lo que no está expresamente prohibido está permitido).",
-      "source": {
-        "file": "sources/u6-seguridad-y-auditoria.pdf",
-        "page": 3,
-        "confidence": "high",
-        "crop": [[0, 28, 100, 41.4]],
-        "img": "sources/pages/u6-seguridad-y-auditoria-p3-006d9c.webp"
-      },
-      "origin": {
-        "file": "sources/2025 - 1er Parcial ADSI (con respuestas).pdf",
-        "page": 1,
-        "label": "1er parcial 2025 (resuelto)",
-        "crop": [[0, 0, 100, 7], [0, 33, 100, 51]],
-        "img": "sources/pages/2025 - 1er Parcial ADSI (con respuestas)-p1-bfa804.webp"
       }
     },
     {
@@ -6369,54 +6298,6 @@
       }
     },
     {
-      "id": "asi-p2-parcial-31",
-      "topic": "PAR_U4",
-      "type": "info",
-      "catedra": true,
-      "tip": "2do parcial 2025 · Unidad 4",
-      "text": "El Gerente General de una firma que brinda servicios generales a otras empresas (instalación y mantenimiento de sistemas eléctricos, instalación y mantenimiento de redes de comunicaciones, albañilería menor, limpieza, etc.) recientemente ha tercerizado los servicios de SI/TI, debido a las crecientes necesidades de información y sistemas, y lo ha contratado a Ud. para que lo asesore sobre la organización y gestión del cargo que será el nexo coordinante con la/s empresa/s contratada/s. La definición del cargo y el resto del escenario están en la figura.\n\na) Subsistema de Desarrollo de RR.HH. Ubique en la descripción del caso situaciones que respondan a cada uno de los inventarios de necesidades de entrenamiento para el escenario planteado.",
-      "figure": "img/2025-2p-representante-outsourcing.webp",
-      "answer": "Hay un inventario por cada nivel de análisis:\n• Nivel organizacional (los objetivos de la organización, hacia dónde va): «La empresa plantea incorporarse a la IEEE … participar en los proyectos de innovación y desarrollo y ser ente certificador de las normas IEEE». Hacen falta capacitaciones en los estándares que la organización quiere certificar.\n• Nivel de recursos humanos (si las personas alcanzan, en cantidad y en calidad): «Existe una persona con cuatro años de experiencia en la empresa, en distintos cargos administrativos, con título de Ingeniero en Sistemas de Información, recibido en marzo de 2023».\n• Nivel de operaciones y tareas (requisitos del cargo − habilidades del ocupante): «El gerente general desea priorizar el reclutamiento interno para ocupar el cargo de Representante ante Outsourcing». El cargo pide experiencia en ingeniería de requerimientos, planificación de proyectos certificada y capacidad para detectar riesgos, que esa persona no tiene por su trayectoria administrativa.\n\nSigue la respuesta del parcial corregido.",
-      "source": {
-        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
-        "page": 6,
-        "confidence": "high",
-        "crop": [[0, 0, 100, 28]],
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p6-727cbc.webp"
-      },
-      "origin": {
-        "file": "sources/2025 2do Parcial - Tema 1 (corregido).pdf",
-        "page": 4,
-        "label": "2do parcial, 5 nov 2025 · Tema 1 (corregido)",
-        "crop": [[0, 9, 100, 18], [0, 4, 100, 40, 5]],
-        "img": "sources/pages/2025 2do Parcial - Tema 1 (corregido)-p4-7180a7.webp"
-      }
-    },
-    {
-      "id": "asi-p2-parcial-33",
-      "topic": "PAR_U4",
-      "type": "info",
-      "catedra": true,
-      "tip": "2do parcial 2025 · Unidad 4",
-      "text": "El Gerente General de una firma que brinda servicios generales a otras empresas (instalación y mantenimiento de sistemas eléctricos, instalación y mantenimiento de redes de comunicaciones, albañilería menor, limpieza, etc.) recientemente ha tercerizado los servicios de SI/TI, debido a las crecientes necesidades de información y sistemas, y lo ha contratado a Ud. para que lo asesore sobre la organización y gestión del cargo que será el nexo coordinante con la/s empresa/s contratada/s. La definición del cargo y el resto del escenario están en la figura.\n\nb) Subsistema de Mantenimiento de RR.HH. Proponga para el cargo descripto, justificando sus planteos:\n• Una forma de remuneración variable.\n• Una compensación no financiera.",
-      "figure": "img/2025-2p-representante-outsourcing.webp",
-      "answer": "Respuesta orientativa:\n• Remuneración variable: por ejemplo, un incentivo (compensación variable atribuida a una condición predeterminada, no discrecional) de un porcentaje del salario si el ocupante alcanza una calificación mínima en la evaluación de desempeño, o un bono dinerario y presupuestado si el servicio tercerizado cumple los niveles de servicio pactados. La meta, el plazo, el monto y la periodicidad tienen que estar preestablecidos y ser conocidos, y la meta tiene que depender del esfuerzo del empleado (umbral de desempeño). En la corrección se pidió precisar la frecuencia y la duración.\n• Compensación no financiera: una recompensa como el reconocimiento, el prestigio o la estabilidad en el empleo. En el parcial se propuso la seguridad en el puesto, porque la persona fue elegida por reclutamiento interno y capacitada para acceder a un cargo mayor.",
-      "source": {
-        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
-        "page": 29,
-        "confidence": "high",
-        "crop": [[0, 29.5, 100, 64.5], [0, 63.7, 100, 67.6, 22]],
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p29-4cf690.webp"
-      },
-      "origin": {
-        "file": "sources/2025 2do Parcial - Tema 1 (corregido).pdf",
-        "page": 4,
-        "label": "2do parcial, 5 nov 2025 · Tema 1 (corregido)",
-        "crop": [[0, 25, 100, 34], [0, 69, 100, 95, 5]],
-        "img": "sources/pages/2025 2do Parcial - Tema 1 (corregido)-p4-eca098.webp"
-      }
-    },
-    {
       "id": "asi-p2-251",
       "topic": "PAR_U4",
       "type": "single",
@@ -6476,24 +6357,6 @@
         "confidence": "high",
         "crop": [[0, 0, 100, 33.2]],
         "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p34-ff04d1.webp"
-      }
-    },
-    {
-      "id": "asi-p2-254",
-      "topic": "PAR_U4",
-      "type": "info",
-      "catedra": true,
-      "tip": "Actividad teórico-práctica 2018 · Unidad 4",
-      "text": "Indique sobre el siguiente gráfico interacciones del Subsistema de Desarrollo y Mantenimiento de Recursos Humanos con los restantes subsistemas de la administración de recursos. (3 como mínimo).",
-      "figure": "img/u4-interacciones-dym.webp",
-      "answer": "Actividad teórico-práctica de 2018. Pide tres como mínimo. Estas son las que se leen en las unidades:\n\nProvisión → Desarrollo y Mantenimiento\n• Las personas que ingresan: hay que entrenarlas. El entrenamiento las toma como entrada (U4, pág. 4).\n• El mercado de RRHH: si escasean los candidatos, sube la inversión en capacitación y en beneficios y se prioriza el reclutamiento interno; si sobran, bajan la capacitación y los beneficios (provisión, Chiavenato).\n\nAplicación → Desarrollo y Mantenimiento\n• Requisitos del cargo, que salen de la descripción y el análisis de cargos. Las necesidades de entrenamiento son esos requisitos menos las habilidades de quien ocupa el cargo (U4, pág. 7; la descripción de cargos es de aplicación, U5, pág. 4).\n\nSeguimiento → Desarrollo y Mantenimiento\n• La evaluación del desempeño, que sirve para inventariar las necesidades de entrenamiento y para definir la capacitación que adecua a la persona al puesto (U4, pág. 7; U5, págs. 11-12).\n• Para el mantenimiento: a quién promover, o sea el plan de carrera, más los incentivos y la remuneración variable (U5, pág. 12).\n\nDesarrollo y Mantenimiento → Provisión\n• La política salarial, con el salario de admisión y los reajustes frente al mercado, y los beneficios sociales (U4, pág. 28; provisión, Chiavenato).\n\nDesarrollo y Mantenimiento → Aplicación\n• El entrenamiento prepara a la persona para las tareas del cargo, y el plan de carrera redefine el puesto que va a ocupar (U4, págs. 4 y 17).\n\nSeguridad y Auditoría → Desarrollo y Mantenimiento\n• Evaluación del entrenamiento del personal para planes de contingencia o recuperación ante desastres (U6, págs. 13-14).",
-      "note": "No es una respuesta oficial: la actividad no trae corrección de la cátedra. Las interacciones se leen del apunte, que no dibuja estas flechas. Verificala con la cátedra.",
-      "origin": {
-        "file": "sources/2018 - Actividad teorico-practica Desarrollo y Mantenimiento.pdf",
-        "page": 1,
-        "label": "Actividad teórico-práctica 2018",
-        "crop": [[0, 0, 100, 78]],
-        "img": "sources/pages/2018 - Actividad teorico-practica Desarrollo y Mantenimiento-p1-0ba114.webp"
       }
     },
     {
