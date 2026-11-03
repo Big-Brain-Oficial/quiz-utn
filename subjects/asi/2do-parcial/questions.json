@@ -15,8 +15,8 @@
   "about": [
     "<p><b>Cuestionarios de las Unidades 4, 5 y 6:</b> son las preguntas de los cuestionarios de estudio de la cátedra (Desarrollo y Mantenimiento de RRHH, Seguimiento de Recursos, y Seguridad y Auditoría de los SI/TI), convertidas a opción múltiple. La cátedra no publica las respuestas: la opción correcta y la justificación salen del apunte de teoría de cada unidad.</p>",
     "<p><b>Eval. Formativa 3 — Unidades 4 y 5:</b> son las preguntas de la evaluación formativa, tal cual las tomó la cátedra y con la respuesta confirmada en la corrección. La justificación sale del apunte de teoría.</p>",
-    "<p><b>Parciales — Unidades 4, 5 y 6:</b> son las preguntas de parciales anteriores que se responden con estas unidades: el <a href=\"sources/2024%20-%202do%20Parcial%20ADR%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2do parcial del 3 de julio de 2024</a> (hay también una <a href=\"sources/2024%20-%202do%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">versión sin corregir con transcripciones</a>), el <a href=\"sources/2024%20-%203er%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">3er parcial del 4 de septiembre de 2024</a>, el <a href=\"sources/2025%20-%201er%20Parcial%20ADSI%20%28con%20respuestas%29.pdf\" target=\"_blank\" rel=\"noopener\">1er parcial 2025 resuelto</a> y los temas <a href=\"sources/2025%202do%20Parcial%20-%20Tema%201%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a> y <a href=\"sources/2025%202do%20Parcial%20-%20Tema%202%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> del 2do parcial del 5 de noviembre de 2025. Cada pregunta indica de qué parcial y de qué unidad sale. Al corregir se ve la captura de la pregunta en el parcial, con la corrección, y el recorte del apunte que la respalda. Las de opción múltiple, verdadero o falso y relacionar conservan el enunciado y las opciones del parcial; las que había que completar se convirtieron a relacionar con opciones nuestras, y las de desarrollo quedan como tarjetas con una respuesta orientativa. No entran las de alineamiento, provisión, aplicación ni planificación estratégica, que son de otras unidades.</p>",
-    "<p><b>Qué entra de Auditoría (Unidad 6):</b> el profesor Soria aclaró que de Auditoría entran en el parcial solo el concepto de auditoría (Lardent), el concepto de control interno (Lardent) y la auditoría de la organización y función informática. Por eso, del cuestionario y de los parciales de la Unidad 6 quedan solo las preguntas de Auditoría sobre esos temas. Las de Seguridad siguen todas.</p>"
+    "<p><b>Unidades Temáticas 4, 5 y 6 — Verificadas:</b> son preguntas de parciales y evaluaciones anteriores, corregidas por la cátedra, que se responden con estas unidades. Salen del <a href=\"sources/2024%20-%202do%20Parcial%20ADR%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2do parcial del 3 de julio de 2024</a> (hay también una <a href=\"sources/2024%20-%202do%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">versión sin corregir con transcripciones</a>), el <a href=\"sources/2024%20-%203er%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">3er parcial del 4 de septiembre de 2024</a>, el <a href=\"sources/2025%20-%201er%20Parcial%20ADSI%20%28con%20respuestas%29.pdf\" target=\"_blank\" rel=\"noopener\">1er parcial 2025 resuelto</a> y los temas <a href=\"sources/2025%202do%20Parcial%20-%20Tema%201%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a> y <a href=\"sources/2025%202do%20Parcial%20-%20Tema%202%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> del 2do parcial del 5 de noviembre de 2025, y de las revisiones del campus de la <a href=\"sources/2020%20-%20Evaluacion%20formativa%20Unidad%20IV%20%28revision%29.pdf\" target=\"_blank\" rel=\"noopener\">evaluación formativa de la Unidad IV de 2020</a>, de tres intentos de la 3ra evaluación parcial del 3 de noviembre de 2021 (<a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%201%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%202%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> y <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%203%29.pdf\" target=\"_blank\" rel=\"noopener\">3</a>) y de la <a href=\"sources/4ta%20Evaluacion%20-%20Cuestionario%20virtual%20A%20%28revision%29.pdf\" target=\"_blank\" rel=\"noopener\">4ta evaluación, cuestionario virtual A</a>. Las preguntas que se repiten entre intentos aparecen una sola vez. Cada pregunta indica de qué parcial o evaluación y de qué unidad sale. Al corregir se ve la captura de la pregunta en el parcial, con la corrección, y el recorte del apunte que la respalda. Las de opción múltiple, verdadero o falso y relacionar conservan el enunciado y las opciones del parcial; las que había que completar se convirtieron a relacionar con opciones nuestras, y las de desarrollo quedan como tarjetas con una respuesta orientativa. No entran las de alineamiento, provisión, aplicación ni planificación estratégica, que son de otras unidades, ni las de comandos y configuración de herramientas de GNU/Linux (Snort, Nmap, iptables, SSH, iptraf o programas de backup): la profesora aclaró que no hay que memorizar comandos.</p>",
+    "<p><b>Qué entra de Auditoría (Unidad 6):</b> el profesor Soria aclaró que de Auditoría entran en el parcial solo el concepto de auditoría (Lardent), el concepto de control interno (Lardent) y la auditoría de la organización y función informática. Por eso, del cuestionario y de los parciales de la Unidad 6 quedan solo las preguntas de Auditoría sobre esos temas. La excepción son cinco preguntas de «Unidad Temática 6 — Verificadas», de la 3ra evaluación parcial de 2021 y de la 4ta evaluación del campus (tipos de prueba, riesgos e informe de auditoría, independencia del auditor y auditoría de sistemas instalados), que se dejan para repasar aunque sean de otros temas. Las de Seguridad siguen todas.</p>"
   ],
   "links": [
     {
@@ -25,7 +25,7 @@
       "text": "Repaso · ASI: los gráficos del apunte para completar, mapas mentales y crucigramas de las Unidades 4, 5 y 6. Es un sitio aparte."
     }
   ],
-  "footer": "Fuentes: cuestionarios de estudio de la cátedra (Subsistema de Desarrollo y Mantenimiento de RRHH · Subsistema de Seguimiento de Recursos · Subsistema de Seguridad y Auditoría de los SI/TI), Evaluación Formativa 3 (Unidades 4 y 5), parciales de 2024 y 2025 y apunte de teoría de las Unidades 4, 5 y 6. Los cuestionarios de la cátedra no constituyen las preguntas de los exámenes.",
+  "footer": "Fuentes: cuestionarios de estudio de la cátedra (Subsistema de Desarrollo y Mantenimiento de RRHH · Subsistema de Seguimiento de Recursos · Subsistema de Seguridad y Auditoría de los SI/TI), Evaluación Formativa 3 (Unidades 4 y 5), parciales de 2024 y 2025, evaluaciones del campus de 2020 y 2021 y apunte de teoría de las Unidades 4, 5 y 6. Los cuestionarios de la cátedra no constituyen las preguntas de los exámenes.",
   "topics": {
     "U4": {
       "name": "Cuestionario Unidad 4 — Desarrollo y Mantenimiento de RRHH",
@@ -44,15 +44,15 @@
       "color": "#2E9E57"
     },
     "PAR_U4": {
-      "name": "Parcial - U4",
+      "name": "Unidad Temática 4 — Verificadas",
       "color": "#B7791F"
     },
     "PAR_U5": {
-      "name": "Parcial - U5",
+      "name": "Unidad Temática 5 — Verificadas",
       "color": "#B7791F"
     },
     "PAR_U6": {
-      "name": "Parcial - U6",
+      "name": "Unidad Temática 6 — Verificadas",
       "color": "#B7791F"
     }
   },
@@ -6636,6 +6636,1232 @@
         "confidence": "high",
         "crop": [[0, 26.2, 100, 36.6]],
         "img": "sources/pages/u6-seguridad-y-auditoria-p1-abdde5.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-36",
+      "topic": "PAR_U4",
+      "type": "tf",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "Un programa de desarrollo profesional en una determinada temática ayudará a los empleados a adquirir conocimientos y habilidades que mantendrán competitivo el área de SI/TI y ayudara a mantenerlos motivados. Ese programa es el resultado esperado de haber realizado el inventario de necesidades a NIVEL DE RECURSOS HUMANOS.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Verdadero, según la revisión del campus. El análisis de los recursos humanos verifica si las personas son suficientes, cuantitativa y cualitativamente, para las actividades actuales y futuras de la organización, y su resultado es el inventario de necesidades a nivel de recursos humanos (apunte U4, págs. 6-7).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 6,
+        "confidence": "high",
+        "crop": [[0, 57.6, 100, 68.0], [0, 30.2, 100, 32.6, 7]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p6-bf366b.webp"
+      },
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 1,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 30.1, 100, 59.7]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p1-b04253.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-37",
+      "topic": "PAR_U4",
+      "type": "tf",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "El Subsistema de Desarrollo de RRHH debe considerar la planificación estratégica existente para preparar a las personas para ese futuro que se desea alcanzar.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Verdadero, según la revisión del campus. La retroalimentación de la cátedra remite al concepto de planificación estratégica (Unidad 1) y a su interacción con los subsistemas de la Unidad 4, explicados en clase.",
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 2,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 5.6, 100, 30.4]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p2-11590a.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-38",
+      "topic": "PAR_U4",
+      "type": "tf",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "Las compensaciones son todas las formas de pago y/o recompensas destinadas a los empleados y que se derivan de su empleo.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Verdadero, según la revisión del campus. Se llama compensación al sistema de incentivos y recompensas que la organización establece, e incluye la remuneración en todas sus formas posibles (apunte U4, pág. 21).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 21,
+        "confidence": "high",
+        "crop": [[0, 84.4, 100, 93.9]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21-d8f336.webp"
+      },
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 2,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 30.4, 100, 98.8]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p2-ceea60.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-39",
+      "topic": "PAR_U4",
+      "type": "multi",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "Beneficios sociales de tipo no monetario, supletorio y voluntario son:",
+      "opts": [
+        "Revisión médica semestral.",
+        "Pago de licencias por enfermedad.",
+        "Tiempo para aseo.",
+        "Asesoramiento financieros y legales a empleados.",
+        "Sueldo anual complementario",
+        "Pago de vacaciones."
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Según la revisión del campus, solo el asesoramiento financiero y legal. El apunte clasifica estos mismos ejemplos: el asesoramiento financiero y legal es no monetario, supletorio y voluntario; la revisión médica semestral y el tiempo para aseo son no monetarios, asistenciales y voluntarios; el SAC, las licencias por enfermedad y las vacaciones son monetarios, asistenciales y legales (apunte U4, pág. 33).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 39.6, 100, 51.0]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p33-28caee.webp"
+      },
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 3,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 61.9, 100, 98.8]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p3-d512f5.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-40",
+      "topic": "PAR_U4",
+      "type": "tf",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "El método de comparación por factores es una técnica analítica o cualitativa de clasificación de puestos.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Falso, según la revisión del campus. La retroalimentación de la cátedra remite a la clasificación de cargos de la bibliografía básica; el apunte nombra la evaluación y clasificación de cargos (págs. 24-26), pero no clasifica este método.",
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 4,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 5.6, 100, 30.4]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p4-11590a.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-41",
+      "topic": "PAR_U4",
+      "type": "multi",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "Beneficios sociales de tipo monetario, asistencial y legal son:",
+      "opts": [
+        "Revisión médica semestral.",
+        "Sueldo anual complementario",
+        "Pago de licencias por enfermedad.",
+        "Pago de vacaciones.",
+        "Tiempo para aseo.",
+        "Asesoramiento financieros y legales a empleados."
+      ],
+      "correct": [
+        1,
+        2,
+        3
+      ],
+      "fb": "Según la revisión del campus: el sueldo anual complementario, el pago de licencias por enfermedad y el pago de vacaciones. El apunte los clasifica como monetarios, asistenciales y legales; la revisión médica semestral y el tiempo para aseo son no monetarios, asistenciales y voluntarios, y el asesoramiento financiero y legal es no monetario, supletorio y voluntario (apunte U4, pág. 33).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 39.6, 100, 51.0]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p33-28caee.webp"
+      },
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 4,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 30.4, 100, 59.8]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p4-67a560.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-42",
+      "topic": "PAR_U4",
+      "type": "single",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "La siguiente descripción “Conjunto de principios y directrices que reflejan la orientación y filosofía de la organización en lo que corresponde a la remuneración de sus empleados” refiere al concepto de:",
+      "opts": [
+        "política de pagos salariales",
+        "política de investigación de salarios",
+        "política salarial"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Política salarial, según la revisión del campus. El apunte la define con esas mismas palabras: «el conjunto de principios y directrices que reflejan la orientación y la filosofía de la organización en lo que corresponde a la remuneración de sus empleados» (apunte U4, pág. 28). En el campus se respondía escribiendo la letra de la opción.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 28,
+        "confidence": "high",
+        "crop": [[0, 46.8, 100, 51.2]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28-57411e.webp"
+      },
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 4,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 59.8, 100, 98.8]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p4-4260dc.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-43",
+      "topic": "PAR_U4",
+      "type": "multi",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "Como parte de la evaluación de una programa de capacitación a NIVEL ORGANIZACIONAL, resultados esperables son:",
+      "opts": [
+        "El personal de programación ha mejorado la productividad cuando se lo destina a nuevos proyectos.",
+        "Se ha elevado el número de participación en las reuniones informales de la empresa",
+        "El personal de instalaciones de redes han elaborado su propio manual de procedimientos que tiene gran calidad descriptiva y formularios eficaces.",
+        "Alta integración del personal con las empresas de SW del Brasil",
+        "Es la primera vez que el personal de soporte técnico recibe felicitaciones por su servicios a las áreas usuarias.",
+        "Reducción de la rotación de personal.",
+        "Se observa los tiempos para terminar los proyectos de desarrollo se han reducido en promedio en un 10%, esto es, terminan en una semana y media laboral antes."
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "fb": "Según la revisión del campus: la mayor participación en las reuniones informales y la integración con las empresas de SW del Brasil (la otra revisión de 2021 da la misma respuesta). En el nivel organizacional el entrenamiento mejora la eficacia, la imagen y el clima organizacional; la reducción de la rotación es un resultado del nivel de los recursos humanos, y la productividad, los tiempos y la atención al cliente, del nivel de las tareas y operaciones (apunte U4, pág. 13).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 6.6, 100, 30.0]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p13-5c9834.webp"
+      },
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 5,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 5.6, 100, 46.9]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p5-135e39.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-44",
+      "topic": "PAR_U4",
+      "type": "multi",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "Indique los ítems que debe contener un programa de entrenamiento.",
+      "opts": [
+        "Capacitadores, duración.",
+        "Objetivo, destinatarios, métodos y recursos.",
+        "Necesidades a nivel de recursos humanos.",
+        "Contenido, evaluación de los contenidos.",
+        "Evaluación del impacto de la capacitación.",
+        "Intensidad de la capacitación.",
+        "Resultados alcanzados por el área de SI/TI.",
+        "Plan de desarrollo."
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "fb": "Según la revisión del campus: capacitadores y duración; objetivo, destinatarios, métodos y recursos; contenido y evaluación de los contenidos; e intensidad. Son las respuestas que el inventario de necesidades le da a la programación del entrenamiento: qué enseñar, quién aprende, cuánto (volumen, duración, intensidad), cómo (métodos y recursos), quién enseña, para qué, y la evaluación de contenidos (apunte U4, pág. 9). Las necesidades de RRHH son la entrada del programa, no un ítem.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 41.0, 100, 70.4]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p9-679ac6.webp"
+      },
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 5,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 46.9, 100, 98.8]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p5-051cbf.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-45",
+      "topic": "PAR_U4",
+      "type": "multi",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "¿Cuáles de las siguientes medidas son recomendables para el disminuir el impacto de las pantallas de visualización de datos?.",
+      "opts": [
+        "Ángulo de visión",
+        "Alternancia y sistematización de realización de ejercicios de hombros.",
+        "Distancia de visión.",
+        "Relación anchura/altura de los caracteres",
+        "Uso de teclados ergonómicos"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "fb": "Según la revisión del campus: el ángulo de visión, la distancia de visión y la relación anchura/altura de los caracteres. El apunte nombra las dificultades visuales entre los problemas de higiene y seguridad de terminales y computadoras (apunte U4, pág. 36); la retroalimentación de la cátedra remite a los materiales sobre ergonomía del aula virtual.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 36,
+        "confidence": "medium"
+      },
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 7,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 56.5, 100, 98.8]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p7-1f68ba.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-46",
+      "topic": "PAR_U4",
+      "type": "single",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "Dada la definición jurídica existente en la Argentina respecto de las compensaciones, ¿cuál de estas opciones indica correctamente los tres principios consecuentes?:",
+      "opts": [
+        "Inelasticidad a la baja - Igual tarea, igual remuneración -Variantes de pago alternativas al salario",
+        "Elasticidad a la baja - Igual tarea, igual remuneración - Variantes de pago adicionales al salario",
+        "Inelasticidad a la baja - Igual tarea, igual remuneración - Variantes de pago opcionales al salario",
+        "Ninguna de las anteriores."
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La primera, según la revisión del campus. De la definición jurídica de las compensaciones en la Argentina salen tres principios: inelasticidad a la baja, igual tarea igual remuneración y variantes de pago alternativas al salario (apunte U4, pág. 21). En el campus se respondía escribiendo el número de la opción.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 21,
+        "confidence": "high",
+        "crop": [[0, 72.2, 100, 83.7]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21-14a739.webp"
+      },
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 8,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 5.6, 100, 46.0]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p8-b193f6.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-47",
+      "topic": "PAR_U4",
+      "type": "match",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 4",
+      "text": "Indicadores del proceso de entrenamiento: clasifique correctamente.",
+      "stems": [
+        "Se incorporará el servicio de capacitación en Active Directory in company.",
+        "Alta frecuencia, cada dos semanas, de reinstalación de sistema operativo y aplicaciones en el área de ventas.",
+        "El técnico de soporte ha sido asignado al área de Redes WAN.",
+        "Durante enero-febrero se deberá prever el personal de guardia de los servidores dado que el 80% de los administradores actuales tomarán sus licencias anuales.",
+        "Frecuentes cortaduras de manos en el personal que instala los equipos de comunicaciones.",
+        "Andrea no se comunica con su lider de proyecto.",
+        "El área de relevamiento de conexiones clandestinas cambiará sus equipos móviles de I-Pad a I-Phone",
+        "Se iniciará en marzo del 2022 el desarrollo de las aplicaciones basadas en inteligencia artificial para evitar colapsos en la red.",
+        "Cambio de metodologías de análisis y desarrollo.",
+        "Cuando a los programadores se les asigna un proyecto de requerimientos diferentes, la productividad se reduce en un 40%.",
+        "Reiterada incompletitud de la documentación sobre mantenimiento de las estaciones de trabajo del área de ventas.",
+        "Alto nivel de bugs detectados durante el testing."
+      ],
+      "choices": [
+        "INDICADOR A PRIORI",
+        "INDICADOR A POSTERIORI"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "fb": "La clave es la que da la revisión del campus («La respuesta correcta es…»). Los indicadores a priori son eventos que, si ocurrieran, darían necesidades futuras de entrenamiento fácilmente previsibles (expansión, cambios de métodos y procesos, movimiento de personal, nuevos productos o servicios, modernización de equipos); los a posteriori son problemas provocados por necesidades de entrenamiento no atendidas (baja producción, averías, errores, accidentes, relaciones deficientes) (apunte U4, pág. 8).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 25.9, 100, 95.0]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p8-d2b181.webp"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 1).pdf",
+        "page": 4,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 1 del campus)",
+        "crop": [[0, 0, 100, 100], [0, 0, 100, 98.3, 5]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 1)-p4-852fa5.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-48",
+      "topic": "PAR_U4",
+      "type": "match",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 4",
+      "text": "Relacione correctamente.",
+      "stems": [
+        "Es el pago que reciben los empleados por su trabajo en un período de tiempo determinado.",
+        "Es el “poder adquisitivo\" del sueldo.",
+        "Es la reposición del salario real de acuerdo con la inflación.",
+        "Es el crecimiento del salario real"
+      ],
+      "choices": [
+        "Salario nominal",
+        "Salario real",
+        "Ajuste salarial",
+        "Aumento salarial"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Clave de la revisión del campus. El salario nominal es el dinero asignado por el cargo y pierde poder adquisitivo con la inflación si no se actualiza; el salario real es la cantidad de bienes que se pueden adquirir con ese dinero; el reajuste salarial reconstituye el salario real y el aumento lo incrementa (apunte U4, pág. 22).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 22,
+        "confidence": "high",
+        "crop": [[0, 68.6, 100, 83.0]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p22-e32ddf.webp"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 2).pdf",
+        "page": 3,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 2 del campus)",
+        "crop": [[0, 6.6, 100, 98.3]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 2)-p3-3a85c4.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-49",
+      "topic": "PAR_U4",
+      "type": "match",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 4",
+      "text": "Relacionar el término con el concepto correcto.",
+      "stems": [
+        "Es lo que recibe por el solo hecho de pertenecer a la organización; dicho de otro modo, que no tiene relación o no es percibido como contrapartida de la prestación de servicios.",
+        "Es la remuneración que el individuo recibe como retorno por su trabajo o aporte.",
+        "Es lo que recibe un trabajador por su tarea.",
+        "Conjunto de componentes directos e indirectos, dinerarios o no, fijos o variables, que determina todo lo que un trabajador recibe por su tarea en la organización y/o por pertenecer a ella."
+      ],
+      "choices": [
+        "Compensación indirecta",
+        "Compensación directa",
+        "Compensación",
+        "Sistema de compensaciones"
+      ],
+      "correct": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "fb": "Clave de la revisión del campus (la revisión 3 del mismo parcial da la misma). La compensación es la remuneración que el individuo recibe como retorno por la ejecución de las tareas, por el servicio prestado o por el trabajo realizado (apunte U4, pág. 21). La compensación financiera directa se paga como contraprestación del cargo, y la indirecta sale del convenio colectivo y del plan de beneficios y servicios sociales (pág. 22).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 21,
+        "confidence": "high",
+        "crop": [[0, 52.9, 100, 57.3], [0, 36.9, 100, 62.7, 22]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21-c9f870.webp"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 2).pdf",
+        "page": 4,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 2 del campus)",
+        "crop": [[0, 6.6, 100, 98.3]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 2)-p4-3a85c4.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-50",
+      "topic": "PAR_U5",
+      "type": "match",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 5",
+      "text": "RELACIONE CORRECTAMENTE:",
+      "stems": [
+        "Es una técnica consistente en deducir los índices de prestaciones de un sistema a partir de parámetros cuantificables y de relaciones entre dichos parámetros, resolviendo un conjunto de ecuaciones que representan al sistema en estudio como un modelo de colas y recursos.",
+        "Es una técnica para obtener y almacenar datos de estado de un sistema informático.",
+        "Es una técnica utilizada para comparar el rendimiento de un sistema o componente del mismo."
+      ],
+      "choices": [
+        "Técnica analítica",
+        "Monitorización",
+        "Benchmarking"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Clave de la revisión del campus (la 4ta evaluación tiene la misma pregunta). Las técnicas analíticas resuelven las ecuaciones matemáticas que representan el sistema (apunte U5, pág. 22); la monitorización supervisa y registra el comportamiento de los sistemas en funcionamiento (pág. 26), y el benchmarking compara sistemas frente a una carga característica (pág. 32).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 22,
+        "confidence": "high",
+        "crop": [[0, 23.1, 100, 29.5], [0, 82.9, 100, 91.3, 26], [0, 5.8, 100, 12.4, 32]],
+        "img": "sources/pages/u5-seguimiento-p22-a2ab8e.webp"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 1).pdf",
+        "page": 2,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 1 del campus)",
+        "crop": [[0, 0, 100, 100]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 1)-p2-b7af57.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-51",
+      "topic": "PAR_U5",
+      "type": "multi",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 5",
+      "text": "El dispositivo con la mayor demanda de servicio:",
+      "opts": [
+        "Determinará la tasa máxima de llegadas o arribos esperables en el sistema",
+        "Determina el tiempo mínimo de respuesta del sistema total",
+        "Impacta en el tiempo de reflexión del usuario",
+        "Tendrá la utilización más alta y será el dispositivo cuello de botella."
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "fb": "Según la revisión del campus: tendrá la utilización más alta y será el cuello de botella, y determinará la tasa máxima de llegadas esperables. El apunte muestra que la utilización de cada dispositivo es proporcional a su demanda de servicio (Ui = X0 × Di) (apunte U5, pág. 25), así que el de mayor demanda es el primero en saturarse.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 25,
+        "confidence": "medium"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 1).pdf",
+        "page": 6,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 1 del campus)",
+        "crop": [[0, 0, 100, 46.8]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 1)-p6-258099.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-52",
+      "topic": "PAR_U5",
+      "type": "multi",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 5",
+      "text": "Qué es la herramienta \"top\"?",
+      "opts": [
+        "Un firewall.",
+        "Ninguno de los listados.",
+        "Un monitor de procesos.",
+        "Un benchmark de sistemas.",
+        "Un escaneador de puertos."
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Un monitor de procesos, según la revisión del campus (las revisiones 2 y 3 del mismo parcial dan la misma). El apunte no la nombra, pero en clase se vio como ejemplo real de monitor. La monitorización supervisa y evalúa el comportamiento y el rendimiento de los sistemas que están en funcionamiento (apunte U5, pág. 26).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 82.9, 100, 91.3]],
+        "img": "sources/pages/u5-seguimiento-p26-38ef6f.webp"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 1).pdf",
+        "page": 9,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 1 del campus)",
+        "crop": [[0, 36.3, 100, 98.3]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 1)-p9-aa76cc.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-53",
+      "topic": "PAR_U5",
+      "type": "multi",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 5",
+      "text": "Dentro de los elementos de subjetividad que puede imprimir el evaluador durante la evaluación, están:",
+      "opts": [
+        "Periodicidad frecuente",
+        "Inadecuada herramienta de evaluación",
+        "Efecto de acontecimientos recientes",
+        "Los prejuicios personales"
+      ],
+      "correct": [
+        2,
+        3
+      ],
+      "fb": "Según la revisión del campus: los prejuicios personales y el efecto de los acontecimientos recientes. El apunte de teoría no trata los elementos de subjetividad del evaluador.",
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 1).pdf",
+        "page": 10,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 1 del campus)",
+        "crop": [[0, 0, 100, 75.3]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 1)-p10-a252a2.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-54",
+      "topic": "PAR_U5",
+      "type": "tf",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 5",
+      "text": "Si luego de realizar una evaluación de desempeño, se observa que gran cantidad de empleados no se desempeñan bien, esto indica la posibilidad de la presencia de errores en varias facetas de la administración de personal..",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Verdadero, según la revisión del campus. La evaluación del desempeño también le da información a los otros subsistemas (provisión, desarrollo, aplicación) para revisar sus especificaciones y estrategias (apunte U5, pág. 11).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 11,
+        "confidence": "medium"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 10.9, 100, 14.6]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-523673.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-55",
+      "topic": "PAR_U5",
+      "type": "tf",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 5",
+      "text": "Se llama entrevista de evaluación a la etapa de la evaluación del desempeño consistente en sesiones de verificación del desempeño que proporcionan a los empleados retroalimentación sobre su actuación en el pasado y su potencial a futuro.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Verdadero, según la revisión del campus, que agrega: «Efectivamente, se denominan Entrevistas de evaluación». El apunte de teoría no nombra esta etapa.",
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 14.6, 100, 18.7]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-4ab01e.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-56",
+      "topic": "PAR_U5",
+      "type": "tf",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 5",
+      "text": "Para determinar el desempeño en el área de Programación, se puede fijar el siguiente estándar:\nProductividad semanal por programador: Cantidad medida de modulos-programadosxsemana/Cantidad estándar de modulos-programadosxsemana",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Falso, según la revisión del campus, que aclara: «Esa expresión es la de un indicador, no un estándar. El estándar sería, por ejemplo: cantidad estándar de módulos programados semana = 10». Un estándar es una norma o patrón, un valor de referencia que indica cómo se debería trabajar (apunte U5, pág. 7); el cociente entre lo medido y el estándar compara el desempeño con ese valor.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 87.7, 100, 96.0]],
+        "img": "sources/pages/u5-seguimiento-p7-6b5e33.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 18.7, 100, 24.3]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-e0a73d.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-57",
+      "topic": "PAR_U5",
+      "type": "tf",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 5",
+      "text": "La evaluación de desempeño es un elemento objetivo para determinar promociones y ascensos",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Verdadero, según la revisión del campus. El apunte de teoría no lo dice con estas palabras: nombra los ascensos entre las decisiones del jefe sobre sus subordinados, junto a la evaluación del desempeño (apunte U5, pág. 1).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 1,
+        "confidence": "medium"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 24.3, 100, 28.0]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-bca158.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-58",
+      "topic": "PAR_U5",
+      "type": "info",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 5",
+      "text": "El Ing. Escobar, a cargo de los sistemas de aplicaciones WEB de un sistema de ventas, expresó – “ Me fijo que el tiempo medio de respuesta sea el esperado, sino, ajusto el sistema”. ¿Qué experimento aplica?. (Indicar sólo el nombre, sin artículos ni oraciones).",
+      "answer": "Sintonización (respuesta de la revisión del campus; «Monitor» está marcado como incorrecto).\n\nLa sintonización es un proceso de experimentación: se ajustan los parámetros del sistema según una hipótesis y se verifica si se alcanzan las prestaciones buscadas. Observar el tiempo medio de respuesta es monitorización, pero el experimento es el ajuste.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 35,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 12.5]],
+        "img": "sources/pages/u5-seguimiento-p35-2e146b.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 32.9, 100, 36.6]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-f51e17.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-59",
+      "topic": "PAR_U5",
+      "type": "single",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 5",
+      "text": "Conociendo la aplicación de Ley de Little a un sistema interactivo completo (a veces conocida como Ley del tiempo de respuesta), la siguiente fórmula N= (N/X) - Z es errónea porque :",
+      "opts": [
+        "Relaciona terminales con tiempo de reflexión del usuario, y no corresponde.",
+        "Porque resta el tiempo de reflexión del usuario y se lo debe agregar al tiempo total de respuesta del sistema informático.",
+        "Simplemente, porque la variable a determinar debe indicarse con R [ R = (N/X) – Z]"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "La tercera, según la revisión del campus (la b está marcada como incorrecta). Aplicando la ley de Little a todo el sistema interactivo, el tiempo de respuesta es R = N/X0 − Z: para obtenerlo hay que restar el tiempo de reflexión del usuario (apunte U5, págs. 25-26). La fórmula está bien; lo que falla es que del lado izquierdo va R, no N.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 25,
+        "confidence": "high",
+        "crop": [[0, 47, 100, 56], [0, 64, 100, 80.5, 26]],
+        "img": "sources/pages/u5-seguimiento-p25-c8df61.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 36.6, 100, 41.2]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-c1a83e.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-60",
+      "topic": "PAR_U5",
+      "type": "tf",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 5",
+      "text": "La ley de utilización muestra la proporción en el que un dispositivo es utilizado (Ui) durante todo el período de observación del sistema.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Verdadero, según la revisión del campus. La ley de la utilización expresa la utilización de un dispositivo en función del número de terminaciones en el período de observación y, con flujo equilibrado, como Ui = λi × Si (apunte U5, pág. 24).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[0, 9.6, 100, 31.4]],
+        "img": "sources/pages/u5-seguimiento-p24-197c86.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 41.2, 100, 45.0]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-6516e3.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-61",
+      "topic": "PAR_U5",
+      "type": "tf",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 5",
+      "text": "La evaluación de desempeño debe detectar las causas de un desempeño poco satisfactorio. Por ejemplo, debería detectar que la información que el evaluado tiene sobre la descripción de su puesto es incompleta, o no ha sido correctamente transmitida.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Verdadero, según la revisión del campus. Al comparar el desempeño con el estándar, si hay desvíos significativos que se repiten hay que ver si el estándar es aceptable e indagar en las causas (apunte U5, pág. 9).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 69.7, 100, 76.2]],
+        "img": "sources/pages/u5-seguimiento-p9-c32757.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 75.9, 100, 79.6]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-8bdbeb.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-62",
+      "topic": "PAR_U5",
+      "type": "tf",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 5",
+      "text": "Un estándar de desempeño, es un valor o patrón que representa el nivel de actividad normal.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Verdadero, según la revisión del campus. Un estándar es una norma o patrón que define el rendimiento normal de trabajo: un valor de referencia que indica cómo se debería trabajar (apunte U5, pág. 7).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 87.7, 100, 96.0]],
+        "img": "sources/pages/u5-seguimiento-p7-6b5e33.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 79.6, 100, 83.4]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-f657fe.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-63",
+      "topic": "PAR_U6",
+      "type": "match",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 6",
+      "text": "Relacione correctamente",
+      "stems": [
+        "Para esta amenaza, la vulnerabilidad puede estar en el personal de la organización, el tamaño de la red y el valor de datos transmitidos.",
+        "Es la amenaza más humana y deliberada que existe.",
+        "Niveles reducidos de energía, inadecuada distribución de los equipos, son algunas vulnerabilidades para"
+      ],
+      "choices": [
+        "Hacking",
+        "Ingenieria social",
+        "Amenazas accidentales físicas",
+        "Amenazas accidentales lógicas"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Clave de la revisión del campus («Amenazas accidentales lógicas» está marcada como incorrecta en la primera). El apunte clasifica las amenazas en físicas o lógicas y en accidentales o deliberadas, y da como factores de vulnerabilidad de un área el personal de la organización y el tamaño de la red, entre otros (apunte U6, pág. 4).",
+      "source": {
+        "file": "sources/u6-seguridad-y-auditoria.pdf",
+        "page": 4,
+        "confidence": "medium"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 1).pdf",
+        "page": 7,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 1 del campus)",
+        "crop": [[0, 0, 100, 100]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 1)-p7-b7af57.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-64",
+      "topic": "PAR_U6",
+      "type": "multi",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 6",
+      "text": "Las políticas de seguridad:",
+      "opts": [
+        "Como base para determinar los activos de la información a proteger",
+        "Como guía para implementar reglas de seguridad.",
+        "Sirven como medidas preventivas de seguridad, si son debidamente difundidas.",
+        "Para diseñar la tercera linea de defensa"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "fb": "Según la revisión del campus: sirven como medidas preventivas si se difunden, y como guía para implementar reglas de seguridad. El apunte dice que las políticas son medidas preventivas de la primera línea de defensa, y que sus requisitos generales se refinan en indicaciones precisas para cada parte del sistema, «como reglas» (apunte U6, pág. 15).",
+      "source": {
+        "file": "sources/u6-seguridad-y-auditoria.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 30.5, 100, 58.8]],
+        "img": "sources/pages/u6-seguridad-y-auditoria-p15-5a09ed.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 28.0, 100, 32.9]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-e8d034.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-65",
+      "topic": "PAR_U6",
+      "type": "match",
+      "catedra": false,
+      "tip": "3ra evaluación parcial 2021 · Unidad 6",
+      "text": "Completá los espacios: «Los [1] son las medidas adoptadas para asegurarse que la integridad de los datos y [2] no tengan inconvenientes. Los [3] limitan [4] de los componentes de un sistema informático.»",
+      "stems": [
+        "[1]",
+        "[2]",
+        "[3]",
+        "[4]"
+      ],
+      "choices": [
+        "controles lógicos",
+        "las operaciones",
+        "controles físicos",
+        "la utilización",
+        "el acceso"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "En la evaluación había que completar los espacios eligiendo de una lista; los armamos como relacionar, con las palabras que muestra la revisión («el acceso» es la que eligió quien respondió, marcada como incorrecta). Clave de la revisión del campus: los controles lógicos aseguran que el desarrollo, la integridad de los datos y las operaciones continúen sin tropiezos, y los controles físicos filtran el acceso físico a la utilización de los elementos del SI (apunte U6, págs. 10-11).",
+      "source": {
+        "file": "sources/u6-seguridad-y-auditoria.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 89.0, 100, 96.0], [0, 1.6, 100, 9.8, 11]],
+        "img": "sources/pages/u6-seguridad-y-auditoria-p10-f860cd.webp"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 3).pdf",
+        "page": 1,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 3 del campus)",
+        "crop": [[0, 22.4, 100, 27.9]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 3)-p1-36fe87.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-66",
+      "topic": "PAR_U6",
+      "type": "match",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 6",
+      "text": "Relacione correctamente:",
+      "stems": [
+        "El control correctivo tiene por objetivo:",
+        "El control detectivo tiene por objetivo:",
+        "El control preventivo tiene por objetivo:"
+      ],
+      "choices": [
+        "Restablecer la normalidad del funcionamiento cuando se han producido incidencias y/o fallas.",
+        "Tratar de hacer conocer el hecho, cuando han fallado los controles preventivos.",
+        "Tratar de evitar un hecho."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Clave de la revisión del campus (la 4ta evaluación tiene la misma pregunta). Según Lardent, los controles preventivos evitan que se produzca un error, omisión o acto malicioso; los correctivos los corrigen y buscan restablecer el funcionamiento, y los de detección informan que se produjeron cuando fallan los preventivos (apunte U6, pág. 23).",
+      "source": {
+        "file": "sources/u6-seguridad-y-auditoria.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 68.2, 100, 97.2]],
+        "img": "sources/pages/u6-seguridad-y-auditoria-p23-b2791b.webp"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 3).pdf",
+        "page": 1,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 3 del campus)",
+        "crop": [[0, 33.4, 100, 39.9]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 3)-p1-921ad6.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-67",
+      "topic": "PAR_U6",
+      "type": "multi",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 6",
+      "text": "Si usted fuera experto en seguridad informática, ¿cuáles son las tareas en la que exigiría el principio de separación de funciones?",
+      "opts": [
+        "Administración de archivos.",
+        "Análisis de requerimientos.",
+        "Operación del sistema.",
+        "Configuración de controles informáticos.",
+        "Desarrollo de aplicaciones.",
+        "Instalación de infraestructura de red."
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "fb": "Según la revisión del campus: administración de archivos, operación del sistema, configuración de controles informáticos y desarrollo de aplicaciones. El apunte nombra la división de responsabilidades entre los ejemplos de controles (apunte U6, pág. 11), pero no dice en qué tareas se exige.",
+      "source": {
+        "file": "sources/u6-seguridad-y-auditoria.pdf",
+        "page": 11,
+        "confidence": "medium"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 3).pdf",
+        "page": 1,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 3 del campus)",
+        "crop": [[0, 39.9, 100, 46.0]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 3)-p1-ac6950.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-68",
+      "topic": "PAR_U6",
+      "type": "match",
+      "catedra": true,
+      "tip": "3ra evaluación parcial 2021 · Unidad 6",
+      "text": "¿A los fines de qué tipo de prueba corresponde cada una de estas situaciones?",
+      "stems": [
+        "Los datos de calificaciones 300 alumnos se procesan en un sistema diferente al SYSACAD pero de procedimiento homologado por Rectorado, para obtener mediante ambos los promedios generales.",
+        "El auditor verifica los tipos de permisos que tienen los empleados de control de clandestinos respecto de la planilla de pedido de alta de usuarios firmada por el Gerente de la Sucursal.",
+        "El auditor principal entrevista al programador sobre las funciones que cumple actualmente.",
+        "Se procesa un lote de muestra de 15 empleados de igual categoría y antigüedad similar para obtener la liquidación de haberes del mes de septiembre."
+      ],
+      "choices": [
+        "SUSTANTIVA",
+        "DE CUMPLIMIENTO",
+        "DE INTEGRIDAD",
+        "DE CONTROL INTERNO",
+        "SUMATIVA"
+      ],
+      "correct": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "fb": "Clave de la revisión del campus (la revisión 2 del mismo parcial y la 4ta evaluación tienen la misma pregunta). Según Lardent, la prueba de cumplimiento determina si los controles se ajustan a las políticas y procedimientos de la organización; su insumo es la documentación, e incluye las pruebas de observación e indagación, como indagar al personal. Las pruebas sustantivas verifican si los controles protegen a la organización de actividades fraudulentas probando los sistemas, por ejemplo con procesamiento en paralelo (apunte U6, pág. 30).",
+      "source": {
+        "file": "sources/u6-seguridad-y-auditoria.pdf",
+        "page": 30,
+        "confidence": "high",
+        "crop": [[0, 22.8, 100, 66.6]],
+        "img": "sources/pages/u6-seguridad-y-auditoria-p30-1defeb.webp"
+      },
+      "origin": {
+        "file": "sources/2021 - 3ra Evaluacion Parcial (revision 1).pdf",
+        "page": 8,
+        "label": "3ra evaluación parcial, 3 nov 2021 (revisión 1 del campus)",
+        "crop": [[0, 0, 100, 100], [0, 0, 100, 11.7, 9]],
+        "img": "sources/pages/2021 - 3ra Evaluacion Parcial (revision 1)-p8-fe64f7.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-69",
+      "topic": "PAR_U6",
+      "type": "tf",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 6",
+      "text": "Por el principio de independencia de criterio, el responsable del área de Sistemas de una organización debe ser quien dirija todas las Auditorias Informáticas que se realicen en esa organización.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Falso, según la revisión del campus. El principio de independencia asegura que el auditor sea objetivo: no puede auditar nada que lo vincule con lo que está auditando. En la auditoría interna se garantiza con la estructura organizativa, y el auditor no debe estar involucrado en el área de desarrollo (apunte U6, pág. 31).",
+      "source": {
+        "file": "sources/u6-seguridad-y-auditoria.pdf",
+        "page": 31,
+        "confidence": "high",
+        "crop": [[0, 2.7, 100, 11.3]],
+        "img": "sources/pages/u6-seguridad-y-auditoria-p31-f11713.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 45.0, 100, 48.7]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-ab460f.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-70",
+      "topic": "PAR_U6",
+      "type": "match",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 6",
+      "text": "Respecto del riesgo de la auditoria desde el punto de vista de la tarea del auditor debe entenderse como la posibilidad de que el auditor de SI/TI pueda no detectar un error que ha ocurrido. Así, los riesgos pueden tipificarse como:",
+      "stems": [
+        "Es el riesgo de que un error material debido a una deficiente planificación y/o ejecución de la auditoria, sea tanto en la evaluación y categorización de los riesgos, como en la selección y/o aplicación de los procedimientos de prueba inadecuado. Es del ámbito y tarea exclusiva del auditor.",
+        "Es el riesgo de que un error material no pueda ser evitado o detectado fallas o irregularidades en forma oportuna por deficiencias en el sistema de control interno Está fuera de poder ser controlado por el auditor como para poder eliminarlo, pero sus recomendaciones deben contribuir a reducirlo.",
+        "Es aquel riesgo que se produzca un error material debido a la propia actividad del ente o del sistema de información o sus tecnologías, su naturaleza, estructura, actividad, magnitud, etc. Está fuera de poder ser controlado por el auditor como para poder eliminarlo."
+      ],
+      "choices": [
+        "Riesgo de detección",
+        "Riesgo de control",
+        "Riesgo inherente"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Clave de la revisión del campus. El riesgo inherente sale de la propia naturaleza de la actividad, y el de control, de deficiencias en el sistema de control interno: los dos están fuera del control del auditor, aunque sus recomendaciones ayudan a reducir el de control. El de detección es el que se corre cuando el auditor parte de un procedimiento de prueba inadecuado (apunte U6, pág. 28).",
+      "source": {
+        "file": "sources/u6-seguridad-y-auditoria.pdf",
+        "page": 28,
+        "confidence": "high",
+        "crop": [[0, 38.3, 100, 76.5]],
+        "img": "sources/pages/u6-seguridad-y-auditoria-p28-d31a3b.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 54.6, 100, 63.9]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-636598.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-71",
+      "topic": "PAR_U6",
+      "type": "tf",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 6",
+      "text": "Un reporte de auditoria nunca debe contener la opinión del Auditor.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Falso, según la revisión del campus, que agrega: «SIEMPRE!!!. La no emisión de la opinión se da en casos excepcionales y muy poco comunes. Ver tipos de informes en Lardent». La opinión del auditor es parte de la estructura básica del informe (apunte U6, pág. 32), y el informe sin opinión se emite solo cuando el alcance de la auditoría es limitado o se piensa en una posible disolución de la organización (pág. 33).",
+      "source": {
+        "file": "sources/u6-seguridad-y-auditoria.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[0, 90.1, 100, 100], [0, 38.5, 100, 45.0, 33]],
+        "img": "sources/pages/u6-seguridad-y-auditoria-p32-a3c18d.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 71.5, 100, 75.9]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-4a0d2c.webp"
+      }
+    },
+    {
+      "id": "asi-p2-parcial-72",
+      "topic": "PAR_U6",
+      "type": "multi",
+      "catedra": true,
+      "tip": "4ta evaluación (cuestionario virtual A) · Unidad 6",
+      "text": "Dentro de los propósitos de la Auditoría de sistemas instalados, están los siguientes:",
+      "opts": [
+        "Evaluar los controles incorporados a las aplicaciones para identificar sus fortalezas y, en el caso, sus debilidades; definir, en consecuencia, los objetivos de control.",
+        "Verificar que se mantenga un control eficaz en los niveles de autorización de datos y de procedimientos.",
+        "Verificar que se haya efectuado la evaluación de factibilidad, y que la misma sea consistente y completa.",
+        "Asegurar que se sigan los pasos definidos en la metodología de desarrollo aplicada",
+        "Analizar el nivel de formación del personal y evaluar si por medio del mismo se alcanzan los estándares diseñados.",
+        "Evaluar el grado de capacitación del personal para aplicar el plan de contingencias.",
+        "Analizar la eficiencia y eficacia de las operaciones que componen la aplicación, comparándolas con estándares de programación y considerando a la tecnología y procedimientos utilizados."
+      ],
+      "correct": [
+        0,
+        6
+      ],
+      "fb": "Según la revisión del campus: evaluar los controles incorporados a las aplicaciones y analizar la eficiencia y eficacia de sus operaciones. Las dos figuran entre las funciones del auditor en la auditoría de sistemas de aplicación instalados (apunte U6, pág. 36).",
+      "source": {
+        "file": "sources/u6-seguridad-y-auditoria.pdf",
+        "page": 36,
+        "confidence": "high",
+        "crop": [[0, 31.9, 100, 61.9]],
+        "img": "sources/pages/u6-seguridad-y-auditoria-p36-e11693.webp"
+      },
+      "origin": {
+        "file": "sources/4ta Evaluacion - Cuestionario virtual A (revision).pdf",
+        "page": 1,
+        "label": "4ta evaluación, cuestionario virtual A (revisión del campus)",
+        "crop": [[0, 83.4, 100, 91.8]],
+        "img": "sources/pages/4ta Evaluacion - Cuestionario virtual A (revision)-p1-b80606.webp"
       }
     }
   ]
