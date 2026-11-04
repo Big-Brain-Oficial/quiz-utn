@@ -193,7 +193,8 @@ correctas)`; `match`, pares correctos / total de pares.
   "img": "sources/pages/x-p12-abc123.webp" }
 ```
 
-- `page` es la página física del PDF (empieza en 1). «Ver en la teoría» abre `x.pdf#page=12`.
+- `page` es la página física del PDF (empieza en 1). El título de la imagen («En la teoría: x.pdf, pág.
+  12») abre `x.pdf#page=12`; sin imagen, lo hace el enlace «Ver en la teoría». Lo mismo con `origin`.
 - `confidence`: `high` (la respuesta figura en esa página), `medium` (trata el tema pero no da la
   respuesta completa) o `low`; con `medium` y `low` se muestra una aclaración. Solo las `high` llevan
   imagen.
