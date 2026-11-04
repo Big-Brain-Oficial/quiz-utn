@@ -236,6 +236,9 @@ y oscuro y en ancho de celular.
   parcial. Si cambiás el formato de lo guardado, el progreso viejo tiene que seguir cargando.
 - En la modalidad de preguntas abiertas, el desarrollo se guarda mientras se escribe en `writtenAnswers`,
   dentro de la misma clave. «Borrar mis respuestas» también lo borra.
+- La pregunta que se está viendo se guarda por id en `current`, en la misma clave: al recargar se abre esa
+  o, si ya no está en la vista (por ejemplo, se respondió con «sin responder»), la siguiente que sí está.
+  Cambiar un filtro vuelve a la primera.
 - El tema claro/oscuro se guarda en `quiz-theme` (`light` o `dark`). Cada `index.html` lo aplica con un
   script corto en el `<head>`, antes de cargar el CSS, para que la página no aparezca primero con el
   otro tema: si agregás una página, copiá ese script.
