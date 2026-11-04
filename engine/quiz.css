@@ -302,3 +302,10 @@ h1[tabindex="-1"]:focus{outline:none}
   ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}
 }
 @media (max-width:480px){h1{font-size:1.8rem}.card{padding:15px 14px}.qtext{font-size:1.05rem}}
+
+/* One-time notice on the old domain (quizzis-utn.vercel.app) pointing to the new one */
+.moved{max-width:min(440px,calc(100vw - 32px));padding:20px;border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.moved::backdrop{background:rgba(0,0,0,.45)}
+.moved h2{margin:0 0 10px;font-size:1.2rem}
+.moved p{margin:0 0 10px;color:var(--muted)}
+.moved p b{color:var(--ink)}

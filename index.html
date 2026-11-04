@@ -23,12 +23,13 @@
   <ul class="subjects" id="subjects" aria-live="polite"><li class="card empty-state">Cargando materias…</li></ul>
 </div>
 <script type="module">
-import { esc, topActions, initTheme, backToTop } from "./engine/quiz.js";
+import { esc, topActions, initTheme, backToTop, movedNotice } from "./engine/quiz.js";
 import { loadSubject, isReady, plural } from "./engine/subject.js";
 
 document.getElementById("topbar").innerHTML = topActions();
 initTheme();
 backToTop();
+movedNotice();
 
 const list = document.getElementById("subjects");
 

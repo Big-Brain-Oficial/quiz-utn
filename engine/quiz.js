@@ -120,6 +120,57 @@ export function backToTop() {
   });
 }
 
+// The site moved from quizzis-utn.vercel.app to quiz-utn.vercel.app, and localStorage is per domain. On the old
+// domain a notice, shown only once, offers to open the same page on the new one carrying the quiz-* keys in the
+// fragment (#progreso=<base64url of the deflated JSON>); on the new one, the keys it doesn't have yet are saved.
+// Added once per page by the landing, initSubject and initQuiz (which awaits it before reading the progress).
+// Can go once the old domain redirects to the new one.
+const OLD_HOST = "quizzis-utn.vercel.app";
+const NEW_ORIGIN = "https://quiz-utn.vercel.app";
+const MOVED_KEY = "quiz-moved-notice";
+export async function movedNotice() {
+  if (location.hostname === OLD_HOST) return showMovedNotice();
+  const m = location.hash.match(/^#progreso=([\w-]+)$/);
+  if (!m) return;
+  history.replaceState(null, "", location.pathname + location.search);
+  try {
+    const json = await pipeBytes(fromB64(m[1]), new DecompressionStream("deflate-raw"));
+    for (const [k, v] of Object.entries(JSON.parse(new TextDecoder().decode(json)))) {
+      if (!k.startsWith("quiz-") || typeof v !== "string" || localStorage.getItem(k) !== null) continue;
+      localStorage.setItem(k, v);
+      if (k === THEME_KEY) setTheme(v);
+    }
+  } catch (e) { /* broken link, old browser or storage unavailable: the page starts without that progress */ }
+}
+
+function showMovedNotice() {
+  let keys;
+  try {
+    if (localStorage.getItem(MOVED_KEY)) return;
+    localStorage.setItem(MOVED_KEY, "1");
+    keys = Object.keys(localStorage).filter((k) => k.startsWith("quiz-") && k !== MOVED_KEY && k !== THEME_KEY);
+  } catch (e) { return; }
+  const dlg = document.createElement("dialog");
+  dlg.className = "moved";
+  dlg.innerHTML = `<h2>Quiz UTN cambió de dirección</h2>
+    <p>Ahora está en <b>quiz-utn.vercel.app</b>. Guardá la dirección nueva en tus marcadores: esta va a dejar de usarse.</p>
+    ${keys.length ? "<p>Tus respuestas se guardan en el navegador separadas por dirección, así que no aparecen solas en la nueva. Con el botón te las llevás.</p>" : ""}
+    <div class="actions"><button class="btn primary" type="button" data-go>Ir a la dirección nueva${keys.length ? " con mi progreso" : ""}</button>
+    <button class="btn" type="button" data-stay>Seguir acá</button></div>`;
+  document.body.append(dlg);
+  dlg.addEventListener("close", () => dlg.remove());
+  dlg.querySelector("[data-stay]").addEventListener("click", () => dlg.close());
+  dlg.querySelector("[data-go]").addEventListener("click", async () => {
+    let hash = "";
+    try {
+      const items = Object.fromEntries([...keys, THEME_KEY].map((k) => [k, localStorage.getItem(k)]).filter(([, v]) => v !== null));
+      if (keys.length) hash = `#progreso=${toB64(await pipeBytes(new TextEncoder().encode(JSON.stringify(items)), new CompressionStream("deflate-raw")))}`;
+    } catch (e) { /* old browser: go without the progress */ }
+    location.assign(NEW_ORIGIN + location.pathname + location.search + hash);
+  });
+  dlg.showModal();
+}
+
 // breadcrumb from an exam page (subjects/<slug>/<exam>/) back to its subject and to the landing
 function crumbs(subject) {
   return `<nav class="crumbs" aria-label="Ubicación"><a href="../../../">Materias</a><span aria-hidden="true">›</span><a href="../">${esc(subject)}</a></nav>`;
@@ -263,6 +314,7 @@ function unpackProgress(body, questions, isOpen) {
 export async function initQuiz({ slug, exam, legacyKey, root = document.getElementById("app") }) {
   backToTop();
   initTheme();
+  await movedNotice();
   const dataUrl = new URL("questions.json", document.baseURI);
   let DATA;
   try {
