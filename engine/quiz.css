@@ -5,7 +5,7 @@
   --accent-light:#2F6FD6; --accent-dark:#5B8FE6;
   --accent:var(--accent-light); --accent-ink:#FFFFFF;
   --ok:#1E7D4F; --ok-bg:#E3F2EA; --bad:#B3261E; --bad-bg:#FBE6E4; --part:#A8660B; --part-bg:#FBEFD9;
-  --note-bg:#FFF6DB; --note-line:#E0B84A; --stripe:#F7F7F4;
+  --note-bg:#FFF6DB; --note-line:#E0B84A; --stripe:#F7F7F4; --flag:#8E3BB5;
   color-scheme:light dark;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
@@ -15,7 +15,7 @@
     --bg:#12181D; --surface:#1A2229; --ink:#E6ECF0; --muted:#9AA8B3; --line:#2C3740;
     --accent:var(--accent-dark); --accent-ink:#0E1419;
     --ok:#5CC48D; --ok-bg:#16342A; --bad:#F08A80; --bad-bg:#3A1D1B; --part:#E6B25C; --part-bg:#3A2D14;
-    --note-bg:#33291A; --note-line:#8D6E2B; --stripe:#D9DAD6;
+    --note-bg:#33291A; --note-line:#8D6E2B; --stripe:#D9DAD6; --flag:#CF9BF0;
   }
 }
 :root[data-theme="light"]{color-scheme:light}
@@ -24,7 +24,7 @@
   --bg:#12181D; --surface:#1A2229; --ink:#E6ECF0; --muted:#9AA8B3; --line:#2C3740;
   --accent:var(--accent-dark); --accent-ink:#0E1419;
   --ok:#5CC48D; --ok-bg:#16342A; --bad:#F08A80; --bad-bg:#3A1D1B; --part:#E6B25C; --part-bg:#3A2D14;
-  --note-bg:#33291A; --note-line:#8D6E2B; --stripe:#D9DAD6;
+  --note-bg:#33291A; --note-line:#8D6E2B; --stripe:#D9DAD6; --flag:#CF9BF0;
 }
 *,*::before,*::after{box-sizing:border-box}
 /* 56px: room for the "Volver arriba" pill, so a card scrolled into view isn't hidden under it */
@@ -151,6 +151,12 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:8px;
 .qnum{font:600 1.25rem/1 "Barlow Condensed","Arial Narrow",sans-serif;color:var(--ink)}
 .badge{font-size:.76rem;font-weight:700;padding:2px 9px;border-radius:999px;background:var(--bg);border:1px solid var(--line);color:var(--muted)}
 .badge.info{background:color-mix(in srgb,var(--accent) 12%,transparent);border-color:transparent;color:var(--accent)}
+/* "Marcar para repasar": at the end of the meta row; filled flag and --flag color while marked */
+.flag-btn{display:inline-flex;align-items:center;gap:6px;margin-left:auto;min-height:32px;padding:4px 11px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--muted);font-size:.8rem;font-weight:700;cursor:pointer;transition:border-color .15s,color .15s}
+.flag-btn:hover{border-color:var(--flag);color:var(--flag)}
+.flag-btn svg{width:15px;height:15px;flex:none;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.flag-btn[aria-pressed="true"]{border-color:var(--flag);color:var(--flag);background:color-mix(in srgb,var(--flag) 12%,transparent)}
+.flag-btn[aria-pressed="true"] svg path{fill:currentColor}
 .tnote{flex-basis:100%;font-size:.84rem;font-style:italic}
 .qtip{flex-basis:100%;font-size:.84rem}
 .qtip::before{content:"★ ";color:var(--note-line)}
@@ -188,7 +194,7 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:8px;
 .btn{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:10px 16px;cursor:pointer;font-weight:700;min-height:44px}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 .btn:disabled{opacity:.45;cursor:not-allowed}
-.btn:focus-visible,.chip:focus-visible,.opt:focus-within,.dot:focus-visible,select:focus-visible,.linkbtn:focus-visible,a:focus-visible,.repo:focus-visible,summary:focus-visible,.subject:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 55%,transparent);outline-offset:2px}
+.btn:focus-visible,.chip:focus-visible,.opt:focus-within,.dot:focus-visible,select:focus-visible,.linkbtn:focus-visible,a:focus-visible,.repo:focus-visible,.flag-btn:focus-visible,summary:focus-visible,.subject:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 55%,transparent);outline-offset:2px}
 .unscored{color:var(--bad);font-weight:700;font-size:.93rem}
 
 .review{margin-top:16px;border-top:1px solid var(--line);padding-top:14px;animation:reveal .25s ease-out}
@@ -239,6 +245,8 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:8px;
 .dot.part{background:var(--part-bg);border-color:var(--part);color:var(--part)}
 .dot.seen{background:color-mix(in srgb,var(--accent) 12%,transparent);border-color:var(--accent);color:var(--accent)}
 .dot.cur.ok,.dot.cur.bad,.dot.cur.part,.dot.cur.seen{border-width:2px}
+.dot.flag{position:relative}
+.dot.flag::after{content:"";position:absolute;top:-5px;right:-5px;width:12px;height:12px;border-radius:50%;background:var(--flag);border:2px solid var(--bg)}
 .empty-state{text-align:center;color:var(--muted);padding:30px 10px}
 .foot{color:var(--muted);font-size:.85rem;margin-top:26px}
 .foot p{margin:0 0 8px}
