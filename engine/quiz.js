@@ -372,7 +372,8 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     // retry: ids being repeated with "Repetir las incorrectas", shown while status is "retry"
     // knownTopics: the topics the bank had when the progress was saved
     // marked: ids marked with "Marcar para repasar", shown alone with status "marked"
-    const base = { answers: {}, writtenAnswers: {}, marked: [], practice: "all", topics: topicIds.slice(), knownTopics: topicIds.slice(), section: "all", status: "all", retry: [], shuffleQ: false, shuffleO: true, mode: "one" };
+    // current: id of the question last shown, reopened after a reload
+    const base = { answers: {}, writtenAnswers: {}, marked: [], practice: "all", topics: topicIds.slice(), knownTopics: topicIds.slice(), section: "all", status: "all", retry: [], shuffleQ: false, shuffleO: true, mode: "one", current: null };
     try {
       const raw = localStorage.getItem(STORE_KEY) || (legacyKey && localStorage.getItem(legacyKey));
       if (!raw) return base;
@@ -401,6 +402,21 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   }
   function saveState() {
     try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) { /* storage unavailable: keep in memory */ }
+  }
+  function setCur(p) {
+    cur = p;
+    state.current = view.length ? DATA.questions[view[p]].id : null;
+    saveState();
+  }
+  // position to reopen after a reload: the saved question or, if it left the view (answered, with "sin
+  // responder"), the next one in bank order that is still there
+  function savedPos() {
+    const at = DATA.questions.findIndex((q) => q.id === state.current);
+    if (at < 0) return 0;
+    const p = view.indexOf(at);
+    if (p >= 0 || state.shuffleQ) return Math.max(p, 0);
+    const next = view.findIndex((i) => i > at);
+    return next >= 0 ? next : 0;
   }
 
   function orderFor(q) {
@@ -472,7 +488,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     </ul>
     <h3>Cómo se guardan tus respuestas</h3>
     <div class="storage-info">
-      <p>Se guardan en este navegador cuando las enviás, y las preguntas marcadas para repasar, al marcarlas. No hace falta cuenta, pero no pasan solas a otro navegador ni a otro dispositivo: para llevarlas, tocá <b>Pasar a otro dispositivo</b>, copiá el código y pegalo en este mismo parcial en el otro. Al cargarlo se suman a las que ya tenías ahí; si una pregunta está en los dos, queda la del código.</p>
+      <p>Se guardan en este navegador cuando las enviás, y las preguntas marcadas para repasar, al marcarlas. También se guarda en qué pregunta estás: al recargar o volver, seguís desde ahí. No hace falta cuenta, pero no pasan solas a otro navegador ni a otro dispositivo: para llevarlas, tocá <b>Pasar a otro dispositivo</b>, copiá el código y pegalo en este mismo parcial en el otro. Al cargarlo se suman a las que ya tenías ahí; si una pregunta está en los dos, queda la del código.</p>
       <table>
         <thead><tr><th scope="col">Acción</th><th scope="col">Respuestas enviadas</th><th scope="col">Marcadas sin enviar</th></tr></thead>
         <tbody>
@@ -586,7 +602,8 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     $("topicNotes").innerHTML = state.topics.filter((k) => DATA.topics[k].note)
       .map((k) => `<li>${swatch(DATA.topics[k])}<span><b>${esc(DATA.topics[k].name)}:</b> ${esc(DATA.topics[k].note)}</span></li>`).join("");
   }
-  function applyFilters() {
+  // restore: on page load, reopen the question that was showing instead of the first one
+  function applyFilters(restore) {
     let idx = DATA.questions.map((q, i) => i).filter((i) => {
       const q = DATA.questions[i];
       if (state.practice === "open" && !isOpen(q)) return false;
@@ -602,9 +619,8 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     });
     if (state.shuffleQ) idx = shuffle(idx);
     view = idx;
-    cur = 0;
     bulkMsg = "";
-    saveState();
+    setCur(restore ? savedPos() : 0);
     $("filterHint").textContent = `${view.length} de ${DATA.questions.length}`;
     if (hasOpenQuestions) {
       $("practiceMode").querySelectorAll(".seg").forEach((b) => b.setAttribute("aria-pressed", b.dataset.practice === state.practice));
@@ -949,7 +965,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     if (btn.id === "prev" || btn.id === "next") { goTo(cur + (btn.id === "next" ? 1 : -1), btn.id); return; }
     const c = cardOf(btn);
     if (!c) return;
-    cur = c.p;
+    setCur(c.p);
     if (btn.classList.contains("check")) submit(c.q);
     else if (btn.classList.contains("flag-btn")) {
       // the card stays in the view until the filters change, like an answered one in "sin responder"
@@ -1005,10 +1021,10 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   // focusId: nav button to keep focused after the re-render ("prev" / "next")
   function goTo(p, focusId) {
     if (p < 0 || p >= view.length) return;
-    if (state.mode === "all") { cur = p; renderGrid(); cardAt(cur).scrollIntoView({ block: "start" }); return; }
+    if (state.mode === "all") { setCur(p); renderGrid(); cardAt(cur).scrollIntoView({ block: "start" }); return; }
     if (p === cur) return;
     const back = p < cur;
-    cur = p;
+    setCur(p);
     withTransition(back, () => {
       render();
       scrollToCard();
@@ -1176,5 +1192,6 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   if (window.innerWidth < 600) $("filters").open = false;
 
   buildChips();
-  applyFilters();
+  applyFilters(true);
+  if (state.mode === "all" && cur) cardAt(cur).scrollIntoView({ block: "start" });
 }
