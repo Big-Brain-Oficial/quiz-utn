@@ -39,6 +39,8 @@ const GITHUB_ICON = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3
 const HELP_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></svg>';
 // a monitor and a phone, for "Pasar a otro dispositivo"
 const DEVICES_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="13" height="10" rx="1.5"/><path d="M6 18h5M8.5 14v4"/><rect x="17" y="8" width="5.5" height="12" rx="1.2"/><path d="M19.75 17h.01"/></svg>';
+// a flag, for "Marcar para repasar" (filled when the question is marked)
+const FLAG_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></svg>';
 // a box with an arrow leaving it, for the links to other sites ("links")
 const EXTERNAL_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>';
 
@@ -205,10 +207,12 @@ function shuffle(arr) {
 const fmt = (n) => n.toFixed(2).replace(".", ",");
 
 // "Pasar a otro dispositivo": the progress of one exam as a short text to paste in another browser,
-// "<slug>.<exam>.<base64url>". The bytes: a flags byte (1: the rest is deflate-raw), 3 bytes fingerprinting the
-// bank (the answers go by position, so a code only loads into the same version of the questions), then per
-// question in bank order a bit for "answered" and the answer in as few bits as its options need (open questions:
-// one more bit for "has text"), and after the bits the open answers' texts, separated by \0.
+// "<slug>.<exam>.<base64url>". The bytes: a flags byte (1: the rest is deflate-raw; 2: it carries the questions
+// marked to review), 3 bytes fingerprinting the bank (the answers go by position, so a code only loads into the
+// same version of the questions), then per question in bank order a bit for "answered" and the answer in as few
+// bits as its options need (open questions: one more bit for "has text"), with flag 2 one bit per question for
+// "marked", and after the bits the open answers' texts, separated by \0. Flag 2 is only set when something is
+// marked, so codes without marks still load in pages from before the marks.
 const BAD_CODE = "El código no es válido. Copialo de nuevo completo desde el otro dispositivo.";
 const bitsFor = (n) => Math.max(1, Math.ceil(Math.log2(n)));
 function toB64(bytes) {
@@ -227,8 +231,8 @@ function bankPrint(questions) {
   return h >>> 8;
 }
 
-// answers: id -> saved answer; written: id -> open answer text
-async function packProgress(slug, exam, questions, isOpen, answers, written) {
+// answers: id -> saved answer; written: id -> open answer text; marked: ids marked to review
+async function packProgress(slug, exam, questions, isOpen, answers, written, marked) {
   const out = [], texts = [];
   let acc = 0, n = 0;
   const put = (v, bits) => {
@@ -254,35 +258,38 @@ async function packProgress(slug, exam, questions, isOpen, answers, written) {
       else put(saved.ans[0], bitsFor(q.opts.length));
     }
   });
+  const marks = questions.some((q) => marked.includes(q.id));
+  if (marks) questions.forEach((q) => put(marked.includes(q.id) ? 1 : 0, 1));
   if (n) put(0, 8 - n);
   const text = texts.length ? new TextEncoder().encode(texts.join("\0")) : [];
-  let body = new Uint8Array([...out, ...text]), flags = 0;
+  let body = new Uint8Array([...out, ...text]), flags = marks ? 2 : 0;
   if (typeof CompressionStream === "function") {
     const z = await pipeBytes(body, new CompressionStream("deflate-raw"));
-    if (z.length < body.length) { body = z; flags = 1; }
+    if (z.length < body.length) { body = z; flags |= 1; }
   }
   const print = bankPrint(questions);
   return `${slug}.${exam}.${toB64(new Uint8Array([flags, print >> 16, (print >> 8) & 255, print & 255, ...body]))}`;
 }
 
-// { slug, exam, print, body }; throws Error with a message for the user. Whitespace is ignored: chat apps wrap long lines
+// { slug, exam, print, marks, body }; throws Error with a message for the user. Whitespace is ignored: chat apps wrap long lines
 async function readProgressCode(code) {
   const [slug, exam, data, extra] = code.replace(/\s+/g, "").split(".");
   if (extra !== undefined || !data || !/^[a-z0-9-]+$/.test(slug) || !/^[a-z0-9-]+$/.test(exam) || !/^[\w-]{6,}$/.test(data)) throw new Error(BAD_CODE);
   let bytes;
   try { bytes = fromB64(data); } catch (e) { throw new Error(BAD_CODE); }
-  if (bytes[0] > 1) throw new Error(BAD_CODE);
+  if (bytes[0] > 3) throw new Error(BAD_CODE);
   let body = bytes.subarray(4);
-  if (bytes[0] === 1) {
+  if (bytes[0] & 1) {
     if (typeof DecompressionStream !== "function") throw new Error("Este navegador no puede leer el código. Actualizalo o probá con otro.");
     try { body = await pipeBytes(body, new DecompressionStream("deflate-raw")); } catch (e) { throw new Error(BAD_CODE); }
   }
-  return { slug, exam, print: (bytes[1] << 16) | (bytes[2] << 8) | bytes[3], body };
+  return { slug, exam, print: (bytes[1] << 16) | (bytes[2] << 8) | bytes[3], marks: !!(bytes[0] & 2), body };
 }
 
-// the inverse of packProgress, for a body whose print matched: { a: id -> answer (1 for a seen info card), w: id -> text }
-function unpackProgress(body, questions, isOpen) {
-  const a = {}, w = {}, withText = [];
+// the inverse of packProgress, for a body whose print matched:
+// { a: id -> answer (1 for a seen info card), w: id -> text, m: marked ids }
+function unpackProgress(body, questions, isOpen, marks) {
+  const a = {}, w = {}, m = [], withText = [];
   let pos = 0;
   const get = (bits) => {
     let v = 0;
@@ -302,12 +309,13 @@ function unpackProgress(body, questions, isOpen) {
       else a[q.id] = [get(bitsFor(q.opts.length))];
     }
   });
+  if (marks) questions.forEach((q) => { if (get(1)) m.push(q.id); });
   if (withText.length) {
     const texts = new TextDecoder().decode(body.subarray(Math.ceil(pos / 8))).split("\0");
     if (texts.length !== withText.length) throw new Error(BAD_CODE);
     withText.forEach((id, i) => { w[id] = texts[i]; });
   }
-  return { a, w };
+  return { a, w, m };
 }
 
 // legacyKey: storage key used before the subject was split by exam; read once if the new key is empty
@@ -363,7 +371,8 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   function loadState() {
     // retry: ids being repeated with "Repetir las incorrectas", shown while status is "retry"
     // knownTopics: the topics the bank had when the progress was saved
-    const base = { answers: {}, writtenAnswers: {}, practice: "all", topics: topicIds.slice(), knownTopics: topicIds.slice(), section: "all", status: "all", retry: [], shuffleQ: false, shuffleO: true, mode: "one" };
+    // marked: ids marked with "Marcar para repasar", shown alone with status "marked"
+    const base = { answers: {}, writtenAnswers: {}, marked: [], practice: "all", topics: topicIds.slice(), knownTopics: topicIds.slice(), section: "all", status: "all", retry: [], shuffleQ: false, shuffleO: true, mode: "one" };
     try {
       const raw = localStorage.getItem(STORE_KEY) || (legacyKey && localStorage.getItem(legacyKey));
       if (!raw) return base;
@@ -386,6 +395,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       if (s.mode !== "all") s.mode = "one";
       if (!hasOpenQuestions || !["all", "quiz", "open"].includes(s.practice)) s.practice = "all";
       if (!s.writtenAnswers || typeof s.writtenAnswers !== "object" || Array.isArray(s.writtenAnswers)) s.writtenAnswers = {};
+      if (!Array.isArray(s.marked)) s.marked = [];
       return s;
     } catch (e) { return base; }
   }
@@ -443,6 +453,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       ${hasOpenQuestions ? `<li>En <b>Preguntas Abiertas</b> podés escribir tu desarrollo y tocar <b>Ver respuesta</b> para compararlo con la respuesta orientativa y sus fuentes. Tu texto se guarda mientras escribís en este navegador, incluso al recargar. No se corrige automáticamente ni suma puntaje. <b>Ocultar respuesta</b> permite seguir editándolo.</li>` : hasInfo ? `<li>Las <b>tarjetas informativas</b> (cuadros, relaciones, gráficos) no se responden: tocá <b>Ver respuesta</b> para verla.</li>` : ""}
       <li>Si marcaste varias preguntas sin enviarlas, aparece <b>Enviar todas</b> para corregirlas juntas.</li>
       <li><b>Responder de nuevo</b> borra tu respuesta a esa pregunta para volver a intentarla.</li>
+      <li><b>Marcar para repasar</b>, arriba de cada pregunta, la deja anotada para volver a verla sin acordarte del número: en <b>Mostrar</b> elegí <b>marcadas para repasar</b>. En los números de abajo, las marcadas llevan un punto violeta. Tocalo de nuevo para sacar la marca.</li>
       <li>Cuando respondés todas las preguntas que estás viendo, aparece <b>Repetir las incorrectas</b>: te deja respondiendo solo las que erraste o te salieron a medias, hasta tenerlas todas bien.</li>
     </ul>
     <h3>Puntaje</h3>
@@ -453,15 +464,15 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
         ? `tocá un botón para practicar solo eso; tocando otros los sumás o los sacás. <b>${esc(L.allTopics)}</b> vuelve a mostrar todo.`
         : `cada botón se prende o se apaga al tocarlo. <b>${esc(L.allTopics)}</b> y <b>${esc(L.noTopics)}</b> los prenden o apagan todos.`}</li>
       ${sections.length ? `<li><b>${esc(L.section)}</b>: filtra las preguntas por ${esc(L.section.toLowerCase())}.</li>` : ""}
-      <li><b>Mostrar</b>: todas, solo las que todavía no respondiste, o las incorrectas o parciales.</li>
+      <li><b>Mostrar</b>: todas, solo las que todavía no respondiste, las incorrectas o parciales, o las que marcaste para repasar.</li>
       <li><b>Mezclar preguntas</b> cambia el orden de las preguntas; <b>Mezclar opciones</b>, el de las opciones y el de las filas de las preguntas de relacionar.</li>
       <li><b>Una por vez</b> muestra una pregunta con <b>Anterior</b> y <b>Siguiente</b>; <b>Todas en una página</b> las muestra juntas, para buscarlas con Ctrl+F. Los números de abajo llevan a cada pregunta y su color indica cómo te fue.</li>
-      <li><b>Borrar mis respuestas</b> empieza de cero.</li>
-      <li><b>Pasar a otro dispositivo</b>, al lado del puntaje, genera un código con tus respuestas de este parcial para pegarlo en otro navegador o dispositivo.</li>
+      <li><b>Borrar mis respuestas</b> empieza de cero: también saca las marcas para repasar.</li>
+      <li><b>Pasar a otro dispositivo</b>, al lado del puntaje, genera un código con tus respuestas y tus preguntas marcadas de este parcial para pegarlo en otro navegador o dispositivo.</li>
     </ul>
     <h3>Cómo se guardan tus respuestas</h3>
     <div class="storage-info">
-      <p>Se guardan en este navegador cuando las enviás. No hace falta cuenta, pero no pasan solas a otro navegador ni a otro dispositivo: para llevarlas, tocá <b>Pasar a otro dispositivo</b>, copiá el código y pegalo en este mismo parcial en el otro. Al cargarlo se suman a las que ya tenías ahí; si una pregunta está en los dos, queda la del código.</p>
+      <p>Se guardan en este navegador cuando las enviás, y las preguntas marcadas para repasar, al marcarlas. No hace falta cuenta, pero no pasan solas a otro navegador ni a otro dispositivo: para llevarlas, tocá <b>Pasar a otro dispositivo</b>, copiá el código y pegalo en este mismo parcial en el otro. Al cargarlo se suman a las que ya tenías ahí; si una pregunta está en los dos, queda la del código.</p>
       <table>
         <thead><tr><th scope="col">Acción</th><th scope="col">Respuestas enviadas</th><th scope="col">Marcadas sin enviar</th></tr></thead>
         <tbody>
@@ -505,6 +516,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
             <option value="all">todas</option>
             <option value="pending">sin responder</option>
             <option value="wrong">incorrectas o parciales</option>
+            <option value="marked" id="markedOpt">marcadas para repasar</option>
             <option value="retry" id="retryOpt">las que estoy repitiendo</option>
           </select>
         </label>
@@ -522,7 +534,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     </div>
     <div class="bar"><i id="barFill"></i></div>
     <div class="sync" id="sync" hidden>
-      <p>Copiá el código en este dispositivo y pegalo en <b>este mismo parcial</b> en el otro. Lleva tus respuestas enviadas${hasOpenQuestions ? " y lo que escribiste en las preguntas abiertas" : ""}; no hace falta cuenta.</p>
+      <p>Copiá el código en este dispositivo y pegalo en <b>este mismo parcial</b> en el otro. Lleva tus respuestas enviadas${hasOpenQuestions ? ", lo que escribiste en las preguntas abiertas" : ""} y las preguntas marcadas para repasar; no hace falta cuenta.</p>
       <div class="actions"><button class="btn" type="button" id="syncMake">Copiar el código de mi progreso</button></div>
       <textarea id="syncOut" rows="3" readonly hidden aria-label="Código de tu progreso"></textarea>
       <label for="syncIn">¿Venís de otro dispositivo? Pegá acá su código:</label>
@@ -582,6 +594,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       if (!state.topics.includes(String(q.topic))) return false;
       if (state.section !== "all" && q.section !== state.section) return false;
       if (state.status === "retry") return state.retry.includes(q.id);
+      if (state.status === "marked") return state.marked.includes(q.id);
       const st = statusOf(q);
       if (state.status === "pending") return st === "pending";
       if (state.status === "wrong") return st === "bad" || st === "part";
@@ -627,11 +640,13 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       $("grid").innerHTML = view.map((qi, p) => `<button type="button" class="dot" data-p="${p}" aria-label="Pregunta ${p + 1}">${p + 1}</button>`).join("");
     }
     [...$("grid").children].forEach((d, p) => {
-      const st = statusOf(DATA.questions[view[p]]);
-      const cls = ["dot", p === cur ? "cur" : "", st !== "pending" ? st : ""].filter(Boolean).join(" ");
+      const q = DATA.questions[view[p]], st = statusOf(q), flag = state.marked.includes(q.id);
+      const cls = ["dot", p === cur ? "cur" : "", st !== "pending" ? st : "", flag ? "flag" : ""].filter(Boolean).join(" ");
       if (d.className !== cls) d.className = cls;
+      d.setAttribute("aria-label", `Pregunta ${p + 1}${flag ? ", marcada para repasar" : ""}`);
       d.toggleAttribute("aria-current", p === cur);
     });
+    $("markedOpt").textContent = `marcadas para repasar (${state.marked.length})`;
   }
   $("grid").addEventListener("click", (e) => {
     const d = e.target.closest(".dot");
@@ -717,6 +732,12 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     $("viewMode").querySelectorAll(".seg").forEach((b) => b.setAttribute("aria-pressed", b.dataset.mode === state.mode));
     const main = $("main");
     main.dataset.mode = state.mode;
+    if (!view.length && state.status === "marked") {
+      main.innerHTML = `<div class="card empty-state">${state.marked.length
+        ? `Ninguna de las preguntas que marcaste para repasar coincide con los filtros. Cambiá la selección en “${esc(L.topics)}”${sections.length ? ` o en “${esc(L.section)}”` : ""}.`
+        : "Todavía no marcaste preguntas para repasar. Tocá <b>Marcar para repasar</b> en una pregunta para encontrarla acá después."}</div>`;
+      return;
+    }
     if (!view.length) {
       main.innerHTML = `<div class="card empty-state">No hay preguntas con estos filtros. ${pick ? `Cambiá la selección en “${esc(L.topics)}”` : "Activá algún tema"} o cambiá “Mostrar”.</div>`;
       return;
@@ -757,6 +778,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     const saved = state.answers[q.id];
     const locked = !!saved;
     const topic = topicOf(q);
+    const flag = state.marked.includes(q.id);
 
     let body = "", actions = "";
     if (q.type === "info") {
@@ -813,6 +835,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
           ${q.section ? `<span class="badge">${esc(q.section)}</span>` : ""}
           ${q.type === "multi" ? `<span class="badge">Selección múltiple</span>` : ""}
           ${q.type === "info" ? `<span class="badge info">${isOpen(q) ? "Pregunta abierta" : "Informativa"}</span>` : ""}
+          <button type="button" class="flag-btn" aria-pressed="${flag}">${FLAG_ICON}${flag ? "Marcada para repasar" : "Marcar para repasar"}</button>
           ${topic && topic.note ? `<span class="tnote">${esc(topic.note)}</span>` : ""}
           ${q.tip ? `<span class="qtip">${esc(q.tip)}</span>` : ""}
         </div>
@@ -919,7 +942,13 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     if (!c) return;
     cur = c.p;
     if (btn.classList.contains("check")) submit(c.q);
-    else if (btn.classList.contains("retry")) {
+    else if (btn.classList.contains("flag-btn")) {
+      // the card stays in the view until the filters change, like an answered one in "sin responder"
+      state.marked = state.marked.includes(c.q.id) ? state.marked.filter((id) => id !== c.q.id) : [...state.marked, c.q.id];
+      saveState();
+      update(c.p);
+      focusIn(c.p, ".flag-btn");
+    } else if (btn.classList.contains("retry")) {
       delete state.answers[c.q.id];
       delete drafts[c.q.id];
       delete optOrder[c.q.id];
@@ -1035,9 +1064,9 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     applyFilters();
   }
   $("reset").addEventListener("click", () => {
-    if (!confirm("¿Borrar todas tus respuestas guardadas?")) return;
-    state.answers = {}; state.writtenAnswers = {}; drafts = {}; optOrder = {}; rowOrder = {};
-    setStatus(state.status === "retry" ? "all" : state.status);
+    if (!confirm("¿Borrar todas tus respuestas guardadas y las preguntas marcadas para repasar?")) return;
+    state.answers = {}; state.writtenAnswers = {}; state.marked = []; drafts = {}; optOrder = {}; rowOrder = {};
+    setStatus(state.status === "retry" || state.status === "marked" ? "all" : state.status);
   });
 
   // ---------- passing progress to another device ----------
@@ -1059,11 +1088,11 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   });
   $("syncMake").addEventListener("click", async () => {
     const out = $("syncOut");
-    if (!DATA.questions.some((q) => state.answers[q.id] || (isOpen(q) && state.writtenAnswers[q.id]))) {
+    if (!DATA.questions.some((q) => state.answers[q.id] || (isOpen(q) && state.writtenAnswers[q.id]) || state.marked.includes(q.id))) {
       out.hidden = true;
-      return syncMsg("Todavía no tenés respuestas guardadas en este parcial.", false);
+      return syncMsg("Todavía no tenés respuestas guardadas ni preguntas marcadas en este parcial.", false);
     }
-    out.value = await packProgress(slug, exam, DATA.questions, isOpen, state.answers, state.writtenAnswers);
+    out.value = await packProgress(slug, exam, DATA.questions, isOpen, state.answers, state.writtenAnswers, state.marked);
     out.hidden = false;
     let copied = false;
     try { await navigator.clipboard.writeText(out.value); copied = true; } catch (e) { /* no clipboard access: copied by hand */ }
@@ -1082,9 +1111,9 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     if (got.print !== bankPrint(DATA.questions)) {
       return syncMsg("Este código se generó con otra versión de las preguntas de este parcial. Recargá la página en los dos dispositivos y generá el código de nuevo.", false);
     }
-    try { data = unpackProgress(got.body, DATA.questions, isOpen); } catch (e) { return syncMsg(esc(e.message), false); }
+    try { data = unpackProgress(got.body, DATA.questions, isOpen, got.marks); } catch (e) { return syncMsg(esc(e.message), false); }
     let n = 0, w = 0;
-    const { a: answers, w: written } = data;
+    const { a: answers, w: written, m: marked } = data;
     Object.entries(answers).forEach(([id, ans]) => {
       const q = byId.get(id);
       if (!q) return;
@@ -1100,11 +1129,16 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       state.writtenAnswers[id] = text;
       w++;
     });
-    if (!n && !w) return syncMsg("El código no trae respuestas de preguntas que sigan en este parcial.", false);
+    // marks are added to the ones already here
+    const m = marked.length;
+    state.marked = [...new Set([...state.marked, ...marked])];
+    if (!n && !w && !m) return syncMsg("El código no trae respuestas de preguntas que sigan en este parcial.", false);
     $("syncIn").value = "";
     $("syncLoad").disabled = true;
     applyFilters();
-    syncMsg(`Listo: se cargaron ${plural(n, "respuesta", "respuestas")}${hasOpenQuestions ? ` y ${plural(w, "desarrollo", "desarrollos")}` : ""}.
+    const loaded = [plural(n, "respuesta", "respuestas"), ...(hasOpenQuestions ? [plural(w, "desarrollo", "desarrollos")] : []),
+      plural(m, "pregunta marcada para repasar", "preguntas marcadas para repasar")];
+    syncMsg(`Listo: se cargaron ${loaded.slice(0, -1).join(", ")} y ${loaded[loaded.length - 1]}.
       Las que ya tenías en este navegador y no venían en el código se mantienen.`, true);
   });
 

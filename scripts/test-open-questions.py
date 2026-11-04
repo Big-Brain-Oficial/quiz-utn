@@ -145,9 +145,26 @@ def run(channel):
             page.locator('#main .check').click()
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
 
-            # Progress code: carries this exam's sent answers and written answers to another browser.
+            # Marks to review: saved at once, shown alone with "Mostrar", kept on reload and on the dot.
             page.set_viewport_size({'width': 1280, 'height': 800})
             page.locator('#filters').evaluate('(el) => el.open = true')
+            flag = page.locator('#main .flag-btn')
+            expect(flag).to_have_attribute('aria-pressed', 'false')
+            flag.click()
+            expect(flag).to_have_attribute('aria-pressed', 'true')
+            expect(flag).to_be_focused()
+            expect(page.locator('#grid .dot.flag')).to_have_count(1)
+            page.reload()
+            expect(page.locator('#main .flag-btn')).to_have_attribute('aria-pressed', 'true')
+            saved = page.evaluate('(key) => JSON.parse(localStorage.getItem(key))', KEY)
+            assert saved['marked'] == [OPEN[0]['id']], saved['marked']
+            page.locator('#filters').evaluate('(el) => el.open = true')
+            page.locator('#statusFilter').select_option('marked')
+            expect(page.locator('#grid .dot')).to_have_count(1)
+            expect(page.locator('#statusFilter option[value="marked"]')).to_have_text('marcadas para repasar (1)')
+            page.locator('#statusFilter').select_option('all')
+
+            # Progress code: carries this exam's sent answers, written answers and marks to another browser.
             page.locator('#syncBtn').click()
             expect(page.locator('#sync')).to_be_visible()
             page.locator('#syncMake').click()
@@ -175,6 +192,7 @@ def run(channel):
             loaded = page2.evaluate('(key) => JSON.parse(localStorage.getItem(key))', KEY)
             assert loaded['answers'] == saved['answers'], (loaded['answers'], saved['answers'])
             assert loaded['writtenAnswers'] == saved['writtenAnswers']
+            assert loaded['marked'] == saved['marked']
             other.close()
             page.set_viewport_size({'width': 360, 'height': 800})
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
@@ -183,7 +201,8 @@ def run(channel):
             page.locator('#reset').click()
             expect(page.locator('#main textarea')).to_have_value('')
             saved = page.evaluate('(key) => JSON.parse(localStorage.getItem(key))', KEY)
-            assert saved['answers'] == {} and saved['writtenAnswers'] == {}
+            assert saved['answers'] == {} and saved['writtenAnswers'] == {} and saved['marked'] == []
+            expect(page.locator('#grid .dot.flag')).to_have_count(0)
             page.reload()
             expect(page.locator('#main textarea')).to_have_value('')
 
@@ -197,16 +216,18 @@ def run(channel):
             expect(page.get_by_role('heading', name='Respuesta', exact=True).first).to_be_visible()
 
             # Progress code round trip in every exam, with random answers of every type (the score is recomputed
-            # on load), and a code from another version of the questions is rejected.
+            # on load) and marks in every other exam (a code without marks keeps the old format), and a code
+            # from another version of the questions is rejected.
             rng = random.Random(1)
-            for bank_file in sorted(ROOT.glob('subjects/*/*/questions.json')):
+            for n, bank_file in enumerate(sorted(ROOT.glob('subjects/*/*/questions.json'))):
                 slug, exam = bank_file.parent.parent.name, bank_file.parent.name
                 bank = json.loads(bank_file.read_text(encoding='utf-8'))
                 answers, written = random_progress(bank, rng)
+                marked = [q['id'] for q in bank['questions'] if n % 2 and rng.random() < .2]
                 key = f'quiz-{slug}-{exam}-v1'
                 page.goto(f'{base}/subjects/{slug}/{exam}/')
                 page.evaluate('([key, state]) => localStorage.setItem(key, JSON.stringify(state))',
-                              [key, dict(answers=answers, writtenAnswers=written)])
+                              [key, dict(answers=answers, writtenAnswers=written, marked=marked)])
                 page.reload()
                 page.locator('#filters').evaluate('(el) => el.open = true')
                 page.locator('#syncBtn').click()
@@ -233,10 +254,11 @@ def run(channel):
                     assert loaded['answers'][qid] == ans, (qid, loaded['answers'][qid], ans)
                 assert loaded['answers'].keys() == answers.keys()
                 assert loaded['writtenAnswers'] == written
-                print(f'  {slug}/{exam}: {len(answers)} respuestas, {len(written)} desarrollos -> {len(code)} caracteres')
+                assert loaded['marked'] == marked, (loaded['marked'], marked)
+                print(f'  {slug}/{exam}: {len(answers)} respuestas, {len(written)} desarrollos, {len(marked)} marcadas -> {len(code)} caracteres')
             assert not errors, errors
             browser.close()
-            print(f'OK: {len(OPEN)} abiertas; filtros, guardado, progreso previo, puntaje, móvil, código de progreso y ASI.')
+            print(f'OK: {len(OPEN)} abiertas; filtros, guardado, progreso previo, puntaje, móvil, marcas, código de progreso y ASI.')
     finally:
         server.shutdown()
         server.server_close()
