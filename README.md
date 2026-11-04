@@ -1,4 +1,4 @@
-# Quizzes UTN
+# Quiz UTN
 
 Cuestionarios de repaso para materias de ISI (UTN FRRe), con corrección inmediata, puntaje estilo Moodle
 y la referencia al apunte o al parcial de donde sale cada pregunta. Se elige la materia, después el
