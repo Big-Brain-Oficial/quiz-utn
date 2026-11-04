@@ -842,7 +842,7 @@
       "correct": [
         0
       ],
-      "fb": "El geográfico es el modelo conceptual de la realidad y su comportamiento: alto nivel.\n\nFuente: Unidad 2 (parte 1) · diapositiva 18",
+      "fb": "El geográfico es el modelo conceptual de la realidad y su comportamiento: alto nivel.",
       "section": "Parcial 2025",
       "source": {
         "label": "Unidad 2 · Parte 1, diap. 18",
@@ -866,7 +866,7 @@
       "correct": [
         2
       ],
-      "fb": "El de almacenamiento es de bajo nivel, inherente a la naturaleza informática del SIG. El geográfico es el de alto nivel.\n\nFuente: Unidad 2 (parte 1) · diapositiva 18",
+      "fb": "El de almacenamiento es de bajo nivel, inherente a la naturaleza informática del SIG. El geográfico es el de alto nivel.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 2 · Parte 1, diap. 18",
@@ -890,7 +890,7 @@
       "correct": [
         2
       ],
-      "fb": "Geográfico (alto nivel, conceptual) → Representación (serie finita de elementos) → Almacenamiento (bajo nivel, naturaleza informática).\n\nFuente: Unidad 2 (parte 1) · diapositiva 18",
+      "fb": "Geográfico (alto nivel, conceptual) → Representación (serie finita de elementos) → Almacenamiento (bajo nivel, naturaleza informática).",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 2 · Parte 1, diap. 18",
@@ -1164,7 +1164,7 @@
         1,
         2
       ],
-      "fb": "Las tres representaciones del apunte: numérica, unidad por unidad y gráfica. Los tipos, en cambio, son natural, de reducción y de ampliación.\n\nFuente: Unidad 3 · diapositiva 13",
+      "fb": "Las tres representaciones del apunte: numérica, unidad por unidad y gráfica. Los tipos, en cambio, son natural, de reducción y de ampliación.",
       "section": "Importante en clase",
       "img": "img/u3-escala-grafica.jpg",
       "source": {
@@ -1330,7 +1330,7 @@
         0,
         1
       ],
-      "fb": "Esas respuestas guían la toma de decisiones del cartógrafo (diseño cartográfico): qué representar, cómo, la escala y la proyección.\n\nFuente: Unidad 4 · diapositiva 7",
+      "fb": "Esas respuestas guían la toma de decisiones del cartógrafo (diseño cartográfico): qué representar, cómo, la escala y la proyección.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 7",
@@ -1362,7 +1362,7 @@
         4,
         5
       ],
-      "fb": "El mapa es una colección de gráficos que representan objetos del mundo real más estos elementos adicionales. El R-Tree es un índice espacial (Unidad 2).\n\nFuente: Unidad 4 · diapositiva 12",
+      "fb": "El mapa es una colección de gráficos que representan objetos del mundo real más estos elementos adicionales. El R-Tree es un índice espacial (Unidad 2).",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 12",
@@ -1418,7 +1418,7 @@
         2,
         3
       ],
-      "fb": "Es la clasificación de los mapas según el tipo de información que aportan. La base es de carácter general.\n\nFuente: Unidad 4 · diapositiva 13",
+      "fb": "Es la clasificación de los mapas según el tipo de información que aportan. La base es de carácter general.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 13",
@@ -1464,7 +1464,7 @@
       "correct": [
         0
       ],
-      "fb": "Su propósito es expresar la información de forma más resumida, para que sea comprensible, legible y aprovechable por el usuario.\n\nFuente: Unidad 4 · diapositiva 16",
+      "fb": "Su propósito es expresar la información de forma más resumida, para que sea comprensible, legible y aprovechable por el usuario.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 16",
@@ -1488,7 +1488,7 @@
       "correct": [
         0
       ],
-      "fb": "Enfatiza lo trascendente (aumenta la visibilidad de lo importante) y suprime lo irrelevante (filtra el ruido visual).\n\nFuente: Unidad 4 · diapositiva 20",
+      "fb": "Enfatiza lo trascendente (aumenta la visibilidad de lo importante) y suprime lo irrelevante (filtra el ruido visual).",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 20",
@@ -1519,7 +1519,7 @@
         3,
         4
       ],
-      "fb": "Suelen combinarse para potenciar el resultado.\n\nFuente: Unidad 4 · diapositiva 21",
+      "fb": "Suelen combinarse para potenciar el resultado.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 21",
@@ -1543,7 +1543,7 @@
       "correct": [
         0
       ],
-      "fb": "Conforme y equivalente son propiedades de proyecciones, tangente y secante son superficies desarrollables, y raster y vectorial son modelos de representación.\n\nFuente: Unidad 4 · diapositiva 26",
+      "fb": "Conforme y equivalente son propiedades de proyecciones, tangente y secante son superficies desarrollables, y raster y vectorial son modelos de representación.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 26",
@@ -1567,7 +1567,7 @@
       "correct": [
         0
       ],
-      "fb": "En el enfoque multiescalar, en cambio, se guarda la misma zona pre-procesada a escalas fijas y se elige la más adecuada para cada zoom.\n\nFuente: Unidad 4 · diapositiva 26",
+      "fb": "En el enfoque multiescalar, en cambio, se guarda la misma zona pre-procesada a escalas fijas y se elige la más adecuada para cada zoom.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 26",
@@ -1623,7 +1623,7 @@
         5,
         6
       ],
-      "fb": "Tono y valor son componentes del color. La proyección es la base matemática del mapa, no una variable visual.\n\nFuente: Unidad 4 · diapositiva 38",
+      "fb": "Tono y valor son componentes del color. La proyección es la base matemática del mapa, no una variable visual.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 38",
@@ -1651,7 +1651,7 @@
         2,
         3
       ],
-      "fb": "Determinan la capacidad de cada variable para transmitir significados específicos en el mapa.\n\nFuente: Unidad 4 · diapositiva 50",
+      "fb": "Determinan la capacidad de cada variable para transmitir significados específicos en el mapa.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 50",
@@ -1677,7 +1677,7 @@
         1,
         2
       ],
-      "fb": "Conocer el tipo de variable es importante porque cada una se simboliza distinto, según las propiedades de las variables visuales.\n\nFuente: Unidad 4 · diapositiva 53",
+      "fb": "Conocer el tipo de variable es importante porque cada una se simboliza distinto, según las propiedades de las variables visuales.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 53",
@@ -1847,7 +1847,7 @@
       "correct": [
         0
       ],
-      "fb": "Los valores similares se agrupan y se maximizan las diferencias entre clases.\n\nFuente: Unidad 4 · diapositiva 62",
+      "fb": "Los valores similares se agrupan y se maximizan las diferencias entre clases.",
       "section": "Parcial 2025",
       "source": {
         "label": "Unidad 4, diap. 62",
@@ -1875,7 +1875,7 @@
         2,
         3
       ],
-      "fb": "También se usan cuadrados o triángulos. Los SIG actuales los generan automáticamente.\n\nFuente: Unidad 4 · diapositiva 68",
+      "fb": "También se usan cuadrados o triángulos. Los SIG actuales los generan automáticamente.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 68",
@@ -2009,7 +2009,7 @@
         2,
         3
       ],
-      "fb": "La cantidad de puntos de cada polígono se relaciona con el dato exacto que se quiere mostrar.\n\nFuente: Unidad 4 · diapositiva 73",
+      "fb": "La cantidad de puntos de cada polígono se relaciona con el dato exacto que se quiere mostrar.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 73",
@@ -2062,7 +2062,7 @@
         2,
         3
       ],
-      "fb": "Unir puntos de igual valor es propio de las isolíneas. En los flujos también se usan forma (continua, discontinua) y color.\n\nFuente: Unidad 4 · diapositiva 76",
+      "fb": "Unir puntos de igual valor es propio de las isolíneas. En los flujos también se usan forma (continua, discontinua) y color.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 76",
@@ -2115,7 +2115,7 @@
         2,
         3
       ],
-      "fb": "Las trayectorias son propias de los mapas de flujos.\n\nFuente: Unidad 4 · diapositiva 78",
+      "fb": "Las trayectorias son propias de los mapas de flujos.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 78",
@@ -2141,7 +2141,7 @@
         1,
         2
       ],
-      "fb": "En el coroplético las zonas tienen un significado arbitrario, no relacionado con la variable; el que se adapta a la distribución real es el dasimétrico.\n\nFuente: Unidad 4 · diapositiva 81",
+      "fb": "En el coroplético las zonas tienen un significado arbitrario, no relacionado con la variable; el que se adapta a la distribución real es el dasimétrico.",
       "section": "Importante en clase",
       "source": {
         "label": "Unidad 4, diap. 81",
@@ -2165,7 +2165,7 @@
       "correct": [
         0
       ],
-      "fb": "La variable tamaño se aplica directamente sobre las unidades de superficie, que se distorsionan.\n\nFuente: Unidad 4 · diapositiva 84",
+      "fb": "La variable tamaño se aplica directamente sobre las unidades de superficie, que se distorsionan.",
       "section": "Importante en clase",
       "img": "img/u4-cartograma.jpg",
       "source": {

@@ -219,7 +219,8 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:8px;
 .qfigure{margin:0 0 10px}
 .qfigure a{display:block;cursor:zoom-in}
 .source-page{margin-bottom:10px}
-.source-page a{display:block;cursor:zoom-in}
+.source-page > a{display:block;cursor:zoom-in}
+.source-page figcaption a{text-underline-offset:3px}
 .source-page img{max-width:100%}
 
 .viewmode{display:flex;gap:0;margin:0 2px 14px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface);width:fit-content;max-width:100%}

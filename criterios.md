@@ -82,6 +82,8 @@ Esta sección vale para las preguntas armadas a partir del material, no para las
 - Justifica la respuesta correcta con el material, citando el concepto o la clasificación del apunte.
 - Si un distractor es un error común (por ejemplo, la definición de un concepto vecino), la explicación
   dice por qué no corresponde.
+- No repite la página de `source`: el sitio ya la muestra en el título de la imagen o en el enlace a la
+  teoría. Sí cita otra página cuando la usa para justificar, por ejemplo la de un concepto vecino.
 
 ## Verificación
 

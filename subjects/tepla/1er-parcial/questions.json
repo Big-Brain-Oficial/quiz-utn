@@ -797,7 +797,7 @@
         1,
         0
       ],
-      "fb": "El inductivo detecta la alteración de un campo electromagnético (pág. 18). El capacitivo detecta cambios de capacidad y puede responder a materiales conductores y no conductores (pág. 19).",
+      "fb": "El inductivo detecta la alteración de un campo electromagnético (pág. 18). El capacitivo detecta cambios de capacidad y puede responder a materiales conductores y no conductores.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 19,
@@ -1345,7 +1345,7 @@
         1,
         0
       ],
-      "fb": "La realimentación devuelve una salida retardada al punto suma (pág. 40). La prealimentación combina la entrada actual con una entrada retardada (pág. 41).",
+      "fb": "La realimentación devuelve una salida retardada al punto suma (pág. 40). La prealimentación combina la entrada actual con una entrada retardada.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 41,
@@ -1511,7 +1511,7 @@
         1,
         0
       ],
-      "fb": "La etapa transitoria describe la evolución inicial (pág. 46). La permanente es la que queda después y está asociada con la precisión del sistema (pág. 47).",
+      "fb": "La etapa transitoria describe la evolución inicial (pág. 46). La permanente es la que queda después y está asociada con la precisión del sistema.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 47,
@@ -2532,7 +2532,7 @@
       "correct": [
         1
       ],
-      "fb": "Si un modelo describe bien un sistema, se puede usar para estudiar otro de distinta naturaleza que se comporte igual. En control, el caso es un sistema eléctrico y uno mecánico con la misma función de transferencia (apunte, pág. 1). No implica que todo se resuelva siempre sobre el mismo sistema físico.",
+      "fb": "Si un modelo describe bien un sistema, se puede usar para estudiar otro de distinta naturaleza que se comporte igual. En control, el caso es un sistema eléctrico y uno mecánico con la misma función de transferencia. No implica que todo se resuelva siempre sobre el mismo sistema físico.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 1,
@@ -2568,7 +2568,7 @@
         3,
         4
       ],
-      "fb": "Al construir el modelo se definen los límites y el alcance, los componentes o subsistemas y las relaciones con el entorno (apunte, pág. 2). El apunte también pide las relaciones entre subsistemas, que no figuran como opción. Descartar los subsistemas o el entorno contradice el apunte.",
+      "fb": "Al construir el modelo se definen los límites y el alcance, los componentes o subsistemas y las relaciones con el entorno. El apunte también pide las relaciones entre subsistemas, que no figuran como opción. Descartar los subsistemas o el entorno contradice el apunte.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 2,
@@ -2604,7 +2604,7 @@
         3,
         4
       ],
-      "fb": "Para armar el modelo hay que definir el sistema y su objetivo, los componentes (control, corrección, proceso y medición) y el valor esperado de la respuesta (apunte, pág. 2). «Componentes mecánicos o eléctricos» no es esa clasificación.",
+      "fb": "Para armar el modelo hay que definir el sistema y su objetivo, los componentes (control, corrección, proceso y medición) y el valor esperado de la respuesta. «Componentes mecánicos o eléctricos» no es esa clasificación.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 2,
@@ -2635,7 +2635,7 @@
       "correct": [
         0
       ],
-      "fb": "La realimentación positiva amplifica la respuesta original (apunte, pág. 5). Ese efecto puede ser el buscado o puede desestabilizar el sistema.",
+      "fb": "La realimentación positiva amplifica la respuesta original. Ese efecto puede ser el buscado o puede desestabilizar el sistema.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 5,
@@ -2669,7 +2669,7 @@
       "correct": [
         2
       ],
-      "fb": "La realimentación negativa compensa la respuesta original: el sistema queda estable y se opone a los cambios que alejarían el resultado de lo esperado (apunte, pág. 5). No contribuye a esos cambios ni se vuelve inestable por esa compensación.",
+      "fb": "La realimentación negativa compensa la respuesta original: el sistema queda estable y se opone a los cambios que alejarían el resultado de lo esperado. No contribuye a esos cambios ni se vuelve inestable por esa compensación.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 5,
@@ -2704,7 +2704,7 @@
       "correct": [
         1
       ],
-      "fb": "El comparador toma la señal de referencia (entrada) y el valor medido de la salida (apunte, pág. 4). La diferencia es la señal de error.",
+      "fb": "El comparador toma la señal de referencia (entrada) y el valor medido de la salida. La diferencia es la señal de error.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 4,
@@ -2738,7 +2738,7 @@
       "correct": [
         3
       ],
-      "fb": "El elemento de medición devuelve la señal de realimentación al comparador, a partir de la salida (apunte, pág. 4). No se la entrega al control, a la corrección ni al proceso.",
+      "fb": "El elemento de medición devuelve la señal de realimentación al comparador, a partir de la salida. No se la entrega al control, a la corrección ni al proceso.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 4,
@@ -2773,7 +2773,7 @@
         0,
         4
       ],
-      "fb": "Los lineales responden al principio de superposición; los no lineales se describen con ecuaciones no lineales y no responden a ese principio (apunte, pág. 5). Predecir la salida multiplicando la entrada por la función de transferencia es propio de los lineales. Continuos y discretos son otra clasificación.",
+      "fb": "Los lineales responden al principio de superposición; los no lineales se describen con ecuaciones no lineales y no responden a ese principio. Predecir la salida multiplicando la entrada por la función de transferencia es propio de los lineales. Continuos y discretos son otra clasificación.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 5,
@@ -2807,7 +2807,7 @@
       "correct": [
         3
       ],
-      "fb": "El lazo abierto no tiene información de realimentación y no ajusta la respuesta según la salida (apunte, pág. 6). Medir la salida, compararla con la referencia o dejar que la salida modifique el control es lazo cerrado, así que ninguna de esas afirmaciones corresponde.",
+      "fb": "El lazo abierto no tiene información de realimentación y no ajusta la respuesta según la salida. Medir la salida, compararla con la referencia o dejar que la salida modifique el control es lazo cerrado, así que ninguna de esas afirmaciones corresponde.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 6,
@@ -2873,7 +2873,7 @@
         1,
         2
       ],
-      "fb": "La capa física transmite señales analógicas y digitales y mide su integridad; la de control es el nivel en el que se comanda todo el sistema (apunte, pág. 7). La de aplicación es software, no hardware.",
+      "fb": "La capa física transmite señales analógicas y digitales y mide su integridad; la de control es el nivel en el que se comanda todo el sistema. La de aplicación es software, no hardware.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 7,
@@ -2907,7 +2907,7 @@
         1,
         2
       ],
-      "fb": "Una perturbación es una señal que afecta adversamente la salida y aparta la variable controlada de la referencia (apunte, pág. 7). La combinación de componentes que cumple un objetivo es un sistema; el cambio gradual y progresivo es un proceso.",
+      "fb": "Una perturbación es una señal que afecta adversamente la salida y aparta la variable controlada de la referencia. La combinación de componentes que cumple un objetivo es un sistema; el cambio gradual y progresivo es un proceso.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 7,
@@ -2938,7 +2938,7 @@
       "correct": [
         1
       ],
-      "fb": "Las perturbaciones pueden ser internas, que se originan dentro del sistema, o externas, que se generan fuera y se consideran una entrada más (apunte, pág. 7).",
+      "fb": "Las perturbaciones pueden ser internas, que se originan dentro del sistema, o externas, que se generan fuera y se consideran una entrada más.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 7,
@@ -2969,7 +2969,7 @@
       "correct": [
         0
       ],
-      "fb": "En un sistema físico no se puede tener a la vez buena estabilidad relativa y precisión en estado estacionario; hay que elegir una solución de compromiso (apunte, pág. 9).",
+      "fb": "En un sistema físico no se puede tener a la vez buena estabilidad relativa y precisión en estado estacionario; hay que elegir una solución de compromiso.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 9,
@@ -3005,7 +3005,7 @@
         1,
         3
       ],
-      "fb": "El dominio del tiempo es donde ocurren los fenómenos físicos, y ahí la relación entrada-salida se describe siempre con ecuaciones diferenciales respecto del tiempo (apunte, pág. 9). Resolverlas es más engorroso que pasar a polinomios algebraicos con Laplace (apunte, pág. 10).",
+      "fb": "El dominio del tiempo es donde ocurren los fenómenos físicos, y ahí la relación entrada-salida se describe siempre con ecuaciones diferenciales respecto del tiempo. Resolverlas es más engorroso que pasar a polinomios algebraicos con Laplace (apunte, pág. 10).",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 9,
@@ -3036,7 +3036,7 @@
       "correct": [
         0
       ],
-      "fb": "Es una señal externa que se aplica al sistema para producir una acción de la planta, en general el comportamiento ideal deseado (apunte, pág. 12).",
+      "fb": "Es una señal externa que se aplica al sistema para producir una acción de la planta, en general el comportamiento ideal deseado.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 12,
@@ -3107,7 +3107,7 @@
       "correct": [
         3
       ],
-      "fb": "So/Si = T/(1+TR) es la función de transferencia del lazo cerrado con realimentación negativa: el comparador resta la señal realimentada (apunte, pág. 23).",
+      "fb": "So/Si = T/(1+TR) es la función de transferencia del lazo cerrado con realimentación negativa: el comparador resta la señal realimentada.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 23,
@@ -3141,7 +3141,7 @@
       "correct": [
         0
       ],
-      "fb": "Un sistema es estable si una entrada de referencia finita produce una salida finita; si la salida no queda acotada, es inestable (apunte, pág. 34). En el gráfico la oscilación crece.",
+      "fb": "Un sistema es estable si una entrada de referencia finita produce una salida finita; si la salida no queda acotada, es inestable. En el gráfico la oscilación crece.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 34,
@@ -3178,7 +3178,7 @@
         4
       ],
       "note": "El apunte también dice que permite hallar la función de transferencia «en un solo paso». En las dos revisiones de 2021 esa opción no entra en la clave.",
-      "fb": "El apunte da como ventajas el método nemotécnico, calcular la función de transferencia sin reducir el gráfico y que no tiene álgebra visual (apunte, pág. 13). El álgebra de Boole no aparece. «En un solo paso» está en el apunte, pero en las revisiones del parcial no entra en la clave.",
+      "fb": "El apunte da como ventajas el método nemotécnico, calcular la función de transferencia sin reducir el gráfico y que no tiene álgebra visual. El álgebra de Boole no aparece. «En un solo paso» está en el apunte, pero en las revisiones del parcial no entra en la clave.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 13,
@@ -3244,7 +3244,7 @@
       "catedra": true,
       "section": "Modelo 2025",
       "text": "Defina qué es un sistema de control y dé un ejemplo cotidiano.",
-      "answer": "Un sistema de control combina sensor, comparador, controlador, actuador y proceso: mide una variable, la compara con una referencia y actúa para reducir el error (apunte, pág. 4). Un ejemplo es el control de temperatura de un aire acondicionado o de un horno (apunte, pág. 8).",
+      "answer": "Un sistema de control combina sensor, comparador, controlador, actuador y proceso: mide una variable, la compara con una referencia y actúa para reducir el error. Un ejemplo es el control de temperatura de un aire acondicionado o de un horno (apunte, pág. 8).",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 4,
@@ -3268,7 +3268,7 @@
       "catedra": true,
       "section": "Modelo 2025",
       "text": "Explique la diferencia entre lazo abierto y lazo cerrado.",
-      "answer": "El lazo abierto no tiene información de realimentación y no ajusta la respuesta según la salida. El lazo cerrado mide la salida, la realimenta a la entrada y con eso ajusta la respuesta (apunte, pág. 6).",
+      "answer": "El lazo abierto no tiene información de realimentación y no ajusta la respuesta según la salida. El lazo cerrado mide la salida, la realimenta a la entrada y con eso ajusta la respuesta.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 6,
@@ -3292,7 +3292,7 @@
       "catedra": true,
       "section": "Modelo 2025",
       "text": "Explique qué es una función de transferencia.",
-      "answer": "Es la relación matemática entre la entrada y la salida, escrita en el dominio de la frecuencia y no en el del tiempo (apunte, pág. 9). Con condiciones iniciales nulas, es la transformada de Laplace de la salida dividida por la de la entrada (apunte, pág. 10).",
+      "answer": "Es la relación matemática entre la entrada y la salida, escrita en el dominio de la frecuencia y no en el del tiempo. Con condiciones iniciales nulas, es la transformada de Laplace de la salida dividida por la de la entrada (apunte, pág. 10).",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 9,
@@ -3327,7 +3327,7 @@
         1,
         2
       ],
-      "fb": "El sensor inductivo genera un campo electromagnético de alta frecuencia y se usa cuando el objeto es metálico o buen conductor de la electricidad o del magnetismo (apunte, pág. 18). La baja frecuencia y los materiales no metálicos no son ese caso.",
+      "fb": "El sensor inductivo genera un campo electromagnético de alta frecuencia y se usa cuando el objeto es metálico o buen conductor de la electricidad o del magnetismo. La baja frecuencia y los materiales no metálicos no son ese caso.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 18,
@@ -3360,7 +3360,7 @@
       "correct": [
         1
       ],
-      "fb": "Esas ecuaciones se establecen con las leyes físicas que gobiernan los bloques funcionales del sistema (apunte, pág. 21). No alcanza con decir leyes matemáticas o leyes lógicas.",
+      "fb": "Esas ecuaciones se establecen con las leyes físicas que gobiernan los bloques funcionales del sistema. No alcanza con decir leyes matemáticas o leyes lógicas.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 21,
@@ -3392,7 +3392,7 @@
       "correct": [
         2
       ],
-      "fb": "La fórmula de Heaviside es una forma directa de calcular la antitransformada de Laplace de un cociente de polinomios (apunte, pág. 30). No calcula la transformada.",
+      "fb": "La fórmula de Heaviside es una forma directa de calcular la antitransformada de Laplace de un cociente de polinomios. No calcula la transformada.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 30,
@@ -3424,7 +3424,7 @@
       "correct": [
         2
       ],
-      "fb": "El apunte llama Heaviside a la fórmula de la antitransformada de Laplace (apunte, pág. 30). «Peaviside» no es ese nombre, y en el parcial la opción correcta es que no es una definición válida.",
+      "fb": "El apunte llama Heaviside a la fórmula de la antitransformada de Laplace. «Peaviside» no es ese nombre, y en el parcial la opción correcta es que no es una definición válida.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 30,
@@ -3460,7 +3460,7 @@
         3,
         4
       ],
-      "fb": "La rampa at se transforma en a/s² y A sen(ωt) en Aω/(s²+ω²) (apunte, pág. 30). El coseno no usa esa fórmula. La constante el apunte la escribe como a/s (apunte, pág. 29); en el parcial entra F(s) = a.",
+      "fb": "La rampa at se transforma en a/s² y A sen(ωt) en Aω/(s²+ω²). El coseno no usa esa fórmula. La constante el apunte la escribe como a/s (apunte, pág. 29); en el parcial entra F(s) = a.",
       "note": "El apunte escribe L{a} = a/s. En la revisión de 2021 la opción F(s) = a entra en la clave.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
@@ -3498,7 +3498,7 @@
         3,
         4
       ],
-      "fb": "El trayecto de realimentación baja la sensibilidad a las perturbaciones y a los cambios de los componentes, acerca la respuesta a lo pedido y la hace más rápida (apunte, pág. 25).",
+      "fb": "El trayecto de realimentación baja la sensibilidad a las perturbaciones y a los cambios de los componentes, acerca la respuesta a lo pedido y la hace más rápida.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 25,
@@ -3532,7 +3532,7 @@
         2,
         3
       ],
-      "fb": "En la tabla del apunte el lazo cerrado tiene una cantidad de componentes importante, y el lazo abierto, escasa (apunte, pág. 23).",
+      "fb": "En la tabla del apunte el lazo cerrado tiene una cantidad de componentes importante, y el lazo abierto, escasa.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 23,
@@ -3563,7 +3563,7 @@
       "correct": [
         0
       ],
-      "fb": "El lazo cerrado tiene mejor performance ante las perturbaciones que el lazo abierto (apunte, pág. 24).",
+      "fb": "El lazo cerrado tiene mejor performance ante las perturbaciones que el lazo abierto.",
       "note": "En la revisión el intento marcó Falso y quedó en 0. La clave sale del apunte.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
@@ -3598,7 +3598,7 @@
         1,
         2
       ],
-      "fb": "El detector de temperatura usa el cambio de resistencia de metales o semiconductores con la temperatura. Entre los semiconductores están los termistores (apunte, pág. 17). No es que no se usen en el control, ni que sean siempre de metal.",
+      "fb": "El detector de temperatura usa el cambio de resistencia de metales o semiconductores con la temperatura. Entre los semiconductores están los termistores. No es que no se usen en el control, ni que sean siempre de metal.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 17,
@@ -3629,7 +3629,7 @@
       "correct": [
         1
       ],
-      "fb": "El sensor transforma un estado físico del entorno en una señal eléctrica para el control (apunte, pág. 16). No convierte una señal eléctrica en ecuaciones diferenciales.",
+      "fb": "El sensor transforma un estado físico del entorno en una señal eléctrica para el control. No convierte una señal eléctrica en ecuaciones diferenciales.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 16,
@@ -3664,7 +3664,7 @@
         3,
         4
       ],
-      "fb": "El capacitivo detecta conductores y no conductores, como madera, vidrio, plástico o polvos, y conmuta cuando un objeto se interpone (apunte, pág. 19). Reservarlos a los metales es el sensor inductivo, y no hace falta que el objeto lo toque.",
+      "fb": "El capacitivo detecta conductores y no conductores, como madera, vidrio, plástico o polvos, y conmuta cuando un objeto se interpone. Reservarlos a los metales es el sensor inductivo, y no hace falta que el objeto lo toque.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 19,
@@ -3701,7 +3701,7 @@
         2,
         3
       ],
-      "fb": "En lazo abierto la salida no actúa sobre el control: no se mide, no se compara con la referencia, y a cada referencia le corresponde una condición de operación fija (apunte, pág. 22).",
+      "fb": "En lazo abierto la salida no actúa sobre el control: no se mide, no se compara con la referencia, y a cada referencia le corresponde una condición de operación fija.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 22,
@@ -3735,7 +3735,7 @@
         2,
         3
       ],
-      "fb": "Ante una perturbación externa el lazo cerrado queda prácticamente insensible y el lazo abierto, relativamente afectado (apunte, pág. 23).",
+      "fb": "Ante una perturbación externa el lazo cerrado queda prácticamente insensible y el lazo abierto, relativamente afectado.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 23,
@@ -3766,7 +3766,7 @@
       "correct": [
         1
       ],
-      "fb": "El enunciado compara el lazo abierto consigo mismo. El apunte dice que quien tiene mejor performance ante las perturbaciones es el lazo cerrado (apunte, pág. 24).",
+      "fb": "El enunciado compara el lazo abierto consigo mismo. El apunte dice que quien tiene mejor performance ante las perturbaciones es el lazo cerrado.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 24,
@@ -3797,7 +3797,7 @@
       "correct": [
         0
       ],
-      "fb": "Esa es la definición del apunte: el sensor pasa un estado físico del entorno a una señal eléctrica para el control (apunte, pág. 16).",
+      "fb": "Esa es la definición del apunte: el sensor pasa un estado físico del entorno a una señal eléctrica para el control.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 16,
@@ -3821,7 +3821,7 @@
       "catedra": true,
       "section": "Modelo 2025",
       "text": "Mencione tres ejemplos de sensores y su aplicación en la industria.",
-      "answer": "Un sensor toma un estado físico del entorno y lo entrega al control como señal eléctrica (apunte, pág. 16). El apunte nombra, entre otros, temperatura, humedad, estado de una puerta, velocidad del aire y nivel de CO2.",
+      "answer": "Un sensor toma un estado físico del entorno y lo entrega al control como señal eléctrica. El apunte nombra, entre otros, temperatura, humedad, estado de una puerta, velocidad del aire y nivel de CO2.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 16,
@@ -3845,7 +3845,7 @@
       "catedra": true,
       "section": "Modelo 2025",
       "text": "Explique el criterio de estabilidad de Routh de manera general.",
-      "answer": "Routh indica si un polinomio tiene raíces inestables y cuántos polos del lazo cerrado caen en el semiplano derecho, sin tener que factorizarlo (apunte, pág. 36).",
+      "answer": "Routh indica si un polinomio tiene raíces inestables y cuántos polos del lazo cerrado caen en el semiplano derecho, sin tener que factorizarlo.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 36,
@@ -3881,7 +3881,7 @@
         1,
         4
       ],
-      "fb": "La respuesta transitoria es el tramo inicial, se va apagando y en ese tramo la salida se acerca al valor final. La rapidez depende de cuánto dura ese tramo (apunte, pág. 46). No es independiente de esa duración, ni es un subida lenta hasta el valor estable.",
+      "fb": "La respuesta transitoria es el tramo inicial, se va apagando y en ese tramo la salida se acerca al valor final. La rapidez depende de cuánto dura ese tramo. No es independiente de esa duración, ni es un subida lenta hasta el valor estable.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 46,
@@ -3912,7 +3912,7 @@
       "correct": [
         1
       ],
-      "fb": "El máximo sobreimpulso se mide desde el valor final de la respuesta, no desde el valor inicial (apunte, pág. 46).",
+      "fb": "El máximo sobreimpulso se mide desde el valor final de la respuesta, no desde el valor inicial.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 46,
@@ -3946,7 +3946,7 @@
       "correct": [
         3
       ],
-      "fb": "El teorema toma la transformada, la multiplica por s y hace s→0. Eso da el valor de la función cuando el tiempo tiende a infinito, o sea la respuesta permanente en el tiempo (apunte, pág. 48). No describe el transitorio ni sale de la antitransformada.",
+      "fb": "El teorema toma la transformada, la multiplica por s y hace s→0. Eso da el valor de la función cuando el tiempo tiende a infinito, o sea la respuesta permanente en el tiempo. No describe el transitorio ni sale de la antitransformada.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 48,
@@ -3982,7 +3982,7 @@
         0,
         1
       ],
-      "fb": "En lazo abierto el error en estado estable es la diferencia entre el valor deseado y el que realmente sale. Depende de la función de transferencia y de la entrada (apunte, pág. 47). La definición del enunciado no está dada para el lazo cerrado.",
+      "fb": "En lazo abierto el error en estado estable es la diferencia entre el valor deseado y el que realmente sale. Depende de la función de transferencia y de la entrada. La definición del enunciado no está dada para el lazo cerrado.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 47,
@@ -4018,7 +4018,7 @@
       "correct": [
         1
       ],
-      "fb": "El proporcional deja ess = 1/(1+Kp) (apunte, pág. 54). El integral, después del teorema del valor final, deja el error en cero (apunte, pág. 55). La expresión del parcial es E(s) antes de ese límite, y la clave es que no corresponde a ninguno de los tipos listados.",
+      "fb": "El proporcional deja ess = 1/(1+Kp) (apunte, pág. 54). El integral, después del teorema del valor final, deja el error en cero. La expresión del parcial es E(s) antes de ese límite, y la clave es que no corresponde a ninguno de los tipos listados.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 55,
@@ -4054,7 +4054,7 @@
       "correct": [
         0
       ],
-      "fb": "Para un escalón, el controlador proporcional deja un error en estado estacionario ess = 1/(1+Kp) (apunte, pág. 54). El integral es el que lleva ese error a cero.",
+      "fb": "Para un escalón, el controlador proporcional deja un error en estado estacionario ess = 1/(1+Kp). El integral es el que lleva ese error a cero.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 54,
@@ -4088,7 +4088,7 @@
       "correct": [
         3
       ],
-      "fb": "El teorema del valor final multiplica la transformada por s y después hace s→0 (apunte, pág. 48). En la expresión del parcial falta esa s, y la clave es que no recibe ninguno de esos nombres.",
+      "fb": "El teorema del valor final multiplica la transformada por s y después hace s→0. En la expresión del parcial falta esa s, y la clave es que no recibe ninguno de esos nombres.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 48,
@@ -4124,7 +4124,7 @@
         0,
         2
       ],
-      "fb": "El tiempo de subida va del 10% al 90% del valor final (apunte, pág. 47). El estado estable es lo que queda de la respuesta total cuando el transitorio desapareció, y se relaciona con la precisión, no con la velocidad.",
+      "fb": "El tiempo de subida va del 10% al 90% del valor final. El estado estable es lo que queda de la respuesta total cuando el transitorio desapareció, y se relaciona con la precisión, no con la velocidad.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 47,
@@ -4158,7 +4158,7 @@
       "correct": [
         1
       ],
-      "fb": "El apunte lo define así: un fenómeno indeseable por perturbaciones endógenas y/o exógenas, que altera el valor esperado de la salida (apunte, pág. 46). No alcanza con una sola de las dos fuentes, ni se manifiesta en la entrada.",
+      "fb": "El apunte lo define así: un fenómeno indeseable por perturbaciones endógenas y/o exógenas, que altera el valor esperado de la salida. No alcanza con una sola de las dos fuentes, ni se manifiesta en la entrada.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 46,
@@ -4189,7 +4189,7 @@
       "correct": [
         0
       ],
-      "fb": "Un sistema tipo uno, con un factor s en el denominador, tiene error 0 ante un escalón. La rampa es otro caso y el apunte la calcula aparte (apunte, pág. 50).",
+      "fb": "Un sistema tipo uno, con un factor s en el denominador, tiene error 0 ante un escalón. La rampa es otro caso y el apunte la calcula aparte.",
       "note": "En la revisión el intento marcó Falso y quedó en 0. La clave sale del apunte.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
@@ -4238,7 +4238,7 @@
       "catedra": true,
       "section": "Modelo 2025",
       "text": "¿Qué es el error en estado estable?",
-      "answer": "En lazo abierto es la diferencia entre el valor deseado y el que realmente se alcanza en la salida, una vez que desapareció el transitorio (apunte, pág. 47). Depende de la función de transferencia y de la señal de entrada.",
+      "answer": "En lazo abierto es la diferencia entre el valor deseado y el que realmente se alcanza en la salida, una vez que desapareció el transitorio. Depende de la función de transferencia y de la señal de entrada.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 47,
@@ -4286,7 +4286,7 @@
       "catedra": true,
       "section": "Modelo 2025",
       "text": "Aplique el teorema del valor final para calcular el error en estado estable de un sistema de lazo cerrado con G(s)=10/(s(s+2)).",
-      "answer": "G(s) tiene un factor s en el denominador: es un sistema tipo uno. Para un escalón, el apunte obtiene error 0, porque al evaluar aparece una división por infinito (apunte, pág. 50). El modelo no nombra la entrada; el caso que el apunte cierra con un número es el escalón.",
+      "answer": "G(s) tiene un factor s en el denominador: es un sistema tipo uno. Para un escalón, el apunte obtiene error 0, porque al evaluar aparece una división por infinito. El modelo no nombra la entrada; el caso que el apunte cierra con un número es el escalón.",
       "note": "El modelo no dice qué entrada se aplica. La cuenta de arriba es la del escalón, que es el caso que el apunte resuelve para un sistema tipo uno.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
@@ -4321,7 +4321,7 @@
         1,
         3
       ],
-      "fb": "La respuesta en frecuencia es la salida en estado estable ante una entrada senoidal, cuando el transitorio ya desapareció (apunte, pág. 64). No es el transitorio, ni es la entrada.",
+      "fb": "La respuesta en frecuencia es la salida en estado estable ante una entrada senoidal, cuando el transitorio ya desapareció. No es el transitorio, ni es la entrada.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 64,
@@ -4389,7 +4389,7 @@
         0,
         4
       ],
-      "fb": "El transitorio del lazo cerrado depende de dónde están sus polos, y esos polos se mueven cuando cambia la ganancia K (apunte, pág. 60). No depende de los ceros, y la ganancia sí mueve los polos.",
+      "fb": "El transitorio del lazo cerrado depende de dónde están sus polos, y esos polos se mueven cuando cambia la ganancia K. No depende de los ceros, y la ganancia sí mueve los polos.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 60,
@@ -4424,7 +4424,7 @@
         0,
         1
       ],
-      "fb": "Bode caracteriza la respuesta en frecuencia con dos gráficas, la magnitud y la fase (apunte, pág. 68). No es una sola gráfica ni son tres.",
+      "fb": "Bode caracteriza la respuesta en frecuencia con dos gráficas, la magnitud y la fase. No es una sola gráfica ni son tres.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 68,
@@ -4458,7 +4458,7 @@
       "correct": [
         3
       ],
-      "fb": "Si entre dos polos de lazo abierto vecinos sobre el eje real hay lugar de las raíces, en ese tramo hay al menos un punto de ruptura (apunte, pág. 64). No hace falta que sean tres, y no aparece si ese tramo no forma parte del lugar.",
+      "fb": "Si entre dos polos de lazo abierto vecinos sobre el eje real hay lugar de las raíces, en ese tramo hay al menos un punto de ruptura. No hace falta que sean tres, y no aparece si ese tramo no forma parte del lugar.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 64,
@@ -4489,7 +4489,7 @@
       "correct": [
         1
       ],
-      "fb": "El diagrama de magnitud de Bode usa escala logarítmica, no algebraica (apunte, pág. 68).",
+      "fb": "El diagrama de magnitud de Bode usa escala logarítmica, no algebraica.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 68,
@@ -4520,7 +4520,7 @@
       "correct": [
         1
       ],
-      "fb": "Ante una senoidal, la salida es senoidal de la misma frecuencia y puede cambiar en amplitud y en fase (apunte, pág. 65). No conserva la fase cambiando la frecuencia.",
+      "fb": "Ante una senoidal, la salida es senoidal de la misma frecuencia y puede cambiar en amplitud y en fase. No conserva la fase cambiando la frecuencia.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 65,
@@ -4551,7 +4551,7 @@
       "correct": [
         0
       ],
-      "fb": "Ante una senoidal, la salida sigue con la misma frecuencia y puede diferir en amplitud y en fase (apunte, pág. 65).",
+      "fb": "Ante una senoidal, la salida sigue con la misma frecuencia y puede diferir en amplitud y en fase.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 65,
@@ -4584,7 +4584,7 @@
       "correct": [
         0
       ],
-      "fb": "El lugar de las raíces muestra cómo se mueven los polos, las raíces del denominador, al variar un parámetro (apunte, pág. 59). No son las del numerador, ni quedan fijas.",
+      "fb": "El lugar de las raíces muestra cómo se mueven los polos, las raíces del denominador, al variar un parámetro. No son las del numerador, ni quedan fijas.",
       "source": {
         "file": "sources/apunte-solana-p1-tpla.pdf",
         "page": 59,

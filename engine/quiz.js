@@ -448,7 +448,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     <h3>Responder</h3>
     <ul>
       <li>Elegí una opción (o varias, si dice «Seleccioná una o más opciones») y tocá <b>Enviar respuesta</b>. En las de relacionar, elegí una opción en cada desplegable.</li>
-      <li>Al enviar ves la corrección: en verde lo correcto, en rojo lo incorrecto, y la explicación con la página de la teoría de donde sale.${hasTheory ? " Si la respuesta no está en los apuntes de teoría, la corrección lo indica." : ""}${hasPages ? " Tocá una imagen para verla en tamaño completo." : ""}</li>
+      <li>Al enviar ves la corrección: en verde lo correcto, en rojo lo incorrecto, y la explicación con la página de la teoría de donde sale.${hasTheory ? " Si la respuesta no está en los apuntes de teoría, la corrección lo indica." : ""}${hasPages ? ` Tocá una imagen para verla en tamaño completo${hasTheory ? ", o su título para abrir el PDF en esa página" : ""}.` : ""}</li>
       ${hasNotes ? `<li>Algunas preguntas muestran al corregir un aviso <b>Atención</b>: por ejemplo, si la respuesta no está confirmada por la cátedra y se dedujo del material. En esos casos conviene verificarla.</li>` : ""}
       ${hasOpenQuestions ? `<li>En <b>Preguntas Abiertas</b> podés escribir tu desarrollo y tocar <b>Ver respuesta</b> para compararlo con la respuesta orientativa y sus fuentes. Tu texto se guarda mientras escribís en este navegador, incluso al recargar. No se corrige automáticamente ni suma puntaje. <b>Ocultar respuesta</b> permite seguir editándolo.</li>` : hasInfo ? `<li>Las <b>tarjetas informativas</b> (cuadros, relaciones, gráficos) no se responden: tocá <b>Ver respuesta</b> para verla.</li>` : ""}
       <li>Si marcaste varias preguntas sin enviarlas, aparece <b>Enviar todas</b> para corregirlas juntas.</li>
@@ -848,21 +848,29 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       </article>`;
   }
 
+  // picture of a PDF page (or of a crop of it). The caption says where it comes from and, with a file, is
+  // also the link to that page of the PDF, so the file and the page are named only once
+  function pagePicture(img, alt, caption) {
+    return `<figure class="figure source-page"><figcaption>${caption}</figcaption>
+      <a href="${esc(asset(img))}" target="_blank" rel="noopener" title="Ver la imagen en tamaño completo"><img src="${esc(asset(img))}" alt="${esc(alt)}" loading="lazy"></a></figure>`;
+  }
+
+  const pdfLink = (file, page, text) =>
+    `<a href="${esc(asset(file))}#page=${page}" target="_blank" rel="noopener" title="Abrir el PDF en una pestaña nueva">${text}</a>`;
+
   // theory PDF page backing the question (source.page is the physical PDF page): a picture of the page when
-  // source.img exists, plus the link to the PDF. Without file, only the picture, captioned with source.label.
-  // Without source, in a bank with theory PDFs, says that the answer is not in them (info cards summarize several
-  // pages, so they are left out)
+  // source.img exists, captioned with the link to the PDF; otherwise only the link. Without file, only the
+  // picture, captioned with source.label. Without source, in a bank with theory PDFs, says that the answer is
+  // not in them (info cards summarize several pages, so they are left out)
   function renderSource(q) {
     if (!q.source) return hasTheory && q.type !== "info" ? `<p class="source none">No figura en los apuntes de teoría.</p>` : "";
     const { file, page, confidence, img, label } = q.source;
-    if (!file) return `<figure class="figure source-page"><figcaption>En la teoría: ${esc(label)}</figcaption>
-      <a href="${esc(asset(img))}" target="_blank" rel="noopener" title="Ver la imagen en tamaño completo"><img src="${esc(asset(img))}" alt="${esc(label)}" loading="lazy"></a></figure>`;
+    if (!file) return pagePicture(img, label, `En la teoría: ${esc(label)}`);
     const name = file.split("/").pop();
     const low = confidence === "low" ? " · referencia aproximada (confianza baja)"
       : confidence === "medium" ? " · trata el tema, pero no da la respuesta completa" : "";
-    const shot = img ? `<figure class="figure source-page"><figcaption>En la teoría: ${esc(name)}, pág. ${page}</figcaption>
-      <a href="${esc(asset(img))}" target="_blank" rel="noopener" title="Ver la imagen en tamaño completo"><img src="${esc(asset(img))}" alt="Página ${page} de ${esc(name)}" loading="lazy"></a></figure>` : "";
-    return `${shot}<p class="source"><a href="${esc(asset(file))}#page=${page}" target="_blank" rel="noopener" title="Se abre en una pestaña nueva">Ver en la teoría (${esc(name)}, pág. ${page})${low}</a></p>`;
+    if (img) return pagePicture(img, `Página ${page} de ${name}`, pdfLink(file, page, `En la teoría: ${esc(name)}, pág. ${page}`) + low);
+    return `<p class="source">${pdfLink(file, page, `Ver en la teoría (${esc(name)}, pág. ${page})${low}`)}</p>`;
   }
 
   // exam the question was taken from (origin.page is the physical PDF page). Same crop/picture as source,
@@ -871,9 +879,8 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     if (!q.origin) return "";
     const { file, page, img, label } = q.origin;
     const name = label || file.split("/").pop();
-    const shot = img ? `<figure class="figure source-page"><figcaption>En el parcial: ${esc(name)}, pág. ${page}</figcaption>
-      <a href="${esc(asset(img))}" target="_blank" rel="noopener" title="Ver la imagen en tamaño completo"><img src="${esc(asset(img))}" alt="Página ${page} de ${esc(name)}" loading="lazy"></a></figure>` : "";
-    return `${shot}<p class="source"><a href="${esc(asset(file))}#page=${page}" target="_blank" rel="noopener" title="Se abre en una pestaña nueva">Ver en el parcial (${esc(name)}, pág. ${page})</a></p>`;
+    if (img) return pagePicture(img, `Página ${page} de ${name}`, pdfLink(file, page, `En el parcial: ${esc(name)}, pág. ${page}`));
+    return `<p class="source">${pdfLink(file, page, `Ver en el parcial (${esc(name)}, pág. ${page})`)}</p>`;
   }
 
   function renderNote(q) {
