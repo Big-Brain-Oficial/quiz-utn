@@ -6426,13 +6426,18 @@
         "Revisión médica semestral particular.",
         "Farmacia social."
       ],
-      "correct": [],
-      "note": "La revisión del campus marca como correcta solo la revisión médica semestral particular y le da medio punto: hay otra opción correcta que no se sabe cuál es, así que la pregunta no se corrige. El apunte pone el tiempo para aseo como no monetario, asistencial y voluntario, pero no está confirmado.",
-      "fb": "Según la revisión del campus, la revisión médica semestral particular es una de las correctas. El apunte la clasifica como no monetaria, asistencial y voluntaria; el pago de vacaciones, como monetario, asistencial y legal, y el asesoramiento financiero y legal, como no monetario, supletorio y voluntario (pág. 33).",
+      "correct": [
+        0,
+        4
+      ],
+      "note": "Respuesta deducida: la revisión del campus marca como correcta solo la revisión médica semestral particular y le da medio punto, así que hay otra correcta que la cátedra no publicó. Se tomó el tiempo para aseo porque es el otro ejemplo que el apunte clasifica como no monetario, asistencial y voluntario, pero no está confirmado.",
+      "fb": "La revisión médica semestral particular está confirmada por la revisión del campus. El tiempo para aseo es una deducción: en el apunte son los dos ejemplos de beneficios no monetarios, asistenciales y voluntarios. El pago de vacaciones es monetario, asistencial y legal, y el asesoramiento financiero y legal, no monetario, supletorio y voluntario (pág. 33). El hisopado y la farmacia social no figuran en el apunte.",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 33,
-        "confidence": "medium"
+        "confidence": "high",
+        "crop": [[0, 37.95, 100, 51.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p33-190a26.webp"
       },
       "origin": {
         "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
