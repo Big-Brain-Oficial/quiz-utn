@@ -364,11 +364,10 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   }
 
   // ---------- layout ----------
-  // both open until the first answer is sent
-  const firstVisit = !Object.keys(state.answers).length;
+  // intro and howto start closed: the page opens on the categories and the questions
   // what is particular to this bank (sources, categories, caveats); how to use the quiz goes in howto
   const intro = DATA.about && DATA.about.length
-    ? `<details class="intro" id="intro" ${firstVisit ? "open" : ""}><summary>Sobre este banco de preguntas</summary>${DATA.about.join("")}</details>` : "";
+    ? `<details class="intro" id="intro"><summary>Sobre este banco de preguntas</summary>${DATA.about.join("")}</details>` : "";
   // other sites to study the same exam, always visible above the intro
   const links = DATA.links && DATA.links.length
     ? `<aside class="extlinks" aria-label="Otros sitios para repasar">${DATA.links.map((l) => `<a class="extlink" href="${esc(l.url)}" target="_blank" rel="noopener">
@@ -382,7 +381,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   const hasPages = DATA.questions.some((q) => q.img || (q.source && q.source.img));
   // the theory PDFs are in the repo: a question without "source" is one whose answer is not in them
   const hasTheory = DATA.questions.some((q) => q.source && q.source.file);
-  const howto = `<details class="intro howto" id="howto" ${firstVisit ? "open" : ""}>
+  const howto = `<details class="intro howto" id="howto">
     <summary>Cómo funciona este cuestionario</summary>
     <h3>Responder</h3>
     <ul>
@@ -1079,10 +1078,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       input.dispatchEvent(new Event("change", { bubbles: true }));
     }
   });
-  if (window.innerWidth < 600) {
-    $("filters").open = false;
-    if ($("intro")) $("intro").open = false;
-  }
+  if (window.innerWidth < 600) $("filters").open = false;
 
   buildChips();
   applyFilters();
