@@ -26,9 +26,9 @@
   "about": [
     "<p><b>Cuestionarios de las Unidades 4, 5 y 6:</b> son las preguntas de los cuestionarios de estudio de la cátedra (Desarrollo y Mantenimiento de RRHH, Seguimiento de Recursos, y Seguridad y Auditoría de los SI/TI), convertidas a opción múltiple. La cátedra no publica las respuestas: la opción correcta y la justificación salen del apunte de teoría de cada unidad.</p>",
     "<p><b>Eval. Formativa 3 — Unidades 4 y 5:</b> son las preguntas de la evaluación formativa, tal cual las tomó la cátedra y con la respuesta confirmada en la corrección. La justificación sale del apunte de teoría.</p>",
-    "<p><b>Parciales — Unidades 4, 5 y 6:</b> son las preguntas de parciales anteriores que se responden con estas unidades: el <a href=\"sources/2024%20-%202do%20Parcial%20ADR%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2do parcial del 3 de julio de 2024</a> (hay también una <a href=\"sources/2024%20-%202do%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">versión sin corregir con transcripciones</a>), el <a href=\"sources/2024%20-%203er%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">3er parcial del 4 de septiembre de 2024</a>, el <a href=\"sources/2025%20-%201er%20Parcial%20ADSI%20%28con%20respuestas%29.pdf\" target=\"_blank\" rel=\"noopener\">1er parcial 2025 resuelto</a>, la <a href=\"sources/2025%20-%20Rec%20Primer%20Parcial%20%28corregido1%20-%20teoria%29.pdf\" target=\"_blank\" rel=\"noopener\">parte teórica corregida del recuperatorio del 1er parcial 2025</a> y los temas <a href=\"sources/2025%202do%20Parcial%20-%20Tema%201%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a> y <a href=\"sources/2025%202do%20Parcial%20-%20Tema%202%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> del 2do parcial del 5 de noviembre de 2025, la <a href=\"sources/2018%20-%20Actividad%20teorico-practica%20Desarrollo%20y%20Mantenimiento.pdf\" target=\"_blank\" rel=\"noopener\">actividad teórico-práctica de 2018</a> y tres intentos de la 3ra evaluación parcial del 3 de noviembre de 2021, que se tomó en el campus virtual (<a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%201%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%202%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> y <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%203%29.pdf\" target=\"_blank\" rel=\"noopener\">3</a>; las preguntas que se repiten entre intentos aparecen una sola vez). Cada pregunta indica de qué parcial y de qué unidad sale. Al corregir se ve la captura de la pregunta en el parcial, con la corrección, y el recorte del apunte que la respalda. Las de opción múltiple, verdadero o falso y relacionar conservan el enunciado y las opciones del parcial; las que había que completar se convirtieron a relacionar con opciones nuestras. No entran las de desarrollo, que no tienen opciones (salvo la de salario bruto y salario neto de la actividad de 2018, que se convirtió a opción múltiple con opciones nuestras), ni las de alineamiento, provisión, aplicación ni planificación estratégica, que son de otras unidades, ni las de comandos y configuración de herramientas de GNU/Linux (Snort, Nmap, iptables, SSH, iptraf o programas de backup): la profesora aclaró que no hay que memorizar comandos.</p>",
-    "<p><b>Campus — Unidades 4, 5 y 6:</b> son las preguntas de evaluaciones del campus virtual que se responden con estas unidades, con la respuesta que da la revisión del intento: la <a href=\"sources/2020%20-%20Evaluacion%20formativa%20Unidad%20IV%20%28revision%29.pdf\" target=\"_blank\" rel=\"noopener\">evaluación formativa de la Unidad IV de 2020</a> y la <a href=\"sources/4ta%20Evaluacion%20-%20Cuestionario%20virtual%20A%20%28revision%29.pdf\" target=\"_blank\" rel=\"noopener\">4ta evaluación, cuestionario virtual A</a>. Cada pregunta indica de qué evaluación y de qué unidad sale. Al corregir se ve la captura de la pregunta en la revisión, con la corrección, y el recorte del apunte que la respalda. Conservan el enunciado y las opciones de la evaluación. Tampoco entran acá las de comandos de GNU/Linux.</p>",
-    "<p><b>Qué entra de Auditoría (Unidad 6):</b> el profesor Soria aclaró que de Auditoría entran en el parcial solo el concepto de auditoría (Lardent), el concepto de control interno (Lardent) y la auditoría de la organización y función informática. Por eso, del cuestionario y de los parciales de la Unidad 6 quedan solo las preguntas de Auditoría sobre esos temas. La excepción son cinco preguntas que se dejan para repasar aunque sean de otros temas: la de tipos de prueba de la 3ra evaluación parcial de 2021 (Parcial - U6) y las de riesgos, informe, independencia del auditor y auditoría de sistemas instalados de la 4ta evaluación (Campus - U6). Las de Seguridad siguen todas.</p>"
+    "<p><b>Parciales — Unidades 4, 5 y 6:</b> son las preguntas de parciales anteriores que se responden con estas unidades: el <a href=\"sources/2024%20-%202do%20Parcial%20ADR%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2do parcial del 3 de julio de 2024</a> (hay también una <a href=\"sources/2024%20-%202do%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">versión sin corregir con transcripciones</a>), el <a href=\"sources/2024%20-%203er%20Parcial%20ADR.pdf\" target=\"_blank\" rel=\"noopener\">3er parcial del 4 de septiembre de 2024</a>, el <a href=\"sources/2025%20-%201er%20Parcial%20ADSI%20%28con%20respuestas%29.pdf\" target=\"_blank\" rel=\"noopener\">1er parcial 2025 resuelto</a>, la <a href=\"sources/2025%20-%20Rec%20Primer%20Parcial%20%28corregido1%20-%20teoria%29.pdf\" target=\"_blank\" rel=\"noopener\">parte teórica corregida del recuperatorio del 1er parcial 2025</a>, los temas <a href=\"sources/2025%202do%20Parcial%20-%20Tema%201%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a> y <a href=\"sources/2025%202do%20Parcial%20-%20Tema%202%20%28corregido%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> del 2do parcial del 5 de noviembre de 2025 y la <a href=\"sources/2018%20-%20Actividad%20teorico-practica%20Desarrollo%20y%20Mantenimiento.pdf\" target=\"_blank\" rel=\"noopener\">actividad teórico-práctica de 2018</a>. Cada pregunta indica de qué parcial y de qué unidad sale. Al corregir se ve la captura de la pregunta en el parcial, con la corrección, y el recorte del apunte que la respalda. Las de opción múltiple, verdadero o falso y relacionar conservan el enunciado y las opciones del parcial; las que había que completar se convirtieron a relacionar con opciones nuestras. No entran las de desarrollo, que no tienen opciones (salvo la de salario bruto y salario neto de la actividad de 2018, que se convirtió a opción múltiple con opciones nuestras), ni las de alineamiento, provisión, aplicación ni planificación estratégica, que son de otras unidades.</p>",
+    "<p><b>Campus — Unidades 4, 5 y 6:</b> son las preguntas de evaluaciones del campus virtual que se responden con estas unidades, con la respuesta que da la revisión del intento: la <a href=\"sources/2020%20-%20Evaluacion%20formativa%20Unidad%20IV%20%28revision%29.pdf\" target=\"_blank\" rel=\"noopener\">evaluación formativa de la Unidad IV de 2020</a>, tres intentos de la 3ra evaluación parcial del 3 de noviembre de 2021 (<a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%201%29.pdf\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%202%29.pdf\" target=\"_blank\" rel=\"noopener\">2</a> y <a href=\"sources/2021%20-%203ra%20Evaluacion%20Parcial%20%28revision%203%29.pdf\" target=\"_blank\" rel=\"noopener\">3</a>; las preguntas que se repiten entre intentos aparecen una sola vez) y la <a href=\"sources/4ta%20Evaluacion%20-%20Cuestionario%20virtual%20A%20%28revision%29.pdf\" target=\"_blank\" rel=\"noopener\">4ta evaluación, cuestionario virtual A</a>. Cada pregunta indica de qué evaluación y de qué unidad sale. Al corregir se ve la captura de la pregunta en la revisión, con la corrección, y el recorte del apunte que la respalda. Conservan el enunciado y las opciones de la evaluación, salvo una de completar de la 3ra evaluación parcial de 2021, que se convirtió a relacionar con opciones nuestras. No entran las de comandos y configuración de herramientas de GNU/Linux (Snort, Nmap, iptables, SSH, iptraf o programas de backup): la profesora aclaró que no hay que memorizar comandos.</p>",
+    "<p><b>Qué entra de Auditoría (Unidad 6):</b> la profesora Soria aclaró que de Auditoría entran en el parcial solo el concepto de auditoría (Lardent), el concepto de control interno (Lardent) y la auditoría de la organización y función informática. Por eso, del cuestionario y de los parciales de la Unidad 6 quedan solo las preguntas de Auditoría sobre esos temas. La excepción son cinco preguntas que se dejan para repasar aunque sean de otros temas: la de tipos de prueba de la 3ra evaluación parcial de 2021 y las de riesgos, informe, independencia del auditor y auditoría de sistemas instalados de la 4ta evaluación (todas en Campus - U6). Las de Seguridad siguen todas.</p>"
   ],
   "links": [
     {
@@ -37,7 +37,7 @@
       "text": "Repaso · ASI: los gráficos del apunte para completar, mapas mentales y crucigramas de las Unidades 4, 5 y 6. Es un sitio aparte."
     }
   ],
-  "footer": "Fuentes: cuestionarios de estudio de la cátedra (Subsistema de Desarrollo y Mantenimiento de RRHH · Subsistema de Seguimiento de Recursos · Subsistema de Seguridad y Auditoría de los SI/TI), Evaluación Formativa 3 (Unidades 4 y 5), parciales de 2021, 2024 y 2025, evaluaciones del campus (formativa de la Unidad IV de 2020 y 4ta evaluación) y apunte de teoría de las Unidades 4, 5 y 6. Los cuestionarios de la cátedra no constituyen las preguntas de los exámenes.",
+  "footer": "Fuentes: cuestionarios de estudio de la cátedra (Subsistema de Desarrollo y Mantenimiento de RRHH · Subsistema de Seguimiento de Recursos · Subsistema de Seguridad y Auditoría de los SI/TI), Evaluación Formativa 3 (Unidades 4 y 5), parciales de 2024 y 2025, evaluaciones del campus (formativa de la Unidad IV de 2020, 3ra evaluación parcial de 2021 y 4ta evaluación) y apunte de teoría de las Unidades 4, 5 y 6. Los cuestionarios de la cátedra no constituyen las preguntas de los exámenes.",
   "topics": {
     "U4": {
       "name": "Cuestionario Unidad 4 — Desarrollo y Mantenimiento de RRHH",
@@ -6731,7 +6731,7 @@
     },
     {
       "id": "asi-p2-parcial-47",
-      "topic": "PAR_U4",
+      "topic": "CAMPUS_U4",
       "type": "match",
       "catedra": true,
       "tip": "3ra evaluación parcial 2021 · Unidad 4",
@@ -6786,7 +6786,7 @@
     },
     {
       "id": "asi-p2-parcial-48",
-      "topic": "PAR_U4",
+      "topic": "CAMPUS_U4",
       "type": "match",
       "catedra": true,
       "tip": "3ra evaluación parcial 2021 · Unidad 4",
@@ -6827,7 +6827,7 @@
     },
     {
       "id": "asi-p2-parcial-49",
-      "topic": "PAR_U4",
+      "topic": "CAMPUS_U4",
       "type": "match",
       "catedra": true,
       "tip": "3ra evaluación parcial 2021 · Unidad 4",
@@ -6868,7 +6868,7 @@
     },
     {
       "id": "asi-p2-parcial-50",
-      "topic": "PAR_U5",
+      "topic": "CAMPUS_U5",
       "type": "match",
       "catedra": true,
       "tip": "3ra evaluación parcial 2021 · Unidad 5",
@@ -6906,7 +6906,7 @@
     },
     {
       "id": "asi-p2-parcial-51",
-      "topic": "PAR_U5",
+      "topic": "CAMPUS_U5",
       "type": "multi",
       "catedra": true,
       "tip": "3ra evaluación parcial 2021 · Unidad 5",
@@ -6937,7 +6937,7 @@
     },
     {
       "id": "asi-p2-parcial-52",
-      "topic": "PAR_U5",
+      "topic": "CAMPUS_U5",
       "type": "multi",
       "catedra": true,
       "tip": "3ra evaluación parcial 2021 · Unidad 5",
@@ -6970,7 +6970,7 @@
     },
     {
       "id": "asi-p2-parcial-53",
-      "topic": "PAR_U5",
+      "topic": "CAMPUS_U5",
       "type": "multi",
       "catedra": true,
       "tip": "3ra evaluación parcial 2021 · Unidad 5",
@@ -7226,7 +7226,7 @@
     },
     {
       "id": "asi-p2-parcial-63",
-      "topic": "PAR_U6",
+      "topic": "CAMPUS_U6",
       "type": "match",
       "catedra": true,
       "tip": "3ra evaluación parcial 2021 · Unidad 6",
@@ -7296,7 +7296,7 @@
     },
     {
       "id": "asi-p2-parcial-65",
-      "topic": "PAR_U6",
+      "topic": "CAMPUS_U6",
       "type": "match",
       "catedra": false,
       "tip": "3ra evaluación parcial 2021 · Unidad 6",
@@ -7338,7 +7338,7 @@
     },
     {
       "id": "asi-p2-parcial-66",
-      "topic": "PAR_U6",
+      "topic": "CAMPUS_U6",
       "type": "match",
       "catedra": true,
       "tip": "3ra evaluación parcial 2021 · Unidad 6",
@@ -7376,7 +7376,7 @@
     },
     {
       "id": "asi-p2-parcial-67",
-      "topic": "PAR_U6",
+      "topic": "CAMPUS_U6",
       "type": "multi",
       "catedra": true,
       "tip": "3ra evaluación parcial 2021 · Unidad 6",
