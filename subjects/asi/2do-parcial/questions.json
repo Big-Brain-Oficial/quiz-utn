@@ -6544,7 +6544,14 @@
       "correct": [
         1
       ],
-      "fb": "Falso, según la revisión del campus. La retroalimentación de la cátedra remite a la clasificación de cargos de la bibliografía básica; el apunte nombra la evaluación y clasificación de cargos (págs. 24-26), pero no clasifica este método.",
+      "fb": "Falso, según la revisión del campus. La comparación por factores compara partes del cargo o factores, así que es un método analítico, pero es cuantitativo, no cualitativo (pág. 25).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 25,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 13.5], [0, 22, 100, 40.8]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p25-731fb3.webp"
+      },
       "origin": {
         "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
         "page": 4,
