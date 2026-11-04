@@ -147,16 +147,23 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:8px;
 .bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .25s}
 
 .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px}
-.meta{display:flex;align-items:center;gap:6px 10px;color:var(--muted);font-size:.88rem;margin-bottom:8px;flex-wrap:wrap}
+.meta{display:flex;align-items:flex-start;gap:6px 10px;color:var(--muted);font-size:.88rem;margin-bottom:8px;flex-wrap:wrap}
+/* number, topic and badges wrap in their own column so the flag button stays at the right of the first line */
+.meta-main{display:flex;align-items:center;gap:6px 10px;flex-wrap:wrap;flex:1 1 0;min-width:0;min-height:32px}
 .qnum{font:600 1.25rem/1 "Barlow Condensed","Arial Narrow",sans-serif;color:var(--ink)}
 .badge{font-size:.76rem;font-weight:700;padding:2px 9px;border-radius:999px;background:var(--bg);border:1px solid var(--line);color:var(--muted)}
 .badge.info{background:color-mix(in srgb,var(--accent) 12%,transparent);border-color:transparent;color:var(--accent)}
-/* "Marcar para repasar": at the end of the meta row; filled flag and --flag color while marked */
-.flag-btn{display:inline-flex;align-items:center;gap:6px;margin-left:auto;min-height:32px;padding:4px 11px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--muted);font-size:.8rem;font-weight:700;cursor:pointer;transition:border-color .15s,color .15s}
+/* "Marcar para repasar": top right of the card; filled flag and --flag color while marked. On phones only
+   the flag shows, and the label stays for screen readers */
+.flag-btn{display:inline-flex;align-items:center;gap:6px;flex:none;min-height:32px;padding:4px 11px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--muted);font-size:.8rem;font-weight:700;cursor:pointer;transition:border-color .15s,color .15s}
 .flag-btn:hover{border-color:var(--flag);color:var(--flag)}
 .flag-btn svg{width:15px;height:15px;flex:none;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .flag-btn[aria-pressed="true"]{border-color:var(--flag);color:var(--flag);background:color-mix(in srgb,var(--flag) 12%,transparent)}
 .flag-btn[aria-pressed="true"] svg path{fill:currentColor}
+@media (max-width:480px){
+  .flag-btn{min-width:32px;justify-content:center;padding:4px 8px}
+  .flag-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+}
 .tnote{flex-basis:100%;font-size:.84rem;font-style:italic}
 .qtip{flex-basis:100%;font-size:.84rem}
 .qtip::before{content:"★ ";color:var(--note-line)}

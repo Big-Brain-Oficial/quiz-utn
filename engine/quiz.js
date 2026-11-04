@@ -453,7 +453,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       ${hasOpenQuestions ? `<li>En <b>Preguntas Abiertas</b> podés escribir tu desarrollo y tocar <b>Ver respuesta</b> para compararlo con la respuesta orientativa y sus fuentes. Tu texto se guarda mientras escribís en este navegador, incluso al recargar. No se corrige automáticamente ni suma puntaje. <b>Ocultar respuesta</b> permite seguir editándolo.</li>` : hasInfo ? `<li>Las <b>tarjetas informativas</b> (cuadros, relaciones, gráficos) no se responden: tocá <b>Ver respuesta</b> para verla.</li>` : ""}
       <li>Si marcaste varias preguntas sin enviarlas, aparece <b>Enviar todas</b> para corregirlas juntas.</li>
       <li><b>Responder de nuevo</b> borra tu respuesta a esa pregunta para volver a intentarla.</li>
-      <li><b>Marcar para repasar</b>, arriba de cada pregunta, la deja anotada para volver a verla sin acordarte del número: en <b>Mostrar</b> elegí <b>marcadas para repasar</b>. En los números de abajo, las marcadas llevan un punto violeta. Tocalo de nuevo para sacar la marca.</li>
+      <li><b>Marcar para repasar</b>, arriba a la derecha de cada pregunta (en el celular, la banderita), la deja anotada para volver a verla sin acordarte del número: en <b>Mostrar</b> elegí <b>marcadas para repasar</b>. En los números de abajo, las marcadas llevan un punto violeta. Tocalo de nuevo para sacar la marca.</li>
       <li>Cuando respondés todas las preguntas que estás viendo, aparece <b>Repetir las incorrectas</b>: te deja respondiendo solo las que erraste o te salieron a medias, hasta tenerlas todas bien.</li>
     </ul>
     <h3>Puntaje</h3>
@@ -831,11 +831,13 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     return `
       <article class="card" data-p="${p}">
         <div class="meta">
-          <span class="qnum">Pregunta ${p + 1}</span>${swatch(topic)}<span>${esc(topic ? topic.name : q.topic)}</span>
-          ${q.section ? `<span class="badge">${esc(q.section)}</span>` : ""}
-          ${q.type === "multi" ? `<span class="badge">Selección múltiple</span>` : ""}
-          ${q.type === "info" ? `<span class="badge info">${isOpen(q) ? "Pregunta abierta" : "Informativa"}</span>` : ""}
-          <button type="button" class="flag-btn" aria-pressed="${flag}">${FLAG_ICON}${flag ? "Marcada para repasar" : "Marcar para repasar"}</button>
+          <div class="meta-main">
+            <span class="qnum">Pregunta ${p + 1}</span>${swatch(topic)}<span>${esc(topic ? topic.name : q.topic)}</span>
+            ${q.section ? `<span class="badge">${esc(q.section)}</span>` : ""}
+            ${q.type === "multi" ? `<span class="badge">Selección múltiple</span>` : ""}
+            ${q.type === "info" ? `<span class="badge info">${isOpen(q) ? "Pregunta abierta" : "Informativa"}</span>` : ""}
+          </div>
+          <button type="button" class="flag-btn" aria-pressed="${flag}">${FLAG_ICON}<span class="flag-label">${flag ? "Marcada para repasar" : "Marcar para repasar"}</span></button>
           ${topic && topic.note ? `<span class="tnote">${esc(topic.note)}</span>` : ""}
           ${q.tip ? `<span class="qtip">${esc(q.tip)}</span>` : ""}
         </div>
