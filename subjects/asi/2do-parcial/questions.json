@@ -6413,6 +6413,37 @@
       }
     },
     {
+      "id": "asi-p2-parcial-73",
+      "topic": "CAMPUS_U4",
+      "type": "multi",
+      "catedra": true,
+      "tip": "Eval. formativa 2020 · Unidad 4",
+      "text": "Beneficios sociales de tipo no monetario, asistencial y voluntario son:",
+      "opts": [
+        "Tiempo para aseo.",
+        "Hisopado para detectar coronavirus de tipo 2 causante del síndrome respiratorio agudo severo (SRAS-CoV-2)",
+        "Pago de vacaciones.",
+        "Asesoramiento financieros y legales a empleados.",
+        "Revisión médica semestral particular.",
+        "Farmacia social."
+      ],
+      "correct": [],
+      "note": "La revisión del campus marca como correcta solo la revisión médica semestral particular y le da medio punto: hay otra opción correcta que no se sabe cuál es, así que la pregunta no se corrige. El apunte pone el tiempo para aseo como no monetario, asistencial y voluntario, pero no está confirmado.",
+      "fb": "Según la revisión del campus, la revisión médica semestral particular es una de las correctas. El apunte la clasifica como no monetaria, asistencial y voluntaria; el pago de vacaciones, como monetario, asistencial y legal, y el asesoramiento financiero y legal, como no monetario, supletorio y voluntario (pág. 33).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 33,
+        "confidence": "medium"
+      },
+      "origin": {
+        "file": "sources/2020 - Evaluacion formativa Unidad IV (revision).pdf",
+        "page": 1,
+        "label": "Evaluación formativa Unidad IV, 26 sep 2020 (revisión del campus)",
+        "crop": [[0, 59.2, 100, 88.8]],
+        "img": "sources/pages/2020 - Evaluacion formativa Unidad IV (revision)-p1-d96ea9.webp"
+      }
+    },
+    {
       "id": "asi-p2-parcial-37",
       "topic": "CAMPUS_U4",
       "type": "tf",
@@ -6483,6 +6514,7 @@
       "correct": [
         3
       ],
+      "note": "Que el tiempo para aseo sea no monetario, asistencial y voluntario no está confirmado. En la pregunta de ese tipo de beneficios de la misma evaluación, la cátedra marca como correcta solo la revisión médica semestral y le falta otra opción, que no se sabe cuál es.",
       "fb": "Según la revisión del campus, solo el asesoramiento financiero y legal. El apunte clasifica estos mismos ejemplos: el asesoramiento financiero y legal es no monetario, supletorio y voluntario; la revisión médica semestral y el tiempo para aseo son no monetarios, asistenciales y voluntarios; el SAC, las licencias por enfermedad y las vacaciones son monetarios, asistenciales y legales.",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
@@ -6542,6 +6574,7 @@
         2,
         3
       ],
+      "note": "Que el tiempo para aseo sea no monetario, asistencial y voluntario no está confirmado. En la pregunta de ese tipo de beneficios de la misma evaluación, la cátedra marca como correcta solo la revisión médica semestral y le falta otra opción, que no se sabe cuál es.",
       "fb": "Según la revisión del campus: el sueldo anual complementario, el pago de licencias por enfermedad y el pago de vacaciones. El apunte los clasifica como monetarios, asistenciales y legales; la revisión médica semestral y el tiempo para aseo son no monetarios, asistenciales y voluntarios, y el asesoramiento financiero y legal es no monetario, supletorio y voluntario.",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
