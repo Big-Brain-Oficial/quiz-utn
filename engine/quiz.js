@@ -728,7 +728,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   function renderFigure(q) {
     if (!q.img) return "";
     const cap = q.type === "info" ? "" : `<figcaption>${esc(DATA.imageCaption || "Imagen de referencia")}</figcaption>`;
-    return `<figure class="figure">${cap}<img src="${esc(asset(q.img))}" alt="Esquema de la pregunta" loading="lazy"></figure>`;
+    return `<figure class="figure">${cap}<a href="${esc(asset(q.img))}" target="_blank" rel="noopener" title="Ver la imagen en tamaño completo"><img src="${esc(asset(q.img))}" alt="Esquema de la pregunta" loading="lazy"></a></figure>`;
   }
 
   // a figure the question can't be answered without: shown with the statement, before answering
