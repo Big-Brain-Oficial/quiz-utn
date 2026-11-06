@@ -9,14 +9,20 @@
   "labels": {
     "topics": "Fuentes",
     "allTopics": "Todas",
-    "section": "Parcial"
+    "section": "Parcial",
+    "feedback": "Justificación según el apunte"
   },
   "imageCaption": "Imagen del parcial (justificación)",
   "about": [
+    "<p><b>U1:</b> son preguntas armadas a partir del <a href=\"sources/u1-planificacion-estrategica.pdf\" target=\"_blank\" rel=\"noopener\">apunte de teoría de la Unidad I</a> (Planificación estratégica de SI/TI); no las tomó la cátedra. La opción correcta y la justificación salen del apunte, y al corregir se ve el recorte que las respalda. Cuando el libro y la profesora difieren, se sigue lo que marcó la profesora.</p>",
     "<p>Información extraída del Drive: <a href=\"https://docs.google.com/document/d/1a9bN73UWNsffR3wdbyjkf04eVdLAM68kym2Vy3VRUYc/edit\" target=\"_blank\" rel=\"noopener noreferrer\"><b>/Parciales/Preguntas Teoría Parciales</b></a> (se abre en Google Docs; si no tenés acceso, desde ahí podés pedirlo).</p>"
   ],
-  "footer": "Generado a partir de: Cuestionario Aplicación 24/06 · Evaluaciones Formativas 1 (Unidad 1) · Evaluaciones Formativas 2 (Unidad 3) · Preguntas Teoría Parciales (1er parcial 2024, 1er parcial 2025, 2do parcial 2025 Temas 1 y 2, Integrador 2024) · Cuestionario \"Agunsa\" (caso Correo Argentino). Las preguntas con el aviso «Atención» no tenían la respuesta correcta confirmada en el archivo (respuesta incorrecta sin corrección, parcialmente correcta o anotación ambigua).",
+  "footer": "Generado a partir de: Apunte de teoría de la Unidad I · Cuestionario Aplicación 24/06 · Evaluaciones Formativas 1 (Unidad 1) · Evaluaciones Formativas 2 (Unidad 3) · Preguntas Teoría Parciales (1er parcial 2024, 1er parcial 2025, 2do parcial 2025 Temas 1 y 2, Integrador 2024) · Cuestionario \"Agunsa\" (caso Correo Argentino). Las preguntas con el aviso «Atención» no tenían la respuesta correcta confirmada en el archivo (respuesta incorrecta sin corrección, parcialmente correcta o anotación ambigua).",
   "topics": {
+    "U1": {
+      "name": "U1 — Planificación estratégica de SI/TI",
+      "color": "#1C8C8C"
+    },
     "A": {
       "name": "Cuestionario Aplicación 24/06",
       "color": "#2F6FD6"
@@ -39,6 +45,2581 @@
     }
   },
   "questions": [
+    {
+      "id": "asi-p1-001",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "Según el enfoque de Tavistock, ¿cuál es la doble función que cumplen las organizaciones?",
+      "opts": [
+        "Económica (asignar capital y medir la rentabilidad de las tareas) y legal (cumplir las normas que regulan el vínculo con las personas)",
+        "Gerencial (definir objetivos y decidir sobre las tareas) y cultural (transmitir valores y normas a quienes trabajan juntos)",
+        "Técnica (coordinar y ejecutar las tareas con la tecnología) y social (interrelacionar a las personas y hacerlas trabajar juntas)",
+        "Operativa (ejecutar las tareas con la tecnología disponible) y estratégica (definir hacia dónde dirigir a las personas y los recursos)"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Ninguno de los dos sistemas puede mirarse de manera aislada: las modificaciones realizadas en uno repercuten en el otro.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[0, 16.4, 100, 22.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p2-57c8b7.webp"
+      }
+    },
+    {
+      "id": "asi-p1-002",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada elemento con el subsistema del sistema sociotécnico al que pertenece:",
+      "stems": [
+        "Flujo de trabajo, tecnología utilizada y roles que la tarea exige",
+        "Estructura organizacional, políticas, procedimientos y sistema de recompensas y castigos",
+        "Cultura organizacional, valores y normas, organización informal y nivel motivacional"
+      ],
+      "choices": [
+        "Sistema técnico o de tareas",
+        "Sistema gerencial o administrativo",
+        "Sistema social o humano"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "El sistema sociotécnico lo constituyen estos tres subsistemas principales.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[0, 64.1, 100, 87.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p2-9fdfe3.webp"
+      }
+    },
+    {
+      "id": "asi-p1-003",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "En el enfoque de Tavistock, ¿qué aporta cada sistema a la eficiencia de la organización?",
+      "opts": [
+        "El social es responsable de la eficiencia potencial; el tecnológico, de convertirla en eficiencia real",
+        "El gerencial es responsable de la eficiencia potencial; el tecnológico, de convertirla en eficiencia real",
+        "El tecnológico es responsable de la eficiencia real; el gerencial, de convertirla en eficiencia potencial",
+        "El tecnológico es responsable de la eficiencia potencial; el social, de convertirla en eficiencia real"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "El sistema tecnológico (tareas, instalaciones, equipos, métodos) es responsable de la eficiencia potencial; el social (las personas y sus relaciones, en la organización formal y la informal), de convertirla en eficiencia real.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[0, 47.2, 100, 61.7]],
+        "img": "sources/pages/u1-planificacion-estrategica-p2-51fe1c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-004",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué busca optimizar el sistema gerencial dentro del sistema sociotécnico?",
+      "opts": [
+        "Las relaciones entre los sistemas social y técnico, mientras se orientan hacia las metas organizacionales",
+        "La ejecución de las tareas, a medida que se incorporan nuevos modelos de máquinas, equipos y materias primas",
+        "La satisfacción de las necesidades personales, a medida que crecen la organización informal y la motivación",
+        "Los costos de la tecnología, a medida que los trabajadores negocian con la empresa el desempeño de sus labores"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El sistema gerencial garantiza la administración y el desarrollo de la organización y sus procesos de toma de decisiones. Influye y está influido por los sistemas técnico y social (pág. 3).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[0, 88.7, 100, 94.4]],
+        "img": "sources/pages/u1-planificacion-estrategica-p2-f97e6c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-005",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "Las exigencias tecnológicas condicionan y limitan la clase de organización del trabajo, pero esta presenta características sociales y psicológicas propias, independientes de la tecnología.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Es lo primordial del enfoque: todo sistema de producción necesita una organización tecnológica y una organización del trabajo, y esta última conserva características propias.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 3,
+        "confidence": "high",
+        "crop": [[0, 51.8, 100, 61.5]],
+        "img": "sources/pages/u1-planificacion-estrategica-p3-698081.webp"
+      }
+    },
+    {
+      "id": "asi-p1-006",
+      "topic": "U1",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Qué funciones cumplen los objetivos empresariales? (Seleccioná todas las correctas)",
+      "opts": [
+        "Señalar la orientación que la empresa debe seguir y establecer directrices para sus participantes",
+        "Determinar las características de las personas que la organización necesita para operar",
+        "Constituir una fuente de legitimidad que justifica las acciones de la empresa y su existencia",
+        "Garantizar los medios para adquirir los demás recursos que la organización necesita",
+        "Servir como estándar para comparar y evaluar el éxito de la organización",
+        "Servir como unidad de medida para verificar y comparar la productividad"
+      ],
+      "correct": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "fb": "Son las cuatro funciones de los objetivos. Determinar las características de las personas lo hace la tecnología (pág. 2) y garantizar los medios para adquirir otros recursos, los recursos financieros (pág. 4).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 3,
+        "confidence": "high",
+        "crop": [[0, 79.7, 100, 94.5], [0, 0.1, 100, 4.0, 4]],
+        "img": "sources/pages/u1-planificacion-estrategica-p3-91e16f.webp"
+      }
+    },
+    {
+      "id": "asi-p1-007",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el tipo de recurso organizacional:",
+      "stems": [
+        "Dinero en forma de capital, flujo de caja, financiación, créditos e ingresos",
+        "Espacio físico, edificios, proceso productivo, tecnología y métodos de trabajo",
+        "Investigación de mercado, ventas, promoción, publicidad y fijación de precios",
+        "Personas que ingresan, permanecen y participan en cualquier nivel jerárquico",
+        "Medios con los que se planean, dirigen, controlan y organizan las actividades"
+      ],
+      "choices": [
+        "Físicos o materiales",
+        "Financieros",
+        "Humanos",
+        "Mercadológicos",
+        "Administrativos"
+      ],
+      "correct": [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      "fb": "Clasificación de los recursos organizacionales según Chiavenato.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 4,
+        "confidence": "high",
+        "crop": [[0, 15.0, 100, 91.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p4-f335e2.webp"
+      }
+    },
+    {
+      "id": "asi-p1-008",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué recurso organizacional es el único vivo y dinámico, y el que decide el manejo de los demás?",
+      "opts": [
+        "Administrativo",
+        "Financiero",
+        "Mercadológico",
+        "Humano"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Además, las personas son los únicos recursos presentes en todas las áreas, aspectos y niveles de la organización (pág. 6).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 4,
+        "confidence": "high",
+        "crop": [[0, 47.6, 100, 57.5]],
+        "img": "sources/pages/u1-planificacion-estrategica-p4-88a525.webp"
+      }
+    },
+    {
+      "id": "asi-p1-009",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada recurso organizacional con su denominación tradicional:",
+      "stems": [
+        "Materiales o instalaciones físicas",
+        "Financieros",
+        "Humanos",
+        "Administrativos",
+        "Mercadológicos"
+      ],
+      "choices": [
+        "Naturaleza",
+        "Capital",
+        "Trabajo",
+        "Empresa",
+        "No tiene correspondencia"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Es la columna «Denominación tradicional» del cuadro de recursos.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 5,
+        "confidence": "high",
+        "crop": [[0, 2.1, 100, 33.0]],
+        "img": "sources/pages/u1-planificacion-estrategica-p5-44fc1e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-010",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "En el contexto de la teoría de la burocracia, ¿qué relación existe entre racionalidad y eficiencia?",
+      "opts": [
+        "La eficiencia es la causa y la racionalidad es uno de sus efectos esperados",
+        "La racionalidad es la causa y la eficiencia es uno de sus efectos esperados",
+        "Son sinónimos: las dos miden el logro de los resultados de la organización",
+        "La racionalidad atiende a los objetivos individuales; la eficiencia, a los organizacionales"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "La racionalidad implica adecuar los medios a los fines. Si la elección de los medios es acertada, el resultado será eficiencia. Solo se tienen en cuenta los objetivos organizacionales, no los individuales.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 6,
+        "confidence": "high",
+        "crop": [[0, 15.4, 100, 19.1], [0, 34.7, 100, 36.3]],
+        "img": "sources/pages/u1-planificacion-estrategica-p6-af9301.webp"
+      }
+    },
+    {
+      "id": "asi-p1-011",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "Que una organización sea racional implica que sus miembros actúen de manera racional.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "No lo implica. Por el contrario, cuanto más racional y burocrática es una organización, sus miembros actúan como simples engranajes, olvidándose del propósito y el significado de su comportamiento.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 6,
+        "confidence": "high",
+        "crop": [[0, 23.5, 100, 31.2]],
+        "img": "sources/pages/u1-planificacion-estrategica-p6-86264f.webp"
+      }
+    },
+    {
+      "id": "asi-p1-012",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada afirmación con el concepto al que corresponde:",
+      "stems": [
+        "Medida normativa del logro de resultados",
+        "Medida normativa de la utilización de recursos",
+        "Capacidad de satisfacer una necesidad social mediante el suministro de productos",
+        "Se preocupa por los medios, no por los fines",
+        "Adecuación de los medios utilizados a los fines y objetivos que se desean alcanzar"
+      ],
+      "choices": [
+        "Eficiencia",
+        "Eficacia",
+        "Racionalidad"
+      ],
+      "correct": [
+        1,
+        0,
+        1,
+        0,
+        2
+      ],
+      "fb": "La eficiencia es una relación técnica entre entradas y salidas, y el logro de los objetivos previstos no es competencia suya, sino de la eficacia.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 6,
+        "confidence": "high",
+        "crop": [[0, 15.4, 100, 19.1], [0, 74.8, 100, 93.6], [0, 0.3, 100, 6.0, 7]],
+        "img": "sources/pages/u1-planificacion-estrategica-p6-3604ba.webp"
+      }
+    },
+    {
+      "id": "asi-p1-013",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "Andreu, Ricart y Valor definen al SI como un conjunto formal de procesos. ¿Qué significa «formal» en esa definición?",
+      "opts": [
+        "Que sus datos reflejan la percepción de las personas que los utilizan a diario en la empresa",
+        "Que está al servicio del enfoque de negocio y se coordina de manera explícita con sus objetivos",
+        "Que atiende las necesidades de información para coordinar acciones, decidir y ejercer el control",
+        "Que es la parte del SI claramente definida, que toda empresa conoce y sabe cómo utilizar"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Los SI informales son, por naturaleza, menos estudiables, menos planificables y menos dirigibles. Las otras opciones explican otros puntos de la definición: la colección de datos estructurada, la estrategia de negocio y las operaciones y la toma de decisiones.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 34.3, 100, 39.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p7-7d78ba.webp"
+      }
+    },
+    {
+      "id": "asi-p1-014",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿En qué se centra fundamentalmente la definición de SI de Andreu, Ricart y Valor?",
+      "opts": [
+        "En el cómo del SI, más que en el para qué o el qué",
+        "En el qué del SI, más que en el para qué o el cómo",
+        "En el para qué del SI, más que en el cómo o el qué",
+        "En el quién del SI, más que en el cómo o el para qué"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Los SI existen no solo para satisfacer necesidades de información para coordinar acciones operativas, sino también para ayudar a tomar decisiones y ejercer el control adecuado.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 69.1, 100, 76.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p7-861299.webp"
+      }
+    },
+    {
+      "id": "asi-p1-015",
+      "topic": "U1",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles de los siguientes son recursos de un SI? (Seleccioná todas las correctas)",
+      "opts": [
+        "Hardware",
+        "Software",
+        "La cadena de valor",
+        "Recursos humanos",
+        "Los mecanismos para administrarlos",
+        "La estrategia de negocio"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "fb": "Los recursos de un SI son todos los medios de los que se vale para llevar a cabo sus fines, así como los mecanismos para administrarlos.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 85.5, 100, 94.6], [0, 0, 100, 7.8, 8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p7-3375a9.webp"
+      }
+    },
+    {
+      "id": "asi-p1-016",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "El concepto de cadena de valor distingue dos tipos de actividades. ¿Qué las diferencia?",
+      "opts": [
+        "Las de soporte crean valor directamente; las de línea o básicas son aquellas en las que las primeras se apoyan para coordinarse y compartir información",
+        "Las de línea o básicas crean valor directamente; las de soporte son aquellas en las que las primeras se apoyan para coordinarse y compartir información",
+        "Las de línea o básicas son las únicas que generan información; las de soporte son las únicas que la necesitan para coordinarse con las demás",
+        "Las de línea o básicas forman la infraestructura de la empresa; las de soporte son las que se relacionan directamente con los clientes y el mercado"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Las actividades de línea o básicas tienen que ver directamente con la creación de valor. El SI forma parte de la infraestructura, que es una actividad de soporte.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 20.0, 100, 27.7]],
+        "img": "sources/pages/u1-planificacion-estrategica-p8-a5f156.webp"
+      }
+    },
+    {
+      "id": "asi-p1-017",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "Solo las actividades de línea de la cadena de valor necesitan el apoyo del SI, porque son las únicas que crean valor.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Todas las actividades de la cadena de valor, básicas o de soporte, necesitan y generan información. El SI juega un papel de coordinación entre básicas, entre básicas y de soporte, y entre las de soporte.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 77.5, 100, 89.2]],
+        "img": "sources/pages/u1-planificacion-estrategica-p8-6dd53b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-018",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "Según la profesora, ¿cuándo un sistema es «básico»?",
+      "opts": [
+        "Cuando está circunscrito a una actividad concreta de la cadena de valor y se planifica desde ella",
+        "Cuando maneja volúmenes importantes de información que nadie más en la empresa necesita",
+        "Cuando da soporte a una única área y tiene interfaces controladas y limitadas con el resto",
+        "Cuando es transversal a varias áreas; en ese caso, siempre va a la infraestructura de la empresa"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "La información que maneja el SI básico no pertenece a ninguna actividad en particular: pertenece a la empresa considerada globalmente. Las otras opciones describen a los subsistemas circunscritos.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 4.1, 100, 12.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p9-f43e5a.webp"
+      }
+    },
+    {
+      "id": "asi-p1-019",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "Un subsistema circunscrito a una actividad puede generar o utilizar información relevante para otras actividades, siempre que lo haga en volúmenes poco importantes.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "No forma parte del SI básico, pero tampoco está totalmente aislado: tiene interfaces controladas y limitadas que interactúan con él.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 38.7, 100, 46.6]],
+        "img": "sources/pages/u1-planificacion-estrategica-p9-b8998f.webp"
+      }
+    },
+    {
+      "id": "asi-p1-020",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Por qué el proceso de contabilidad no es, en realidad, un subsistema circunscrito, aunque su departamento pueda considerarlo así?",
+      "opts": [
+        "Porque todos los apuntes se generan en otras áreas de la empresa",
+        "Porque sus datos no pueden contabilizarse como activos de la empresa",
+        "Porque maneja un volumen de información poco importante para el resto",
+        "Porque lo exige una norma legal y no se puede planificar desde esa área"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Lo fundamental de los subsistemas circunscritos es que sean lo más independientes posible de la información de otras actividades, y la contabilidad no lo es.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 30.3, 100, 38.3]],
+        "img": "sources/pages/u1-planificacion-estrategica-p9-c01d9d.webp"
+      }
+    },
+    {
+      "id": "asi-p1-021",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué conforma las Tecnologías de Información (TI), de mínima?",
+      "opts": [
+        "Hardware, software, recursos humanos y los mecanismos para administrarlos",
+        "Aplicaciones, comunicaciones y los dispositivos para acceder a la información",
+        "Procesos formales, colecciones de datos estructuradas y personas que toman decisiones",
+        "Logística, operaciones, marketing y asistencia técnica, que crean valor para el cliente"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Las TI son el conjunto de recursos tecnológicos utilizados para la implementación de los SI. Hardware, software, recursos humanos y sus mecanismos de administración son los recursos del SI (págs. 7-8).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 0.3, 100, 6.0]],
+        "img": "sources/pages/u1-planificacion-estrategica-p10-4e0c40.webp"
+      }
+    },
+    {
+      "id": "asi-p1-022",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué significa que la tecnología «no es neutral»?",
+      "opts": [
+        "Que debe elegirse sin preferir proveedores, porque todas las tecnologías aportan lo mismo al SI",
+        "Que aporta su idiosincrasia: a menudo no se puede hacer lo mismo y de la misma manera con otra tecnología",
+        "Que la necesidad inicial se plantea en términos de tecnología, y después se define el SI que le corresponde",
+        "Que sus decisiones las toma el área técnica, sin participación de las áreas de negocio de la empresa"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Por eso alguien en la estructura de la empresa debe responsabilizarse de estar al día con las posibilidades de las TI y mantener una actitud crítica desde las necesidades de SI. La necesidad inicial se plantea en términos de SI (pág. 9).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 18.6, 100, 26.3]],
+        "img": "sources/pages/u1-planificacion-estrategica-p10-9c1d7b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-023",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "La tecnología puede forzar a hacer las cosas de maneras peores: quizá más eficientes, pero menos efectivas.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Pueden darse dos situaciones: que la tecnología aporte mejores maneras de hacer las cosas o que fuerce a hacerlas de maneras peores.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 36.9, 100, 47.0]],
+        "img": "sources/pages/u1-planificacion-estrategica-p10-e51ec3.webp"
+      }
+    },
+    {
+      "id": "asi-p1-024",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "La administración como proceso no se encuentra en un área: la llevan adelante la alta gerencia, las gerencias medias y las de primera línea.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Lo que administra cada uno de esos tres niveles depende de su nivel jerárquico. Las cuatro tareas que se hacen permanentemente son planificar, organizar, dirigir y controlar.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 57.1, 100, 68.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p10-d114e7.webp"
+      }
+    },
+    {
+      "id": "asi-p1-025",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cómo se puede definir una estrategia?",
+      "opts": [
+        "Como el proceso sustantivo que dirige toda la empresa, mediante las tareas de planificar, organizar, dirigir y controlar",
+        "Como la lista de proyectos que se desarrollarán en los próximos años, con la prioridad y el presupuesto de cada uno",
+        "Como un conjunto integrado de acciones encaminadas a incrementar a largo plazo la prosperidad y las fortalezas de la empresa",
+        "Como la medida normativa de la utilización de los recursos, que asegura su empleo óptimo en cada una de las tareas"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Es el conjunto de acciones que indica el curso para llegar al objetivo y marca con qué prioridad se asignan recursos y se ejecutan esas acciones. El proceso que dirige toda la empresa es la administración.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 70.3, 100, 79.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p10-10b2db.webp"
+      }
+    },
+    {
+      "id": "asi-p1-026",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden de derivación de las estrategias en el alineamiento?",
+      "opts": [
+        "Estrategia de TI → Estrategia de SI → Estrategia empresarial",
+        "Estrategia de SI → Estrategia empresarial → Estrategia de TI",
+        "Estrategia empresarial → Estrategia de TI → Estrategia de SI",
+        "Estrategia empresarial → Estrategia de SI → Estrategia de TI"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Los componentes de una estrategia de SI/TI son la estrategia de SI y la de TI, y hay un orden: primero se determina la demanda de aplicaciones y después cómo satisfacerla.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[0, 0.3, 100, 16.3]],
+        "img": "sources/pages/u1-planificacion-estrategica-p11-cb2de6.webp"
+      }
+    },
+    {
+      "id": "asi-p1-027",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada afirmación con la estrategia a la que corresponde, según Edwards:",
+      "stems": [
+        "Define qué sistemas de información precisa la empresa para el futuro",
+        "Determina cómo se van a adquirir, utilizar, controlar y gestionar los recursos tecnológicos y humanos",
+        "Es la demanda: determinación de la demanda de aplicaciones (qué)",
+        "Es la oferta: formas en las que se puede satisfacer esa demanda (cómo)",
+        "Define quién es responsable de la planificación, entrega e implantación de los SI"
+      ],
+      "choices": [
+        "Estrategia de SI",
+        "Estrategia de TI"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "fb": "La estrategia de SI define las necesidades de información y de sistemas; la de TI, cómo se van a satisfacer. Para este juego de oferta y demanda debe existir un orden.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[0, 19.0, 100, 72.4]],
+        "img": "sources/pages/u1-planificacion-estrategica-p11-9bd0d9.webp"
+      }
+    },
+    {
+      "id": "asi-p1-028",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "El proceso de planificación de los SI/TI debe generar resultados válidos a lo largo de su desarrollo, no solamente al final.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La planificación de la estrategia de los SI/TI debe llegar a ser un proceso continuo e integrado en la planificación de la empresa, manejable en alcance y duración, y con hitos de control claros.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[0, 76.3, 100, 88.0]],
+        "img": "sources/pages/u1-planificacion-estrategica-p11-f6ef5f.webp"
+      }
+    },
+    {
+      "id": "asi-p1-029",
+      "topic": "U1",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Qué debe incluir un Plan de SI/TI, según Andreu, Ricart y Valor? (Seleccioná todas las correctas)",
+      "opts": [
+        "Una lista de proyectos a desarrollar en los próximos 3 a 5 años",
+        "La especificación técnica detallada de todo el hardware y el software a instalar",
+        "La prioridad de cada proyecto",
+        "Mecanismos de evaluación para el seguimiento del plan: calendario y presupuesto detallado",
+        "El detalle de recursos de los proyectos de los 5 años, para incluirlos en el presupuesto anual",
+        "Una lista de actividades de la empresa donde la TI pueda aumentar su eficacia o su eficiencia"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "fb": "El detalle suficiente para evaluar los recursos se pide solo para los proyectos del primer año. El contenido del plan es muy poco tecnológico.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 12,
+        "confidence": "high",
+        "crop": [[0, 12.0, 100, 37.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p12-0cefd9.webp"
+      }
+    },
+    {
+      "id": "asi-p1-030",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "La perspectiva bajo la que se elabora el Plan de SI/TI es fundamentalmente tecnológica.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Es fundamentalmente una perspectiva de negocio: el contenido del Plan de SI/TI es muy poco tecnológico.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 12,
+        "confidence": "high",
+        "crop": [[0, 39.4, 100, 45.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p12-e3afe0.webp"
+      }
+    },
+    {
+      "id": "asi-p1-031",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada contenido con el input del proceso de planificación de SI/TI al que corresponde:",
+      "stems": [
+        "Fuerzas que afectan a la industria: situación económica, estructura y base competitiva",
+        "Nuevas tecnologías y la forma en que otros emplean las TI dentro de la industria",
+        "Misión y objetivos, actividades, fortalezas y debilidades, estructura y estilo de dirección",
+        "Puntos fuertes y débiles de la cartera actual, capacidad tecnológica y equipo humano de SI/TI"
+      ],
+      "choices": [
+        "Entorno empresarial externo",
+        "Entorno externo de SI/TI",
+        "Entorno empresarial interno",
+        "Entorno interno de SI/TI"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Son los cuatro inputs clave del proceso de planificación de SI/TI.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 7.1, 100, 92.5], [0, 0.3, 100, 22.3, 14]],
+        "img": "sources/pages/u1-planificacion-estrategica-p13-95d563.webp"
+      }
+    },
+    {
+      "id": "asi-p1-032",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Sobre quién recae fundamentalmente la responsabilidad de desarrollar el Plan de TI/SI?",
+      "opts": [
+        "Sobre el estamento técnico, aunque en el proceso también debe participar la dirección de la empresa",
+        "Sobre los consultores externos, aunque la aprobación del resultado corresponde al director de SI",
+        "Sobre la dirección de la empresa, aunque en el proceso también debe participar el estamento técnico",
+        "Sobre los departamentos usuarios, aunque el seguimiento posterior corresponde al director de SI/TI"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Responsabilidad fundamental de la dirección, con participación del estamento técnico.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[0, 30.2, 100, 33.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p14-1b76eb.webp"
+      }
+    },
+    {
+      "id": "asi-p1-033",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada función con el grupo de trabajo del procedimiento de planificación:",
+      "stems": [
+        "Es el órgano con responsabilidad última sobre el SI y aprueba el Plan de SI/TI",
+        "Lleva a cabo el trabajo operativo encaminado a elaborar el Plan de SI/TI",
+        "Facilita la negociación entre usuarios, asegura la consistencia de los desarrollos y supervisa al equipo"
+      ],
+      "choices": [
+        "Comité de SI/TI",
+        "Equipo de trabajo",
+        "Grupo base"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "El Comité proporciona además criterios estratégicos para fijar prioridades y asignar recursos; el Equipo de trabajo es dirigido formalmente por el director de SI/TI.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 31.3, 100, 74.4]],
+        "img": "sources/pages/u1-planificacion-estrategica-p15-accc68.webp"
+      }
+    },
+    {
+      "id": "asi-p1-034",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Quién nunca puede integrar el grupo base?",
+      "opts": [
+        "El subdirector general a cargo de SI",
+        "El gerente general",
+        "El director de SI/TI",
+        "El director operativo del proyecto"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El grupo base lo integran el subdirector general a cargo de SI, el director de SI/TI, el DOP y, eventualmente, consultores externos, que tienen autoridad de staff.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 62.7, 100, 74.4]],
+        "img": "sources/pages/u1-planificacion-estrategica-p15-18135a.webp"
+      }
+    },
+    {
+      "id": "asi-p1-035",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "En un proyecto de planificación de SI/TI solo puede haber un director operativo del proyecto (DOP).",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El DOP pertenece a la gerencia de primera línea y es el líder del proyecto, pero puede haber varios.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 51.2, 100, 54.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p15-0c1ac8.webp"
+      }
+    },
+    {
+      "id": "asi-p1-036",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada objetivo con la fase del procedimiento de alineación:",
+      "stems": [
+        "Constituir el equipo de trabajo y presentarlo a la organización",
+        "Describir la situación de la compañía: el negocio y los sistemas existentes",
+        "Documentar las necesidades de información y formular propuestas de actuación",
+        "Elaborar la lista de proyectos y proponer la asignación de recursos"
+      ],
+      "choices": [
+        "Fase I",
+        "Fase II",
+        "Fase III",
+        "Fase IV"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Fase I: Presentación y compromiso del equipo. Fase II: Descripción de la situación actual. Fase III: Elaboración del Plan de TI/SI. Fase IV: Programación de actividades.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 16,
+        "confidence": "high",
+        "crop": [[0, 33.8, 100, 39.6], [0, 70.7, 100, 80.0], [0, 42.1, 100, 58.9, 18], [0, 14.0, 100, 19.8, 21]],
+        "img": "sources/pages/u1-planificacion-estrategica-p16-b77f43.webp"
+      }
+    },
+    {
+      "id": "asi-p1-037",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden de los pasos propuestos para la Fase I?",
+      "opts": [
+        "Decisión de obtener un Plan y Comité SI/TI → Grupo base → Áreas de análisis → Equipo de trabajo definitivo",
+        "Grupo base → Decisión de obtener un Plan y Comité SI/TI → Equipo de trabajo definitivo → Áreas de análisis",
+        "Decisión de obtener un Plan y Comité SI/TI → Equipo de trabajo definitivo → Áreas de análisis → Grupo base",
+        "Áreas de análisis → Grupo base → Decisión de obtener un Plan y Comité SI/TI → Equipo de trabajo definitivo"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El grupo base es un embrión del equipo de trabajo, posiblemente con consultores externos. La fase termina con la presentación del proyecto.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 16,
+        "confidence": "high",
+        "crop": [[0, 49.5, 100, 62.6]],
+        "img": "sources/pages/u1-planificacion-estrategica-p16-61c64e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-038",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Quiénes son los responsables de la Fase I?",
+      "opts": [
+        "El equipo de trabajo y los departamentos involucrados",
+        "El personal de SI y el director de SI",
+        "El Comité de SI/TI y el grupo base",
+        "El grupo base y los consultores externos"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "El equipo de trabajo y los departamentos involucrados son los responsables de la Fase II (pág. 18).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 16,
+        "confidence": "high",
+        "crop": [[0, 64.2, 100, 65.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p16-9633a5.webp"
+      }
+    },
+    {
+      "id": "asi-p1-039",
+      "topic": "U1",
+      "type": "multi",
+      "catedra": false,
+      "text": "En la Fase II, ¿qué información se precisa acerca de los procesos de los subsistemas existentes? (Seleccioná todas las correctas)",
+      "opts": [
+        "Su agrupación por subsistemas",
+        "Qué datos utiliza cada proceso en su funcionamiento (inputs)",
+        "La prioridad y el calendario de implementación de cada proceso",
+        "Qué datos se crean o modifican como resultado de su operación (outputs)",
+        "Cómo está implementado cada uno y qué tratamiento de datos requiere",
+        "El costo de reemplazar cada proceso por un paquete de software estándar"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "fb": "También se deben identificar los datos manejados y los procesos que configuran los subsistemas. La prioridad y el calendario se definen en fases posteriores.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 17,
+        "confidence": "high",
+        "crop": [[0, 21.8, 100, 38.6]],
+        "img": "sources/pages/u1-planificacion-estrategica-p17-f3d583.webp"
+      }
+    },
+    {
+      "id": "asi-p1-040",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "En la Fase II, ¿quién debe velar por la homogeneidad de las estructuras de datos que se van elaborando?",
+      "opts": [
+        "El comité de SI/TI y, en su caso, el máximo responsable de la compañía",
+        "El subdirector general de cada área y, en su caso, los consultores externos",
+        "El director operativo del proyecto y, en su caso, el grupo base",
+        "Los departamentos usuarios y, en su caso, el personal de desarrollo"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Debe asegurarse de que los datos comunes a distintas estructuras se describan de la misma manera. Un diccionario de datos es de gran utilidad en esta actividad.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 17,
+        "confidence": "high",
+        "crop": [[0, 47.3, 100, 54.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p17-02c08e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-041",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "La crítica de los sistemas existentes es doble. Relacioná cada aspecto con el tipo de crítica:",
+      "stems": [
+        "Grado de soporte que cada subsistema da a cada función o proceso de negocio",
+        "Áreas de mejora que, a juicio de los usuarios, más necesitan ser atacadas",
+        "Grado de conveniencia de las estructuras de datos en cada función o proceso",
+        "Tecnología básica empleada en cada subsistema y sus procesos",
+        "Interrelaciones entre subsistemas y cómo están resueltas",
+        "Rendimientos, volúmenes y frecuencias"
+      ],
+      "choices": [
+        "Crítica de negocio",
+        "Crítica técnica"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "fb": "La crítica de negocio incluye también lo que se percibe como puntos fuertes y débiles de cada subsistema. Al final, el análisis lo valida el subdirector general responsable de cada área (pág. 18).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 17,
+        "confidence": "high",
+        "crop": [[0, 60.5, 100, 93.0], [0, 0.1, 100, 4.0, 18]],
+        "img": "sources/pages/u1-planificacion-estrategica-p17-022ed5.webp"
+      }
+    },
+    {
+      "id": "asi-p1-042",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué cruza la matriz de alineamiento estratégico o de necesidades?",
+      "opts": [
+        "Las contribuciones actuales y futuras de cada aplicación, para ubicarla en un segmento según sus beneficios y los recursos utilizados",
+        "Los procesos y las unidades de datos, para representar el grado de interacción de cada proceso con cada unidad de datos relevante",
+        "El nivel organizacional y el tipo de beneficio, para justificar a qué nivel de la empresa apunta cada inversión en SI/TI",
+        "Las estrategias de la empresa y los departamentos, para identificar las necesidades de información de las funciones de negocio"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Las otras opciones describen la cartera de aplicaciones (pág. 33), la matriz de procesos y datos de la Fase II (pág. 17) y el diagrama de beneficios por nivel organizacional (pág. 31).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 19,
+        "confidence": "high",
+        "crop": [[0, 4.0, 100, 27.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p19-59d5d0.webp"
+      }
+    },
+    {
+      "id": "asi-p1-043",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "A partir de la matriz de alineamiento, ¿qué se obtiene y en qué orden?",
+      "opts": [
+        "Estrategias de TI → Necesidades de información → Estrategias de SI",
+        "Necesidades de información → Estrategias de SI → Estrategias de TI",
+        "Estrategias de SI → Estrategias de TI → Necesidades de información",
+        "Necesidades de información → Estrategias de TI → Estrategias de SI"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "De las necesidades identificadas se derivan las estrategias de SI y de ellas las de TI, que conforman en parte el Plan de SI/TI. Los planes deben estar avalados por el Comité de SI/TI.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 19,
+        "confidence": "high",
+        "crop": [[0, 4.0, 100, 27.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p19-59d5d0.webp"
+      }
+    },
+    {
+      "id": "asi-p1-044",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "La estructura elaborada en la Fase III debe validarse explícitamente mediante un proceso de dos fases. ¿Cuáles?",
+      "opts": [
+        "Reuniones departamentales y una reunión del comité de SI/TI en pleno",
+        "Reuniones con los consultores y una reunión del grupo base en pleno",
+        "Reuniones del equipo de trabajo y una reunión del directorio en pleno",
+        "Encuestas a los usuarios y una reunión con el subdirector general"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Una vez acordada la arquitectura del SI necesario, hay que evaluar los recursos que harían falta para construir los subsistemas.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 19,
+        "confidence": "high",
+        "crop": [[0, 72.7, 100, 79.5]],
+        "img": "sources/pages/u1-planificacion-estrategica-p19-3d7021.webp"
+      }
+    },
+    {
+      "id": "asi-p1-045",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "Como se suele llegar a una única solución técnica para pasar de la situación actual a la futura, el comité de TI/SI solo decide si la aprueba o la rechaza.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Generalmente existen varias soluciones técnicas, con distintos costes y prestaciones. Hay que preparar planes alternativos para que el comité elija el más conveniente para la compañía.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 20,
+        "confidence": "high",
+        "crop": [[0, 0.3, 100, 6.0]],
+        "img": "sources/pages/u1-planificacion-estrategica-p20-4e0c40.webp"
+      }
+    },
+    {
+      "id": "asi-p1-046",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "En la Fase III, relacioná cada actividad con quién la lleva a cabo:",
+      "stems": [
+        "Aprobar la estructura del SI emergente",
+        "Elaborar el informe acerca de la estructura del SI necesario en el futuro",
+        "Formular las propuestas alternativas para el plan de TI/SI"
+      ],
+      "choices": [
+        "Comité de TI/SI",
+        "Equipo de trabajo",
+        "Personal técnico de SI"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "La elaboración del Plan definitivo está a cargo del personal de SI y la aprobación, del Comité (pág. 21). El resultado de la fase es un conjunto de acciones de SI/TI.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 20,
+        "confidence": "high",
+        "crop": [[0, 66.8, 100, 89.5]],
+        "img": "sources/pages/u1-planificacion-estrategica-p20-f796b9.webp"
+      }
+    },
+    {
+      "id": "asi-p1-047",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿A qué proyectos se aplica la Fase IV?",
+      "opts": [
+        "A los proyectos con más prioridad, que se implementan en el primer año",
+        "A todos los proyectos del Plan, que se implementan en los próximos cinco años",
+        "A los proyectos de menor costo, que se pueden financiar con el presupuesto actual",
+        "A los proyectos que rechazó el comité, que se vuelven a evaluar el período siguiente"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Según la profesora, van a existir n fases 4, que dan como resultado (outputs) los proyectos finalizados.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 21,
+        "confidence": "high",
+        "crop": [[0, 35.7, 100, 43.3]],
+        "img": "sources/pages/u1-planificacion-estrategica-p21-6e73aa.webp"
+      }
+    },
+    {
+      "id": "asi-p1-048",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "Según Robson, ¿cuál es el punto en el que la planificación se transforma en acción?",
+      "opts": [
+        "El proceso de auditoría de costos de IS",
+        "El proceso de evaluación de beneficios de IS",
+        "El proceso de formulación de la estrategia de IS",
+        "El proceso de asignación de recursos de IS"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "La formulación de una estrategia de IS involucra planificar un modelo de asignación de recursos.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 3.3, 100, 8.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p23-ca0b05.webp"
+      }
+    },
+    {
+      "id": "asi-p1-049",
+      "topic": "U1",
+      "type": "multi",
+      "catedra": false,
+      "text": "Llevar a la realidad la estrategia de los IS mediante la asignación de recursos requiere el management de un conjunto interrelacionado de cuestiones. ¿Cuáles? (Seleccioná todas las correctas)",
+      "opts": [
+        "Las relacionadas con los costos de los IS",
+        "Las relacionadas con la ubicación de los IS",
+        "Las relacionadas con los beneficios de los IS",
+        "Las relacionadas con la tercerización de los IS",
+        "Las relacionadas con el balance entre costos y beneficios de los IS"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "fb": "El balance del riesgo se logra mediante el proceso de concertar los criterios de costo/beneficio.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 10.4, 100, 22.2]],
+        "img": "sources/pages/u1-planificacion-estrategica-p23-37e1da.webp"
+      }
+    },
+    {
+      "id": "asi-p1-050",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "En el beneficio de un IS, ¿de dónde surge la certeza que se gana?",
+      "opts": [
+        "Del conocimiento anticipado de los resultados de la actividad, porque el IS elimina el riesgo de las decisiones",
+        "De la mayor disponibilidad de información para la toma de decisiones, sin que eso equivalga a conocer los resultados",
+        "De la contabilización de los datos y el software como activos, que permite conocer el verdadero valor de la inversión",
+        "De la reducción de los costos tangibles del proyecto, que deja fuera de la evaluación a los beneficios intangibles"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El riesgo está presente en todas las asignaciones de recursos de los IS y disminuye al incrementarse la certeza.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 35.3, 100, 48.2]],
+        "img": "sources/pages/u1-planificacion-estrategica-p23-511a2e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-051",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el tipo de inversión según Robson:",
+      "stems": [
+        "Mejora en la productividad, con ganancias a corto plazo, generalmente para reducir costos en los procesos comerciales",
+        "Mejora empresarial o disminución de riesgo para aumentar el potencial de generar ingresos, a largo plazo",
+        "Efectivamente obligatoria para operar dentro de la industria y estar al día con los competidores",
+        "De mediano plazo y sin beneficios directos: crea una estructura para la empresa, evaluable como activo"
+      ],
+      "choices": [
+        "Valor operacional",
+        "Valor estratégico",
+        "Umbral",
+        "Infraestructura"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Valor operacional y estratégico clasifican según el impacto deseado; umbral e infraestructura, según la necesidad de inversión.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 80.2, 100, 94.3], [0, 0.3, 100, 36.1, 24]],
+        "img": "sources/pages/u1-planificacion-estrategica-p23-ac458b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-052",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada ejemplo con el tipo de inversión:",
+      "stems": [
+        "Sistema de control de stock",
+        "Sistema de análisis de mercado",
+        "Aplicación web para una empresa comercial de alcance regional",
+        "Migrar el cableado estructurado a fibra óptica"
+      ],
+      "choices": [
+        "Valor operacional",
+        "Valor estratégico",
+        "Umbral",
+        "Infraestructura"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Son los ejemplos del cuadro del apunte, según el impacto buscado y según la necesidad de la inversión.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[0, 49.6, 100, 69.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p24-610e2f.webp"
+      }
+    },
+    {
+      "id": "asi-p1-053",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "Cada tipo de valor de una inversión debe ser articulado, evaluado y necesariamente cuantificado.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Debe ser articulado y evaluado, pero no necesariamente cuantificado. Los distintos tipos de objetivos y beneficios requieren distintos enfoques para justificar la inversión.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[0, 39.3, 100, 44.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p24-7e203b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-054",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la categoría de valor en el uso de la información:",
+      "stems": [
+        "Los análisis financieros evidencian una diferencia positiva entre costos, ahorros e ingresos",
+        "Un proyecto da apoyo directo a una estrategia comercial declarada",
+        "Valor creado por una nueva empresa o producto, o por un aumento en la participación del mercado",
+        "Provee información sobre aspectos cruciales de la empresa",
+        "Actividades informáticas para alcanzar la posición del competidor o aventajarla",
+        "Inversión básica que posibilita otras aplicaciones estratégicas posteriores"
+      ],
+      "choices": [
+        "Rendimiento de la inversión",
+        "Adecuación estratégica",
+        "Ventaja competitiva",
+        "Apoyo de información para el management",
+        "Reacción competitiva",
+        "Arquitectura estratégica de los SI"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "Son las 6 categorías de la Economía de la información, que pueden formar la base para justificar la inversión.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[0, 74.5, 100, 93.3], [0, 0, 100, 13.6, 25]],
+        "img": "sources/pages/u1-planificacion-estrategica-p24-f899f4.webp"
+      }
+    },
+    {
+      "id": "asi-p1-055",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué ecuación define los límites del valor de la información?",
+      "opts": [
+        "Valor esperado = Ganancia posible con la información − Costo de obtener la información",
+        "Valor esperado = Beneficios tangibles de la información − Beneficios intangibles de la información",
+        "Valor esperado = Ganancia posible con la información − Ganancia posible sin la información",
+        "Valor esperado = Costo de operar sin la información − Costo de operar con la información"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Es generalmente imposible definir el valor exacto, pero se puede establecer el límite superior: el valor de la información perfecta, que elimina todo riesgo asociado con acciones futuras. El valor se asocia con la forma en la que se usa la información, no con los sistemas mismos.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 25,
+        "confidence": "high",
+        "crop": [[0, 23.2, 100, 41.0]],
+        "img": "sources/pages/u1-planificacion-estrategica-p25-369de3.webp"
+      }
+    },
+    {
+      "id": "asi-p1-056",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "La economía de la información reemplaza al análisis de costo-beneficio.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "No trata de reemplazarlo, sino que lo extiende para incorporar aspectos no capturados, divididos entre el dominio empresarial y el tecnológico.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 25,
+        "confidence": "high",
+        "crop": [[0, 75.9, 100, 81.6]],
+        "img": "sources/pages/u1-planificacion-estrategica-p25-c738b5.webp"
+      }
+    },
+    {
+      "id": "asi-p1-057",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada factor de la economía de la información con su dominio:",
+      "stems": [
+        "Adecuación estratégica",
+        "Reacción competitiva",
+        "Riesgo de proyecto u organizacional",
+        "Arquitectura estratégica de los SI",
+        "Incertidumbre técnica",
+        "Riesgo de infraestructura"
+      ],
+      "choices": [
+        "Dominio empresarial",
+        "Dominio tecnológico"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "fb": "En el dominio empresarial también están la ventaja competitiva y el apoyo a la información de management; en el tecnológico, la incertidumbre de decisión.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 25,
+        "confidence": "high",
+        "crop": [[0, 82.2, 100, 93.2], [0, 0, 100, 38.2, 26]],
+        "img": "sources/pages/u1-planificacion-estrategica-p25-070343.webp"
+      }
+    },
+    {
+      "id": "asi-p1-058",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Según Parker et al., relacioná cada tipo de aplicación con el beneficio esperado:",
+      "stems": [
+        "Cambia personas por máquinas",
+        "Aumenta la productividad y la eficiencia del personal, al hacer posible que el trabajo se ejecute de otra forma",
+        "Trata de obtener o mantener una ventaja competitiva"
+      ],
+      "choices": [
+        "Sustitutiva",
+        "Complementaria",
+        "Innovadora"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Las sustitutivas se relacionan con los sistemas de apoyo y los operativos clave; las complementarias, con los operativos clave y estratégicos; las innovadoras, con los estratégicos y de alto potencial.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 45.0, 100, 63.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p26-d20ed2.webp"
+      }
+    },
+    {
+      "id": "asi-p1-059",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la técnica básica para evaluar los beneficios:",
+      "stems": [
+        "Se basa en el desplazamiento del coste por una forma más eficiente de llevar a cabo una tarea",
+        "Estima la mejora en el rendimiento por una coordinación más precisa de las tareas en áreas diferentes",
+        "Considera el impacto del tiempo sobre costes y beneficios y el de acelerar las operaciones entre departamentos",
+        "Considera la productividad y la eficacia como resultado de un cambio sustancial en la organización",
+        "Puede dar lugar a abrir negocios completamente nuevos, lo que es particularmente difícil valorar"
+      ],
+      "choices": [
+        "Análisis de coste-beneficio",
+        "Vínculos de valor",
+        "Aceleración del valor",
+        "Reestructuración del valor",
+        "Innovación"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Son las cinco técnicas que se definen para evaluar los beneficios.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 65.4, 100, 90.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p26-4df738.webp"
+      }
+    },
+    {
+      "id": "asi-p1-060",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Por qué es difícil especificar los costos de un posible proyecto de SI?",
+      "opts": [
+        "Porque los costos intangibles superan siempre a los tangibles, y la contabilidad no permite registrarlos como activos de la empresa",
+        "Porque pronosticar exige conocer el proyecto en detalle de antemano y una base histórica, que falta en los primeros de su tipo",
+        "Porque los proveedores no publican sus precios por anticipado, y el costo de los paquetes ya hechos varía con cada instalación",
+        "Porque los costos dependen de los beneficios esperados, y estos solo pueden medirse dos o tres años después de implementarlo"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "La mayoría de las técnicas de pronóstico requieren esas dos cosas, que los posibles proyectos de SI no ofrecen.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 27,
+        "confidence": "high",
+        "crop": [[0, 47.6, 100, 61.3]],
+        "img": "sources/pages/u1-planificacion-estrategica-p27-0b466b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-061",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada elemento con su categoría en la lista de control de costos de los IS:",
+      "stems": [
+        "Ingreso o conversión de datos y especialistas externos",
+        "Cableado, muebles, aire acondicionado, seguridad y salud",
+        "Energía eléctrica, comunicación de datos y suscripciones a servicios externos",
+        "Medidas contra daños accidentales o deliberados y planes de recuperación de desastres",
+        "Educación de fondo, apoyo y actualización continua",
+        "Incompatibilidad, nuevas estructuras de salarios y costos transicionales"
+      ],
+      "choices": [
+        "Instalación",
+        "Entorno",
+        "Funcionamiento",
+        "Seguridad",
+        "Capacitación",
+        "Amplios organizacionales",
+        "Mantenimiento"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "La lista contempla diez costos; los de capacitación son los más desestimados. Los de mantenimiento pueden realizarse de manera planeada mediante contratos o, de forma menos predecible, con personal interno.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 27,
+        "confidence": "high",
+        "crop": [[0, 80.4, 100, 93.9], [0, 0, 100, 34.6, 28]],
+        "img": "sources/pages/u1-planificacion-estrategica-p27-6bceaa.webp"
+      }
+    },
+    {
+      "id": "asi-p1-062",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "Según Robson, un proyecto de desarrollo de software de 1 millón de dólares significa comprometer a la empresa a una inversión, durante los siguientes 5 años, de:",
+      "opts": [
+        "1,6 millones de dólares",
+        "2 millones de dólares",
+        "4 millones de dólares",
+        "5 millones de dólares"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Por cada dólar de desarrollo se deben agregar 0,20 para que opere y 0,40 de mantenimiento: son costos de continuidad que se generan de forma automática.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 28,
+        "confidence": "high",
+        "crop": [[0, 35.1, 100, 48.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p28-11c839.webp"
+      }
+    },
+    {
+      "id": "asi-p1-063",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada afirmación con el tipo de management de los IS:",
+      "stems": [
+        "Ve los costos de los IS como un gasto operativo",
+        "Centra su atención en reducir costos para mejorar la eficiencia",
+        "Ve la información como un recurso corporativo y una inversión de capital",
+        "Centra su atención en la maximización de los beneficios"
+      ],
+      "choices": [
+        "Management de computación",
+        "Management de información"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "fb": "Consideran de distinta manera el gasto en IS: como pérdida o como inversión (pág. 29).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 28,
+        "confidence": "high",
+        "crop": [[0, 59.7, 100, 69.4]],
+        "img": "sources/pages/u1-planificacion-estrategica-p28-0f12ad.webp"
+      }
+    },
+    {
+      "id": "asi-p1-064",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "Una empresa será líder si gasta más en SI que sus competidores.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "La cantidad gastada no determina el éxito ni el fracaso: las empresas con grandes gastos pueden tener ambos resultados. Lo que determina el éxito es el uso de la información.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 29,
+        "confidence": "high",
+        "crop": [[0, 33.4, 100, 39.0]],
+        "img": "sources/pages/u1-planificacion-estrategica-p29-712ab2.webp"
+      }
+    },
+    {
+      "id": "asi-p1-065",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "Los datos y el software, los elementos más valiosos de los IS, pueden contabilizarse como activos por cuestiones impositivas.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "No pueden contabilizarse como activos por cuestiones impositivas; sin embargo, añaden valor a la organización. Por eso ayuda crear un balance de activos de los IS.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 29,
+        "confidence": "high",
+        "crop": [[0, 53.9, 100, 63.5]],
+        "img": "sources/pages/u1-planificacion-estrategica-p29-05bb09.webp"
+      }
+    },
+    {
+      "id": "asi-p1-066",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es la diferencia fundamental entre el listado de activos de IS y la declaración de los beneficios de los IS?",
+      "opts": [
+        "El listado registra el valor pretendido de los IS; la declaración, el valor real",
+        "El listado registra los costos ocultos de los IS; la declaración, los costos aparentes",
+        "El listado registra los beneficios tangibles de los IS; la declaración, los intangibles",
+        "El listado registra el valor real de los IS; la declaración, el valor pretendido"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "El listado de activos se relaciona con la auditoría de costos de los IS, que implica identificar todos los costos y evaluar las inversiones del pasado.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 29,
+        "confidence": "high",
+        "crop": [[0, 65.0, 100, 72.7]],
+        "img": "sources/pages/u1-planificacion-estrategica-p29-f217d4.webp"
+      }
+    },
+    {
+      "id": "asi-p1-067",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el tipo de beneficio:",
+      "stems": [
+        "Llegar al mismo resultado usando la menor cantidad de recursos; impacta en el nivel operacional",
+        "Buscar la mayor diferencia positiva entre valor obtenido y costos incurridos; impacta en el nivel táctico",
+        "Mejorar o sostener la posición frente a los competidores; impacta en el nivel estratégico"
+      ],
+      "choices": [
+        "Eficiencia",
+        "Efectividad",
+        "Competitividad"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Según la profesora, si el nivel organizacional es operacional, el beneficio siempre es eficiencia; si es táctico, efectividad (apunta a la coordinación entre áreas, prioriza el objetivo), y si es estratégico, competitividad.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 30,
+        "confidence": "high",
+        "crop": [[0, 85.8, 100, 93.5], [0, 0.3, 100, 19.1, 31], [0, 59.0, 100, 64.7, 31]],
+        "img": "sources/pages/u1-planificacion-estrategica-p30-d480e4.webp"
+      }
+    },
+    {
+      "id": "asi-p1-068",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Según el diagrama de beneficio genérico del negocio, relacioná cada orientación con el tipo de beneficio:",
+      "stems": [
+        "Ahorro de costes (tangible)",
+        "Mayor RoA",
+        "Crecimiento del negocio (intangible)"
+      ],
+      "choices": [
+        "Eficiencia",
+        "Efectividad",
+        "Avance estratégico"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "El diagrama también muestra que la técnica de justificación va de dura, para la eficiencia, a blanda, para el avance estratégico.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 31,
+        "confidence": "high",
+        "crop": [[0, 24.2, 100, 58.7]],
+        "img": "sources/pages/u1-planificacion-estrategica-p31-ce4684.webp"
+      }
+    },
+    {
+      "id": "asi-p1-069",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "En el diagrama de costo y valor, ¿dónde se encuentra el estado óptimo?",
+      "opts": [
+        "En el punto en el que el costo realizado es el menor posible para cualquier calidad",
+        "En el punto en el que se cruzan la curva de valor y la curva de costo del sistema",
+        "En el punto de mayor calidad que se puede alcanzar sobre la frontera de eficiencia",
+        "En el punto de mayor diferencia positiva entre el valor obtenido y el costo"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Es donde se obtiene el mejor balance y donde se es más efectivo.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 30,
+        "confidence": "high",
+        "crop": [[0, 46.6, 100, 76.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p30-0fef9c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-070",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "Si el valor obtenido no excede los costos, no se debe realizar la acción.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El diagrama de costo y valor debe utilizarse para recordarlo permanentemente.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 30,
+        "confidence": "high",
+        "crop": [[0, 77.6, 100, 81.2]],
+        "img": "sources/pages/u1-planificacion-estrategica-p30-c123a7.webp"
+      }
+    },
+    {
+      "id": "asi-p1-071",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada ejemplo de un sistema de mesa de entradas con el tipo de beneficio:",
+      "stems": [
+        "Reducción de tiempos de procesamiento",
+        "Ahorros por no incrementar el personal",
+        "Procesamiento homogéneo de los trámites",
+        "Mejora en la comunicación con el usuario interno-externo"
+      ],
+      "choices": [
+        "Tangible directo",
+        "Tangible indirecto",
+        "Intangible directo",
+        "Intangible indirecto"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Los beneficios tangibles se pueden medir y expresar en pesos; los intangibles representan cuestiones cualitativas.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[0, 54.1, 100, 71.4]],
+        "img": "sources/pages/u1-planificacion-estrategica-p32-2c3a98.webp"
+      }
+    },
+    {
+      "id": "asi-p1-072",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "Según Nolan Norton, ¿cuánto tiempo necesita un proyecto de IS antes de que sus beneficios sean lo bastante estables como para medirse?",
+      "opts": [
+        "Entre seis meses y un año",
+        "Dos o tres años",
+        "Entre cinco y ocho años",
+        "Un solo ejercicio contable"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Además, los beneficios intangibles están relacionados con el riesgo de alcanzar el logro, por lo que son inherentemente difíciles de medir.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[0, 0.3, 100, 9.0]],
+        "img": "sources/pages/u1-planificacion-estrategica-p32-9b46c0.webp"
+      }
+    },
+    {
+      "id": "asi-p1-073",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué es la cartera de aplicaciones?",
+      "opts": [
+        "Una lista de control que ayuda a identificar, cuantificar y evaluar los costos visibles y ocultos de las aplicaciones",
+        "Una herramienta analítica para clasificar las aplicaciones según los beneficios y los recursos utilizados en ellas",
+        "Un registro del valor real de las aplicaciones de la empresa, que se crea al auditar las inversiones hechas en el pasado",
+        "Una matriz que cruza estrategias y departamentos para identificar las necesidades de información de cada aplicación"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Según la profesora, el uso de la herramienta se agrega al plan de SI/TI, en la Fase III. Se clasifican sistemas, no estrategias (pág. 32).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 40.5, 100, 48.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p33-fa0eeb.webp"
+      }
+    },
+    {
+      "id": "asi-p1-074",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada segmento de la cartera de aplicaciones con su descripción:",
+      "stems": [
+        "Críticas para ejecutar la estrategia futura de la empresa",
+        "Pueden ser importantes para lograr el éxito de la empresa en el futuro",
+        "De ellas depende actualmente el éxito de la organización",
+        "Valiosas, pero no críticas para el éxito de la empresa"
+      ],
+      "choices": [
+        "Estratégicas",
+        "De alto potencial",
+        "Clave para las operaciones",
+        "De apoyo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Las aplicaciones se ubican en la matriz según su contribución actual y futura, real o potencial, tal como las percibe la dirección.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 5.3, 100, 26.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p33-d62514.webp"
+      }
+    },
+    {
+      "id": "asi-p1-075",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Según el ejemplo de una empresa de fabricación, relacioná cada aplicación con su segmento de la cartera:",
+      "stems": [
+        "Análisis de mercado y previsión de ventas",
+        "Sistema experto para el diagnóstico de defectos",
+        "Control de stock",
+        "Nóminas"
+      ],
+      "choices": [
+        "Estratégica",
+        "De alto potencial",
+        "Clave para las operaciones",
+        "De apoyo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Es el ejemplo parcial de la cartera de una empresa de fabricación.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 64.7, 100, 86.5]],
+        "img": "sources/pages/u1-planificacion-estrategica-p33-c2f05b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-076",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "La profesora señaló que el modelo de cartera se parece a la matriz de Boston. Relacioná cada cuadrante de la matriz de Boston con el segmento que ocupa el mismo lugar en la cartera:",
+      "stems": [
+        "Estrella",
+        "Niños difíciles",
+        "Vaca lechera",
+        "Perros"
+      ],
+      "choices": [
+        "Estratégicas",
+        "De alto potencial",
+        "Clave para las operaciones",
+        "De apoyo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Los dos cuadros tienen la misma disposición: arriba, estratégicas (estrella) y de alto potencial (niños difíciles); abajo, clave para las operaciones (vaca lechera) y de apoyo (perros).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 5.3, 100, 26.9], [0, 28.7, 100, 40.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p33-9ddc86.webp"
+      }
+    },
+    {
+      "id": "asi-p1-077",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada enfoque o filosofía con el segmento de la cartera:",
+      "stems": [
+        "Investigación y desarrollo: experimentación controlada para identificar beneficios, oportunidades y costes",
+        "Orientación al negocio: relación clara con los factores críticos de éxito",
+        "Dominio tradicional de los SI/TI: mejorar el rendimiento de las actividades existentes",
+        "Análisis económico de la inversión, para decidir si seguir adelante o no"
+      ],
+      "choices": [
+        "De alto potencial",
+        "Estratégicas",
+        "Clave para las operaciones",
+        "De apoyo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Cada segmento se justifica por razones diferentes y necesita un enfoque distinto para su desarrollo y su gestión.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 86.4, 100, 92.3], [0, 59.5, 100, 71.5, 34], [0, 17.3, 100, 23.2, 35], [0, 76.4, 100, 82.3, 35]],
+        "img": "sources/pages/u1-planificacion-estrategica-p33-aa5ac7.webp"
+      }
+    },
+    {
+      "id": "asi-p1-078",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada fuerza motriz con el segmento de la cartera:",
+      "stems": [
+        "Una nueva idea u oportunidad tecnológica de la empresa",
+        "Necesidades del mercado o presiones competitivas provocadas desde el exterior",
+        "Integrar los sistemas y datos para evitar información errónea y duplicación de tareas",
+        "Requisitos legales que hay que cumplir para evitar delitos"
+      ],
+      "choices": [
+        "De alto potencial",
+        "Estratégicas",
+        "Clave para las operaciones",
+        "De apoyo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Son fuerzas motrices de los cuadros de cada segmento.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 86.4, 100, 88.3], [0, 31.8, 100, 57.2, 34], [0, 59.5, 100, 61.4, 34], [0, 83.6, 100, 91.2, 34], [0, 17.3, 100, 19.2, 35], [0, 44.0, 100, 74.3, 35], [0, 76.4, 100, 78.3, 35], [0, 7.2, 100, 30.6, 36]],
+        "img": "sources/pages/u1-planificacion-estrategica-p33-6f0de4.webp"
+      }
+    },
+    {
+      "id": "asi-p1-079",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada requisito con el segmento de la cartera:",
+      "stems": [
+        "Rápida evaluación de prototipos, con la habilidad de rechazar fracasos antes de desperdiciar recursos",
+        "Desarrollo rápido para alcanzar los objetivos y hacer realidad los beneficios del marco de oportunidades",
+        "Soluciones de alta calidad y gestión eficiente de los datos, para garantizar estabilidad",
+        "Coste ínfimo y soluciones a largo plazo, que a menudo conducen a paquetes de software"
+      ],
+      "choices": [
+        "De alto potencial",
+        "Estratégicas",
+        "Clave para las operaciones",
+        "De apoyo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Son requisitos de los cuadros de cada segmento.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 86.4, 100, 88.3], [0, 31.8, 100, 57.2, 34], [0, 59.5, 100, 61.4, 34], [0, 83.6, 100, 91.2, 34], [0, 17.3, 100, 19.2, 35], [0, 44.0, 100, 74.3, 35], [0, 76.4, 100, 78.3, 35], [0, 7.2, 100, 30.6, 36]],
+        "img": "sources/pages/u1-planificacion-estrategica-p33-6f0de4.webp"
+      }
+    },
+    {
+      "id": "asi-p1-080",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué no se puede determinar en una aplicación de alto potencial?",
+      "opts": [
+        "Si surgió de una necesidad puntual o de la iniciativa de alguien dispuesto a liderarla",
+        "Si su valor es estratégico, táctico u operativo",
+        "Si tiene alguna relación con los objetivos de la empresa y con los factores críticos de éxito",
+        "Si debe evaluarse mediante prototipos o con una experimentación controlada"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "No hay certeza de que acompañen estrictamente a las estrategias. Según la profesora, pueden llegar a ser del segmento estratégico, pero también clave para las operaciones.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 34,
+        "confidence": "high",
+        "crop": [[0, 5.0, 100, 17.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p34-521f80.webp"
+      }
+    },
+    {
+      "id": "asi-p1-081",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Por qué es crítica la integración con los sistemas existentes en una aplicación clave para las operaciones?",
+      "opts": [
+        "Para conseguir congruencia y exactitud, ya que necesita datos ya disponibles en esos sistemas",
+        "Para reducir el riesgo legal, ya que debe cumplir con las normas jurídicas que le impone el Estado",
+        "Para obtener una ventaja competitiva, ya que permite una posición mejor con respecto a la competencia",
+        "Para evitar el análisis económico, ya que comparte con esos sistemas el costo de la inversión inicial"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Este tipo de aplicación da soporte a los principales procesos de negocio de la organización y agiliza la operación, como el sistema de cajas y control de stock de un supermercado.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 35,
+        "confidence": "high",
+        "crop": [[0, 19.6, 100, 32.3]],
+        "img": "sources/pages/u1-planificacion-estrategica-p35-5783c5.webp"
+      }
+    },
+    {
+      "id": "asi-p1-082",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "Las aplicaciones de apoyo suelen ser genéricas o comunes para todas las industrias, por lo que hay disponible una gran cantidad de software estándar.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Por eso, para invertir en ellas, muchas veces conviene comprar algo que esté hecho.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 35,
+        "confidence": "high",
+        "crop": [[0, 90.9, 100, 94.5]],
+        "img": "sources/pages/u1-planificacion-estrategica-p35-d3bc50.webp"
+      }
+    },
+    {
+      "id": "asi-p1-083",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la estrategia genérica de gestión de SI/TI según Parsons:",
+      "stems": [
+        "Los SI/TI se integran totalmente con la estrategia corporativa, mediante una unidad centralizadora en la alta dirección",
+        "Acepta que la TI va a generar ventajas competitivas y usa el «estado del arte» de la tecnología",
+        "Los directivos, a la vez usuarios, evalúan sus propias necesidades y las satisfacen a voluntad",
+        "Un único proveedor dentro de la organización, al que debe acudirse en todos los casos",
+        "Se define un presupuesto con antelación y las aplicaciones compiten por una parte de los recursos",
+        "Los SI/TI se dedican solo a cumplir requisitos legales y se usan donde no hay otra alternativa"
+      ],
+      "choices": [
+        "Planificación centralizada",
+        "Hilo conductor",
+        "Mercado libre",
+        "Monopolio",
+        "Recurso escaso",
+        "Mal necesario"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "Son las estrategias que describe Parsons: marcos generales para vincular la gestión de los SI/TI con la dirección general de la empresa.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 36,
+        "confidence": "high",
+        "crop": [[0, 57.3, 100, 63.2], [0, 0, 100, 7.8, 37], [0, 32.0, 100, 39.9, 37], [0, 71.1, 100, 77.0, 37], [0, 27.0, 100, 32.9, 38], [0, 60.9, 100, 68.9, 38]],
+        "img": "sources/pages/u1-planificacion-estrategica-p36-c6fa15.webp"
+      }
+    },
+    {
+      "id": "asi-p1-084",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada estrategia con su orientación:",
+      "stems": [
+        "Gestión de la demanda, impulsada por las necesidades del negocio",
+        "Orientada a la demanda, impulsada por la tecnología",
+        "Fundamentalmente, gestión de la oferta, con centralización de las decisiones",
+        "Gestión de la oferta, basada en la limitación de los recursos financieros"
+      ],
+      "choices": [
+        "Planificación centralizada",
+        "Hilo conductor",
+        "Monopolio",
+        "Recurso escaso"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Planificación centralizada y monopolio implican una centralización de la toma de decisiones. En el mercado libre, los usuarios determinan la demanda y también deciden la fuente de aprovisionamiento.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 23.2]],
+        "img": "sources/pages/u1-planificacion-estrategica-p40-a3cdb3.webp"
+      }
+    },
+    {
+      "id": "asi-p1-085",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Según el cuadro de la filmina de la profesora, relacioná cada estrategia genérica con el segmento de la cartera en el que se aplica:",
+      "stems": [
+        "Planificación centralizada",
+        "Hilo conductor",
+        "Monopolio",
+        "Recurso escaso",
+        "Mercado libre",
+        "Mal necesario"
+      ],
+      "choices": [
+        "Estratégicas",
+        "De alto potencial",
+        "Clave para las operaciones",
+        "De apoyo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        3,
+        3
+      ],
+      "fb": "El libro también ubica al mercado libre en alto potencial, pero la profesora lo tachó en el apunte (págs. 37 y 40): en su cuadro va solo en apoyo, siempre que se permita a los usuarios utilizar sus propios fondos.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[0, 77.6, 100, 89.7]],
+        "img": "sources/pages/u1-planificacion-estrategica-p39-a1c65a.webp"
+      }
+    },
+    {
+      "id": "asi-p1-086",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué problema suele producir la estrategia de mercado libre?",
+      "opts": [
+        "Una innovación lenta, porque todos los sistemas dependen de un único proveedor interno y de su plataforma tecnológica",
+        "La pérdida de oportunidades estratégicas, porque las aplicaciones solo compiten por un presupuesto fijado con antelación",
+        "Sistemas aislados y no integrados, con duplicidad en la inversión y tasas de desarrollo diferenciadas en la organización",
+        "La degradación de la capacidad de competir, porque los SI/TI se usan solamente donde no hay otra alternativa disponible"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Es una estrategia descentralizada: los usuarios lideran la innovación, pero puede generar caos si no se coordina. Las otras opciones corresponden al monopolio, al recurso escaso y al mal necesario (pág. 38).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 37,
+        "confidence": "high",
+        "crop": [[0, 49.5, 100, 64.3]],
+        "img": "sources/pages/u1-planificacion-estrategica-p37-202912.webp"
+      }
+    },
+    {
+      "id": "asi-p1-087",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué requiere de la alta dirección la estrategia de hilo conductor?",
+      "opts": [
+        "Su compromiso para definirla, pero no su implicación a fondo para desarrollarla",
+        "Su implicación a fondo para desarrollarla, pero no su compromiso para definirla",
+        "Su autorización de cada gasto, justificado en términos de rentabilidad financiera",
+        "Su dedicación constante, a través de una unidad especializada y centralizadora"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Supone efectuar gastos y perder alguna inversión. Puede ser cara y precisa una dirección experta para convertir las ideas innovadoras en aplicaciones de éxito.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 37,
+        "confidence": "high",
+        "crop": [[0, 9.3, 100, 20.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p37-9adca8.webp"
+      }
+    },
+    {
+      "id": "asi-p1-088",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "En la estrategia de monopolio se controla la oferta de tecnología y de recursos, incluidos los fondos.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Controla la oferta de tecnología y recursos, pero no los fondos, para satisfacer las necesidades del usuario, que están siempre en evolución.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 38,
+        "confidence": "high",
+        "crop": [[0, 7.2, 100, 12.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p38-319b3a.webp"
+      }
+    },
+    {
+      "id": "asi-p1-089",
+      "topic": "U1",
+      "type": "tf",
+      "catedra": false,
+      "text": "En la estrategia de monopolio, el gasto global en SI/TI es fácil de identificar y controlar.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Una gran ventaja es también que todos los sistemas tienen la misma plataforma tecnológica, aunque por eso no sirve para la innovación (pág. 38).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 37,
+        "confidence": "high",
+        "crop": [[0, 71.1, 100, 94.4]],
+        "img": "sources/pages/u1-planificacion-estrategica-p37-25e04c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-090",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cómo se tratan los SI/TI en la estrategia de recurso escaso?",
+      "opts": [
+        "Como un arma empresarial, cuyo objetivo es explotar la tecnología para generar ventajas competitivas",
+        "Como un centro de costos, cuyo objetivo es lograr un uso controlado y bien justificado",
+        "Como una unidad de negocio, cuyo objetivo es competir con los proveedores externos por los usuarios",
+        "Como una obligación legal, cuyo objetivo es invertir solo donde no hay otra alternativa disponible"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Corresponde al management de la computación (pág. 28). Las inversiones han de justificarse en términos financieros, y puede dejar pasar oportunidades estratégicas.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 38,
+        "confidence": "high",
+        "crop": [[0, 44.5, 100, 54.2]],
+        "img": "sources/pages/u1-planificacion-estrategica-p38-1b5919.webp"
+      }
+    },
+    {
+      "id": "asi-p1-091",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada causa con la migración de un segmento a otro de la cartera:",
+      "stems": [
+        "Se logra el potencial de la aplicación",
+        "Se pierde la ventaja competitiva y amenazan las desventajas",
+        "La oportunidad produce solamente beneficios locales limitados",
+        "El sistema se vuelve menos crítico a medida que la empresa evoluciona"
+      ],
+      "choices": [
+        "De alto potencial a estratégico",
+        "De estratégico a clave para las operaciones",
+        "De alto potencial a apoyo",
+        "De clave para las operaciones a apoyo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Finalmente, algunas aplicaciones, principalmente los sistemas de apoyo, quedarán obsoletas y será preciso eliminarlas.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 74.8, 100, 93.5], [0, 0.2, 100, 6.9, 41]],
+        "img": "sources/pages/u1-planificacion-estrategica-p40-31adce.webp"
+      }
+    },
+    {
+      "id": "asi-p1-092",
+      "topic": "U1",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Qué factores hay que incluir en la evaluación de las prioridades de las aplicaciones? (Seleccioná todas las correctas)",
+      "opts": [
+        "Beneficios",
+        "Proveedores",
+        "Recursos",
+        "Antigüedad",
+        "Riesgos"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "fb": "Algunas prioridades surgen, además, de simples dependencias.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 41,
+        "confidence": "high",
+        "crop": [[0, 11.8, 100, 19.5]],
+        "img": "sources/pages/u1-planificacion-estrategica-p41-be657c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-093",
+      "topic": "U1",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada criterio de definición de prioridades con el segmento de la cartera:",
+      "stems": [
+        "La prioridad más alta es para las que dan los mayores beneficios económicos con menos recursos",
+        "Van primero las que más contribuyen a los objetivos de la empresa y utilizan menos recursos",
+        "La priorización y el uso de recursos son auto-gestionados, según el entusiasmo de sus defensores",
+        "Se argumenta con consideraciones económicas, riesgos del negocio actual, FCE y mejoras de infraestructura"
+      ],
+      "choices": [
+        "De apoyo",
+        "Estratégicas",
+        "De alto potencial",
+        "Clave para las operaciones"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Definir prioridades en el segmento clave para las operaciones es más problemático que en el de apoyo o el estratégico, porque la lógica es más compleja.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 41,
+        "confidence": "high",
+        "crop": [[0, 21.0, 100, 89.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p41-debe7a.webp"
+      }
+    },
+    {
+      "id": "asi-p1-094",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "Al definir prioridades dentro de la cartera, ¿qué debe decidir la dirección?",
+      "opts": [
+        "Qué proveedor será prioritario: el desarrollo interno, los paquetes estándar o la tercerización",
+        "Qué estrategia será prioritaria: la planificación centralizada, el monopolio o el recurso escaso",
+        "Qué beneficio será prioritario: el retorno económico, las ventajas competitivas o la reducción de riesgos",
+        "Qué nivel será prioritario: la alta gerencia, las gerencias medias o las gerencias de primera línea de la empresa"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Es una tarea compleja, porque cada tipo de aplicación genera distintos beneficios y responde a criterios de evaluación diferentes. Influyen la estrategia general de la empresa, las capacidades internas del área de SI/TI y la experiencia de los usuarios.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0, 0.3, 100, 23.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p42-f8345b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-095",
+      "topic": "U1",
+      "type": "single",
+      "catedra": false,
+      "text": "¿En qué se debe basar la secuencia de prioridades de un plan global de SI/TI?",
+      "opts": [
+        "En la relación entre los beneficios esperados, ajustados por el riesgo, y el consumo de los recursos limitados",
+        "En la relación entre la antigüedad de los sistemas existentes y el costo de reemplazarlos por paquetes estándar",
+        "En la relación entre las solicitudes de cada departamento usuario y el presupuesto asignado a cada uno de ellos",
+        "En la relación entre el avance tecnológico de la industria y la cantidad de personal de SI/TI que se tiene"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Esto permite asignar los recursos de forma más racional y tener previsibilidad para realizar inversiones sostenidas.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0, 24.6, 100, 32.2]],
+        "img": "sources/pages/u1-planificacion-estrategica-p42-2771b6.webp"
+      }
+    },
     {
       "id": "asi-001",
       "topic": "A",
@@ -1426,5 +4007,8 @@
         3
       ]
     }
+  ],
+  "newTopics": [
+    "U1"
   ]
 }

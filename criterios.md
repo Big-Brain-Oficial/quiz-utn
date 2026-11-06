@@ -13,7 +13,8 @@ Hay dos clases de preguntas, y cada pregunta indica a cuál pertenece con el cam
   o de parciales (cuestionarios, evaluaciones formativas, parciales anteriores), con sus opciones.
   **No se modifican**: se respetan el enunciado, las opciones y la respuesta correcta, aunque no cumplan
   los criterios de abajo (por ejemplo, si la correcta es la más larga o hay una opción «todas las
-  anteriores»). Todo el 1er parcial de ASI y los dos parciales de Redes (el 2do sale del PDF de
+  anteriores»). Todo el 1er parcial de ASI (salvo la categoría «U1», armada a partir
+  del apunte) y los dos parciales de Redes (el 2do sale del PDF de
   parciales, las revisiones del cuestionario de estudio) son de esta clase. El 1er
   parcial de GIS también está marcado como de la cátedra hasta revisar de dónde salen sus preguntas.
   En TPLA, las categorías «Unidad 1 - Preguntas parcial» a «Unidad 4 - Preguntas parcial» también:
