@@ -226,7 +226,7 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:8px;
 .qfigure{margin:0 0 10px}
 .qfigure a{display:block;cursor:zoom-in}
 .source-page{margin-bottom:10px}
-.source-page > a{display:block;cursor:zoom-in}
+.figure > a{display:block;cursor:zoom-in}
 .source-page figcaption a{text-underline-offset:3px}
 .source-page img{max-width:100%}
 

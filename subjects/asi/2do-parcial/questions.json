@@ -23,6 +23,7 @@
     "allTopics": "Todas",
     "feedback": "Justificación según el apunte"
   },
+  "imageCaption": "Captura de la revisión del campus",
   "about": [
     "<p><b>Cuestionarios de las Unidades 4, 5 y 6:</b> son las preguntas de los cuestionarios de estudio de la cátedra (Desarrollo y Mantenimiento de RRHH, Seguimiento de Recursos, y Seguridad y Auditoría de los SI/TI), convertidas a opción múltiple. La cátedra no publica las respuestas: la opción correcta y la justificación salen del apunte de teoría de cada unidad.</p>",
     "<p><b>Eval. Formativa 3 — Unidades 4 y 5:</b> son las preguntas de la evaluación formativa, tal cual las tomó la cátedra y con la respuesta confirmada en la corrección. La justificación sale del apunte de teoría.</p>",
@@ -3517,6 +3518,7 @@
         2
       ],
       "fb": "Una fuente de verificación tiene que dejar un registro que respalde el desempeño: la auditoría se basa en verificaciones, seguimiento, registros y estadísticas. Las actas de las reuniones de auditoría documentan la actitud y la colaboración; la observación sin registros y los comentarios sin evaluación formal no dejan evidencia verificable.",
+      "img": "img/asi-p2-142.webp",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 13,
@@ -3541,6 +3543,7 @@
         2
       ],
       "fb": "La migración cambia métodos y procesos de trabajo: es un evento que genera necesidades futuras de entrenamiento fácilmente previsibles (indicador a priori). El aumento de incidentes y de los tiempos de resolución son problemas provocados por necesidades de entrenamiento no atendidas (indicadores a posteriori) (apunte U4, págs. 8-9).",
+      "img": "img/asi-p2-143.webp",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 8,
@@ -3563,6 +3566,7 @@
         1
       ],
       "fb": "El benchmarking analiza el rendimiento del sistema poniendo énfasis en la carga de trabajo: se lo somete a una carga característica (acá, el reporte con cada vez más usuarios y transacciones) y se comparan los resultados. En la medición (monitoreo) solo se recolectan datos del sistema.",
+      "img": "img/asi-p2-144.webp",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 32,
@@ -3585,6 +3589,7 @@
         1
       ],
       "fb": "Las etapas del proceso de control son: establecimiento de los estándares, seguimiento o monitoreo del desempeño, comparación del desempeño con los estándares y acción correctiva, si es necesaria. Después de medir el desempeño hay que compararlo con el estándar y ver si los desvíos están dentro de la tolerancia; la acción correctiva solo corresponde en los casos excepcionales (apunte U5, págs. 7-9).",
+      "img": "img/asi-p2-145.webp",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 7,
@@ -3608,6 +3613,7 @@
         0
       ],
       "fb": "El análisis de las operaciones (nivel de tareas) descompone el cargo para verificar las habilidades, conocimientos y cualidades que exige: la diferencia entre lo que pide el cargo y lo que tiene quien lo ocupa es la necesidad de entrenamiento sobre la que se arma el programa (apunte U4, págs. 6-7). Capacitar a todos por igual o según la preferencia del líder no parte de esa brecha.",
+      "img": "img/asi-p2-146.webp",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 7,
@@ -3631,6 +3637,7 @@
         1
       ],
       "fb": "El análisis organizacional parte de los objetivos de la organización y determina dónde deberá hacer énfasis el entrenamiento; su resultado es el inventario de necesidades a nivel organizacional. Todavía no se analizaron la fuerza laboral (nivel de recursos humanos) ni los cargos (nivel de tareas).",
+      "img": "img/asi-p2-147.webp",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 6,
