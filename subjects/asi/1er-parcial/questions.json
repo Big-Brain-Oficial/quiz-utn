@@ -14,14 +14,18 @@
   },
   "imageCaption": "Imagen del parcial (justificación)",
   "about": [
-    "<p><b>U1:</b> son preguntas armadas a partir del <a href=\"sources/u1-planificacion-estrategica.pdf\" target=\"_blank\" rel=\"noopener\">apunte de teoría de la Unidad I</a> (Planificación estratégica de SI/TI); no las tomó la cátedra. La opción correcta y la justificación salen del apunte, y al corregir se ve el recorte que las respalda. Cuando el libro y la profesora difieren, se sigue lo que marcó la profesora.</p>",
+    "<p><b>U1 y U2:</b> son preguntas armadas a partir de los apuntes de teoría de la <a href=\"sources/u1-planificacion-estrategica.pdf\" target=\"_blank\" rel=\"noopener\">Unidad I</a> (Planificación estratégica de SI/TI) y de la <a href=\"sources/u2-subsistema-de-provision.pdf\" target=\"_blank\" rel=\"noopener\">Unidad II</a> (Subsistema de Provisión); no las tomó la cátedra. La opción correcta y la justificación salen del apunte, y al corregir se ve el recorte que las respalda. Cuando el libro y la profesora difieren, se sigue lo que marcó la profesora.</p>",
     "<p>Información extraída del Drive: <a href=\"https://docs.google.com/document/d/1a9bN73UWNsffR3wdbyjkf04eVdLAM68kym2Vy3VRUYc/edit\" target=\"_blank\" rel=\"noopener noreferrer\"><b>/Parciales/Preguntas Teoría Parciales</b></a> (se abre en Google Docs; si no tenés acceso, desde ahí podés pedirlo).</p>"
   ],
-  "footer": "Generado a partir de: Apunte de teoría de la Unidad I · Cuestionario Aplicación 24/06 · Evaluaciones Formativas 1 (Unidad 1) · Evaluaciones Formativas 2 (Unidad 3) · Preguntas Teoría Parciales (1er parcial 2024, 1er parcial 2025, 2do parcial 2025 Temas 1 y 2, Integrador 2024) · Cuestionario \"Agunsa\" (caso Correo Argentino). Las preguntas con el aviso «Atención» no tenían la respuesta correcta confirmada en el archivo (respuesta incorrecta sin corrección, parcialmente correcta o anotación ambigua).",
+  "footer": "Generado a partir de: Apuntes de teoría de las Unidades I y II · Cuestionario Aplicación 24/06 · Evaluaciones Formativas 1 (Unidad 1) · Evaluaciones Formativas 2 (Unidad 3) · Preguntas Teoría Parciales (1er parcial 2024, 1er parcial 2025, 2do parcial 2025 Temas 1 y 2, Integrador 2024) · Cuestionario \"Agunsa\" (caso Correo Argentino). Las preguntas con el aviso «Atención» no tenían la respuesta correcta confirmada en el archivo (respuesta incorrecta sin corrección, parcialmente correcta o anotación ambigua).",
   "topics": {
     "U1": {
       "name": "U1 — Planificación estratégica de SI/TI",
       "color": "#1C8C8C"
+    },
+    "U2": {
+      "name": "U2 — Subsistema de Provisión",
+      "color": "#B7791F"
     },
     "A": {
       "name": "Cuestionario Aplicación 24/06",
@@ -2621,6 +2625,2414 @@
       }
     },
     {
+      "id": "asi-p1-096",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué es la administración de recursos humanos (ARH)?",
+      "opts": [
+        "Un medio para alcanzar la eficacia y la eficiencia de las organizaciones a través del trabajo de las personas",
+        "Una técnica de staff, que reemplaza las decisiones que cada jefe toma con respecto a sus subordinados directos",
+        "Una función en sí misma, cuyo fin es administrar los legajos y los salarios del personal de la organización",
+        "Un fin de la organización, que se alcanza cuando cada persona consigue sus objetivos individuales en su cargo"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Permite establecer condiciones favorables para que las personas consigan sus objetivos individuales. Es contingencial: depende de la situación organizacional, del ambiente y de la tecnología, entre otros.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 1,
+        "confidence": "high",
+        "crop": [[0, 35.5, 100, 41.2]],
+        "img": "sources/pages/u2-subsistema-de-provision-p1-5e477c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-097",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "La ARH es una responsabilidad de línea y una función de staff. Relacioná cada afirmación:",
+      "stems": [
+        "Decide sobre admisiones, ascensos, evaluación del desempeño y disciplina de sus subordinados",
+        "Brinda asesoría, consultoría y servicios especializados, como el reclutamiento y la selección",
+        "Responde por que los miembros del grupo alcancen determinados objetivos",
+        "Orienta con normas y procedimientos, para que las jefaturas actúen de modo uniforme"
+      ],
+      "choices": [
+        "Responsabilidad de línea (cada jefe)",
+        "Función de staff (organismo de RRHH)"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "fb": "La responsabilidad de que los miembros del grupo alcancen los objetivos corresponde al jefe, no al administrador de RRHH.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 1,
+        "confidence": "high",
+        "crop": [[0, 52.1, 100, 90.9], [0, 0.3, 100, 25.1, 2]],
+        "img": "sources/pages/u2-subsistema-de-provision-p1-c808bf.webp"
+      }
+    },
+    {
+      "id": "asi-p1-098",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "La asesoría de personal debe ser solicitada, nunca impuesta.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El administrador de RRHH no transmite órdenes a los miembros de línea, excepto cuando se trata de su propio departamento.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[0, 7.4, 100, 21.1]],
+        "img": "sources/pages/u2-subsistema-de-provision-p2-0380bb.webp"
+      }
+    },
+    {
+      "id": "asi-p1-099",
+      "topic": "U2",
+      "type": "multi",
+      "catedra": false,
+      "text": "Según la profesora Soria, ¿cuáles son los procesos básicos en la administración de personal? (Seleccioná todas las correctas)",
+      "opts": [
+        "Provisión",
+        "Planificación estratégica",
+        "Aplicación",
+        "Seguimiento",
+        "Desarrollo y Mantenimiento",
+        "Tercerización",
+        "Seguridad y Auditoría de SI"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "fb": "Están estrechamente interrelacionados: un cambio en uno influye en los otros. Por eso se pueden estudiar como subsistemas de un sistema mayor.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[0, 37.2, 100, 49.9]],
+        "img": "sources/pages/u2-subsistema-de-provision-p2-80ebbf.webp"
+      }
+    },
+    {
+      "id": "asi-p1-100",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "Los procesos de la ARH siguen obligatoriamente un orden preestablecido.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "No, porque son contingentes o situacionales: varían según la situación y dependen de factores ambientales, organizacionales, tecnológicos y humanos.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 3,
+        "confidence": "high",
+        "crop": [[0, 3.9, 100, 17.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p3-51ac64.webp"
+      }
+    },
+    {
+      "id": "asi-p1-101",
+      "topic": "U2",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son los principales objetivos de la ARH? (Seleccioná todas las correctas)",
+      "opts": [
+        "Crear, mantener y desarrollar un conjunto de personas con habilidades, motivación y satisfacción suficientes",
+        "Reducir al mínimo la rotación de personal, reemplazándola por inversiones en tecnologías de la información",
+        "Crear, mantener y desarrollar condiciones que permitan el logro de los objetivos individuales de las personas",
+        "Dar al administrador de RRHH la autoridad para transmitir órdenes a los miembros de línea de la organización",
+        "Alcanzar eficiencia y eficacia con los recursos humanos disponibles"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "fb": "Los objetivos de la ARH derivan de los objetivos de la organización.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 4,
+        "confidence": "high",
+        "crop": [[0, 5.0, 100, 26.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p4-77a2fe.webp"
+      }
+    },
+    {
+      "id": "asi-p1-102",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "Según la profesora, el proceso de provisión siempre se aplica para los reemplazos temporales.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Se inicia por la decisión de un gerente (despido), la promoción de un empleado o una renuncia. No se aplica para reemplazos temporales, aunque esto puede variar según el puesto.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 5,
+        "confidence": "high",
+        "crop": [[0, 0.3, 100, 6.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p5-4e0c40.webp"
+      }
+    },
+    {
+      "id": "asi-p1-103",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la dimensión del concepto de mercado:",
+      "stems": [
+        "Se caracteriza por un área física, geográfica o territorial",
+        "En épocas diferentes, puede presentar características distintas",
+        "Se caracteriza por la disponibilidad de algo y, a la vez, por la búsqueda de algo"
+      ],
+      "choices": [
+        "Espacial",
+        "Temporal",
+        "De oferta y demanda"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Si la oferta supera a la demanda, compiten quienes ofrecen; si la demanda supera a la oferta, compiten quienes necesitan el producto o servicio.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 5,
+        "confidence": "high",
+        "crop": [[0, 18.9, 100, 44.7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p5-265d32.webp"
+      }
+    },
+    {
+      "id": "asi-p1-104",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada afirmación con el tipo de mercado:",
+      "stems": [
+        "Lo conforman las ofertas de empleo hechas por las organizaciones en determinado lugar y época",
+        "Lo define el sector de población que está en condiciones de trabajar o está trabajando",
+        "Lo definen, en esencia, las organizaciones y sus oportunidades de empleo",
+        "Incluye a candidatos reales y potenciales, empleados o disponibles"
+      ],
+      "choices": [
+        "Mercado laboral",
+        "Mercado de recursos humanos"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "fb": "Son dos mercados diferentes, aunque estrechamente entrelazados.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 5,
+        "confidence": "high",
+        "crop": [[0, 55.3, 100, 63.2], [0, 0, 100, 13.8, 7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p5-878c71.webp"
+      }
+    },
+    {
+      "id": "asi-p1-105",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "En el mercado laboral, relacioná cada consecuencia con la situación que la produce:",
+      "stems": [
+        "Criterios de selección más flexibles y elevadas inversiones en reclutamiento",
+        "Énfasis en el reclutamiento interno",
+        "Aumenta la rotación: las personas salen a probar oportunidades mejores",
+        "Criterios de selección más rígidos y bajas inversiones en capacitación",
+        "Énfasis en el reclutamiento externo",
+        "Los candidatos se vuelven más disciplinados y procuran no faltar"
+      ],
+      "choices": [
+        "Oferta mayor que la demanda",
+        "Oferta menor que la demanda"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "fb": "Cuando la oferta supera a la demanda, los recursos humanos se vuelven difíciles y escasos; en el caso contrario, se vuelven fáciles y abundantes.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 5,
+        "confidence": "high",
+        "crop": [[0, 70.7, 100, 95.5], [0, 0, 100, 80.4, 6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p5-7bf875.webp"
+      }
+    },
+    {
+      "id": "asi-p1-106",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "En teoría, el mercado de recursos humanos actúa como un espejo del mercado laboral: cuando uno está en oferta, el otro está en demanda.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Son sistemas en constante interrelación: la salida de uno es la entrada del otro, y viceversa.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 15.3, 100, 19.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p7-341b6d.webp"
+      }
+    },
+    {
+      "id": "asi-p1-107",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "En el mercado de recursos humanos, ¿quiénes son los candidatos potenciales?",
+      "opts": [
+        "Quienes están desempleados y aptos para trabajar, y forman el mercado de RH disponible",
+        "Quienes, aunque no estén buscando empleo, están en condiciones de desempeñarlo a satisfacción",
+        "Quienes ya trabajan en la organización y pueden ascender o transferirse a otro cargo vacante",
+        "Quienes están buscando alguna oportunidad, estén empleados o no, y se postulan a las vacantes"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Los candidatos reales son los que están buscando alguna oportunidad, estén empleados o no.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 2.1, 100, 13.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p7-20c665.webp"
+      }
+    },
+    {
+      "id": "asi-p1-108",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "La rotación de personal es una causa, y los fenómenos internos y externos de la organización son sus efectos.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Es al revés: la rotación no es una causa sino un efecto, una variable dependiente de fenómenos internos (política salarial, supervisión) y externos (oferta y demanda, situación económica).",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 55.9, 100, 69.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p8-bf7560.webp"
+      }
+    },
+    {
+      "id": "asi-p1-109",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Mediante qué se obtiene la información sobre los fenómenos que causan la rotación de personal?",
+      "opts": [
+        "Mediante incidentes críticos",
+        "Mediante cocientes de selección",
+        "Mediante pruebas psicométricas",
+        "Mediante entrevistas de retiro"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "La entrevista de retiro abarca el motivo del retiro y opiniones sobre la empresa, el cargo, el jefe directo, los horarios, el salario y las oportunidades de progreso, entre otros.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 71.1, 100, 80.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p8-20c834.webp"
+      }
+    },
+    {
+      "id": "asi-p1-110",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el tipo de costo de la rotación de personal:",
+      "stems": [
+        "Se relacionan directamente con el retiro y el reemplazo; son cuantificables",
+        "Aspectos intangibles, como los efectos en la producción; son cualitativos",
+        "Efectos colaterales mediatos, a mediano y largo plazo; son solo estimables"
+      ],
+      "choices": [
+        "Primarios",
+        "Secundarios",
+        "Terciarios"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Un ejemplo de costo terciario son las pérdidas en los negocios, por la falta de calidad de empleados inexpertos en su período de ambientación.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 82.3, 100, 95.4], [0, 0, 100, 36.2, 9]],
+        "img": "sources/pages/u2-subsistema-de-provision-p8-0da6a3.webp"
+      }
+    },
+    {
+      "id": "asi-p1-111",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el proceso de provisión de personas:",
+      "stems": [
+        "Actividad de divulgación y de invitación; por lo tanto, positiva",
+        "Actividad de comparación y de filtro de entrada; por lo tanto, restrictiva",
+        "Actividad más administrativa, que introduce a la persona a la política organizacional"
+      ],
+      "choices": [
+        "Reclutamiento",
+        "Selección",
+        "Integración (admisión)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "El objetivo del reclutamiento es suministrar la materia prima para la selección, es decir, los candidatos.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 92.3, 100, 96.2], [0, 22.7, 100, 39.8, 10]],
+        "img": "sources/pages/u2-subsistema-de-provision-p9-1bdd73.webp"
+      }
+    },
+    {
+      "id": "asi-p1-112",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿En qué es fundamental que se base el reclutamiento, según la profesora?",
+      "opts": [
+        "En la descripción y análisis del cargo",
+        "En la política salarial de la organización",
+        "En el cociente de selección del proceso",
+        "En la evaluación del desempeño del personal"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "De ahí se derivan las tres etapas: investigación interna, investigación externa y definición de las técnicas.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 12,
+        "confidence": "high",
+        "crop": [[0, 38.0, 100, 87.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p12-0f3081.webp"
+      }
+    },
+    {
+      "id": "asi-p1-113",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Quién toma la decisión final de aceptar o rechazar a un candidato?",
+      "opts": [
+        "El administrador de RRHH de la organización",
+        "El organismo de selección (staff), que aplica las técnicas",
+        "El órgano de reclutamiento, que escoge los medios",
+        "El jefe o responsable del área solicitante"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "El organismo de selección solo recomienda. Según la profesora, si un cargo depende de dos gerentes (uno de línea y otro funcional), la decisión la toman entre los dos.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 79.3, 100, 84.9], [0, 74.2, 100, 77.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p10-fc7398.webp"
+      }
+    },
+    {
+      "id": "asi-p1-114",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "Para evitar que la selección termine sin contratación, se pueden eliminar los requisitos excluyentes.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Según la profesora, bajo ninguna circunstancia se deben eliminar. Lo que hay que revisar son los medios utilizados y considerar ampliar la segmentación del mercado.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[0, 77.9, 100, 83.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p11-f3c645.webp"
+      }
+    },
+    {
+      "id": "asi-p1-115",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Por qué se dice que el reclutamiento funciona como un embudo?",
+      "opts": [
+        "Porque la organización solo puede reclutar en una fuente por vez, y debe agotarla antes de pasar a la siguiente fuente",
+        "Porque los requisitos obligatorios limitan quiénes pasan a la selección, cuyas etapas son más minuciosas y caras",
+        "Porque todos los candidatos del mercado de RRHH deben pasar por la selección, sin que se filtre ninguno de ellos antes",
+        "Porque cada área de la empresa recibe a los candidatos que le corresponden, según la planeación de personal vigente"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Para ser eficaz, el reclutamiento debe atraer una cantidad de candidatos suficiente para abastecer de modo adecuado la selección.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 12,
+        "confidence": "high",
+        "crop": [[0, 16.5, 100, 22.2]],
+        "img": "sources/pages/u2-subsistema-de-provision-p12-b34b75.webp"
+      }
+    },
+    {
+      "id": "asi-p1-116",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "En la descripción del cargo se debe mencionar una tecnología específica.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "No, porque si la tecnología cambia, la descripción queda desfasada. En el reclutamiento sí se puede hacer referencia a tecnologías, en los requisitos excluyentes.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 12,
+        "confidence": "high",
+        "crop": [[0, 23.7, 100, 29.3]],
+        "img": "sources/pages/u2-subsistema-de-provision-p12-0b4053.webp"
+      }
+    },
+    {
+      "id": "asi-p1-117",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden de las etapas de la planeación del reclutamiento?",
+      "opts": [
+        "Definición de las técnicas → Investigación interna → Investigación externa",
+        "Investigación interna → Definición de las técnicas → Investigación externa",
+        "Investigación externa → Definición de las técnicas → Investigación interna",
+        "Investigación interna → Investigación externa → Definición de las técnicas"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Corresponden a las personas que la organización requiere, lo que el mercado de RRHH puede ofrecerle y las técnicas por aplicar.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 12,
+        "confidence": "high",
+        "crop": [[0, 30.8, 100, 89.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p12-f5e823.webp"
+      }
+    },
+    {
+      "id": "asi-p1-118",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "En la cátedra, ¿qué es una fuente de reclutamiento?",
+      "opts": [
+        "La técnica con la que se comparan los candidatos entre sí",
+        "El método con el que se divulga una oportunidad de trabajo",
+        "El lugar donde se encuentran los posibles candidatos",
+        "El documento con el que un área solicita cubrir una vacante"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "La profesora aclara que, por temas de traducción, Chiavenato a veces llama de esta manera a los medios de reclutamiento.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 0.3, 100, 5.9]],
+        "img": "sources/pages/u2-subsistema-de-provision-p13-1d57f2.webp"
+      }
+    },
+    {
+      "id": "asi-p1-119",
+      "topic": "U2",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Qué permite la ubicación correcta de las fuentes de reclutamiento? (Seleccioná todas las correctas)",
+      "opts": [
+        "Elevar el rendimiento del proceso de reclutamiento",
+        "Eliminar los requisitos excluyentes del cargo",
+        "Disminuir el tiempo del proceso de reclutamiento",
+        "Reemplazar la selección por una entrevista",
+        "Reducir los costos operacionales de reclutamiento"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "fb": "El reclutamiento no siempre puede abarcar todo el mercado de recursos humanos, así que hay que concentrar los esfuerzos en las fuentes que interesan.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 74.5, 100, 87.3]],
+        "img": "sources/pages/u2-subsistema-de-provision-p13-c908bb.webp"
+      }
+    },
+    {
+      "id": "asi-p1-120",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "Priorizar a los candidatos internos frente a los externos es una obligación que se debe cumplir siempre.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Es la política general de provisión de RRHH según Chiavenato. Al ser una política y no una norma, no es algo que se tenga que hacer sí o sí.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[0, 61.0, 100, 71.7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p14-ba39be.webp"
+      }
+    },
+    {
+      "id": "asi-p1-121",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "En el reclutamiento interno, relacioná cada movimiento con su tipo:",
+      "stems": [
+        "Ascenso",
+        "Transferencia",
+        "Transferencia como promoción"
+      ],
+      "choices": [
+        "Vertical",
+        "Horizontal",
+        "Diagonal"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Al presentarse una vacante, la empresa intenta llenarla con la reubicación de sus empleados.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 35.4, 100, 41.1]],
+        "img": "sources/pages/u2-subsistema-de-provision-p15-1f325d.webp"
+      }
+    },
+    {
+      "id": "asi-p1-122",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada ventaja o desventaja con el tipo de reclutamiento:",
+      "stems": [
+        "Es más económico y más rápido",
+        "Es una poderosa fuente de motivación para los empleados",
+        "Mal manejado, puede conducir al «principio de Peter»",
+        "Trae «sangre nueva» y nuevas experiencias",
+        "Aprovecha las inversiones en preparación de otras empresas o de los propios candidatos",
+        "Si monopoliza las vacantes, puede frustrar al personal"
+      ],
+      "choices": [
+        "Interno",
+        "Externo"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "fb": "Por eso conviene el reclutamiento mixto: uno siempre debe complementar al otro (pág. 18).",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 65.0, 100, 95.2], [0, 1.2, 100, 4.7, 16], [0, 61.4, 100, 94.4, 17]],
+        "img": "sources/pages/u2-subsistema-de-provision-p15-dca17b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-123",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el medio de reclutamiento externo:",
+      "stems": [
+        "El sistema de menor costo y, cuando funciona, uno de los más breves",
+        "Bajo costo y alto rendimiento; refuerza la organización informal",
+        "A menudo se utiliza para cargos de bajo nivel",
+        "Uno de los más eficaces para atraer candidatos; más cuantitativo que cualitativo",
+        "Uno de los más costosos, compensado por el tiempo y el rendimiento"
+      ],
+      "choices": [
+        "Consulta de archivos de candidatos",
+        "Candidatos presentados por empleados",
+        "Carteles en la puerta de la empresa",
+        "Avisos en diarios y revistas",
+        "Agencias de reclutamiento"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Los medios son los métodos con los que la organización divulga una oportunidad de trabajo a las fuentes. La mayor parte de las veces se utilizan en conjunto.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 16,
+        "confidence": "high",
+        "crop": [[0, 63.3, 100, 82.2], [0, 14.8, 100, 22.2, 17]],
+        "img": "sources/pages/u2-subsistema-de-provision-p16-12e264.webp"
+      }
+    },
+    {
+      "id": "asi-p1-124",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "Cuanto mayor sea la limitación de tiempo, mayor será el costo del medio de reclutamiento que se aplique.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El costo y el tiempo son factores importantes a la hora de seleccionar el medio.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 17,
+        "confidence": "high",
+        "crop": [[0, 23.7, 100, 29.4]],
+        "img": "sources/pages/u2-subsistema-de-provision-p17-b248e0.webp"
+      }
+    },
+    {
+      "id": "asi-p1-125",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada forma de reclutamiento mixto con lo que indica sobre la empresa:",
+      "stems": [
+        "Primero externo y, si no da resultado, interno",
+        "Primero interno y, si no da resultado, externo",
+        "Externo e interno simultáneos"
+      ],
+      "choices": [
+        "Le interesa más la entrada de RRHH que su transformación",
+        "Da prioridad a sus empleados en la competencia por las oportunidades",
+        "Le preocupa más llenar la vacante, sea por entrada o por transformación"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Una buena política de personal prefiere a los candidatos internos, si presentan igualdad de condiciones con los externos.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 18,
+        "confidence": "high",
+        "crop": [[0, 21.7, 100, 52.9]],
+        "img": "sources/pages/u2-subsistema-de-provision-p18-5c2ef0.webp"
+      }
+    },
+    {
+      "id": "asi-p1-126",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué dos problemas busca solucionar la selección de personal?",
+      "opts": [
+        "El costo del reclutamiento del cargo y el salario de quien va a ocuparlo",
+        "La descripción del contenido del cargo y el análisis de sus requisitos",
+        "La adecuación del hombre al cargo y la eficiencia del hombre en el cargo",
+        "La rotación del personal en el cargo y el ausentismo de quien lo ocupa"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "El proceso selectivo debe dar no solo un diagnóstico, sino también un pronóstico de la capacidad para aprender una tarea y para ejecutarla.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 19,
+        "confidence": "high",
+        "crop": [[0, 23.7, 100, 45.2]],
+        "img": "sources/pages/u2-subsistema-de-provision-p19-a3e200.webp"
+      }
+    },
+    {
+      "id": "asi-p1-127",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "La selección es un proceso de comparación. ¿Entre qué se compara?",
+      "opts": [
+        "Entre las características de unos candidatos y las de los otros candidatos",
+        "Entre las exigencias del cargo y las características de los candidatos",
+        "Entre el salario ofrecido por la empresa y el que pretende cada candidato",
+        "Entre los resultados del reclutamiento interno y los del reclutamiento externo"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "La profesora remarca que no se compara entre candidatos. La primera variable sale del análisis y descripción del cargo; la segunda, de las técnicas de selección.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 19,
+        "confidence": "high",
+        "crop": [[0, 56.0, 100, 63.7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p19-647d22.webp"
+      }
+    },
+    {
+      "id": "asi-p1-128",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada situación con el modelo de comportamiento de la selección:",
+      "stems": [
+        "Un solo candidato para una vacante, que debe ser cubierta por él",
+        "Varios candidatos para una vacante; el que se rechaza sale del proceso",
+        "Varios candidatos para cada vacante y varias vacantes para cada candidato"
+      ],
+      "choices": [
+        "Colocación",
+        "Selección",
+        "Clasificación"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "En el modelo de clasificación, el rechazado concursa en los otros cargos vacantes hasta que se agoten. Según la profesora, el modelo no se cambia según el resultado de las etapas.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 20,
+        "confidence": "high",
+        "crop": [[0, 5.4, 100, 58.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p20-fb1913.webp"
+      }
+    },
+    {
+      "id": "asi-p1-129",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la forma de recolectar información sobre el cargo:",
+      "stems": [
+        "Inventario de los aspectos intrínsecos y extrínsecos del cargo",
+        "Los jefes anotan hechos y comportamientos que produjeron un mejor o peor desempeño",
+        "Se verifican los datos que consigna el jefe inmediato sobre los requisitos del aspirante",
+        "Para un cargo nuevo, se verifican cargos comparables en empresas semejantes",
+        "Predicción aproximada, si no se puede aplicar ninguna otra alternativa"
+      ],
+      "choices": [
+        "Descripción y análisis del cargo",
+        "Incidentes críticos",
+        "Requerimiento de personal",
+        "Análisis del cargo en el mercado",
+        "Hipótesis de trabajo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "El inconveniente de los incidentes críticos es que se fundamentan en la opinión del jefe inmediato.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 20,
+        "confidence": "high",
+        "crop": [[0, 70.0, 100, 95.4], [0, 0, 100, 23.9, 21]],
+        "img": "sources/pages/u2-subsistema-de-provision-p20-24e7ea.webp"
+      }
+    },
+    {
+      "id": "asi-p1-130",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué debe contener la ficha de especificaciones o ficha profesiográfica?",
+      "opts": [
+        "Las franjas salariales y los beneficios sociales que la empresa ofrece para el cargo",
+        "Los motivos de retiro y las opiniones de la persona que ocupó el cargo anteriormente",
+        "Las características psicológicas y físicas necesarias para desempeñarse en el cargo",
+        "Los resultados de las pruebas y de la entrevista de cada candidato que se presentó"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Con esa ficha, el organismo de selección puede establecer las técnicas más adecuadas para el cargo.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 21,
+        "confidence": "high",
+        "crop": [[0, 25.4, 100, 35.1]],
+        "img": "sources/pages/u2-subsistema-de-provision-p21-96b1e7.webp"
+      }
+    },
+    {
+      "id": "asi-p1-131",
+      "topic": "U2",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles de los siguientes son errores comunes de un entrevistador? (Seleccioná todas las correctas)",
+      "opts": [
+        "Anclarse en la primera impresión del candidato",
+        "Leer el currículo del candidato antes de la entrevista",
+        "Inducir al candidato en sus respuestas",
+        "Psicologizar la entrevista",
+        "Indicar al final cómo se le comunicará el resultado",
+        "Adoptar mayor protagonismo que el propio candidato"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "fb": "Leer el currículo es parte de la preparación, y dar información sobre la acción futura es parte de la terminación de la entrevista (pág. 24).",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 18.2, 100, 35.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p23-cb470b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-132",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el tipo de entrevista:",
+      "stems": [
+        "Preguntas elaboradas con anticipación y respuestas cerradas",
+        "Preguntas elaboradas con anticipación, con respuesta abierta o libre",
+        "No especifica las preguntas, sino el tipo de respuesta deseada",
+        "No especifica las preguntas ni las respuestas requeridas"
+      ],
+      "choices": [
+        "Estandarizada por completo",
+        "Estandarizada solo en cuanto a preguntas",
+        "Dirigida",
+        "No dirigida"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Las entrevistas se clasifican según el formato de las preguntas y de las respuestas requeridas.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 55.3, 100, 86.3]],
+        "img": "sources/pages/u2-subsistema-de-provision-p23-05db3b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-133",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden de las etapas de la entrevista de selección?",
+      "opts": [
+        "Ambiente → Preparación → Desarrollo → Evaluación del candidato → Terminación",
+        "Preparación → Desarrollo → Ambiente → Evaluación del candidato → Terminación",
+        "Ambiente → Desarrollo → Preparación → Terminación → Evaluación del candidato",
+        "Preparación → Ambiente → Desarrollo → Terminación → Evaluación del candidato"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "La evaluación debe iniciarse de inmediato, a partir del momento en que el entrevistado sale del lugar.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 88.7, 100, 93.6], [0, 0, 100, 54.3, 24]],
+        "img": "sources/pages/u2-subsistema-de-provision-p23-51540d.webp"
+      }
+    },
+    {
+      "id": "asi-p1-134",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el tipo de prueba o técnica de selección:",
+      "stems": [
+        "Ofrece un diagnóstico real de las habilidades del candidato",
+        "Proporciona un pronóstico futuro de su potencial de desarrollo",
+        "Analiza rasgos determinados por el carácter y por el temperamento",
+        "Somete al aspirante a una dramatización relacionada con su futuro papel"
+      ],
+      "choices": [
+        "De conocimiento o capacidad",
+        "Psicométrica de aptitud",
+        "De personalidad",
+        "De simulación"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Las pruebas psicométricas presentan dos características que las entrevistas no consiguen alcanzar: validez y precisión.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 25,
+        "confidence": "high",
+        "crop": [[0, 7.1, 100, 74.1]],
+        "img": "sources/pages/u2-subsistema-de-provision-p25-f443b3.webp"
+      }
+    },
+    {
+      "id": "asi-p1-135",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada grupo de pruebas de conocimiento con su criterio de clasificación:",
+      "stems": [
+        "Orales, escritas o de realización",
+        "Generales o específicas",
+        "Tradicionales, objetivas o mixtas"
+      ],
+      "choices": [
+        "Por la manera de aplicarlas",
+        "Por el área de conocimientos",
+        "Por la manera de elaborarlas"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Las pruebas objetivas o test son de aplicación y corrección rápidas y fáciles.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[0, 55.8, 100, 95.7], [0, 0, 100, 5.2, 25]],
+        "img": "sources/pages/u2-subsistema-de-provision-p24-675ae2.webp"
+      }
+    },
+    {
+      "id": "asi-p1-136",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "En el proceso de selección, las pruebas más complejas y costosas se ubican en las primeras etapas.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Al revés: en las primeras etapas están las pruebas más sencillas y económicas, y al final las más complejas y costosas.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 25,
+        "confidence": "high",
+        "crop": [[0, 79.8, 100, 87.5]],
+        "img": "sources/pages/u2-subsistema-de-provision-p25-7c295a.webp"
+      }
+    },
+    {
+      "id": "asi-p1-137",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es la principal ventaja de los planes secuenciales de selección?",
+      "opts": [
+        "La eliminación de las entrevistas, que pasan a reemplazarse por las pruebas",
+        "La reducción de la cantidad de candidatos que se presentan al reclutamiento",
+        "La posibilidad de cambiar el modelo de selección según cada etapa del proceso",
+        "La disminución del costo de obtener la información, que se efectúa por etapas"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Se recomiendan cuando las pruebas son muy costosas. La selección de una sola etapa es el tipo más sencillo e imperfecto.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 11.9, 100, 23.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p26-d9ef28.webp"
+      }
+    },
+    {
+      "id": "asi-p1-138",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "A medida que el cociente de selección disminuye, aumentan la eficiencia y la selectividad.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Su valor varía, en general, por cambios en la situación del mercado de oferta y demanda de RRHH.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 59.2, 100, 75.7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p26-ba5c6e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-139",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada gasto con el tipo de costo del proceso de selección:",
+      "stems": [
+        "Salarios de quienes administran la provisión y tiempo de línea en entrevistas",
+        "Honorarios de agencias, anuncios, viajes de reclutamiento y exámenes médicos",
+        "Equipos, software, mobiliario e instalaciones"
+      ],
+      "choices": [
+        "De personal",
+        "De operación",
+        "Adicionales"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Con esta estructura de costos se determina la eficiencia del proceso.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 36.7, 100, 57.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p26-adf794.webp"
+      }
+    },
+    {
+      "id": "asi-p1-140",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "Determinar las fuentes de provisión es un proceso técnico.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "No es un proceso técnico, sino de toma de decisiones. Consiste en determinar la mejor alternativa técnica, operativa y económica.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 28,
+        "confidence": "high",
+        "crop": [[0, 11.9, 100, 34.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p28-933416.webp"
+      }
+    },
+    {
+      "id": "asi-p1-141",
+      "topic": "U2",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son objetivos del proceso de provisión de SI/TI? (Seleccioná todas las correctas)",
+      "opts": [
+        "Identificar e investigar las alternativas de obtención de SW y HW concretos",
+        "Dimensionar la carga de trabajo y las prestaciones que requiere la organización",
+        "Desarrollar, evaluar y clasificar las fuentes de obtención posibles",
+        "Determinar y recomendar las mejores propuestas de los posibles proveedores",
+        "Ubicar los recursos de SW y HW de acuerdo con los esquemas de explotación",
+        "Establecer los requisitos de integración de los desarrollos o productos elegidos"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "fb": "Dimensionar la carga y explotar los recursos corresponde al subsistema de aplicación de SI/TI (Unidad III).",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 28,
+        "confidence": "high",
+        "crop": [[0, 35.5, 100, 56.3]],
+        "img": "sources/pages/u2-subsistema-de-provision-p28-75f699.webp"
+      }
+    },
+    {
+      "id": "asi-p1-142",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "En la provisión de SI/TI existe un organismo encargado de hacer la selección.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "No existe un organismo encargado, sino una red de grupos con diferentes opciones de adquisición. Un grupo físico puede desempeñar más de una función lógica.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 29,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 9.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p29-b68328.webp"
+      }
+    },
+    {
+      "id": "asi-p1-143",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuándo debe determinarse el enfoque de conversión?",
+      "opts": [
+        "Después de la instalación, en la prueba de aceptación del sistema",
+        "Antes de hacer la adquisición y al inicio del proceso de selección",
+        "Después de firmar el contrato, cuando ya se conoce al proveedor elegido",
+        "Durante la ejecución de los aspectos financieros de la compra realizada"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "La opción de la estrategia de conversión influye a su vez en otras opciones. De manera aproximada, el riesgo sigue un orden ascendente entre los enfoques.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 30,
+        "confidence": "high",
+        "crop": [[0, 38.6, 100, 53.7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p30-e3abd9.webp"
+      }
+    },
+    {
+      "id": "asi-p1-144",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden de los principios básicos de la técnica de selección?",
+      "opts": [
+        "Criterios → Valor de importancia → Puntaje → Calificación → Mayor puntaje",
+        "Puntaje → Criterios → Valor de importancia → Calificación → Mayor puntaje",
+        "Valor de importancia → Criterios → Puntaje → Calificación → Mayor puntaje",
+        "Criterios → Puntaje → Valor de importancia → Mayor puntaje → Calificación"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La calificación de cada propuesta se calcula multiplicando los puntajes por el valor de importancia y sumando los resultados.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 31,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 25.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p31-b53eed.webp"
+      }
+    },
+    {
+      "id": "asi-p1-145",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el tipo de característica:",
+      "stems": [
+        "Su incumplimiento implica la impugnación de toda la oferta",
+        "Sobre ellas se efectúa la calificación; flexibilizan la oferta",
+        "No son negociables",
+        "Sin estos elementos es improbable que se pueda hacer una selección",
+        "Mejoras que, con todo lo demás igual, pueden inclinar la balanza"
+      ],
+      "choices": [
+        "Obligatorias",
+        "Deseables y altamente deseables",
+        "Imprescindibles",
+        "Recomendables",
+        "Convenientes"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Son dos sistemas para establecer prioridades: obligatorias y deseables, o imprescindibles, recomendables y convenientes.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 31,
+        "confidence": "high",
+        "crop": [[0, 90.9, 100, 94.7], [0, 0, 100, 26.3, 32]],
+        "img": "sources/pages/u2-subsistema-de-provision-p31-d77906.webp"
+      }
+    },
+    {
+      "id": "asi-p1-146",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada afirmación con el tipo de parámetro:",
+      "stems": [
+        "Transacciones por segundo, tasa de transferencia y capacidad de almacenamiento",
+        "Se determinan con fórmulas matemáticas o métodos probabilísticos",
+        "Tecnología de disco, dimensiones de pantalla y estética",
+        "Poseen cierta subjetividad: se controla que no superen el 20% del total"
+      ],
+      "choices": [
+        "Cuantitativo",
+        "Cualitativo"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "fb": "Los parámetros cualitativos se determinan por la experiencia, la observación, convenciones, restricciones o políticas, y por lo general se deben transformar en cuantitativos.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[0, 27.8, 100, 58.7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p32-117c80.webp"
+      }
+    },
+    {
+      "id": "asi-p1-147",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "Según las pautas de selección, ¿qué orden deben seguir las decisiones?",
+      "opts": [
+        "SW de base → HW → Necesidad empresarial → SW de aplicación",
+        "Necesidad empresarial → SW de aplicación → SW de base → HW",
+        "Necesidad empresarial → HW → SW de base → SW de aplicación",
+        "HW → SW de base → SW de aplicación → Necesidad empresarial"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Es el SW, y no el HW, el que debe guiar casi todas las decisiones de selección de los SI.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 11.9, 100, 15.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p33-81d085.webp"
+      }
+    },
+    {
+      "id": "asi-p1-148",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "El HW tiene mayor vida útil que el SW que corre sobre él.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Es al revés: el SW tiene mayor vida útil que el HW, y lo que tiene mayor persistencia son los datos de la empresa.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 15.7, 100, 21.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p33-ca672c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-149",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "Las decisiones de selección motivadas por economizar por lo general son incorrectas.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "En resumen: no hay que cambiar sin razón; cuando es preciso, conviene hacerlo de manera simple y flexible, partiendo del problema empresarial.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 10.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p33-8c7206.webp"
+      }
+    },
+    {
+      "id": "asi-p1-150",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Por qué la flexibilidad recibe mayor puntaje que la adecuación?",
+      "opts": [
+        "Porque las decisiones motivadas por economizar son siempre las más adecuadas para la empresa",
+        "Porque los lenguajes de 4° nivel aumentan diez veces la productividad frente a los de 3° nivel",
+        "Porque los requerimientos de información nunca pueden determinarse totalmente con antelación",
+        "Porque los componentes de distintos fabricantes no se pueden conectar entre sí de ningún modo"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "La elección debe poder adaptarse y crecer continuamente.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 53.9, 100, 61.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p33-910d8c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-151",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden de las etapas de un proceso de compra de servicios de SI?",
+      "opts": [
+        "Estudio de solución y criterios → Selección → Convocatoria → Aspectos financieros → Instalación y prueba",
+        "Estudio de solución y criterios → Convocatoria → Selección → Instalación y prueba → Aspectos financieros",
+        "Selección → Estudio de solución y criterios → Convocatoria → Instalación y prueba → Aspectos financieros",
+        "Convocatoria → Estudio de solución y criterios → Selección → Instalación y prueba → Aspectos financieros"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Los aspectos financieros, administrativos y contractuales son consecuentes de la etapa de instalación y prueba de aceptación.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 34,
+        "confidence": "high",
+        "crop": [[0, 72.8, 100, 88.7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p34-8200c9.webp"
+      }
+    },
+    {
+      "id": "asi-p1-152",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada fuente de provisión de software con lo que corresponde:",
+      "stems": [
+        "Desarrollo de aplicación del usuario",
+        "Personal contratado que trabaja en la empresa",
+        "Sistema de un fabricante adaptado a medida por el fabricante",
+        "Solución a medida de un fabricante ya lista",
+        "Paquetes estándar"
+      ],
+      "choices": [
+        "Desarrollo",
+        "Adquisición"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "fb": "No existe una división fija entre los desarrollos externos e internos: las opciones forman un continuo de posibilidades.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 35,
+        "confidence": "high",
+        "crop": [[0, 7.0, 100, 81.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p35-45dc08.webp"
+      }
+    },
+    {
+      "id": "asi-p1-153",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "Sea interno o no el desarrollo definitivo, hace falta personal experto interno para establecer los requerimientos.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La índole de esos requerimientos, que capturan los principios de la estrategia de SI, determina qué rutas de adquisición son las más apropiadas.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 36,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 7.5]],
+        "img": "sources/pages/u2-subsistema-de-provision-p36-409f1e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-154",
+      "topic": "U2",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son ventajas de los paquetes estándar? (Seleccioná todas las correctas)",
+      "opts": [
+        "Rápida disponibilidad",
+        "El aprendizaje de desarrollo queda en la empresa",
+        "Calidad conocida y comprobable",
+        "Menores costos iniciales y generales",
+        "Ajuste exacto a las necesidades de la empresa",
+        "Documentación verificable"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "fb": "Sus desventajas son que el know-how queda retenido por el fabricante y que habrá desajustes inevitables (discrepancias) entre las necesidades y las capacidades del paquete.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 37,
+        "confidence": "high",
+        "crop": [[0, 18.7, 100, 42.7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p37-d3f674.webp"
+      }
+    },
+    {
+      "id": "asi-p1-155",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué motiva la elección entre un paquete y un desarrollo interno, según lo cerca que esté la aplicación del núcleo de la empresa?",
+      "opts": [
+        "Cuanto más cerca del núcleo, más se tiende a un paquete; cuanto más lejos, a un desarrollo interno",
+        "Cuanto más cerca del núcleo, más se tiende a un desarrollo interno; cuanto más lejos, a un paquete",
+        "Cuanto más cerca del núcleo, más se tiende a tercerizar; cuanto más lejos, a un desarrollo interno",
+        "Cuanto más cerca del núcleo, más se tiende a un paquete; cuanto más lejos, a tercerizar el servicio"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Lejos del núcleo, son los costos los que motivan la selección de un paquete. Con paquetes, la pericia pasa del diseño y la programación a la especificación de requerimientos.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 37,
+        "confidence": "high",
+        "crop": [[0, 57.4, 100, 67.1]],
+        "img": "sources/pages/u2-subsistema-de-provision-p37-635131.webp"
+      }
+    },
+    {
+      "id": "asi-p1-156",
+      "topic": "U2",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son estrategias para manejar las discrepancias entre las necesidades de la empresa y las capacidades del paquete? (Seleccioná todas las correctas)",
+      "opts": [
+        "Adecuar el paquete",
+        "Modificar el proceso empresarial",
+        "Reemplazar el MEM",
+        "Tolerar el desajuste",
+        "Complementar el paquete con funcionalidad adicional",
+        "Eliminar el área usuaria"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "fb": "Adecuar el paquete genera conflictos legales, porque se pueden perder las licencias, y exige tener los derechos del código fuente.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 38,
+        "confidence": "high",
+        "crop": [[0, 62.6, 100, 80.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p38-4099c8.webp"
+      }
+    },
+    {
+      "id": "asi-p1-157",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el enfoque para definir la libertad de las áreas al seleccionar paquetes:",
+      "stems": [
+        "Todas las áreas eligen su paquete preferido; puede provocar el caos",
+        "Cada sector adquiere el paquete que desea, siempre que soporte compartir datos con otros",
+        "Un área de normas confecciona una lista breve de paquetes aceptables",
+        "El área de normas establece el paquete permitido"
+      ],
+      "choices": [
+        "Libertad total",
+        "Intercambio de datos",
+        "Lista",
+        "Normas fijas"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Los dos primeros enfoques corresponden a un área de sistemas descentralizada, y los dos últimos, a áreas centralizadas.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[0, 35.5, 100, 85.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p39-b2ba92.webp"
+      }
+    },
+    {
+      "id": "asi-p1-158",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "Según la profesora, ¿qué representan los criterios para seleccionar canales de provisión de software?",
+      "opts": [
+        "Precios y plazos de entrega que ofrece cada proveedor, y no los que fija la empresa",
+        "Riesgos de sobreutilización de recursos, y no su costo ni su documentación disponible",
+        "Condiciones, restricciones y exigencias de la organización, y no de la aplicación",
+        "Funcionalidades y características técnicas de la aplicación, y no de la organización"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Por ejemplo: la aplicación deberá implementar o seguir las políticas de seguridad de la empresa.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 0.3, 100, 6.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p40-4e0c40.webp"
+      }
+    },
+    {
+      "id": "asi-p1-159",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada pregunta con el criterio para seleccionar el canal de obtención de software:",
+      "stems": [
+        "¿Se puede justificar el gasto desde una perspectiva costo/beneficio?",
+        "¿Cuánto tiempo después de tomada la decisión estará listo para usar?",
+        "¿Quién será responsable de las modificaciones correctivas?",
+        "¿Se puede modificar y mejorar fácilmente?",
+        "¿El código del programa es legible y está bien explicado?"
+      ],
+      "choices": [
+        "Costo",
+        "Disponibilidad",
+        "Mantenimiento",
+        "Modificaciones",
+        "Documentación"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "La lista incluye también la especificidad de la aplicación y la utilización de recursos.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 18.3, 100, 51.5]],
+        "img": "sources/pages/u2-subsistema-de-provision-p40-f1ec96.webp"
+      }
+    },
+    {
+      "id": "asi-p1-160",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden del análisis de alternativas de obtención de software?",
+      "opts": [
+        "Subconjunto de criterios → Pesos → Puntajes → Multiplicar y sumar",
+        "Puntajes → Subconjunto de criterios → Pesos → Multiplicar y sumar",
+        "Subconjunto de criterios → Puntajes → Multiplicar y sumar → Pesos",
+        "Pesos → Puntajes → Subconjunto de criterios → Multiplicar y sumar"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La alternativa con el puntaje más alto satisface mejor los requerimientos. Los pesos representan la importancia relativa de cada criterio.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 41,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 15.5]],
+        "img": "sources/pages/u2-subsistema-de-provision-p41-3a3fcf.webp"
+      }
+    },
+    {
+      "id": "asi-p1-161",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "El mínimo de calificación (o nivel de corte) debe estar previamente definido.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "En el ejemplo del apunte es de 7 puntos, porque refleja entre un 70% y un 75% de cumplimiento de los requisitos.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 41,
+        "confidence": "high",
+        "crop": [[0, 26.8, 100, 36.5]],
+        "img": "sources/pages/u2-subsistema-de-provision-p41-7c0a5e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-162",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "En el análisis de probabilidades de éxito y riesgo, ¿qué opciones se deben descartar?",
+      "opts": [
+        "Las que obtuvieron el puntaje más alto en el análisis de las alternativas de obtención",
+        "Las que usan los mismos criterios que ya se evaluaron en el análisis de las alternativas",
+        "Las que tengan alta probabilidad de ocurrencia de un factor de riesgo con alto impacto",
+        "Las que tengan baja probabilidad de ocurrencia de un factor de riesgo con bajo impacto"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Según la profesora, conviene que los factores de riesgo sean criterios que no se analizaron antes, y el impacto de cada riesgo es el mismo sea cual sea la fuente de provisión.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 41,
+        "confidence": "high",
+        "crop": [[0, 70.1, 100, 87.3], [0, 1.6, 100, 7.4, 42]],
+        "img": "sources/pages/u2-subsistema-de-provision-p41-ab2705.webp"
+      }
+    },
+    {
+      "id": "asi-p1-163",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el criterio de selección de paquetes estándar:",
+      "stems": [
+        "Si cubre todos los procesos que debería realizar",
+        "Si cubre la administración de datos en cuanto a tamaño y cantidades",
+        "Que falle lo menos posible y se recupere rápidamente de caídas",
+        "Restricciones de acceso y resguardo de la información",
+        "Nivel de respuesta, según una carga de trabajo representativa",
+        "Tipos de licencia y derechos sobre el producto"
+      ],
+      "choices": [
+        "Funcionalidad",
+        "Capacidad",
+        "Confiabilidad",
+        "Seguridad",
+        "Performance",
+        "Propiedad"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "La performance siempre está en conflicto con el criterio de capacidad.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0, 79.3, 100, 87.2], [0, 3.7, 100, 29.6, 43]],
+        "img": "sources/pages/u2-subsistema-de-provision-p42-661d99.webp"
+      }
+    },
+    {
+      "id": "asi-p1-164",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuándo se pasa a la evaluación técnica en la selección de paquetes estándar?",
+      "opts": [
+        "Solo cuando los valores de los oferentes están muy cercanos entre sí",
+        "Siempre, antes de comparar los paquetes según los criterios de los usuarios",
+        "Solo cuando ningún oferente alcanza el nivel de corte definido por la empresa",
+        "Siempre, después de firmar el contrato con el oferente que resultó elegido"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Consiste en un nuevo análisis para detectar cuál es el óptimo, según sus capacidades técnicas. Se puede usar el Método de Evaluación Manual.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 43,
+        "confidence": "high",
+        "crop": [[0, 82.8, 100, 95.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p43-342b78.webp"
+      }
+    },
+    {
+      "id": "asi-p1-165",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden de los elementos del Método de Evaluación Manual (MEM)?",
+      "opts": [
+        "Tabla de ponderación → Lista de requerimientos → Cuestionario → Planilla de evaluación → Planilla comparativa → Planilla de resultados → Informe final",
+        "Cuestionario → Lista de requerimientos → Tabla de ponderación → Planilla comparativa → Planilla de evaluación → Informe final → Planilla de resultados",
+        "Lista de requerimientos → Cuestionario → Tabla de ponderación → Planilla comparativa → Planilla de resultados → Planilla de evaluación → Informe final",
+        "Lista de requerimientos → Tabla de ponderación → Cuestionario → Planilla comparativa → Planilla de evaluación → Planilla de resultados → Informe final"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "El MEM se aplica en forma común para evaluar técnicamente ofertas de HW y de paquetes de SW.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 44,
+        "confidence": "high",
+        "crop": [[0, 7.2, 100, 26.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p44-34fc81.webp"
+      }
+    },
+    {
+      "id": "asi-p1-166",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el elemento del MEM:",
+      "stems": [
+        "Determina la importancia relativa de cada requerimiento",
+        "Indica unidades o valores y el nivel de obligatoriedad de cada característica",
+        "Vuelca lo que propone cada oferta y descarta a las que no cumplen lo fundamental",
+        "Integra las evaluaciones al nivel de facilidad",
+        "Ordena los resultados por puntaje final y proveedor: el orden de mérito"
+      ],
+      "choices": [
+        "Tabla de ponderación",
+        "Cuestionario",
+        "Planilla comparativa",
+        "Planilla de resultados",
+        "Informe final"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "En la planilla de evaluación se califica cada característica, por cada facilidad de SW.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 44,
+        "confidence": "high",
+        "crop": [[0, 79.2, 100, 90.3], [0, 20.2, 100, 35.2, 45], [0, 0, 100, 11.6, 46], [0, 34.7, 100, 41.8, 47], [0, 0, 100, 3.4, 48]],
+        "img": "sources/pages/u2-subsistema-de-provision-p44-9debab.webp"
+      }
+    },
+    {
+      "id": "asi-p1-167",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "En la planilla de evaluación del MEM, relacioná cada concepto con cómo se obtiene:",
+      "stems": [
+        "Peso de la sub-característica por el peso de la característica",
+        "Nota asignada a una característica o sub-característica",
+        "Nota de una sub-característica por su valor ponderado"
+      ],
+      "choices": [
+        "Valor ponderado",
+        "Calificación",
+        "Calificación ponderada"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Si no hay sub-características, el valor ponderado es igual al cuadrado del peso de la característica.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 46,
+        "confidence": "high",
+        "crop": [[0, 62.5, 100, 78.4]],
+        "img": "sources/pages/u2-subsistema-de-provision-p46-dd70eb.webp"
+      }
+    },
+    {
+      "id": "asi-p1-168",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "Según la profesora, la evaluación técnica está a cargo de un comité técnico ad hoc, en el que está el gerente de SI/TI.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "No hay que confundirlo con los grupos de trabajo del plan de SI/TI.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 47,
+        "confidence": "high",
+        "crop": [[0, 67.0, 100, 76.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p47-94ad5a.webp"
+      }
+    },
+    {
+      "id": "asi-p1-169",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "El MEM se usa siempre, tanto para evaluar HW como para evaluar SW.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Para el HW siempre se usa. En el SW puede no ser necesario: si un paquete se adapta perfectamente a los criterios, no hace falta; si los valores son muy parecidos, se usa para profundizar.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 56,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 16.7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p56-5e7c74.webp"
+      }
+    },
+    {
+      "id": "asi-p1-170",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el canal de adquisición de hardware:",
+      "stems": [
+        "Compra directa al fabricante, posible si el cliente es muy importante",
+        "Preparados para vender y apoyar una amplia gama; agregan un margen por sus servicios",
+        "Asesoramiento muy limitado y poca variedad, dentro de la línea de uso generalizado",
+        "El personal de la empresa arma lo que compra por separado"
+      ],
+      "choices": [
+        "Consignatarios de fabricantes",
+        "Revendedores de valor agregado",
+        "Comercios minoristas",
+        "Ensamble de componentes"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Con la pequeña excepción del ensamblaje de microcomputadoras, todo el hardware se adquiere en forma externa.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 52,
+        "confidence": "high",
+        "crop": [[0, 19.4, 100, 76.4]],
+        "img": "sources/pages/u2-subsistema-de-provision-p52-4c1803.webp"
+      }
+    },
+    {
+      "id": "asi-p1-171",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué es el rightsizing?",
+      "opts": [
+        "Migrar siempre un sistema desde un mainframe hacia una red de computadoras personales",
+        "Elegir la arquitectura de SI más adecuada, incluso seguir con la plataforma existente",
+        "Comprar componentes de hardware para que los ensamble el personal de la propia empresa",
+        "Reducir la cantidad de personal de SI para bajar los costos ocultos de la infraestructura"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Migrar de mainframe a red de PC es el downsizing. El rightsizing no es solo decidir si eso es adecuado: el cambio puede darse en cualquier sentido (pág. 55).",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 54,
+        "confidence": "high",
+        "crop": [[0, 71.3, 100, 82.5]],
+        "img": "sources/pages/u2-subsistema-de-provision-p54-3c41e1.webp"
+      }
+    },
+    {
+      "id": "asi-p1-172",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "El costo siempre es la mayor motivación del downsizing.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "No siempre: se considera que permite que el personal tenga más espacio para manejarse. Lo que lo motiva es el aumento en el valor percibido de los entornos más pequeños.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 53,
+        "confidence": "high",
+        "crop": [[0, 57.8, 100, 67.5]],
+        "img": "sources/pages/u2-subsistema-de-provision-p53-87ab23.webp"
+      }
+    },
+    {
+      "id": "asi-p1-173",
+      "topic": "U2",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son posibles desventajas del downsizing? (Seleccioná todas las correctas)",
+      "opts": [
+        "Control central más débil",
+        "Costos ocultos",
+        "Menor autonomía del usuario",
+        "Desintegración de la base de datos",
+        "Resistencia del personal",
+        "Menor capacidad de respuesta"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "fb": "La autonomía del usuario y la capacidad de respuesta figuran entre sus posibles ventajas.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 54,
+        "confidence": "high",
+        "crop": [[0, 0.3, 100, 42.4]],
+        "img": "sources/pages/u2-subsistema-de-provision-p54-e9feb0.webp"
+      }
+    },
+    {
+      "id": "asi-p1-174",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "Según la profesora, ¿qué características deben tener las actividades que conviene tercerizar?",
+      "opts": [
+        "Ser fundamentales para el rendimiento empresarial",
+        "Ser actividades internas con precedente de larga data",
+        "Ser operativas, periódicas, previsibles y estándar",
+        "Ser estratégicas, únicas, innovadoras y de largo plazo"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Son características de las actividades y no de la aplicación. Las actividades esenciales, en cambio, conviene retenerlas (pág. 58).",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 56,
+        "confidence": "high",
+        "crop": [[0, 87.1, 100, 94.9]],
+        "img": "sources/pages/u2-subsistema-de-provision-p56-a82de3.webp"
+      }
+    },
+    {
+      "id": "asi-p1-175",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el tipo de outsourcing:",
+      "stems": [
+        "Acceso en línea a capacidad de procesamiento externa, cobrada según el tiempo utilizado",
+        "Se cede una tarea completa a una empresa, como la liquidación de haberes",
+        "El management y la operación de los SI son responsabilidad del tercero contratado"
+      ],
+      "choices": [
+        "Proveedor de tiempo compartido",
+        "Agencia de servicios",
+        "Management completo de servicios"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Se clasifican según el grado en el que el management de los SI se transfiere a un tercero. En el management completo es posible el resarcimiento legal si hay incumplimiento.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 57,
+        "confidence": "high",
+        "crop": [[0, 11.2, 100, 39.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p57-a33431.webp"
+      }
+    },
+    {
+      "id": "asi-p1-176",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "Un principio general del outsourcing es retener el control de las actividades esenciales.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Por ejemplo, las fundamentales para el rendimiento empresarial o las que conducen al crecimiento futuro y a la innovación.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 58,
+        "confidence": "high",
+        "crop": [[0, 13.1, 100, 26.3]],
+        "img": "sources/pages/u2-subsistema-de-provision-p58-a58099.webp"
+      }
+    },
+    {
+      "id": "asi-p1-177",
+      "topic": "U2",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son riesgos de tercerizar? (Seleccioná todas las correctas)",
+      "opts": [
+        "Costos ocultos",
+        "Dificultad para cambiar el proveedor",
+        "Concentrarse en el negocio de la compañía",
+        "Habilidades tecnológicas obsoletas",
+        "Disponer de tecnologías actualizadas",
+        "Plazo contractual inadecuado"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "fb": "Concentrarse en el negocio y disponer de tecnologías actualizadas son motivos para tercerizar.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 59,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 49.2]],
+        "img": "sources/pages/u2-subsistema-de-provision-p59-52f50c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-178",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada característica con cómo se ve al tercero en la negociación:",
+      "stems": [
+        "Control a través del contrato",
+        "Resultados a través de la asociación",
+        "Plazo corto",
+        "Alianza estratégica"
+      ],
+      "choices": [
+        "Como proveedor",
+        "Como socio"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "fb": "Si se lo considera proveedor, los recursos de management son cláusulas punitorias y cumplimiento obligatorio; si es socio, comunicación informal y flexibilidad en la negociación.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 59,
+        "confidence": "high",
+        "crop": [[0, 66.9, 100, 95.0], [0, 0.4, 100, 5.2, 60]],
+        "img": "sources/pages/u2-subsistema-de-provision-p59-62577e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-179",
+      "topic": "U2",
+      "type": "multi",
+      "catedra": false,
+      "text": "Al optar entre las alternativas de adquisición, ¿a qué factores están vinculados los riesgos inherentes? (Seleccioná todas las correctas)",
+      "opts": [
+        "Flexibilidad: respuesta al cambio empresarial",
+        "Integración: respuesta al cambio de proveedor",
+        "Obsolescencia: respuesta al cambio tecnológico",
+        "Costos: disponibilidad del capital",
+        "Fiabilidad: respuesta a las fallas del sistema"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "fb": "Cuando se habla de flexibilidad, se refiere a la de almacenamiento, procesamiento y formatos de datos.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 61,
+        "confidence": "high",
+        "crop": [[0, 13.2, 100, 37.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p61-a12d29.webp"
+      }
+    },
+    {
+      "id": "asi-p1-180",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la alternativa de pago de las adquisiciones:",
+      "stems": [
+        "Uso permanente; transfiere todos los costos y riesgos de la propiedad",
+        "Contrato de tres a cinco años; al terminar, el vendedor conserva la propiedad",
+        "Financia en cuotas la compra; da derecho de propiedad al finalizar el contrato",
+        "Acuerdo a corto plazo, generalmente el más caro; útil para picos de demanda"
+      ],
+      "choices": [
+        "Compra definitiva",
+        "Leasing simple u operativo",
+        "Leasing con derecho a compra",
+        "Alquiler"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "El leasing y el alquiler son convenientes por el alto riesgo de que la tecnología adquirida en forma definitiva se vuelva obsoleta (pág. 63).",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 61,
+        "confidence": "high",
+        "crop": [[0, 60.5, 100, 72.5], [0, 12.3, 100, 23.2, 62], [0, 50.7, 100, 59.5, 62], [0, 87.7, 100, 94.6, 62]],
+        "img": "sources/pages/u2-subsistema-de-provision-p61-7214fc.webp"
+      }
+    },
+    {
+      "id": "asi-p1-181",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "La dificultad del leasing de software es que prácticamente carece de valor residual al finalizar el contrato.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El leasing se aplica principalmente al hardware, pero crece en el software por su alto costo.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 62,
+        "confidence": "high",
+        "crop": [[0, 74.4, 100, 86.2]],
+        "img": "sources/pages/u2-subsistema-de-provision-p62-46bbdb.webp"
+      }
+    },
+    {
+      "id": "asi-p1-182",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué es el Requerimiento de Propuestas (RDP)?",
+      "opts": [
+        "Un informe que refleja la recomendación técnica final y el orden de mérito de oferentes",
+        "Un contrato de outsourcing que establece las cláusulas punitorias para los proveedores",
+        "Un documento usado para solicitar ofertas competitivas para adquisiciones especiales",
+        "Una planilla que integra las evaluaciones técnicas de todas las ofertas ya presentadas"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Al redactarlo, hay que proceder con la intención de que sea parte integrante, de hecho el fundamento, del contrato de compra que resulte.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 64,
+        "confidence": "high",
+        "crop": [[0, 73.2, 100, 90.2]],
+        "img": "sources/pages/u2-subsistema-de-provision-p64-8d6f3e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-183",
+      "topic": "U2",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuándo ocurre la mejor planificación de un reemplazo de sistema?",
+      "opts": [
+        "Cuando se detecta la necesidad unos 6 meses antes del reemplazo real",
+        "Cuando se detecta la necesidad unos 2 años antes del reemplazo real",
+        "Cuando se detecta la necesidad unos 5 años antes del reemplazo real",
+        "Cuando se detecta la necesidad en el momento del reemplazo real"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Ese plazo es para grandes sistemas. Los plazos dependen de las prioridades empresariales, de la dimensión de los cambios y de la vida útil que le quede al sistema actual.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 66,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 5.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p66-8ea034.webp"
+      }
+    },
+    {
+      "id": "asi-p1-184",
+      "topic": "U2",
+      "type": "tf",
+      "catedra": false,
+      "text": "El resumen ejecutivo es la primera sección que se presenta del RDP y también la primera que se redacta.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Es la primera que se presenta, pero debe ser la última redactada, porque no se puede hacer con propiedad hasta que se ha redactado el RDP.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 67,
+        "confidence": "high",
+        "crop": [[0, 33.2, 100, 41.2]],
+        "img": "sources/pages/u2-subsistema-de-provision-p67-357304.webp"
+      }
+    },
+    {
+      "id": "asi-p1-185",
+      "topic": "U2",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada contenido con la sección del RDP:",
+      "stems": [
+        "Identifica los departamentos que utilizarán el sistema y su interrelación",
+        "Establece el tamaño actual y el crecimiento esperado de las operaciones",
+        "Identifica los servicios a comprar más allá del sistema básico y el límite de responsabilidades",
+        "Enuncia los métodos de evaluación a usar y sus pesos relativos"
+      ],
+      "choices": [
+        "Organizaciones incluidas",
+        "Restricciones del diseño del sistema",
+        "Régimen de trabajo",
+        "Criterios de selección"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Las áreas de evaluación son la técnica y la financiera, a las que generalmente se les asignan pesos relativos iguales.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 68,
+        "confidence": "high",
+        "crop": [[0, 6.9, 100, 12.8], [0, 79.2, 100, 83.1], [0, 18.2, 100, 29.3, 69], [0, 60.4, 100, 76.6, 70]],
+        "img": "sources/pages/u2-subsistema-de-provision-p68-70de2b.webp"
+      }
+    },
+    {
       "id": "asi-001",
       "topic": "A",
       "type": "single",
@@ -4009,6 +6421,7 @@
     }
   ],
   "newTopics": [
-    "U1"
+    "U1",
+    "U2"
   ]
 }
