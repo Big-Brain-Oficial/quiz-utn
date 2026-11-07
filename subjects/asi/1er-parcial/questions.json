@@ -7419,7 +7419,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 45,
+        "confidence": "high",
+        "crop": [[0, 23.5, 100, 29.6]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p45-22f60f.webp"
+      }
     },
     {
       "id": "asi-002",
@@ -7436,7 +7443,12 @@
       "correct": [
         3
       ],
-      "note": "En el archivo la respuesta marcada (Caracterización de la carga) figura como incorrecta; la respuesta 'Monitorización' proviene de la anotación manual agregada debajo."
+      "note": "En el archivo la respuesta marcada (Caracterización de la carga) figura como incorrecta; la respuesta 'Monitorización' proviene de la anotación manual agregada debajo.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 44,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-003",
@@ -7452,7 +7464,14 @@
       ],
       "correct": [
         3
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 51,
+        "confidence": "high",
+        "crop": [[0, 90.1, 100, 98.2]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p51-30d21d.webp"
+      }
     },
     {
       "id": "asi-004",
@@ -7468,7 +7487,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 55,
+        "confidence": "high",
+        "crop": [[0, 93.4, 100, 97.1], [0, 0, 100, 1.5, 56]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p55-feeb48.webp"
+      }
     },
     {
       "id": "asi-005",
@@ -7484,7 +7510,14 @@
       ],
       "correct": [
         3
-      ]
+      ],
+      "source": {
+        "file": "../2do-parcial/sources/u5-seguimiento.pdf",
+        "page": 34,
+        "confidence": "high",
+        "crop": [[0, 37.1, 100, 46.8]],
+        "img": "sources/pages/u5-seguimiento-p34-dda618.webp"
+      }
     },
     {
       "id": "asi-006",
@@ -7500,7 +7533,12 @@
       ],
       "correct": [
         2
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 45,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-007",
@@ -7516,7 +7554,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 43,
+        "confidence": "high",
+        "crop": [[0, 39.8, 100, 41.5], [0, 0.1, 100, 4.9, 44]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p43-8ddd2b.webp"
+      }
     },
     {
       "id": "asi-008",
@@ -7532,7 +7577,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 59.9, 100, 67.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p40-68429e.webp"
+      }
     },
     {
       "id": "asi-009",
@@ -7548,7 +7600,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 54,
+        "confidence": "high",
+        "crop": [[0, 38.8, 100, 42.4], [0, 81.2, 100, 82.9], [0, 46.0, 100, 47.7, 55]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p54-b55884.webp"
+      }
     },
     {
       "id": "asi-010",
@@ -7564,7 +7623,14 @@
       ],
       "correct": [
         3
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 43.3, 100, 58.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p40-894643.webp"
+      }
     },
     {
       "id": "asi-011",
@@ -7580,7 +7646,14 @@
       ],
       "correct": [
         2
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 45,
+        "confidence": "high",
+        "crop": [[0, 31.1, 100, 34.8]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p45-0af8b4.webp"
+      }
     },
     {
       "id": "asi-012",
@@ -7596,7 +7669,14 @@
       ],
       "correct": [
         3
-      ]
+      ],
+      "source": {
+        "file": "../2do-parcial/sources/u5-seguimiento.pdf",
+        "page": 34,
+        "confidence": "high",
+        "crop": [[0, 33.9, 100, 40.7]],
+        "img": "sources/pages/u5-seguimiento-p34-6d9382.webp"
+      }
     },
     {
       "id": "asi-013",
@@ -7612,7 +7692,14 @@
       ],
       "correct": [
         2
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 55,
+        "confidence": "high",
+        "crop": [[0, 93.4, 100, 97.1], [0, 0, 100, 1.5, 56]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p55-feeb48.webp"
+      }
     },
     {
       "id": "asi-014",
@@ -7628,7 +7715,12 @@
       ],
       "correct": [
         2
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 44,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-015",
@@ -7660,7 +7752,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 50.9, 100, 54.6]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p40-9d737a.webp"
+      }
     },
     {
       "id": "asi-017",
@@ -7676,7 +7775,12 @@
       ],
       "correct": [
         3
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 50,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-018",
@@ -7692,7 +7796,14 @@
       ],
       "correct": [
         2
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 55,
+        "confidence": "high",
+        "crop": [[0, 46.0, 100, 55.9]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p55-150331.webp"
+      }
     },
     {
       "id": "asi-019",
@@ -7708,7 +7819,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 54,
+        "confidence": "high",
+        "crop": [[0, 50.1, 100, 55.8]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p54-b3d04d.webp"
+      }
     },
     {
       "id": "asi-020",
@@ -7724,7 +7842,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 31.5, 100, 41.4], [0, 59.9, 100, 67.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p40-4ba6da.webp"
+      }
     },
     {
       "id": "asi-021",
@@ -7739,7 +7864,14 @@
       ],
       "correct": [
         2
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 69.1, 100, 72.8], [0, 0.3, 100, 6.0, 10]],
+        "img": "sources/pages/u1-planificacion-estrategica-p7-5c7774.webp"
+      }
     },
     {
       "id": "asi-022",
@@ -7755,7 +7887,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 18.1, 100, 29.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p7-2c9a76.webp"
+      }
     },
     {
       "id": "asi-023",
@@ -7771,7 +7910,14 @@
       ],
       "correct": [
         3
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 29.2, 100, 40.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p8-c639bd.webp"
+      }
     },
     {
       "id": "asi-024",
@@ -7787,7 +7933,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 46.6, 100, 84.5]],
+        "img": "sources/pages/u1-planificacion-estrategica-p9-a2c811.webp"
+      }
     },
     {
       "id": "asi-025",
@@ -7812,7 +7965,14 @@
       "correct": [
         1
       ],
-      "note": "En el archivo se marcó 'Verdadero' y figura como incorrecta; por descarte la respuesta es 'Falso' (las inversiones de umbral son las necesarias para operar/competir, no se definen por bajo capital)."
+      "note": "En el archivo se marcó 'Verdadero' y figura como incorrecta; por descarte la respuesta es 'Falso' (las inversiones de umbral son las necesarias para operar/competir, no se definen por bajo capital).",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[0, 15.6, 100, 23.0]],
+        "img": "sources/pages/u1-planificacion-estrategica-p24-225ce7.webp"
+      }
     },
     {
       "id": "asi-027",
@@ -7830,7 +7990,12 @@
       "correct": [
         1,
         3
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 34,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-028",
@@ -7844,7 +8009,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 24.1, 100, 31.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p23-fce71b.webp"
+      }
     },
     {
       "id": "asi-029",
@@ -7867,7 +8039,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 46,
+        "confidence": "high",
+        "crop": [[0, 46.2, 100, 51.9]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p46-2976cf.webp"
+      }
     },
     {
       "id": "asi-031",
@@ -7882,7 +8061,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[0, 13.2, 100, 18.9]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p39-078a2d.webp"
+      }
     },
     {
       "id": "asi-032",
@@ -7897,7 +8083,12 @@
       "correct": [
         1
       ],
-      "note": "En el archivo se marcó 'Verdadero' y figura como incorrecta; por descarte la respuesta es 'Falso'."
+      "note": "En el archivo se marcó 'Verdadero' y figura como incorrecta; por descarte la respuesta es 'Falso'.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 39,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-033",
@@ -7912,7 +8103,12 @@
       "correct": [
         0
       ],
-      "note": "Así figura confirmada (Verdadero) en este cuestionario, pero contradice al Cuestionario 24/06, donde la UPN se define como variable de negocio 'directamente relacionada con los recursos consumidos'. Conviene verificar con la cátedra cómo la toman."
+      "note": "Así figura confirmada (Verdadero) en este cuestionario, pero contradice al Cuestionario 24/06, donde la UPN se define como variable de negocio 'directamente relacionada con los recursos consumidos'. Conviene verificar con la cátedra cómo la toman.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 55,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-034",
@@ -7942,7 +8138,14 @@
         0,
         2,
         3
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 31.5, 100, 41.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p40-d97ed5.webp"
+      }
     },
     {
       "id": "asi-036",
@@ -7959,7 +8162,14 @@
       "correct": [
         0,
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 44,
+        "confidence": "high",
+        "crop": [[0, 0.1, 100, 25.5]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p44-31aa94.webp"
+      }
     },
     {
       "id": "asi-037",
@@ -7973,7 +8183,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[0, 25.7, 100, 36.7]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p39-8cbb3e.webp"
+      }
     },
     {
       "id": "asi-038",
@@ -8012,7 +8229,12 @@
         3,
         4
       ],
-      "note": "El intento fue parcialmente correcto (2 confirmadas: previsión y retroalimentar a Desarrollo/Mantenimiento). Las otras dos correctas se derivan del texto de retroalimentación de la cátedra: la planificación comprende previsión de necesidades, análisis del sistema de trabajo y retroalimentar tanto a provisión como a Desarrollo y Mantenimiento."
+      "note": "El intento fue parcialmente correcto (2 confirmadas: previsión y retroalimentar a Desarrollo/Mantenimiento). Las otras dos correctas se derivan del texto de retroalimentación de la cátedra: la planificación comprende previsión de necesidades, análisis del sistema de trabajo y retroalimentar tanto a provisión como a Desarrollo y Mantenimiento.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 13,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-041",
@@ -8041,7 +8263,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "../2do-parcial/sources/u5-seguimiento.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 4.7, 100, 12.1]],
+        "img": "sources/pages/u5-seguimiento-p23-19090c.webp"
+      }
     },
     {
       "id": "asi-043",
@@ -8081,7 +8310,14 @@
         0,
         1
       ],
-      "note": "⚠ Solo 'Adoptar mayor protagonismo' quedó confirmada con ✓. 'No determinar criterios de selección' fue marcada incorrecta con la nota «previo a la entrevista». 'No planificar la entrevista' se deduce como correcta (es el error clásico junto al protagonismo), pero no está confirmada en el archivo."
+      "note": "⚠ Solo 'Adoptar mayor protagonismo' quedó confirmada con ✓. 'No determinar criterios de selección' fue marcada incorrecta con la nota «previo a la entrevista». 'No planificar la entrevista' se deduce como correcta (es el error clásico junto al protagonismo), pero no está confirmada en el archivo.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 18.2, 100, 35.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p23-cb470b.webp"
+      }
     },
     {
       "id": "asi-046",
@@ -8112,7 +8348,14 @@
       "correct": [
         0,
         4
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 18.3, 100, 45.8]],
+        "img": "sources/pages/u2-subsistema-de-provision-p40-c2b939.webp"
+      }
     },
     {
       "id": "asi-048",
@@ -8127,7 +8370,12 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 55,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-049",
@@ -8142,7 +8390,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[0, 29.9, 100, 35.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p11-785b3d.webp"
+      }
     },
     {
       "id": "asi-050",
@@ -8158,7 +8413,12 @@
       "correct": [
         1
       ],
-      "note": "Corrección del docente: los acuerdos de niveles de servicio corresponden a outsourcing, no a la adquisición de paquete estándar → Falso."
+      "note": "Corrección del docente: los acuerdos de niveles de servicio corresponden a outsourcing, no a la adquisición de paquete estándar → Falso.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 59,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-051",
@@ -8175,7 +8435,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "../2do-parcial/sources/u5-seguimiento.pdf",
+        "page": 5,
+        "confidence": "high",
+        "crop": [[0, 26.5, 100, 37.3]],
+        "img": "sources/pages/u5-seguimiento-p5-312492.webp"
+      }
     },
     {
       "id": "asi-052",
@@ -8193,7 +8460,14 @@
       "correct": [
         0,
         1
-      ]
+      ],
+      "source": {
+        "file": "../2do-parcial/sources/u5-seguimiento.pdf",
+        "page": 5,
+        "confidence": "high",
+        "crop": [[0, 31.7, 100, 37.3]],
+        "img": "sources/pages/u5-seguimiento-p5-f3fa32.webp"
+      }
     },
     {
       "id": "asi-053",
@@ -8216,7 +8490,14 @@
         1,
         3
       ],
-      "img": "img/edwards_2025.jpg"
+      "img": "img/edwards_2025.jpg",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 19.7, 100, 42.6]],
+        "img": "sources/pages/u1-planificacion-estrategica-p13-26c216.webp"
+      }
     },
     {
       "id": "asi-054",
@@ -8239,7 +8520,14 @@
         5,
         7
       ],
-      "img": "img/edwards_2025.jpg"
+      "img": "img/edwards_2025.jpg",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 87.8, 100, 92.5], [0, 0.3, 100, 22.3, 14]],
+        "img": "sources/pages/u1-planificacion-estrategica-p13-ecef90.webp"
+      }
     },
     {
       "id": "asi-055",
@@ -8256,7 +8544,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 34,
+        "confidence": "high",
+        "crop": [[0, 59.5, 100, 61.4], [0, 7.7, 100, 11.3, 35]],
+        "img": "sources/pages/u1-planificacion-estrategica-p34-269fe8.webp"
+      }
     },
     {
       "id": "asi-056",
@@ -8273,7 +8568,14 @@
       ],
       "correct": [
         3
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[0, 88.9, 100, 92.5]],
+        "img": "sources/pages/u2-subsistema-de-provision-p39-37069f.webp"
+      }
     },
     {
       "id": "asi-057",
@@ -8290,7 +8592,14 @@
       ],
       "correct": [
         2
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 37,
+        "confidence": "high",
+        "crop": [[0, 44.2, 100, 55.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p37-3eeafb.webp"
+      }
     },
     {
       "id": "asi-058",
@@ -8307,7 +8616,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0, 37.7, 100, 51.4]],
+        "img": "sources/pages/u2-subsistema-de-provision-p42-08e3ab.webp"
+      }
     },
     {
       "id": "asi-059",
@@ -8324,7 +8640,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 41,
+        "confidence": "high",
+        "crop": [[0, 26.8, 100, 36.5]],
+        "img": "sources/pages/u2-subsistema-de-provision-p41-7c0a5e.webp"
+      }
     },
     {
       "id": "asi-060",
@@ -8339,7 +8662,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 45,
+        "confidence": "high",
+        "crop": [[0, 5.0, 100, 18.9]],
+        "img": "sources/pages/u2-subsistema-de-provision-p45-0c51db.webp"
+      }
     },
     {
       "id": "asi-061",
@@ -8355,7 +8685,14 @@
       "correct": [
         1
       ],
-      "note": "Corrección visible: el alumno marcó V y el docente anotó «marco como falso» → Falso."
+      "note": "Corrección visible: el alumno marcó V y el docente anotó «marco como falso» → Falso.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 58,
+        "confidence": "high",
+        "crop": [[0, 29.9, 100, 63.9]],
+        "img": "sources/pages/u2-subsistema-de-provision-p58-dbaee8.webp"
+      }
     },
     {
       "id": "asi-062",
@@ -8370,7 +8707,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 61.4, 100, 84.3]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p26-b7176e.webp"
+      }
     },
     {
       "id": "asi-063",
@@ -8386,7 +8730,14 @@
       "correct": [
         0
       ],
-      "note": "Confirmado: Verdadero. Fundamento en la sección 10 del RDP."
+      "note": "Confirmado: Verdadero. Fundamento en la sección 10 del RDP.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 70,
+        "confidence": "high",
+        "crop": [[0, 70.7, 100, 76.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p70-ea900d.webp"
+      }
     },
     {
       "id": "asi-064",
@@ -8403,7 +8754,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0, 79.3, 100, 83.2]],
+        "img": "sources/pages/u2-subsistema-de-provision-p42-03be70.webp"
+      }
     },
     {
       "id": "asi-065",
@@ -8420,7 +8778,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 43,
+        "confidence": "high",
+        "crop": [[0, 7.7, 100, 11.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p43-226b51.webp"
+      }
     },
     {
       "id": "asi-066",
@@ -8438,7 +8803,14 @@
       "correct": [
         2
       ],
-      "note": "En el parcial 'Capacidad' aparece marcada con ✗ y 'Performance' señalada como correcta."
+      "note": "En el parcial 'Capacidad' aparece marcada con ✗ y 'Performance' señalada como correcta.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 43,
+        "confidence": "high",
+        "crop": [[0, 11.7, 100, 17.6]],
+        "img": "sources/pages/u2-subsistema-de-provision-p43-08fedb.webp"
+      }
     },
     {
       "id": "asi-067",
@@ -8455,7 +8827,14 @@
       ],
       "correct": [
         2
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 44,
+        "confidence": "high",
+        "crop": [[0, 79.2, 100, 90.3]],
+        "img": "sources/pages/u2-subsistema-de-provision-p44-4c468b.webp"
+      }
     },
     {
       "id": "asi-068",
@@ -8473,7 +8852,14 @@
       ],
       "correct": [
         4
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 38,
+        "confidence": "high",
+        "crop": [[0, 27.1, 100, 45.7]],
+        "img": "sources/pages/u2-subsistema-de-provision-p38-b0e72e.webp"
+      }
     },
     {
       "id": "asi-069",
@@ -8494,7 +8880,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 46,
+        "confidence": "high",
+        "crop": [[0, 30.7, 100, 36.4]],
+        "img": "sources/pages/u2-subsistema-de-provision-p46-825c4c.webp"
+      }
     },
     {
       "id": "asi-070",
@@ -8510,7 +8903,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 80.2, 100, 94.3], [0, 0.3, 100, 9.4, 24]],
+        "img": "sources/pages/u1-planificacion-estrategica-p23-caa257.webp"
+      }
     },
     {
       "id": "asi-071",
@@ -8525,7 +8925,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 29,
+        "confidence": "high",
+        "crop": [[0, 85.7, 100, 91.3]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p29-2f8d9e.webp"
+      }
     },
     {
       "id": "asi-072",
@@ -8541,7 +8948,12 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 31,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-073",
@@ -8559,7 +8971,12 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 11,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-074",
@@ -8578,7 +8995,12 @@
       ],
       "correct": [
         5
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 8,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-075",
@@ -8612,7 +9034,14 @@
       ],
       "correct": [
         3
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 44.0, 100, 84.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p13-bd55ed.webp"
+      }
     },
     {
       "id": "asi-077",
@@ -8642,7 +9071,14 @@
         0,
         2
       ],
-      "note": "En el parcial se tildaron las opciones 3 y 5 y la respuesta fue calificada con 0 puntos. Las correctas verificadas son la 1 y la 3."
+      "note": "En el parcial se tildaron las opciones 3 y 5 y la respuesta fue calificada con 0 puntos. Las correctas verificadas son la 1 y la 3.",
+      "source": {
+        "file": "sources/u2-subsistema-de-provision.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 18.2, 100, 35.0]],
+        "img": "sources/pages/u2-subsistema-de-provision-p23-cb470b.webp"
+      }
     },
     {
       "id": "asi-079",
@@ -8658,7 +9094,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 18.1, 100, 29.8]],
+        "img": "sources/pages/u1-planificacion-estrategica-p7-2c9a76.webp"
+      }
     },
     {
       "id": "asi-080",
@@ -8674,7 +9117,14 @@
       ],
       "correct": [
         0
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 29.2, 100, 34.9]],
+        "img": "sources/pages/u1-planificacion-estrategica-p8-0c74a4.webp"
+      }
     },
     {
       "id": "asi-081",
@@ -8741,7 +9191,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 31.3, 100, 43.0]],
+        "img": "sources/pages/u1-planificacion-estrategica-p15-305607.webp"
+      }
     },
     {
       "id": "asi-085",
@@ -8758,7 +9215,12 @@
       "correct": [
         2
       ],
-      "note": "⚠ RESPUESTA DEDUCIDA: en el archivo se marcó D y figura como incorrecta, sin anotación. La opción C es la definición clásica de Rockart. Verificar."
+      "note": "⚠ RESPUESTA DEDUCIDA: en el archivo se marcó D y figura como incorrecta, sin anotación. La opción C es la definición clásica de Rockart. Verificar.",
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 41,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-086",
@@ -8774,7 +9236,14 @@
       ],
       "correct": [
         1
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 51.2, 100, 54.8], [0, 47.3, 100, 54.9, 17]],
+        "img": "sources/pages/u1-planificacion-estrategica-p15-450f6c.webp"
+      }
     },
     {
       "id": "asi-087",
@@ -8790,7 +9259,14 @@
       ],
       "correct": [
         3
-      ]
+      ],
+      "source": {
+        "file": "sources/u1-planificacion-estrategica.pdf",
+        "page": 12,
+        "confidence": "high",
+        "crop": [[0, 39.4, 100, 45.1]],
+        "img": "sources/pages/u1-planificacion-estrategica-p12-e3afe0.webp"
+      }
     }
   ],
   "newTopics": [
