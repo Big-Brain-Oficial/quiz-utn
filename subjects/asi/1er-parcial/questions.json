@@ -14,10 +14,10 @@
   },
   "imageCaption": "Imagen del parcial (justificación)",
   "about": [
-    "<p><b>U1 y U2:</b> son preguntas armadas a partir de los apuntes de teoría de la <a href=\"sources/u1-planificacion-estrategica.pdf\" target=\"_blank\" rel=\"noopener\">Unidad I</a> (Planificación estratégica de SI/TI) y de la <a href=\"sources/u2-subsistema-de-provision.pdf\" target=\"_blank\" rel=\"noopener\">Unidad II</a> (Subsistema de Provisión); no las tomó la cátedra. La opción correcta y la justificación salen del apunte, y al corregir se ve el recorte que las respalda. Cuando el libro y la profesora difieren, se sigue lo que marcó la profesora.</p>",
+    "<p><b>U1, U2 y U3:</b> son preguntas armadas a partir de los apuntes de teoría de la <a href=\"sources/u1-planificacion-estrategica.pdf\" target=\"_blank\" rel=\"noopener\">Unidad I</a> (Planificación estratégica de SI/TI), la <a href=\"sources/u2-subsistema-de-provision.pdf\" target=\"_blank\" rel=\"noopener\">Unidad II</a> (Subsistema de Provisión) y la <a href=\"sources/u3-subsistema-de-aplicacion.pdf\" target=\"_blank\" rel=\"noopener\">Unidad III</a> (Subsistema de Aplicación); no las tomó la cátedra. La opción correcta y la justificación salen del apunte, y al corregir se ve el recorte que las respalda. Cuando el libro y la profesora difieren, se sigue lo que marcó la profesora.</p>",
     "<p>Información extraída del Drive: <a href=\"https://docs.google.com/document/d/1a9bN73UWNsffR3wdbyjkf04eVdLAM68kym2Vy3VRUYc/edit\" target=\"_blank\" rel=\"noopener noreferrer\"><b>/Parciales/Preguntas Teoría Parciales</b></a> (se abre en Google Docs; si no tenés acceso, desde ahí podés pedirlo).</p>"
   ],
-  "footer": "Generado a partir de: Apuntes de teoría de las Unidades I y II · Cuestionario Aplicación 24/06 · Evaluaciones Formativas 1 (Unidad 1) · Evaluaciones Formativas 2 (Unidad 3) · Preguntas Teoría Parciales (1er parcial 2024, 1er parcial 2025, 2do parcial 2025 Temas 1 y 2, Integrador 2024) · Cuestionario \"Agunsa\" (caso Correo Argentino). Las preguntas con el aviso «Atención» no tenían la respuesta correcta confirmada en el archivo (respuesta incorrecta sin corrección, parcialmente correcta o anotación ambigua).",
+  "footer": "Generado a partir de: Apuntes de teoría de las Unidades I, II y III · Cuestionario Aplicación 24/06 · Evaluaciones Formativas 1 (Unidad 1) · Evaluaciones Formativas 2 (Unidad 3) · Preguntas Teoría Parciales (1er parcial 2024, 1er parcial 2025, 2do parcial 2025 Temas 1 y 2, Integrador 2024) · Cuestionario \"Agunsa\" (caso Correo Argentino). Las preguntas con el aviso «Atención» no tenían la respuesta correcta confirmada en el archivo (respuesta incorrecta sin corrección, parcialmente correcta o anotación ambigua).",
   "topics": {
     "U1": {
       "name": "U1 — Planificación estratégica de SI/TI",
@@ -26,6 +26,10 @@
     "U2": {
       "name": "U2 — Subsistema de Provisión",
       "color": "#B7791F"
+    },
+    "U3": {
+      "name": "U3 — Subsistema de Aplicación",
+      "color": "#C2417C"
     },
     "A": {
       "name": "Cuestionario Aplicación 24/06",
@@ -4195,7 +4199,7 @@
       "topic": "U2",
       "type": "single",
       "catedra": false,
-      "text": "¿Qué motiva la elección entre un paquete y un desarrollo interno, según lo cerca que esté la aplicación del núcleo de la empresa?",
+      "text": "¿Hacia qué opción se tiende, según lo cerca que esté la aplicación del núcleo de la empresa?",
       "opts": [
         "Cuanto más cerca del núcleo, más se tiende a un paquete; cuanto más lejos, a un desarrollo interno",
         "Cuanto más cerca del núcleo, más se tiende a un desarrollo interno; cuanto más lejos, a un paquete",
@@ -4223,10 +4227,10 @@
       "opts": [
         "Adecuar el paquete",
         "Modificar el proceso empresarial",
-        "Reemplazar el MEM",
+        "Cambiar al enfoque de normas fijas",
         "Tolerar el desajuste",
         "Complementar el paquete con funcionalidad adicional",
-        "Eliminar el área usuaria"
+        "Pasar a una compra temporaria"
       ],
       "correct": [
         0,
@@ -4903,8 +4907,8 @@
         "file": "sources/u2-subsistema-de-provision.pdf",
         "page": 61,
         "confidence": "high",
-        "crop": [[0, 60.5, 100, 72.5], [0, 12.3, 100, 23.2, 62], [0, 50.7, 100, 59.5, 62], [0, 87.7, 100, 94.6, 62]],
-        "img": "sources/pages/u2-subsistema-de-provision-p61-7214fc.webp"
+        "crop": [[0, 60.5, 100, 72.5], [0, 12.3, 100, 23.2, 62], [0, 50.7, 100, 59.5, 62], [0, 87.7, 100, 94.6, 62], [0, 10.3, 100, 13.9, 63]],
+        "img": "sources/pages/u2-subsistema-de-provision-p61-458234.webp"
       }
     },
     {
@@ -5030,6 +5034,2375 @@
         "confidence": "high",
         "crop": [[0, 6.9, 100, 12.8], [0, 79.2, 100, 83.1], [0, 18.2, 100, 29.3, 69], [0, 60.4, 100, 76.6, 70]],
         "img": "sources/pages/u2-subsistema-de-provision-p68-70de2b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-186",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "Según la profesora, ¿cuáles son las dimensiones del subsistema de aplicación de RRHH? (Seleccioná todas las correctas)",
+      "opts": [
+        "Socialización organizacional",
+        "Reclutamiento y selección",
+        "Diseño de cargos y modelo RUO",
+        "Entrenamiento y desarrollo",
+        "Evaluación del desempeño"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "fb": "Después de los procesos de provisión siguen los de aplicación: las personas, ya reclutadas y seleccionadas, se integran, se destinan a sus cargos y se evalúan.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 1,
+        "confidence": "high",
+        "crop": [[0, 50.0, 100, 64.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p1-0a9736.webp"
+      }
+    },
+    {
+      "id": "asi-p1-187",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "Según la profesora, ¿cuándo termina la socialización organizacional?",
+      "opts": [
+        "Cuando el nuevo miembro firma su contrato y completa el programa de integración de la empresa",
+        "Cuando el nuevo miembro se siente a gusto con la organización y aceptó sus normas y valores",
+        "Cuando el gerente designa a un tutor y le entrega al nuevo miembro la descripción de la tarea",
+        "Cuando el jefe aprueba la primera evaluación de desempeño del nuevo miembro de la organización"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Su finalidad es lograr la integración del nuevo miembro de manera que su incorporación no sea traumática. Su importancia radica en que aporta estabilidad y eficacia a las organizaciones.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[0, 50.9, 100, 66.9]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p2-f80d49.webp"
+      }
+    },
+    {
+      "id": "asi-p1-188",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "La socialización es un proceso bidireccional: el nuevo miembro también trata de influir en la organización y en el gerente.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Este proceso de personalización muchas veces está en conflicto con el de socialización que propone la organización.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[0, 68.4, 100, 80.1]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p2-107498.webp"
+      }
+    },
+    {
+      "id": "asi-p1-189",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el método para promover la socialización:",
+      "stems": [
+        "Antes de ser admitido, el candidato obtiene información sobre cómo funciona la organización",
+        "Se asignan tareas retadoras y capaces de garantizar el éxito al comienzo de la carrera",
+        "Representa la imagen de la organización y puede designar a un tutor",
+        "Su aceptación es fuente fundamental de satisfacción de las necesidades sociales",
+        "Entrenamiento intensivo inicial sobre lenguaje, cultura, estructura y objetivos"
+      ],
+      "choices": [
+        "Planeación del proceso selectivo",
+        "Contenido inicial de la tarea",
+        "Papel del gerente",
+        "Grupos de trabajo",
+        "Programas de integración"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Según la profesora, el grupo de trabajo es el que más puede enseñar los métodos, pero también puede tener implicaciones negativas.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 3,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 95.7]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p3-da943f.webp"
+      }
+    },
+    {
+      "id": "asi-p1-190",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son las funciones básicas que debe cumplir el superior con un nuevo empleado? (Seleccioná todas las correctas)",
+      "opts": [
+        "Definir la tarea",
+        "Fijar su franja salarial",
+        "Instruirlo técnicamente",
+        "Darle retroalimentación sobre la calidad de su desempeño",
+        "Aprobar su ficha profesiográfica"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "fb": "Si el supervisor desempeña un buen trabajo en estas tareas clave, el empleado ve a la organización de manera positiva.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 3,
+        "confidence": "high",
+        "crop": [[0, 43.0, 100, 57.8]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p3-eef4ed.webp"
+      }
+    },
+    {
+      "id": "asi-p1-191",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "Conviene asignar tareas fáciles al principiante, porque le brindan la oportunidad de lograr éxito y motivación.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Las tareas fáciles no le brindan esa oportunidad. Conviene asignarle tareas retadoras y, después, gradualmente más complejas.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 3,
+        "confidence": "high",
+        "crop": [[0, 16.4, 100, 26.3]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p3-b03636.webp"
+      }
+    },
+    {
+      "id": "asi-p1-192",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada ítem con el grupo del programa de integración al que pertenece:",
+      "stems": [
+        "Misión, políticas, estructura, normas y procedimientos de seguridad",
+        "Horarios, días de pago y anticipos salariales",
+        "A los superiores y a los colegas de trabajo",
+        "Responsabilidades básicas, tareas y objetivos del cargo"
+      ],
+      "choices": [
+        "Asuntos organizacionales",
+        "Beneficios",
+        "Presentación",
+        "Deberes de los cargos"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Son programas que duran entre uno y cinco días, con un seguimiento a mediano plazo a cargo del gerente o del supervisor.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 4,
+        "confidence": "high",
+        "crop": [[0, 2.1, 100, 44.6]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p4-9bd3ef.webp"
+      }
+    },
+    {
+      "id": "asi-p1-193",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada momento del proceso de desempeño del rol con su nombre:",
+      "stems": [
+        "El jefe explica al subordinado lo que debe hacer",
+        "El empleado interpreta lo que se le comunica, con algunas distorsiones",
+        "El empleado realiza lo que se le pidió, según su interpretación",
+        "El jefe evalúa el desempeño del subordinado"
+      ],
+      "choices": [
+        "Expectativa del rol",
+        "Rol percibido",
+        "Comportamiento del rol",
+        "Comportamiento controlado"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Después, el jefe compara ese desempeño con la expectativa del rol.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 5,
+        "confidence": "high",
+        "crop": [[0, 56.4, 100, 68.1]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p5-1e2253.webp"
+      }
+    },
+    {
+      "id": "asi-p1-194",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada diferencia con el tipo de discrepancia de rol:",
+      "stems": [
+        "Entre la expectativa transmitida por el jefe y el rol percibido por el subordinado",
+        "Entre el rol percibido por el subordinado y el comportamiento que desempeña",
+        "Entre el comportamiento del subordinado y el comportamiento controlado por el jefe",
+        "Entre el comportamiento controlado por el jefe y la expectativa que él transmitió"
+      ],
+      "choices": [
+        "Discrepancia de la expectativa",
+        "Discrepancia con el rol",
+        "Retroalimentación de la discrepancia",
+        "Discrepancia en el desempeño"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "El desempeño del rol no siempre está de acuerdo con las expectativas, y en el proceso pueden ocurrir estas cuatro discrepancias.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 6,
+        "confidence": "high",
+        "crop": [[0, 36.0, 100, 66.9]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p6-ecf766.webp"
+      }
+    },
+    {
+      "id": "asi-p1-195",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada definición con el concepto:",
+      "stems": [
+        "Actividad individual, en general asignada a cargos simples y rutinarios",
+        "Actividad individual más intelectual, sobre la que se puede decidir",
+        "Conjunto de tareas o atribuciones ejecutadas de manera sistemática y reiterada",
+        "Conjunto de funciones con posición definida en el organigrama"
+      ],
+      "choices": [
+        "Tarea",
+        "Atribución",
+        "Función",
+        "Cargo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "El concepto del cargo se fundamenta en las nociones de tarea, atribución y función. Según el apunte, el cargo es la conjunción de funciones y rol.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 53.3]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p7-80ff68.webp"
+      }
+    },
+    {
+      "id": "asi-p1-196",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué relación hay entre un cargo y un puesto?",
+      "opts": [
+        "Un puesto es una ocurrencia de un cargo: un cargo puede tener muchos puestos",
+        "Un cargo es una ocurrencia de un puesto: un puesto puede tener muchos cargos",
+        "Un puesto es una función transitoria: un cargo solo puede tener un único puesto",
+        "Un cargo es una unidad informal: un puesto es su posición en el organigrama real"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El ocupante es la persona designada para desempeñar un cargo. Hay cargos con un solo ocupante y otros con varios que realizan las mismas tareas.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 61.9, 100, 63.5]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p7-349c06.webp"
+      }
+    },
+    {
+      "id": "asi-p1-197",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Diseñar un cargo significa establecer cuatro condiciones. Relacioná cada una:",
+      "stems": [
+        "Qué tareas o atribuciones deberá cumplir el ocupante",
+        "Cómo deberá cumplirlas",
+        "A quién deberá reportar",
+        "A quién deberá supervisar o dirigir"
+      ],
+      "choices": [
+        "Contenido del cargo",
+        "Métodos y procesos de trabajo",
+        "Responsabilidad",
+        "Autoridad"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Los cargos no son estables ni definitivos: evolucionan para adaptarse a las transformaciones tecnológicas, económicas, sociales, culturales y legales.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 82.4, 100, 95.4], [0, 0, 100, 11.6, 8]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p7-b4fbab.webp"
+      }
+    },
+    {
+      "id": "asi-p1-198",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el modelo de diseño de cargos:",
+      "stems": [
+        "Separa pensamiento y actividad: cuanto más simple y repetitiva la labor, mayor la eficiencia",
+        "Se centra en el contexto del cargo y en las condiciones sociales en que se desempeña",
+        "Depende de la adecuación del diseño a las diferencias individuales y a las tareas"
+      ],
+      "choices": [
+        "Clásico o tradicional",
+        "Humanista de las relaciones humanas",
+        "Situacional o contingencial"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "El situacional es el enfoque más amplio y complejo. En él convergen la estructura de la organización, la tarea y la persona que la ejecuta.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 30.5, 100, 49.3], [0, 0, 100, 9.6, 9], [0, 49.4, 100, 62.3, 9]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p8-b9b275.webp"
+      }
+    },
+    {
+      "id": "asi-p1-199",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Qué estados psicológicos aumentan las oportunidades de obtener mejores resultados en el modelo situacional? (Seleccioná todas las correctas)",
+      "opts": [
+        "Creer que el trabajo es significativo y tiene valor",
+        "Saber que el salario depende de los resultados del grupo",
+        "Sentirse responsable por los resultados del trabajo",
+        "Conocer los resultados que se obtienen haciendo el trabajo",
+        "Tener la certeza de que el cargo no va a cambiar"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "fb": "El modelo situacional no supone estabilidad: se basa en la ampliación continua del cargo mediante el enriquecimiento de tareas.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 85.3, 100, 96.0], [0, 0, 100, 1.4, 10]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p9-fb2cc5.webp"
+      }
+    },
+    {
+      "id": "asi-p1-200",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la dimensión esencial del cargo:",
+      "stems": [
+        "De habilidades, operaciones y procedimientos, para eliminar la rutina",
+        "Grado de independencia y criterio personal para planear y ejecutar el trabajo",
+        "Volumen del impacto reconocible que el cargo produce en otras personas",
+        "Grado en que el cargo requiere completar una unidad integral del trabajo",
+        "Información de retorno para evaluar la eficiencia del esfuerzo"
+      ],
+      "choices": [
+        "Variedad",
+        "Autonomía",
+        "Significado de la tarea",
+        "Identidad con la tarea",
+        "Retroalimentación"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Estas dimensiones crean condiciones para que el empleado encuentre satisfacción intrínseca en la tarea que realiza.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 3.1, 100, 36.0]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p10-a3f75d.webp"
+      }
+    },
+    {
+      "id": "asi-p1-201",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada ejemplo con el tipo de enriquecimiento del cargo:",
+      "stems": [
+        "Sumar diseño y pruebas a quien solo está en programación",
+        "Agregar una mayor variedad de tareas en el mismo nivel",
+        "Involucrar al empleado en la planeación, la organización y la inspección",
+        "Agregar responsabilidades de nivel gradualmente más elevado"
+      ],
+      "choices": [
+        "Horizontal o lateral",
+        "Vertical"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "fb": "El enriquecimiento consiste en ampliar la responsabilidad, los objetivos y el desafío de las tareas del cargo.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 90.4, 100, 94.1], [0, 0, 100, 12.7, 11]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p10-4d9dc8.webp"
+      }
+    },
+    {
+      "id": "asi-p1-202",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es la principal dificultad del enriquecimiento de los cargos?",
+      "opts": [
+        "El costo de reemplazar al ocupante por otro con mejores calificaciones",
+        "La imposibilidad de medir el desempeño de quien ocupa el cargo ampliado",
+        "La resistencia al cambio ante el incremento de tareas y atribuciones",
+        "La falta de un organigrama que defina el nivel jerárquico de los cargos"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Si la organización no está lo suficientemente madura para un programa sincero y auténtico, es mejor no intentarlo.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[0, 14.2, 100, 43.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p11-e43ff0.webp"
+      }
+    },
+    {
+      "id": "asi-p1-203",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada afirmación con el concepto al que corresponde:",
+      "stems": [
+        "Se preocupa por qué hace el ocupante, cuándo, cómo y por qué lo hace",
+        "Está orientada a los aspectos intrínsecos del cargo",
+        "Estudia los requisitos, las responsabilidades y las condiciones que el cargo exige",
+        "Se ocupa de los aspectos extrínsecos del cargo"
+      ],
+      "choices": [
+        "Descripción de cargos",
+        "Análisis de cargos"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "fb": "Están estrechamente relacionados en su finalidad y en la obtención de datos, pero perfectamente diferenciados. El análisis es la base para evaluar y clasificar los cargos.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 12,
+        "confidence": "high",
+        "crop": [[0, 9.0, 100, 86.0]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p12-1389da.webp"
+      }
+    },
+    {
+      "id": "asi-p1-204",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿A qué áreas de requisitos se refiere el análisis de cargos? (Seleccioná todas las correctas)",
+      "opts": [
+        "Requisitos intelectuales",
+        "Requisitos salariales",
+        "Requisitos físicos",
+        "Responsabilidades implícitas",
+        "Condiciones de trabajo",
+        "Antigüedad en el mercado"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "fb": "Cada área se divide en factores de especificaciones, que permiten analizar una gran cantidad de cargos de manera objetiva.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 42.5, 100, 55.3]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p13-925da6.webp"
+      }
+    },
+    {
+      "id": "asi-p1-205",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada grupo de factores con su área del análisis de cargos:",
+      "stems": [
+        "Instrucción básica, experiencia anterior e iniciativa necesaria",
+        "Esfuerzo físico, capacidad visual y constitución física",
+        "Supervisión de personal, documentos e información confidencial",
+        "Ambiente de trabajo y riesgos"
+      ],
+      "choices": [
+        "Requisitos intelectuales",
+        "Requisitos físicos",
+        "Responsabilidades implícitas",
+        "Condiciones de trabajo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Los factores de especificaciones son puntos de referencia para analizar los cargos.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 63.9, 100, 94.9], [0, 0, 100, 38.1, 14]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p13-d4e852.webp"
+      }
+    },
+    {
+      "id": "asi-p1-206",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "La descripción y el análisis de cargos son responsabilidad de línea y función de staff.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La línea responde por la información ofrecida, y la prestación de servicios de obtención y manejo de esa información es responsabilidad de staff.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[0, 70.8, 100, 76.5]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p14-59f4fc.webp"
+      }
+    },
+    {
+      "id": "asi-p1-207",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada forma de participación con el método de análisis de cargos:",
+      "stems": [
+        "La participación del analista es activa y la del ocupante, pasiva",
+        "La participación del analista es pasiva y la del ocupante, activa",
+        "La participación del analista y la del ocupante son activas"
+      ],
+      "choices": [
+        "Observación directa",
+        "Cuestionario",
+        "Entrevista directa"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Los métodos mixtos combinan dos o más de estos para contrarrestar sus desventajas.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 20.7, 100, 22.3], [0, 43.2, 100, 46.8], [0, 83.7, 100, 85.4], [0, 7.0, 100, 10.6, 16], [0, 42.0, 100, 43.6, 16], [0, 60.3, 100, 61.9, 16]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p15-1213f6.webp"
+      }
+    },
+    {
+      "id": "asi-p1-208",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada ventaja con el método de análisis de cargos:",
+      "stems": [
+        "Ideal para cargos simples y repetitivos; no requiere que el ocupante deje sus labores",
+        "El más económico y el ideal para cargos de alto nivel",
+        "El de mejor calidad y mayor rendimiento; se aplica a cualquier tipo y nivel"
+      ],
+      "choices": [
+        "Observación directa",
+        "Cuestionario",
+        "Entrevista directa"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "La observación directa tiene un costo elevado; el cuestionario tiende a ser superficial; la entrevista exige analistas expertos y paraliza el trabajo del ocupante.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 20.7, 100, 22.3], [0, 51.3, 100, 59.4], [0, 83.7, 100, 85.4], [0, 15.1, 100, 27.4, 16], [0, 42.0, 100, 43.6, 16], [0, 66.6, 100, 77.1, 16]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p15-cedc11.webp"
+      }
+    },
+    {
+      "id": "asi-p1-209",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada actividad con la etapa del análisis de cargos:",
+      "stems": [
+        "Determinar los cargos, elaborar el organigrama y elegir los métodos de análisis",
+        "Reclutar y entrenar a los analistas y preparar el material de trabajo",
+        "Recolectar datos y redactar el análisis"
+      ],
+      "choices": [
+        "Planeación",
+        "Preparación",
+        "Ejecución"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "La etapa de preparación puede desarrollarse de manera simultánea con la de planeación.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 17,
+        "confidence": "high",
+        "crop": [[0, 64.8, 100, 89.9], [0, 24.9, 100, 35.9, 18], [0, 49.4, 100, 63.6, 18]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p17-aa0ae0.webp"
+      }
+    },
+    {
+      "id": "asi-p1-210",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "Al seleccionar los factores de especificaciones, ¿qué exige el criterio de universalidad?",
+      "opts": [
+        "Que se transformen de variable continua en variable discreta, para simplificarlos",
+        "Que se determine el campo de variación de cada factor en el conjunto de cargos",
+        "Que estén presentes en la totalidad de los cargos o, por lo menos, en un 75%",
+        "Que varíen según el cargo, para poder diferenciar a unos cargos de los otros"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "El criterio de discriminación, en cambio, exige que los factores varíen según el cargo. Las otras opciones son la graduación y el dimensionamiento de los factores.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 18,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 11.6]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p18-91b6ae.webp"
+      }
+    },
+    {
+      "id": "asi-p1-211",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué diferencia a un equipo de trabajo de un grupo de trabajo?",
+      "opts": [
+        "El grupo trabaja intensamente en un objetivo común con sinergia positiva; el equipo solo comparte información",
+        "El equipo trabaja intensamente en un objetivo común con sinergia positiva; el grupo solo comparte información",
+        "El equipo se forma de manera espontánea e informal; el grupo está oficialmente definido por la organización",
+        "El grupo tiene metas de desempeño bien definidas; el equipo, en cambio, responde solo por tareas individuales"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Según la profesora, el resultado es siempre del equipo, esté bien o mal hecho, y nunca de uno de sus integrantes. En los grupos no existe la necesidad de un trabajo colectivo.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 19,
+        "confidence": "high",
+        "crop": [[0, 70.1, 100, 87.8]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p19-a64f40.webp"
+      }
+    },
+    {
+      "id": "asi-p1-212",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "Todos los grupos formales son equipos.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Todos los equipos son grupos formales, pero no a la inversa: el personal de un departamento es un grupo formal, y eso no implica que funcione como un equipo.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 20,
+        "confidence": "high",
+        "crop": [[0, 49.8, 100, 59.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p20-7a0ec3.webp"
+      }
+    },
+    {
+      "id": "asi-p1-213",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son características de un equipo de trabajo? (Seleccioná todas las correctas)",
+      "opts": [
+        "Es pequeño",
+        "Tiene habilidades complementarias",
+        "Se organiza con una jerarquía rígida",
+        "Comparte un propósito común",
+        "Comparte una metodología",
+        "Cada integrante responde solo por su parte"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "fb": "Además, sus miembros se sienten responsables ante el equipo, hay igualdad y se cumple el principio sinérgico: el todo es más que la suma de las partes.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 20,
+        "confidence": "high",
+        "crop": [[0, 64.0, 100, 94.9], [0, 0, 100, 9.7, 21]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p20-1c80a5.webp"
+      }
+    },
+    {
+      "id": "asi-p1-214",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden de las etapas de desarrollo de un grupo?",
+      "opts": [
+        "Formación → Normatividad → Confusión → Desempeño → Disolución",
+        "Confusión → Formación → Normatividad → Desempeño → Disolución",
+        "Formación → Confusión → Normatividad → Desempeño → Disolución",
+        "Formación → Confusión → Desempeño → Normatividad → Disolución"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Antes de la formación hay una etapa previa, en la que todavía no hay dinámica de equipo. La disolución ocurre en grupos temporales.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 21,
+        "confidence": "high",
+        "crop": [[0, 11.8, 100, 53.0]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p21-41ab21.webp"
+      }
+    },
+    {
+      "id": "asi-p1-215",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la etapa de desarrollo del grupo:",
+      "stems": [
+        "Predomina la incertidumbre, mientras se exploran los comportamientos aceptables",
+        "Surgen conflictos internos por el control y la definición de objetivos",
+        "Se consolidan la confianza, la cohesión y las reglas compartidas",
+        "La energía se dirige a las tareas: es la fase de máxima productividad",
+        "Se cierran las actividades y se evalúan los logros"
+      ],
+      "choices": [
+        "Formación",
+        "Confusión",
+        "Normatividad",
+        "Desempeño",
+        "Disolución"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Según la profesora, el gerente tiene que tratar de que la confusión sea breve, trabajando sobre las metas y el propósito.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 21,
+        "confidence": "high",
+        "crop": [[0, 22.9, 100, 53.0]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p21-1eb4cb.webp"
+      }
+    },
+    {
+      "id": "asi-p1-216",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son características de los equipos de proyecto? (Seleccioná todas las correctas)",
+      "opts": [
+        "Se crean a partir de la tarea",
+        "Se integran antes de establecer el objetivo",
+        "No necesariamente comparten valores ni modelos mentales",
+        "Tienen una existencia efímera",
+        "La afinidad personal es el factor determinante",
+        "Están subordinados al objetivo"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "fb": "Los especialistas se eligen por su capacidad para una función: la afinidad conviene, pero nunca es determinante. Primero se establece el objetivo y después se integra el grupo.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 71.8, 100, 96.4], [0, 0, 100, 14.7, 24]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p23-ccd586.webp"
+      }
+    },
+    {
+      "id": "asi-p1-217",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué es un proyecto?",
+      "opts": [
+        "Un conjunto de conocimientos y técnicas para satisfacer los requerimientos de un área",
+        "Un grupo de personas que desempeñan roles específicos, lideradas por un gerente",
+        "Una actividad permanente orientada a la operación de un servicio ya existente",
+        "Un esfuerzo temporal orientado a la creación de un producto o servicio único"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "El conjunto de conocimientos, habilidades, herramientas y técnicas es la administración de proyectos, y el grupo de personas liderado por el gerente de proyecto es el equipo de proyecto.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 29.9, 100, 34.8]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p23-cfe7ea.webp"
+      }
+    },
+    {
+      "id": "asi-p1-218",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "Según la profesora, la evaluación del desempeño es una responsabilidad de la autoridad de línea y es subjetiva.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Por ser subjetiva, cuantas más veces se realice, mejores evaluaciones se van a hacer. Interesa el desempeño en el cargo, no el desempeño general.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[0, 18.6, 100, 33.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p24-8c3b11.webp"
+      }
+    },
+    {
+      "id": "asi-p1-219",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada pregunta con el elemento clave de la estructura organizativa:",
+      "stems": [
+        "¿En qué grado se subdividen las tareas?",
+        "¿Cómo agrupo a las personas y tareas?",
+        "¿A quién informan los individuos y grupos?",
+        "¿Cuántas personas dependen de un gerente?",
+        "¿Dónde se toman las decisiones?",
+        "¿Qué grado de estandarización tendrán los procesos?"
+      ],
+      "choices": [
+        "Especialización del trabajo",
+        "Departamentalización",
+        "Cadena de mando",
+        "Tramo de control",
+        "Centralización / Descentralización",
+        "Formalización"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "Según la profesora, organizar significa ordenar actividades comunes para lograr la eficacia del conjunto.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 25,
+        "confidence": "high",
+        "crop": [[0, 53.0, 100, 89.0], [0, 2.1, 100, 16.4, 26]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p25-4b680a.webp"
+      }
+    },
+    {
+      "id": "asi-p1-220",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Según el apunte, relacioná cada tarea con lo que corresponde hacer con ella:",
+      "stems": [
+        "Producción: desarrollo de aplicaciones bajo el subgerente de desarrollo",
+        "Organización interna y tareas operativas",
+        "Manejo de fondos",
+        "Objetivos estratégicos",
+        "Inversiones y presupuestos",
+        "Definición de niveles salariales"
+      ],
+      "choices": [
+        "Descentralizarla",
+        "Centralizarla"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "fb": "También se centraliza la designación de cuadros superiores, como el gerente de sistemas designado por la gerencia general.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 20.1, 100, 41.5]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p26-1ac457.webp"
+      }
+    },
+    {
+      "id": "asi-p1-221",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada pregunta con el tema que debe resolverse en los sistemas de información (RUO):",
+      "stems": [
+        "¿Qué harán los SI/TI?",
+        "¿Dónde estarán los SI/TI?",
+        "¿Cómo se dispondrán los SI/TI?"
+      ],
+      "choices": [
+        "Rol",
+        "Ubicación",
+        "Organización"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "El rol se refiere a funciones, tareas y responsabilidades; la ubicación, a la perspectiva física y de management; la organización, a cómo se agrupan los profesionales de IS.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 61.4, 100, 84.3]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p26-b7176e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-222",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "En esta unidad, cuando se habla de IS se hace referencia a las aplicaciones.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Se refiere al área de sistemas, no a las aplicaciones. Es una definición de cómo disponer los RR.HH.: algo organizativo, no tecnológico.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 85.6, 100, 92.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p26-4ee024.webp"
+      }
+    },
+    {
+      "id": "asi-p1-223",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada rol de los SI con la relación que tienen con los usuarios:",
+      "stems": [
+        "Hacerles algo a ellos",
+        "Hacer algo para ellos",
+        "Hacer algo con ellos",
+        "Ayudarlos a que lo hagan por sí mismos"
+      ],
+      "choices": [
+        "El grupo de IS establece las reglas",
+        "Orientación al servicio",
+        "Puentes y participación",
+        "Influencia más que control"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "El cambio refleja una transformación del rol: de un agente de control técnico hacia un facilitador estratégico.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 27,
+        "confidence": "high",
+        "crop": [[0, 12.2, 100, 35.7]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p27-ec9bce.webp"
+      }
+    },
+    {
+      "id": "asi-p1-224",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el modelo de estructura de Sullivan-Trainor:",
+      "stems": [
+        "El SI está para servir al usuario: el usuario pide y el SI entrega",
+        "El usuario y el SI trabajan codo a codo para diseñar y adaptar soluciones",
+        "Los IS buscan comercializarse a sí mismos ante el grupo de usuarios",
+        "Los IS crean una arquitectura flexible que cada área puede adaptar",
+        "SI y usuarios son un solo equipo y desarrollan productos competitivos"
+      ],
+      "choices": [
+        "De servicio",
+        "De participación",
+        "De vendedor",
+        "De expansión",
+        "De ventaja estratégica"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Es una forma de categorizar los recursos de IS, centrada en la relación entre los sistemas de información y los usuarios.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 27,
+        "confidence": "high",
+        "crop": [[0, 44.2, 100, 89.5]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p27-d278d6.webp"
+      }
+    },
+    {
+      "id": "asi-p1-225",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el rol de los SI que se debe estructurar en forma diferenciada:",
+      "stems": [
+        "Brindar servicios centrales efectivos y confiables, como redes, bases de datos y correo",
+        "Separar las directivas a largo plazo de las preocupaciones actuales",
+        "Función asesora: el SI actúa como consultor del usuario"
+      ],
+      "choices": [
+        "Infraestructura de IS",
+        "Investigación y desarrollo a largo plazo",
+        "Facilitar la informática a nivel de usuario final"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Estos roles representan actividades lógicas, no departamentos: una forma de pensar el trabajo, no necesariamente estructuras formales.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 28,
+        "confidence": "high",
+        "crop": [[0, 71.2, 100, 92.3], [0, 92.4, 100, 94.3], [0, 0, 100, 5.1, 29]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p28-95c4ff.webp"
+      }
+    },
+    {
+      "id": "asi-p1-226",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la ubicación de los SI:",
+      "stems": [
+        "Una función de un único acceso: las decisiones se toman en un solo lugar",
+        "Muchas funciones con un único acceso cada una: son réplicas de la centralización",
+        "Dispersa geográficamente y en el management: las áreas son autónomas para decidir"
+      ],
+      "choices": [
+        "Centralizada",
+        "Descentralizada",
+        "Delegada"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Según la profesora, el Sysacad es un ejemplo descentralizado: hay descentralización operativa, pero las aplicaciones siguen centralizadas.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 29,
+        "confidence": "high",
+        "crop": [[0, 19.9, 100, 65.8]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p29-c12648.webp"
+      }
+    },
+    {
+      "id": "asi-p1-227",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "Los SI que verdaderamente se oponen a los centralizados son los descentralizados.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Son los delegados los que verdaderamente se oponen a los centralizados, porque los descentralizados pueden repetir los mismos atributos de los centralizados.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 29,
+        "confidence": "high",
+        "crop": [[0, 78.5, 100, 84.1]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p29-36c802.webp"
+      }
+    },
+    {
+      "id": "asi-p1-228",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "La ubicación de los IS involucra tres aspectos. Relacioná cada uno:",
+      "stems": [
+        "La ubicación física del sistema",
+        "El nivel empresarial al que se toman las decisiones",
+        "Dónde se ubican las responsabilidades de los sistemas"
+      ],
+      "choices": [
+        "Localización",
+        "Control",
+        "Estructura"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Como las cuestiones técnicas se han solucionado, el debate pasó a los aspectos de management: dónde ubicar la coordinación y el control.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 29,
+        "confidence": "high",
+        "crop": [[0, 92.8, 100, 96.2], [0, 0, 100, 8.8, 30]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p29-712497.webp"
+      }
+    },
+    {
+      "id": "asi-p1-229",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son ventajas de la ubicación y el control centralizados? (Seleccioná todas las correctas)",
+      "opts": [
+        "Mayor control sobre las operaciones de IS",
+        "Mayor cercanía al terreno de los negocios reales",
+        "Menor duplicación de esfuerzo, recursos y experiencia",
+        "Menor potencial de incompatibilidad de los sistemas",
+        "Acceso más rápido, en especial en las horas pico",
+        "Más sencillo reclutar personal especializado"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "fb": "La separación de los negocios reales y el acceso lento en horas pico son, justamente, desventajas de los sistemas centralizados.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 30,
+        "confidence": "high",
+        "crop": [[0, 32.1, 100, 55.0], [0, 56.8, 100, 77.9]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p30-42ffa2.webp"
+      }
+    },
+    {
+      "id": "asi-p1-230",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada situación con la ubicación que resulta más adecuada:",
+      "stems": [
+        "Sistema para el senior management, basado en información sensible",
+        "La integración es vital",
+        "Los objetivos de los IS se relacionan con la eficiencia",
+        "Requerimiento de velocidad y flexibilidad",
+        "Un servicio es único para una parte de la empresa",
+        "Los objetivos de los IS se relacionan con la efectividad"
+      ],
+      "choices": [
+        "Centralizada",
+        "No centralizada"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "fb": "Lo centralizado funciona bien cuando los recursos son costosos y de uso limitado; lo delegado, cuando los costos son muy bajos y el uso, alto y variado (pág. 33).",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 31,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 31.1], [0, 0, 100, 10.8, 33]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p31-41d842.webp"
+      }
+    },
+    {
+      "id": "asi-p1-231",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué diferencia a los IS descentralizados de los delegados?",
+      "opts": [
+        "El proveedor externo al que se le tercerizan",
+        "El grado de dispersión del control y la autoridad",
+        "La cantidad de usuarios que tiene cada sistema",
+        "La distancia física entre el huésped y el cliente"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "La descentralización y la computación distribuida tienden a crear islas de tecnología, mientras que la delegación pone los recursos donde son necesarios para el negocio.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[0, 10.3, 100, 14.0]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p32-6a3deb.webp"
+      }
+    },
+    {
+      "id": "asi-p1-232",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "Los sistemas delegados son apropiados cuando los recursos son costosos y su uso es relativamente limitado.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Eso corresponde a la localización centralizada (pág. 31). Los delegados son apropiados cuando los costos de los recursos son extremadamente bajos, pero el uso es alto y variado.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 12.9, 100, 16.2]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p33-5c9350.webp"
+      }
+    },
+    {
+      "id": "asi-p1-233",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son desventajas de los IS no centralizados? (Seleccioná todas las correctas)",
+      "opts": [
+        "Altos costos agregados por la duplicación",
+        "Riesgo de incompatibilidades futuras",
+        "Menor autonomía del usuario final",
+        "Limitaciones frente a la complejidad",
+        "Desarrollo menos integrado con los negocios"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "fb": "La mayor autonomía del usuario y un desarrollo más integrado con los negocios son beneficios de los IS no centralizados.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[0, 39.9, 100, 82.9]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p32-023425.webp"
+      }
+    },
+    {
+      "id": "asi-p1-234",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el enfoque de organización de los SI:",
+      "stems": [
+        "Estructura rígida: desarrollo, mantenimiento y operación están separados",
+        "Se organiza según las necesidades de almacenamiento: separa los datos de las aplicaciones",
+        "Combina analistas y programadores en grupos empresariales, con una organización matricial",
+        "Organiza la función para apoyar las decisiones de management de los usuarios",
+        "Se estructura en torno a líneas de servicio al consumidor y se enfoca hacia el exterior"
+      ],
+      "choices": [
+        "Tradicional",
+        "Bases de datos",
+        "Proyectos funcionales",
+        "Centro de información y apoyo a decisiones",
+        "Externa"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Todos estos enfoques pueden coexistir dentro de una empresa, y la elección debe tener en cuenta la estrategia para los IS.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 62.4, 100, 70.3], [0, 19.0, 100, 26.8, 35], [0, 81.2, 100, 94.2, 35], [0, 60.6, 100, 68.4, 36], [0, 37.2, 100, 45.1, 37]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p33-33d0c4.webp"
+      }
+    },
+    {
+      "id": "asi-p1-235",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "La máxima virtud del enfoque tradicional es que soporta un amplio grado de especialización.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Como cada proyecto se mueve entre equipos, hace falta estandarización, que aumenta la eficiencia, pero genera una burocracia que hace más lento el desarrollo.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 34,
+        "confidence": "high",
+        "crop": [[0, 87.2, 100, 96.0]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p34-ebda9f.webp"
+      }
+    },
+    {
+      "id": "asi-p1-236",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Cuáles son desventajas asociadas con el departamento de procesamiento de datos? (Seleccioná todas las correctas)",
+      "opts": [
+        "Retraso en los nuevos desarrollos",
+        "Falta de especialización del personal",
+        "Sistemas proscriptos, más elegantes que utilizables",
+        "Sistemas inflexibles",
+        "Mantenimiento costoso",
+        "Exceso de participación de los usuarios"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "fb": "Su virtud, justamente, es soportar la especialización, y los grupos que producen las especificaciones formales están aislados de los usuarios.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 35,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 17.1]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p35-5d4bff.webp"
+      }
+    },
+    {
+      "id": "asi-p1-237",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué problema contribuyeron a crear los equipos de proyectos funcionales?",
+      "opts": [
+        "«Sistemas proscriptos» en las áreas usuarias, con más atención a la elegancia que a las características de uso",
+        "«Islas de tecnología» en las sucursales, por la distribución geográfica del procesamiento de los datos",
+        "«Principio de Peter» en los equipos, por la promoción innecesaria de los analistas y de los programadores",
+        "«Murallas chinas» entre áreas de sistemas, con barreras que impiden el intercambio de información"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Aun así, fue la primera instancia de estructurar los IS en base a la demanda más que a la oferta (pág. 35), e hizo mucho para que el usuario se involucrara.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 36,
+        "confidence": "high",
+        "crop": [[0, 10.2, 100, 17.8]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p36-717a88.webp"
+      }
+    },
+    {
+      "id": "asi-p1-238",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada tarea del subsistema de aplicación de SI/TI con lo que implica:",
+      "stems": [
+        "Dimensionar la carga de trabajo",
+        "Asignar los recursos en base a las prestaciones requeridas",
+        "Evaluar el funcionamiento de las prestaciones"
+      ],
+      "choices": [
+        "Análisis y representación de la carga",
+        "Planificación de las prestaciones",
+        "Evaluación de las prestaciones"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "La finalidad del subsistema es disponer los recursos de HW y SW en función de la carga de trabajo y de los niveles de servicio requeridos.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[0, 25.7, 100, 36.7]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p39-8cbb3e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-239",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cómo se define la evaluación del rendimiento de un sistema informático?",
+      "opts": [
+        "Como el proceso de identificar la configuración que dé un rendimiento satisfactorio ante cargas futuras",
+        "Como la medida de cómo un software utiliza el hardware con una determinada combinación de programas",
+        "Como la cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado",
+        "Como la comparación de dos sistemas a partir del tiempo necesario para ejecutar una carga característica"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Esa combinación de programas constituye la carga del sistema. Las otras opciones definen la productividad, el benchmarking y la planificación de la capacidad.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[0, 40.6, 100, 46.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p39-c70e3e.webp"
+      }
+    },
+    {
+      "id": "asi-p1-240",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿Para qué es necesario evaluar un sistema? (Seleccioná todas las correctas)",
+      "opts": [
+        "Comprobar que su funcionamiento es el esperado",
+        "Encontrar los factores que impiden un funcionamiento adecuado, como los cuellos de botella",
+        "Predecir su comportamiento con nuevas cargas",
+        "Determinar las franjas salariales del personal que lo opera",
+        "Reemplazar el análisis de la cartera de aplicaciones"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "La evaluación influye en las decisiones de diseño, implantación, compra y modificación, así que es necesaria en todo el ciclo de vida del sistema.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[0, 78.0, 100, 91.0]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p39-621c66.webp"
+      }
+    },
+    {
+      "id": "asi-p1-241",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada definición con la variable perceptible por el usuario:",
+      "stems": [
+        "Cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado",
+        "Máxima cantidad de trabajo útil que se puede realizar por unidad de tiempo",
+        "Tiempo entre la entrega de un trabajo al sistema y la recepción del resultado"
+      ],
+      "choices": [
+        "Productividad",
+        "Capacidad",
+        "Tiempo de respuesta"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Son las tres variables externas: las que percibe el usuario.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 43.3, 100, 58.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p40-894643.webp"
+      }
+    },
+    {
+      "id": "asi-p1-242",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada definición con la variable interna del sistema:",
+      "stems": [
+        "Porcentaje de tiempo en que un componente ha sido realmente utilizado",
+        "Porcentaje de tiempo en que dos o más componentes se han utilizado simultáneamente",
+        "Porcentaje de tiempo en tareas del sistema no imputables a ningún trabajo en curso",
+        "Número de programas expulsados de memoria por unidad de tiempo"
+      ],
+      "choices": [
+        "Factor de utilización",
+        "Solapamiento de componentes",
+        "Overhead",
+        "Frecuencia de swapping"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Son variables internas o del sistema: las ve el responsable del sistema, no el usuario.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 59.9, 100, 98.3]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p40-26d801.webp"
+      }
+    },
+    {
+      "id": "asi-p1-243",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada variable con su tipo:",
+      "stems": [
+        "Tiempo de respuesta",
+        "Productividad",
+        "Capacidad",
+        "Factor de utilización de la CPU",
+        "Overhead",
+        "Frecuencia de fallo de página"
+      ],
+      "choices": [
+        "Externa",
+        "Interna"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "fb": "Las magnitudes que se deben medir hacen referencia a cómo ven el comportamiento el usuario (visión externa) y el responsable del sistema (visión interna).",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[0, 43.3, 100, 92.5]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p40-8ab40c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-244",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada definición con la variable de comportamiento:",
+      "stems": [
+        "Probabilidad de que trabaje correctamente a lo largo de un intervalo de tiempo",
+        "Probabilidad de que esté trabajando correctamente en el instante considerado",
+        "Probabilidad de que no perturbe otros sistemas ni comprometa a las personas",
+        "Probabilidad de que las prestaciones estén por encima de un cierto nivel",
+        "Medida de la facilidad con que se puede reparar después de un fallo"
+      ],
+      "choices": [
+        "Fiabilidad",
+        "Disponibilidad",
+        "Seguridad",
+        "Performatividad",
+        "Mantenibilidad"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Tienen más que ver con aspectos funcionales del sistema informático que con las prestaciones.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 41,
+        "confidence": "high",
+        "crop": [[0, 0.3, 100, 29.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p41-3a060f.webp"
+      }
+    },
+    {
+      "id": "asi-p1-245",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada definición con el parámetro del sistema operativo que se puede ajustar:",
+      "stems": [
+        "Tiempo de uso ininterrumpido de la CPU asignado a cada trabajo",
+        "Número máximo de trabajos simultáneamente en memoria principal",
+        "Cantidad fija de memoria principal asignada a cada trabajo",
+        "Número máximo de usuarios de terminales permitidos"
+      ],
+      "choices": [
+        "Tamaño del quantum",
+        "Factor de multiprogramación",
+        "Tamaño de la partición de memoria",
+        "Número de usuarios simultáneos"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Ajustar estos parámetros es una de las modificaciones posibles para mejorar el comportamiento (tuning y upgrading). También se pueden cambiar políticas, componentes o programas.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 41,
+        "confidence": "high",
+        "crop": [[0, 33.0, 100, 82.7]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p41-6e2994.webp"
+      }
+    },
+    {
+      "id": "asi-p1-246",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "Modificar los programas para que su ejecución requiera menos recursos provoca una modificación de la carga.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Es una de las formas de mejorar el comportamiento del sistema, por ejemplo, recodificando los caminos del programa que se recorren con mayor asiduidad.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0, 3.9, 100, 13.4]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p42-e39f19.webp"
+      }
+    },
+    {
+      "id": "asi-p1-247",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el sistema de referencia:",
+      "stems": [
+        "Sus trabajos realizan ciclos de uso de CPU y discos hasta finalizar; su índice es el turnaround time",
+        "Es el tipo más común: las partes interactúan mediante la transacción de datos",
+        "Espera órdenes del usuario; tiene como índices el tiempo de reflexión y los usuarios simultáneos"
+      ],
+      "choices": [
+        "Por lotes (batch)",
+        "Transaccional",
+        "Interactivo o por demanda"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Cada sistema de referencia tiene índices característicos propios.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0, 17.3, 100, 33.2], [0, 69.0, 100, 77.9], [0, 39.8, 100, 91.7, 43], [0, 0.1, 100, 25.5, 44]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p42-3b56d4.webp"
+      }
+    },
+    {
+      "id": "asi-p1-248",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "En un sistema transaccional, relacioná cada tramo con el componente del tiempo de respuesta:",
+      "stems": [
+        "Desde que la transacción llega al sistema hasta que comienza su ejecución",
+        "Desde que el sistema comienza la ejecución hasta que termina",
+        "Desde que finaliza la ejecución hasta que se completa la respuesta al usuario"
+      ],
+      "choices": [
+        "Tiempo de reacción",
+        "Tiempo de ejecución",
+        "Tiempo de retorno"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "El tiempo de respuesta es la sumatoria de esos tres tiempos.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0, 79.2, 100, 93.9]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p42-12f53a.webp"
+      }
+    },
+    {
+      "id": "asi-p1-249",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "En un sistema interactivo, ¿qué es el tiempo de reflexión del usuario (Z)?",
+      "opts": [
+        "El tiempo que un trabajo pasa dentro del subsistema central, desde que entra hasta que lo abandona",
+        "El tiempo que transcurre desde que se lanza la ejecución de un trabajo hasta que el trabajo finaliza",
+        "El tiempo que transcurre desde que finaliza la ejecución hasta que el usuario recibe la respuesta",
+        "El tiempo que transcurre desde que un trabajo abandona el subsistema central hasta que entra de nuevo"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Según la profesora, no se puede culpar al sistema de ser lento si es el usuario el que tarda en responder. El tiempo en el subsistema central es el tiempo de respuesta (R).",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 43,
+        "confidence": "high",
+        "crop": [[0, 75.4, 100, 88.5]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p43-a750d2.webp"
+      }
+    },
+    {
+      "id": "asi-p1-250",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la técnica de evaluación de un sistema:",
+      "stems": [
+        "Herramientas de medición que siguen el comportamiento de los elementos bajo una carga",
+        "Se usa cuando hay algún elemento de hardware o software que no está instalado",
+        "Compara sistemas frente a una carga característica, a partir del tiempo de ejecución"
+      ],
+      "choices": [
+        "Monitorización",
+        "Modelado",
+        "Benchmarking"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Las técnicas de evaluación son los métodos y herramientas que permiten obtener los índices de prestaciones de un sistema.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 44,
+        "confidence": "high",
+        "crop": [[0, 68.9, 100, 89.1], [0, 0, 100, 9.7, 45]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p44-7bb1f8.webp"
+      }
+    },
+    {
+      "id": "asi-p1-251",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "Según la profesora, ¿cuándo está correctamente caracterizada una carga?",
+      "opts": [
+        "Si, y solo si, su resultado es un modelo independiente de los objetivos de la operación de caracterización",
+        "Si, y solo si, su resultado es un conjunto de parámetros cuantitativos seleccionados según los objetivos",
+        "Si, y solo si, su resultado es la carga real completa, ejecutada sobre el sistema durante su uso normal",
+        "Si, y solo si, su resultado es un conjunto de parámetros cualitativos definidos por los usuarios del sistema"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Por eso, lo primero que se deben definir son los objetivos. Después se determinan las herramientas que van a manipular el modelo de la carga.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 45,
+        "confidence": "high",
+        "crop": [[0, 73.8, 100, 79.5]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p45-4eea5b.webp"
+      }
+    },
+    {
+      "id": "asi-p1-252",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "La comparación entre sistemas solo tiene sentido cuando la carga es la misma.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El resultado de las medidas de prestaciones es inseparable de la carga bajo la cual se determinó. Por eso, al dar un índice se debe especificar esa carga.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 45,
+        "confidence": "high",
+        "crop": [[0, 49.9, 100, 57.7]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p45-02cc2c.webp"
+      }
+    },
+    {
+      "id": "asi-p1-253",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con la característica deseable de la carga de prueba:",
+      "stems": [
+        "Permite repetir los experimentos",
+        "Reduce la duración de cada sesión de medición frente a ejecutar la carga real total",
+        "Indica los aspectos de la carga real que se retienen en el modelo",
+        "Indica si es posible y poco costoso variar el modelo",
+        "Es importante en los problemas de selección"
+      ],
+      "choices": [
+        "Reproductibilidad",
+        "Compacidad",
+        "Representatividad",
+        "Flexibilidad",
+        "Independencia del sistema"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "La lista incluye también la compatibilidad: una representación de la carga consistente con su uso.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 46,
+        "confidence": "high",
+        "crop": [[0, 7.2, 100, 26.0]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p46-34fc81.webp"
+      }
+    },
+    {
+      "id": "asi-p1-254",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada magnitud con el nivel de caracterización de la carga:",
+      "stems": [
+        "Tiempo de CPU por trabajo",
+        "Número de operaciones de E/S por trabajo",
+        "Tiempo entre llegadas",
+        "Distribución de trabajos",
+        "Tiempo de reflexión del usuario",
+        "Intensidad del usuario"
+      ],
+      "choices": [
+        "Cada componente de la carga",
+        "El conjunto de la carga",
+        "Cargas conversacionales o interactivas"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "fb": "Las magnitudes que caracterizan la carga se pueden establecer en estos tres niveles.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 46,
+        "confidence": "high",
+        "crop": [[0, 56.6, 100, 97.3], [0, 0, 100, 15.3, 47]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p46-6544b7.webp"
+      }
+    },
+    {
+      "id": "asi-p1-255",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Un modelo W' representa perfectamente la carga W si… Relacioná cada condición con su nivel de representatividad:",
+      "stems": [
+        "Solicita los mismos recursos físicos en las mismas proporciones",
+        "Solicita los mismos recursos lógicos con la misma frecuencia",
+        "Realiza las mismas funciones con las mismas proporciones",
+        "Produce los mismos valores de los índices de comportamiento"
+      ],
+      "choices": [
+        "Físico",
+        "Virtual",
+        "Funcional",
+        "De comportamiento"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "No hay un criterio único para evaluar la representatividad de un modelo, porque la carga se puede representar a distintos niveles.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 48,
+        "confidence": "high",
+        "crop": [[0, 54.4, 100, 74.6], [0, 0, 100, 17.0, 49], [0, 38.9, 100, 57.2, 49], [0, 78.6, 100, 90.5, 49]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p48-f9668d.webp"
+      }
+    },
+    {
+      "id": "asi-p1-256",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada campo de aplicación con el nivel de representatividad:",
+      "stems": [
+        "Sintonización del sistema y planificación de la capacidad residual",
+        "Estudios de ampliación, para prever el funcionamiento al añadir unidades",
+        "Selección de un computador y planificación de la capacidad"
+      ],
+      "choices": [
+        "Físico",
+        "Virtual",
+        "Funcional"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "El nivel físico depende mucho del sistema; el virtual, menos; el funcional es independiente del sistema, pero difícil de diseñar sistemáticamente.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 48,
+        "confidence": "high",
+        "crop": [[0, 54.4, 100, 97.8], [0, 0, 100, 76.7, 49]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p48-ca4c52.webp"
+      }
+    },
+    {
+      "id": "asi-p1-257",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el tipo de carga de test:",
+      "stems": [
+        "Se observa en el funcionamiento normal; es difícil reproducir situaciones con ella",
+        "Conjunto de programas, extraídos o no de la carga real, que la reproduce de forma compacta",
+        "Ningún componente de la carga real del sistema forma parte de ella"
+      ],
+      "choices": [
+        "Real",
+        "Sintética",
+        "Artificial"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "La carga real es la más representativa y la más barata de implantar. La sintética se usa más porque se puede repetir y modificar sin afectar la operatividad.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 50,
+        "confidence": "high",
+        "crop": [[0, 32.3, 100, 82.6]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p50-e794c5.webp"
+      }
+    },
+    {
+      "id": "asi-p1-258",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "Las cargas de prueba sintéticas híbridas solo se pueden adoptar cuando la carga a modelar existe completamente.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Se adoptan justamente cuando no existe completamente: representan la carga conocida con programas extraídos de ella, y la no existente, con elementos artificiales. Si todos los programas se extraen de la carga real, es sintética natural.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 50,
+        "confidence": "high",
+        "crop": [[0, 56.2, 100, 73.3]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p50-9469c0.webp"
+      }
+    },
+    {
+      "id": "asi-p1-259",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden de las fases de implantación de los modelos de carga?",
+      "opts": [
+        "Formulación o especificación → Validación → Construcción",
+        "Formulación o especificación → Construcción → Validación",
+        "Validación → Formulación o especificación → Construcción",
+        "Construcción → Formulación o especificación → Validación"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Son las operaciones de la implantación de cualquier modelo.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 51,
+        "confidence": "high",
+        "crop": [[0, 13.6, 100, 26.8]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p51-9ff8f8.webp"
+      }
+    },
+    {
+      "id": "asi-p1-260",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué es la planificación de la capacidad?",
+      "opts": [
+        "El proceso de identificar la configuración que dé un rendimiento satisfactorio ante cargas futuras proyectadas",
+        "El proceso de describir la carga real por medio de parámetros, en un modelo que refleje su comportamiento",
+        "El proceso de seguir el comportamiento de los elementos del sistema bajo una carga de trabajo determinada",
+        "El proceso de comparar sistemas informáticos frente a una carga característica de una instalación concreta"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Las otras opciones describen la caracterización de la carga, la monitorización y el benchmarking.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 51,
+        "confidence": "high",
+        "crop": [[0, 90.1, 100, 98.2]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p51-30d21d.webp"
+      }
+    },
+    {
+      "id": "asi-p1-261",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Cuál es el orden de la metodología básica de planificación de un sistema informático?",
+      "opts": [
+        "Dotar de instrumentación → Caracterizar la carga → Monitorizar → Predecir el rendimiento → Predecir la carga futura → Seleccionar",
+        "Caracterizar la carga → Dotar de instrumentación → Monitorizar → Predecir el rendimiento → Seleccionar → Predecir la carga futura",
+        "Monitorizar → Dotar de instrumentación → Caracterizar la carga → Predecir la carga futura → Predecir el rendimiento → Seleccionar",
+        "Dotar de instrumentación → Monitorizar → Caracterizar la carga → Predecir la carga futura → Predecir el rendimiento → Seleccionar"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Según la profesora, los estudios de planificación de la capacidad dependen de una caracterización correcta de la carga.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 52,
+        "confidence": "high",
+        "crop": [[0, 5.4, 100, 22.5]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p52-94eb15.webp"
+      }
+    },
+    {
+      "id": "asi-p1-262",
+      "topic": "U3",
+      "type": "multi",
+      "catedra": false,
+      "text": "¿De qué elementos es función la capacidad adecuada? (Seleccioná todas las correctas)",
+      "opts": [
+        "Los acuerdos de nivel de servicio",
+        "El tiempo de reflexión del usuario",
+        "La arquitectura del sistema",
+        "El presupuesto",
+        "El orden de mérito de los oferentes"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "fb": "Un sistema tiene capacidad adecuada si los niveles de servicio se cumplen continuamente, para una tecnología y estándares especificados, dentro de los límites de coste acordados.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 52,
+        "confidence": "high",
+        "crop": [[0, 39.7, 100, 98.0]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p52-921fd4.webp"
+      }
+    },
+    {
+      "id": "asi-p1-263",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada descripción con el nivel de gestión y planificación de la capacidad:",
+      "stems": [
+        "No hay un programa de gestión: se realiza ocasionalmente",
+        "Existe un sistema automático de análisis y predicción de la carga",
+        "Se predicen automáticamente los niveles de servicio a partir de las predicciones de capacidad",
+        "Se usan criterios de las aplicaciones de negocio en un modelo para predecir los niveles de servicio"
+      ],
+      "choices": [
+        "Nivel 0",
+        "Nivel 3",
+        "Nivel 4",
+        "Nivel 5"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "En el nivel 1 se realizan medidas de tendencia con revisiones periódicas, y en el nivel 2 se conocen las utilizaciones de cada recurso debidas a las cargas significativas.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 53,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 23.3]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p53-cc3244.webp"
+      }
+    },
+    {
+      "id": "asi-p1-264",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada afirmación con el tipo de método de predicción de la carga:",
+      "stems": [
+        "Es un proceso subjetivo, basado en el análisis y la intuición sobre un mercado",
+        "Considera los planes de negocio y las opiniones de expertos",
+        "Se basa en la existencia de datos históricos",
+        "Usa como base los logs y las estadísticas del sistema"
+      ],
+      "choices": [
+        "Cualitativo",
+        "Cuantitativo"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "fb": "Para elegir una técnica cuantitativa se considera la disponibilidad de los datos históricos, la exactitud y el horizonte de planificación, y el patrón encontrado.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 53,
+        "confidence": "high",
+        "crop": [[0, 27.0, 100, 43.2]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p53-0d5990.webp"
+      }
+    },
+    {
+      "id": "asi-p1-265",
+      "topic": "U3",
+      "type": "match",
+      "catedra": false,
+      "text": "Relacioná cada patrón de datos históricos con la técnica de predicción que le corresponde:",
+      "stems": [
+        "Tendencia",
+        "Cíclico",
+        "Estacionario"
+      ],
+      "choices": [
+        "Regresión",
+        "Suavizado",
+        "Medias móviles"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Cuando se aplican medias móviles a datos casi estacionarios, la exactitud es normalmente alta (pág. 54).",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 53,
+        "confidence": "high",
+        "crop": [[0, 57.7, 100, 68.5]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p53-336bcd.webp"
+      }
+    },
+    {
+      "id": "asi-p1-266",
+      "topic": "U3",
+      "type": "tf",
+      "catedra": false,
+      "text": "Las técnicas de regresión son apropiadas para trabajar con datos no estacionales que muestran una tendencia.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La regresión lineal simple supone que los datos históricos muestran un patrón de evolución lineal.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 54,
+        "confidence": "high",
+        "crop": [[0, 50.1, 100, 55.8]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p54-b3d04d.webp"
+      }
+    },
+    {
+      "id": "asi-p1-267",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué diferencia al suavizado exponencial de las medias móviles?",
+      "opts": [
+        "Que estima una variable en función de otras variables",
+        "Que coloca más peso en las observaciones recientes",
+        "Que no utiliza ninguna observación del pasado",
+        "Que solo se aplica a los datos que muestran tendencia"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Realiza una media ponderada de las observaciones pasadas y la presente. Estimar una variable en función de otras es lo que hace la regresión (pág. 54).",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 55,
+        "confidence": "high",
+        "crop": [[0, 46.0, 100, 55.9]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p55-150331.webp"
+      }
+    },
+    {
+      "id": "asi-p1-268",
+      "topic": "U3",
+      "type": "single",
+      "catedra": false,
+      "text": "¿Qué es una unidad de predicción natural (UPN)?",
+      "opts": [
+        "Una variable de negocio cuyo valor está directamente relacionado con los recursos consumidos",
+        "Una medida técnica del tiempo de CPU y de las operaciones de E/S que requiere cada trabajo",
+        "Un umbral de productividad y rendimiento pactado entre los usuarios y la organización de soporte",
+        "Una observación histórica que se pondera para predecir el valor de la carga en el período siguiente"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Se usan como métrica del trabajo solicitado al sistema, junto con las transacciones que genera cada UPN y los recursos que consume cada transacción.",
+      "source": {
+        "file": "sources/u3-subsistema-de-aplicacion.pdf",
+        "page": 55,
+        "confidence": "high",
+        "crop": [[0, 93.4, 100, 97.1], [0, 0, 100, 17.5, 56]],
+        "img": "sources/pages/u3-subsistema-de-aplicacion-p55-19c80c.webp"
       }
     },
     {
@@ -6422,6 +8795,7 @@
   ],
   "newTopics": [
     "U1",
-    "U2"
+    "U2",
+    "U3"
   ]
 }
